@@ -1,0 +1,31 @@
+name: 简单问题处理
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  issue:
+    name: 问题处理
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: 自动分配问题标签
+        id: lable_set
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          issue_id: ${{ github.event.issue.number }}
+          issue_title: ${{ github.event.issue.title }}
+          issue_body: ${{ github.event.issue.body }}
+          body: ${{ toJSON(github.event) }}
+        shell: bash
+        run: |
+          # 导入通用方法
+          source $GITHUB_WORKSPACE/act_init.sh
+          auto_labels
+          # git_set_bot
+          # git add README.md
+          # git commit -m "添加站点"
+          # git push
+          # issue_comment $issue_num "已自动生成该站点源"
+
+

@@ -1,0 +1,40 @@
+name: 简单评论处理
+on: issue_comment
+
+jobs:
+  pr_commented:
+    name: PR评论
+    if: ${{ github.event.issue.pull_request }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: PR评论
+        shell: bash
+        env:
+          NUMBER: ${{ github.event.issue.number }}
+          body: ${{ toJSON(github.event) }}
+        run: |
+          echo "这是关于PR $NUMBER 的交流"
+          cd $GITHUB_WORKSPACE
+          # 导入通用方法
+          source ./act_init.sh
+          debug "$body"
+          # @TODO 后续分析
+
+  issue_commented:
+    name: 问题评论
+    if: ${{ !github.event.issue.pull_request }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: 分析问题的评论
+        shell: bash
+        env:
+          NUMBER: ${{ github.event.issue.number }}
+          body: ${{ toJSON(github.event) }}
+        run: |
+          cd $GITHUB_WORKSPACE
+          # 导入通用方法
+          source ./act_init.sh
+          # @TODO 后续分析
+
