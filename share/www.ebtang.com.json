@@ -1,0 +1,41 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "TOP50",
+    "bookSourceName": "雁北堂",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.ebtang.com",
+    "customOrder": 806,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "respondTime": 2001,
+    "ruleBookInfo": {
+        "author": "//meta[@property=\"og:novel:author\"]/@ content",
+        "intro": "//meta[@property=\"og:description\"]/@ content",
+        "kind": "//meta[@property=\"og:novel:category\"]/@ content",
+        "name": "//meta[@property=\"og:novel:book_name\" ]/@content",
+        "tocUrl": "class.operate@tag.a@href"
+    },
+    "ruleContent": {
+        "content": "$..content"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "d-nick",
+        "bookList": "id.bookList@tag.li",
+        "bookUrl": "d-id@put:{book:d-id}",
+        "coverUrl": "d-cover",
+        "intro": "d-info",
+        "kind": "d-sort&&d-updatetime",
+        "lastChapter": "d-updateChapter",
+        "name": "d-name"
+    },
+    "ruleToc": {
+        "chapterList": "class.chapter",
+        "chapterName": "d-title",
+        "chapterUrl": "d-id@js:\"/book/readbook/\"+@get:{book}+\"/\"+result"
+    },
+    "searchUrl": "/book/search?searchName={{key}},{\n  \"charset\": \"utf-8\"\n}",
+    "weight": 0
+}

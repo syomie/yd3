@@ -1,0 +1,56 @@
+{
+    "bookSourceComment": "by Sangdi7",
+    "bookSourceGroup": "",
+    "bookSourceName": "醋溜儿文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.clewxc.com/",
+    "bookUrlPattern": "",
+    "customOrder": 247,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "不限::/class/cat/0/page/{{page}}.html\n悬疑::/class/cat/49/page/{{page}}.html\n言情::/class/cat/39/page/{{page}}.html\n都市::/class/cat/41/page/{{page}}.html\n仙武::/class/cat/37/page/{{page}}.html\n历史::/class/cat/46/page/{{page}}.html\n游戏::/class/cat/38/page/{{page}}.html\n科幻::/class/cat/48/page/{{page}}.html\n玄幻::/class/cat/36/page/{{page}}.html\n青春::/class/cat/52/page/{{page}}.html\n二次元::/class/cat/50/page/{{page}}.html\n其他::/class/cat/53/page/{{page}}.html\n",
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59\"}",
+    "lastUpdateTime": 1630068662095,
+    "loginUrl": "",
+    "respondTime": 4149,
+    "ruleBookInfo": {
+        "author": "class.other_info@tag.span.0@text##作者：",
+        "coverUrl": "class.top_left@tag.img@src",
+        "intro": "class.des@text",
+        "kind": "class.pos@tag.a.1@text##小说",
+        "lastChapter": "class.latest lz@tag.dl.1@tag.dd@tag.a@text",
+        "name": "class.top_center@tag.h1@text",
+        "wordCount": "class.other_info@tag.span.1@text##字数："
+    },
+    "ruleContent": {
+        "content": "class.content fz14@html"
+    },
+    "ruleExplore": {
+        "author": "class.td_3@text",
+        "bookList": "class.body@tag.li",
+        "bookUrl": "class.td_2@tag.a.0@href",
+        "coverUrl": "class.td_2@tag.a.0@href##.*(\\d{4})(\\d{2}).*(\\d{2}).*(\\d{5}).*##https://www.clewx.com/book/$1/$2/$3/$4/$4.jpg",
+        "kind": "tag.a.0@text##\\[|\\]",
+        "lastChapter": "class.td_2@tag.a.1@text",
+        "name": "tag.a.1@text",
+        "wordCount": "class.td_4@text"
+    },
+    "ruleSearch": {
+        "author": "class.vd author@tag.span.0@text",
+        "bookList": "class.list@class.book_data",
+        "bookUrl": "class.bkd_img@tag.a@href",
+        "coverUrl": "tag.img@src",
+        "intro": "class.des@text",
+        "kind": "class.vd author@tag.span.1@text&&class.vd author@tag.span.2@text",
+        "lastChapter": "class.latest@tag.a@text",
+        "name": "class.bkd_info@tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.con@tag.dl@tag.dd",
+        "chapterName": "tag.dd@tag.a@text",
+        "chapterUrl": "tag.dd@tag.a@href"
+    },
+    "searchUrl": "https://www.clewxc.com/Home/Search/index/keyword/{{key}}/page/{{page}}.html",
+    "weight": 20
+}

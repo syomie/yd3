@@ -1,0 +1,52 @@
+{
+    "bookSourceComment": "\n未知大佬制作，更新HINOTORI（qq）在源仓库发过的书源",
+    "bookSourceGroup": "笔趣阁",
+    "bookSourceName": "笔趣阁loubiqu",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.loubiqu.com/",
+    "bookUrlPattern": "http://www.biquge.info/\\d+_\\d+/",
+    "customOrder": 1185,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/list/1_{{page}}.html\n修真小说::/list/2_{{page}}.html\n都市小说::/list/3_{{page}}.html\n穿越小说::/list/4_{{page}}.html\n网游小说::/list/5_{{page}}.html\n科幻小说::/list/6_{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
+    "lastUpdateTime": 1619858715679,
+    "respondTime": 3668,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text##作 者:",
+        "coverUrl": "id.fmimg@tag.img@src",
+        "intro": "id.intro@tag.p.0@text",
+        "kind": "id.info@tag.p.1@text&&\nid.info@tag.p.2@text##类 别:|最后更新 :",
+        "lastChapter": "id.info@tag.p.3@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "id.info@h1@text"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes"
+    },
+    "ruleExplore": {
+        "author": "class.s4@text",
+        "bookList": "class.l@li",
+        "bookUrl": "class.s2@a@href",
+        "coverUrl": "class.s2@a@href&lt;js>\nvar id = result.match(/_(\\d+)/)[1];\nvar iid = parseInt(id/1000);\n'http://www.biquge.info/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n&lt;/js>",
+        "kind": "class.s5@text",
+        "lastChapter": "class.s3@a@text",
+        "name": "class.s2@a@text"
+    },
+    "ruleSearch": {
+        "author": "class.odd.1@text",
+        "bookList": "class.grid@tag.tr!0",
+        "bookUrl": "class.odd.0@tag.a@href",
+        "coverUrl": "class.odd.0@tag.a@href&lt;js>\nvar id = result.match(/_(\\d+)/)[1];\nvar iid = parseInt(id/1000);\n'http://www.loubiqu.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n&lt;/js>",
+        "lastChapter": "class.even.0@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "class.odd.0@tag.a@text",
+        "wordCount": "class.even.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.biquge.info/modules/article/search.php?searchkey={{key}}",
+    "weight": 0
+}

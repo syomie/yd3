@@ -1,0 +1,51 @@
+{
+    "bookSourceComment": "搜索最多两个汉字，章节目录加载较慢。",
+    "bookSourceGroup": "",
+    "bookSourceName": "果冻小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.guodongxs.com",
+    "customOrder": 439,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"日点击榜\",\"url\":\"/top-dayvisit-{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"周点击榜\",\"url\":\"/top-weekvisit-{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"月点击榜\",\"url\":\"/top-monthvisit-{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总点击榜\",\"url\":\"/top-allvisit-{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总推荐榜\",\"url\":\"/top-allvote-{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总收藏榜\",\"url\":\"/top-goodnum-{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"字数排行\",\"url\":\"/top-size-{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"最新入库\",\"url\":\"/top-postdate-{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"最近更新\",\"url\":\"/top-lastupdate-{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"/sort-1-{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"/sort-2-{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"/sort-3-{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/sort-4-{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"游戏竞技\",\"url\":\"/sort-5-{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻灵异\",\"url\":\"/sort-6-{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1643140901397,
+    "respondTime": 6004,
+    "ruleBookInfo": {
+        "author": ".block_txt2 p.2@text##.*：",
+        "coverUrl": ".block_img2 img@src",
+        "intro": ".intro_info@html",
+        "kind": ".block_txt2 p.3:4:5@text##.*：",
+        "lastChapter": ".block_txt2 a.3@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": ".block_txt2 a.1@text",
+        "tocUrl": "text.查看目录@href"
+    },
+    "ruleContent": {
+        "content": "#nr1@html",
+        "replaceRegex": "##请牢记.*果冻小说.*"
+    },
+    "ruleExplore": {
+        "author": "a.2@text",
+        "bookList": ".cover p",
+        "bookUrl": "a.1@href",
+        "coverUrl": "a.1@href##.+\\D((\\d+)\\d{3})\\D##http://image.guodongxs.com/$2/$1/$1s.jpg###",
+        "kind": "a.0@text##\\[|\\]",
+        "name": "a.1@text"
+    },
+    "ruleSearch": {
+        "author": "textNodes##\\/|\\s",
+        "bookList": ".line",
+        "bookUrl": "a.1@href",
+        "coverUrl": "a.1@href##.+\\D((\\d+)\\d{3})\\D##http://image.guodongxs.com/$2/$1/$1s.jpg###",
+        "kind": "a.0@text##\\[|\\]",
+        "name": "a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".chapter li a",
+        "chapterName": "text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/modules/article/waps.php,{\n  'charset': 'gbk',\n  'method': 'POST',\n  'body': 'searchkey={{key}}'\n}",
+    "weight": 0
+}

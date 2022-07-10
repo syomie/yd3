@@ -1,0 +1,45 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "肉色屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.rousewu.in",
+    "bookUrlPattern": "",
+    "customOrder": 595,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/wapsort/1_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠\",\"url\":\"/wapsort/2_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/wapsort/3_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"穿越\",\"url\":\"/wapsort/4_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/wapsort/5_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"恐怖\",\"url\":\"/wapsort/6_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游\",\"url\":\"/wapsort/7_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"藏书\",\"url\":\"/wapsort/8_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/wapsort/9_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1643142509783,
+    "loginUrl": "",
+    "respondTime": 6011,
+    "ruleBookInfo": {
+        "author": ".lb_fm h2@text",
+        "intro": "pre@html##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": ".lb_fm a.0@text&&time@text",
+        "lastChapter": ".lb_fm a.1@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": ".h_nav_items li.1@text##\\_.*",
+        "tocUrl": "[style=\"color:red;\"]@href",
+        "wordCount": "##总字数：([^<]+)<##$1###"
+    },
+    "ruleContent": {
+        "content": "#nr1@html",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "strong@text",
+        "bookList": ".common-bookele",
+        "bookUrl": "a.0@href",
+        "kind": "p.1@text##.*：",
+        "name": "a.0@text##\\_.*"
+    },
+    "ruleToc": {
+        "chapterList": "ul@li!-1@a",
+        "chapterName": "text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "chapterUrl": "href",
+        "nextTocUrl": ""
+    },
+    "searchUrl": "/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}\"\n}",
+    "weight": 0
+}

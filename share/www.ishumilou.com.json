@@ -1,0 +1,58 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "书迷楼①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ishumilou.com/",
+    "bookUrlPattern": "https://www.ishumilou.com/\\d+/",
+    "customOrder": 137,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1615912728647,
+    "respondTime": 48618,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@tag.a@text",
+        "coverUrl": "id.fmimg@img@src",
+        "init": "",
+        "intro": "id.intro@text",
+        "kind": "id.info@tag.p.2@text&&\nid.info@tag.p.6@text##最后更新：|字数：",
+        "lastChapter": "id.info@tag.p.5@a@text##免费章节 |正文卷 |正文 |VIP章节 |百度搜索.*",
+        "name": "id.info@tag.h1@text",
+        "tocUrl": "class.chapterlist@href",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "id.booktxt@html##|一秒记住.*免费阅读！|.*第.*章.*|本章未.*继续阅读。",
+        "nextContentUrl": "text.下一页@href",
+        "replaceRegex": ""
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "lastChapter": "",
+        "name": ""
+    },
+    "ruleSearch": {
+        "author": "class.btm@tag.a.0@text",
+        "bookList": "class.item",
+        "bookUrl": "tag.dt.0@tag.a@href",
+        "coverUrl": "img@data-original",
+        "intro": "tag.dd.0@text",
+        "kind": "class.visible-xs@text",
+        "lastChapter": "tag.dt.0@tag.a@href<js>java.ajax('https://www.ishumilou.com'+result)</js>id.info@tag.p.5@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "tag.dt.0@tag.a@text",
+        "wordCount": ""
+    },
+    "ruleToc": {
+        "chapterList": "id.content_1@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://www.ishumilou.com/search/?searchkey={{key}}",
+    "weight": 0
+}

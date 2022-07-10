@@ -1,0 +1,54 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "爱爱中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.aiazw.com",
+    "customOrder": 396,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"总榜\",\"url\":\"/book/quanbu-allvisit-0-0-0-0-0-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"月榜\",\"url\":\"/book/quanbu-monthvisit-0-0-0-0-0-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"周榜\",\"url\":\"/book/quanbu-weekvisit-0-0-0-0-0-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"日榜\",\"url\":\"/book/quanbu-dayvisit-0-0-0-0-0-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总推\",\"url\":\"/book/quanbu-allvote-0-0-0-0-0-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"收藏\",\"url\":\"/book/quanbu-goodnum-0-0-0-0-0-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"字数\",\"url\":\"/book/quanbu-size-0-0-0-0-0-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"时间\",\"url\":\"/book/quanbu-postdate-0-0-0-0-0-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/book/1-default-0-0-0-0-2-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"仙侠\",\"url\":\"/book/2-default-0-0-0-0-2-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"言情\",\"url\":\"/book/3-default-0-0-0-0-2-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"军史\",\"url\":\"/book/4-default-0-0-0-0-2-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游\",\"url\":\"/book/5-default-0-0-0-0-2-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/book/6-default-0-0-0-0-2-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"灵异\",\"url\":\"/book/7-default-0-0-0-0-2-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/book/8-default-0-0-0-0-2-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"穿越\",\"url\":\"/book/9-default-0-0-0-0-2-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/book/10-default-0-0-0-0-2-0-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1638011659615,
+    "loginUi": "",
+    "loginUrl": "",
+    "respondTime": 19619,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": ".bookinfo_intro@ownText##(^|[。！？]+[”」）】]?)##$1<br>@js:result.replace(/主要讲述的是.|爱爱中文.*/g,\"\")",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##小说|\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "#htmlContent@html",
+        "nextContentUrl": ".next@href",
+        "replaceRegex": "##.*请点击下一页.*"
+    },
+    "ruleExplore": {
+        "author": "span.1@text",
+        "bookList": ".sitebox dl",
+        "bookUrl": "a.1@href",
+        "coverUrl": "img@src",
+        "intro": "dd.2@text",
+        "kind": "span.0@text##\\s.*",
+        "lastChapter": "a.2@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": "a.1@text"
+    },
+    "ruleSearch": {
+        "author": "a.1@text",
+        "bookList": ".sone",
+        "bookUrl": "a.0@href##(\\/book\\/\\d+\\/)##https://www.aiazw.com$1",
+        "coverUrl": "a.0@href##.+\\D((\\d+)\\d{3})\\D##https://www.aiazw.com/files/article/image/$2/$1/$1s.jpg###",
+        "name": "a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.book_list.1@li a",
+        "chapterName": "text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "https://m.aiazw.com/s.php,{\n  'charset': 'gbk',\n  'method': 'POST',\n  'body': 'type=articlename&s={{key}}'\n}",
+    "weight": 0
+}

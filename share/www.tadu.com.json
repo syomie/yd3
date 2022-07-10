@@ -1,0 +1,68 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "正版,TOP50",
+    "bookSourceName": "塔读文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.tadu.com",
+    "bookUrlPattern": "https://www.tadu.com/book/.*",
+    "customOrder": -88902388,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"男生频道\",\"url\":\"/store/98-a-0-5-a-20-p-{{page}}-98\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"东方玄幻\",\"url\":\"/store/99-a-0-5-a-20-p-{{page}}-98\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"现代都市\",\"url\":\"/store/103-a-0-5-a-20-p-{{page}}-98\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"脑洞创意\",\"url\":\"/store/135-a-0-5-a-20-p-{{page}}-98\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史架空\",\"url\":\"/store/108-a-0-5-a-20-p-{{page}}-98\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"军事战争\",\"url\":\"/store/113-a-0-5-a-20-p-{{page}}-98\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"游戏竞技\",\"url\":\"/store/112-a-0-5-a-20-p-{{page}}-98\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"/store/109-a-0-5-a-20-p-{{page}}-98\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻末世\",\"url\":\"/store/111-a-0-5-a-20-p-{{page}}-98\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"灵异悬疑\",\"url\":\"/store/128-a-0-5-a-20-p-{{page}}-98\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"西方奇幻\",\"url\":\"/store/107-a-0-5-a-20-p-{{page}}-98\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"短篇小说\",\"url\":\"/store/281-a-0-5-a-20-p-{{page}}-98\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"女生频道\",\"url\":\"/store/122-a-0-5-a-20-p-{{page}}-122\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"古代言情\",\"url\":\"/store/129-a-0-5-a-20-p-{{page}}-122\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"幻想言情\",\"url\":\"/store/133-a-0-5-a-20-p-{{page}}-122\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"现代言情\",\"url\":\"/store/104-a-0-5-a-20-p-{{page}}-122\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"浪漫青春\",\"url\":\"/store/105-a-0-5-a-20-p-{{page}}-122\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑小说\",\"url\":\"/store/288-a-0-5-a-20-p-{{page}}-122\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"短篇小说\",\"url\":\"/store/291-a-0-5-a-20-p-{{page}}-122\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"出版书籍\",\"url\":\"/store/79-a-0-5-a-20-p-{{page}}-79\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"现代都市\",\"url\":\"/store/81-a-0-5-a-20-p-{{page}}-79\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"青春文学\",\"url\":\"/store/83-a-0-5-a-20-p-{{page}}-79\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑灵异\",\"url\":\"/store/85-a-0-5-a-20-p-{{page}}-79\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"励志成功\",\"url\":\"/store/88-a-0-5-a-20-p-{{page}}-79\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"官场沉浮\",\"url\":\"/store/115-a-0-5-a-20-p-{{page}}-79\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"职场商战\",\"url\":\"/store/92-a-0-5-a-20-p-{{page}}-79\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"铁血军事\",\"url\":\"/store/86-a-0-5-a-20-p-{{page}}-79\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史风云\",\"url\":\"/store/84-a-0-5-a-20-p-{{page}}-79\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"影视娱乐\",\"url\":\"/store/102-a-0-5-a-20-p-{{page}}-79\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"经管理财\",\"url\":\"/store/32-a-0-5-a-20-p-{{page}}-79\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"教育教辅\",\"url\":\"/store/121-a-0-5-a-20-p-{{page}}-79\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"纪实传记\",\"url\":\"/store/82-a-0-5-a-20-p-{{page}}-79\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"奇幻科幻\",\"url\":\"/store/4-a-0-5-a-20-p-{{page}}-79\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"生活休闲\",\"url\":\"/store/87-a-0-5-a-20-p-{{page}}-79\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"/store/10-a-0-5-a-20-p-{{page}}-79\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"童话寓言\",\"url\":\"/store/89-a-0-5-a-20-p-{{page}}-79\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"社科科普\",\"url\":\"/store/3-a-0-5-a-20-p-{{page}}-79\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"外国名著\",\"url\":\"/store/90-a-0-5-a-20-p-{{page}}-79\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"古典名著\",\"url\":\"/store/91-a-0-5-a-20-p-{{page}}-79\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"当代文学\",\"url\":\"/store/93-a-0-5-a-20-p-{{page}}-79\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"两性伦理\",\"url\":\"/store/138-a-0-5-a-20-p-{{page}}-79\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"言情小说\",\"url\":\"/store/139-a-0-5-a-20-p-{{page}}-79\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"次元世界\",\"url\":\"/store/270-a-0-5-a-20-p-{{page}}-270\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"异能幻想\",\"url\":\"/store/271-a-0-5-a-20-p-{{page}}-270\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"校园青春\",\"url\":\"/store/272-a-0-5-a-20-p-{{page}}-270\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"动漫同人\",\"url\":\"/store/273-a-0-5-a-20-p-{{page}}-270\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"日常变身\",\"url\":\"/store/274-a-0-5-a-20-p-{{page}}-270\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"剑与魔法\",\"url\":\"/store/275-a-0-5-a-20-p-{{page}}-270\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+    "header": "{\n\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36\"\n}",
+    "lastUpdateTime": 1646897734404,
+    "loginCheckJs": "",
+    "loginUrl": "https://www.tadu.com/v5/toLogin",
+    "respondTime": 1805,
+    "ruleBookInfo": {
+        "author": ".author@text##\\s.*",
+        "coverUrl": ".bookImg@data-src",
+        "init": "",
+        "intro": ".intro@html##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": "[property=\"og:novel:category\"]@content&&.bookCover span.0@text&&.upDate span@text",
+        "lastChapter": ".upDate a@text",
+        "name": ".bkNm@text",
+        "tocUrl": "",
+        "wordCount": ".datum span.0@text##\\s"
+    },
+    "ruleContent": {
+        "content": "#bookPartResourceUrl@value@js:\nresult = String(java.ajax(result)).replace(/(callback.+?:')|('\\}\\))/g,\"\")",
+        "imageStyle": "",
+        "nextContentUrl": "",
+        "sourceRegex": "",
+        "webJs": ""
+    },
+    "ruleExplore": {
+        "author": "a.3@text",
+        "bookList": ".bookList li",
+        "bookUrl": "a.1@href",
+        "coverUrl": "img@data-src",
+        "intro": "a.2@text",
+        "kind": "a.4:6@text",
+        "lastChapter": "a.5@text##.*更新.",
+        "name": "a.1@text",
+        "wordCount": "span@text"
+    },
+    "ruleSearch": {
+        "author": ".authorNm@text",
+        "bookList": ".bookList li",
+        "bookUrl": "a.0@href",
+        "coverUrl": "img@data-src",
+        "intro": ".bookIntro@text",
+        "kind": ".condition span.0:2@text",
+        "lastChapter": "",
+        "name": ".bookNm@text",
+        "wordCount": ".condition span.1@text##\\s"
+    },
+    "ruleToc": {
+        "chapterList": ".lf li a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "isVip": "",
+        "nextTocUrl": "",
+        "updateTime": ""
+    },
+    "searchUrl": "/search?&pageSize=30&pageNum={{page}}&query={{key}}",
+    "weight": 0
+}

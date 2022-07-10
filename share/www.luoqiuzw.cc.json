@@ -1,0 +1,42 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "落秋中文①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.luoqiuzw.cc",
+    "bookUrlPattern": "",
+    "customOrder": 671,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1644773969352,
+    "loginUrl": "",
+    "respondTime": 51113,
+    "ruleBookInfo": {
+        "author": "meta[property=\"og:novel:author\"]@content",
+        "coverUrl": "meta[property=\"og:image\"]@content##http.*nocover.jpg",
+        "intro": "id.intro@text",
+        "kind": "meta[property=\"og:novel:category\"]@content&&meta[property=\"og:novel:status\"]@content",
+        "lastChapter": "meta[property=\"og:novel:lastest_chapter_name\"]@content",
+        "name": "meta[property=\"og:novel:book_name\"]@content##【|】"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.s4@text",
+        "bookList": "class.item||class.novelslist2@tag.li!0",
+        "bookUrl": "class.s2@tag.a@href||tag.a.2@href",
+        "coverUrl": "tag.img@src",
+        "lastChapter": "class.s3@tag.a@text",
+        "name": "class.s2@tag.a@text"
+    },
+    "ruleToc": {
+        "chapterList": "//*[@id=\"list\"]//dt[2]/following-sibling::dd",
+        "chapterName": "tag.a@text##【|】",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.luoqiuzw.cc/index.php?s=/web/index/search,{\n  \"method\": \"POST\",\n  \"body\": \"name={{key}}\"\n}",
+    "weight": 0
+}

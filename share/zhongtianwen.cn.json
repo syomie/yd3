@@ -1,0 +1,46 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "种田小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://zhongtianwen.cn",
+    "customOrder": 1083,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "完本::/quanbenwanjie.html\n玄幻::/xiaoshuofenlei/xuanhuan.html\n修真::/xiaoshuofenlei/xiuzhen.html\n武侠::/xiaoshuofenlei/wuxia.html\n都市::/xiaoshuofenlei/dushi.html\n穿越::/xiaoshuofenlei/chuanyue.html\n战争::/xiaoshuofenlei/zhanzheng.html\n网游::/xiaoshuofenlei/wangyou.html\n科幻::/xiaoshuofenlei/kehuan.html\n恐怖::/xiaoshuofenlei/kongbu.html\n其他::/xiaoshuofenlei/qita.html\n女生::/xiaoshuofenlei/nvsheng.html",
+    "lastUpdateTime": 1629998175345,
+    "loginUrl": "",
+    "respondTime": 4999,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "#intro p@html##各位书友要.*",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+        "content": "#content@html",
+        "replaceRegex": "##天才一秒记住.*|种田文小说.*"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": ".s4@text",
+        "bookList": ".search-list li!0||.l li",
+        "bookUrl": ".s2 a@href",
+        "coverUrl": "",
+        "kind": ".s1@text&&.s6@text&&.s5@text##\\s.*",
+        "lastChapter": ".s3@text",
+        "name": ".s2@text"
+    },
+    "ruleToc": {
+        "chapterList": "#list dd@tag.a.-1",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/xiaoshuosousuo/jieguo.html?searchkey={{key}}",
+    "weight": 0
+}

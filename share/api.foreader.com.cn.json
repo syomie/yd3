@@ -1,0 +1,40 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "API",
+    "bookSourceName": "速更",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://api.foreader.com.cn",
+    "bookUrlPattern": "",
+    "customOrder": 802,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "https://m.foreader.com.cn/#/login",
+    "respondTime": 2822,
+    "ruleBookInfo": {
+        "intro": "book.description##^\\s*##<br>",
+        "tocUrl": "/books/{$.book.bid}/chapters"
+    },
+    "ruleContent": {
+        "content": "@js:(result && !baseUrl.includes('tickets')) ? result : '这是付费章节哦！\\n'"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "authors[0]",
+        "bookList": "[:3]",
+        "bookUrl": "/books/{$.bid}/detail",
+        "coverUrl": "poster",
+        "intro": "description@put:{intro:$.description,bid:$.bid}@js:result.trim()",
+        "kind": "{$.categories[0]},{$.wordCount},status{$.status}@js:\n// \nresult.replace('status0', '连载').replace('status1', '完结')",
+        "lastChapter": "https://api.foreader.com.cn/books/{$.bid}/detail@js:\nJSON.parse(java.ajax(result)).latestChapterTip.replace(/.+\\//, '').trim()",
+        "name": "title"
+    },
+    "ruleToc": {
+        "chapterList": "*",
+        "chapterName": "free{$.free}{$.title}@js:result.replace('freefalse', '🔒').replace('freetrue', '')",
+        "chapterUrl": "url||https://api.foreader.com.cn/get_tickets?bid={$.bid}&cid={$.cid}"
+    },
+    "searchUrl": "/books/search/{{key}}?offset=0&limit=3",
+    "weight": 0
+}

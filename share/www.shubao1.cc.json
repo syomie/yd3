@@ -1,0 +1,54 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "耽美书包",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.shubao1.cc",
+    "customOrder": 602,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"总点击榜\",\"url\":\"/novel/allvisit.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"月点击榜\",\"url\":\"/novel/monthvisit.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"周点击榜\",\"url\":\"/novel/weekvisit.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"总推荐榜\",\"url\":\"/novel/allvote.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"月推荐榜\",\"url\":\"/novel/monthvote.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"周推荐榜\",\"url\":\"/novel/weekvote.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"总收藏榜\",\"url\":\"/novel/marknum.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"总字数榜\",\"url\":\"/novel/fontsize.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"评分人数\",\"url\":\"/novel/starnum.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"打赏人数\",\"url\":\"/novel/rewardnum.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"新书入库\",\"url\":\"/novel/postdate.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"最近更新\",\"url\":\"/novel/lastupdate.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"重生耽美\",\"url\":\"/chongsheng/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"古代耽美\",\"url\":\"/guyan/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"耽美宠文\",\"url\":\"/chongwen/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"经典耽美\",\"url\":\"/qingchun/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"虐心耽美\",\"url\":\"/nvexin/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"校园耽美\",\"url\":\"/xiaoyuan/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"强强耽美\",\"url\":\"/qiangqiang/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"言情总裁\",\"url\":\"/yanqing/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+    "lastUpdateTime": 1640703377102,
+    "loginUrl": "",
+    "respondTime": 156251,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "[property=\"og:description\"]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "tocUrl": "#listread a.1@href"
+    },
+    "ruleContent": {
+        "content": "#content@html",
+        "nextContentUrl": ".bottem2 a.-1@href",
+        "replaceRegex": "##在线阅读"
+    },
+    "ruleExplore": {
+        "author": ".s4@text||span.-1@text",
+        "bookList": ".l li||.novelslist2 li!0",
+        "bookUrl": "a.0@href",
+        "kind": ".s1@text&&.s6@text&&span.4@text##\\s.*",
+        "lastChapter": ".s3@text",
+        "name": ".s2@text##\\《|\\》"
+    },
+    "ruleSearch": {
+        "author": "span.1@text##.*/",
+        "bookList": ".ss_box",
+        "bookUrl": "a.1@href",
+        "coverUrl": "img@src",
+        "intro": "p@text",
+        "kind": "span.-1@text##\\（|\\s.*",
+        "lastChapter": "a.-1@text",
+        "name": "a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list.1@dd",
+        "chapterName": "a@text",
+        "chapterUrl": "a@href"
+    },
+    "searchUrl": "/book.php?action=search&searchtype=novelname&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

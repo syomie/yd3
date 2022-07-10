@@ -1,0 +1,54 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "希弥",
+    "bookSourceName": "ABC小说①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yb3.cc/",
+    "bookUrlPattern": "https://www.yb3.cc/5200/\\d+/",
+    "customOrder": -88902470,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/fenlei/112\n武侠修真::/fenlei/113\n都市言情::/fenlei/114\n历史军事::/fenlei/115\n科幻小说::/fenlei/118\n网游动漫::/fenlei/117\n其他类型::/fenlei/121",
+    "lastUpdateTime": 1646631313706,
+    "respondTime": 6882,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text##作 者：",
+        "coverUrl": "id.fmimg@img@src",
+        "init": "class.box_con",
+        "intro": "id.intro@text",
+        "kind": "class.con_top@tag.a.1@text&&\nid.info@tag.p.2@text##最后更新：",
+        "lastChapter": "id.info@tag.p.3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "id.info@tag.h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|小说|笔趣阁",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "id.content@html##一秒记住.*无弹窗免费阅读！|.*第.*章.*",
+        "replaceRegex": ""
+    },
+    "ruleExplore": {
+        "author": "dt span@text||.s5@text",
+        "bookList": ".item&&h2+ul li",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "img@src",
+        "intro": "dd@text",
+        "lastChapter": ".s3@text",
+        "name": "dt a@text||.s2>a@text"
+    },
+    "ruleSearch": {
+        "author": "tag.span.2@text",
+        "bookList": "class.novelslist2@tag.li!0",
+        "bookUrl": "tag.span.1@tag.a@href",
+        "coverUrl": "tag.span.1@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.yb3.cc/cover/'+iid+'/'+id+'.jpg';\n</js>",
+        "kind": "tag.span.0@text&&\ntag.span.4@text",
+        "lastChapter": "tag.span.3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "tag.span.1@tag.a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|小说|笔趣阁"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/web/search.php?q={{key}}&p={{page}}",
+    "weight": 0
+}

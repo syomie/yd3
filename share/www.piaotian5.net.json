@@ -1,0 +1,53 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "飘天文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.piaotian5.net",
+    "bookUrlPattern": "https://www.piaotian5.net/book/\\d+.html",
+    "customOrder": 178,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/xuanhuan/\n仙侠小说::/xianxia/\n都市小说::/dushi/\n历史小说::/lishi/\n侦探推理::/zhentan/\n网游小说::/wangyou/\n科幻小说::/kehuan/\n恐怖灵异::/kongbu/\n其他小说::/othersbooks/",
+    "lastUpdateTime": 1641000791659,
+    "loginUrl": "",
+    "respondTime": 8776,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text##作|者：",
+        "coverUrl": "id.fmimg@img@src",
+        "intro": "id.intro@tag.p.0@text",
+        "kind": "id.info@tag.p.3@text&&\nid.info@tag.p.1@text##状 态：|最后更新：",
+        "lastChapter": "id.info@tag.p.4@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "h1@text"
+    },
+    "ruleContent": {
+        "content": "id.content@html##http.*html|天才一.*com|一秒记.*费阅读！|本站重要通知.*下载免费器!!"
+    },
+    "ruleExplore": {
+        "author": "class.s4@text",
+        "bookList": "class.l@li",
+        "bookUrl": "class.s2@a@href",
+        "coverUrl": "class.s2@a@href<js>\nvar id = result.match(/(\\d+).html/)[1];\nvar iid = parseInt(id/1000);\n'https://www.piaotian5.net/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "kind": "class.s5@text",
+        "lastChapter": "class.s3@a@text",
+        "name": "class.s2@a@text"
+    },
+    "ruleSearch": {
+        "author": "class.author@text##作者：",
+        "bookList": "class.bookbox",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "class.bookimg@img@src",
+        "intro": "class.bookinfo@tag.p@text",
+        "kind": "class.cat@text##分类：",
+        "lastChapter": "class.update@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "h4@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.listmain@dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.piaotian5.net/s123.php?ie=gbk&q={{key}}",
+    "weight": 0
+}

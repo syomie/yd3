@@ -1,0 +1,39 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "TOP50,API",
+    "bookSourceName": "免费看小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://api.motie.com",
+    "bookUrlPattern": "",
+    "customOrder": 786,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "现代都市::http://api.motie.com/freeapp/1/category/detail,{\"method\": \"POST\",\"body\": \"pageNo={{page}}&sortId=101&pageSize=10&finish=0&group=1&\"}\n玄幻奇幻::http://api.motie.com/freeapp/1/category/detail,{\"method\": \"POST\",\"body\": \"pageNo={{page}}&sortId=102&pageSize=10&finish=0&group=1&\"}\n仙侠武侠::http://api.motie.com/freeapp/1/category/detail,{\"method\": \"POST\",\"body\": \"pageNo={{page}}&sortId=103&pageSize=10&finish=0&group=1&\"}\n科幻游戏::http://api.motie.com/freeapp/1/category/detail,{\"method\": \"POST\",\"body\": \"pageNo={{page}}&sortId=104&pageSize=10&finish=0&group=1&\"}\n悬疑灵异::http://api.motie.com/freeapp/1/category/detail,{\"method\": \"POST\",\"body\": \"pageNo={{page}}&sortId=105&pageSize=10&finish=0&group=1&\"}\n历史军事::http://api.motie.com/freeapp/1/category/detail,{\"method\": \"POST\",\"body\": \"pageNo={{page}}&sortId=106&pageSize=10&finish=0&group=1&\"}\n同人小说::http://api.motie.com/freeapp/1/category/detail,{\"method\": \"POST\",\"body\": \"pageNo={{page}}&sortId=107&pageSize=10&finish=0&group=1&\"}",
+    "lastUpdateTime": 1632488786119,
+    "loginUrl": "",
+    "respondTime": 1420,
+    "ruleBookInfo": {
+        "intro": "introduce"
+    },
+    "ruleContent": {
+        "content": "<js>result.replace(/\\<|br|\\/|\\>/g,\"\\n\")</js>@JSon:$..content"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "authorName",
+        "bookList": "-@JSon:$.data.bookList",
+        "bookUrl": "http://api.motie.com/freeapp/1/book/{$.id}/chapter",
+        "coverUrl": "icon",
+        "kind": "bookTags",
+        "lastChapter": "introduce&&lastChapterName",
+        "name": "name@put:{book:$.id}"
+    },
+    "ruleToc": {
+        "chapterList": "@JSon:$.data.data[1:]",
+        "chapterName": "name",
+        "chapterUrl": "https://api.motie.com/freeapp/1/book/@get:{book}_{{$.id}}"
+    },
+    "searchUrl": "freeapp/1/search,{\n  \"method\": \"POST\",\n  \"body\": \"pageNo={{page}}&queryString={{key}}\"\n}",
+    "weight": 0
+}

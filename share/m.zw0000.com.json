@@ -1,0 +1,39 @@
+{
+    "bookSourceComment": "搜索不少于6字节",
+    "bookSourceGroup": "",
+    "bookSourceName": "紫薇小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.zw0000.com",
+    "customOrder": 533,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1637918822306,
+    "respondTime": 4132,
+    "ruleBookInfo": {
+        "author": "class.red.0@text",
+        "coverUrl": "class.bookintro@img@src",
+        "intro": "class.bookintro@textNodes",
+        "name": "tag.h1.0@text"
+    },
+    "ruleContent": {
+        "content": "class.aaa@textNodes##请记住："
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.author@text##作者：",
+        "bookList": "class.bookinfo",
+        "bookUrl": "tag.a.0@href",
+        "checkKeyWord": "三国之",
+        "intro": "class.update@textNodes##简介：",
+        "lastChapter": "class.cat@a@text",
+        "name": "class.bookname@text"
+    },
+    "ruleToc": {
+        "chapterList": "+@css:.chapterlist a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php?searchtype=articlename&searchkey={{key}}&action=login&submit=&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

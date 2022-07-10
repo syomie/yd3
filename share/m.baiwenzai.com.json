@@ -1,0 +1,61 @@
+{
+    "bookSourceComment": "作者:希弥",
+    "bookSourceGroup": "",
+    "bookSourceName": "百文斋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.baiwenzai.com",
+    "bookUrlPattern": "m.baiwenzai.com/\\d+",
+    "customOrder": -88902323,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "排行::/allvisit-{{page}}.html\n完结::/full/{{page}}/\n玄幻魔法::/channel/1/\n武侠修真::/channel/2/\n都市言情::/channel/3/\n历史军事::/channel/4/\n日点击榜::/dayvisit-{{page}}.html\n周点击榜::/weekvisit-{{page}}.html\n月点击榜::/monthvisit-{{page}}.html\n总点击榜::/allvisit-{{page}}.html\n总收藏榜::/goodnum-{{page}}.html\n字数排行::/size-{{page}}.html\n日推荐榜::/dayvote-{{page}}.html\n周推荐榜::/weekvote-{{page}}.html\n月推荐榜::/monthvote-{{page}}.html\n总推荐榜::/allvote-{{page}}.html\n最新入库::/postdate-{{page}}.html\n最近更新::/lastupdate-{{page}}.html\n",
+    "lastUpdateTime": 1646631313640,
+    "respondTime": 40166,
+    "ruleBookInfo": {
+        "author": ".info_novel_con@tag.div.4@text",
+        "coverUrl": ".info_novel@img@src",
+        "init": "",
+        "intro": "div.info_intro@textNodes##简介：",
+        "kind": ".info_novel_con@tag.div.2:3:5@text##(类别|状态|更新|简介)：",
+        "lastChapter": ".info_novel_con@tag.div.6@a@text",
+        "name": ".info_novel@img@alt",
+        "tocUrl": "",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "#end@html",
+        "imageStyle": "TEXT",
+        "nextContentUrl": "text.下一页@href||text.下页@href",
+        "payAction": "",
+        "sourceRegex": ""
+    },
+    "ruleExplore": {
+        "author": "tag.a.1@text",
+        "bookList": "@css:div:has(p[class=\"p1\"])",
+        "bookUrl": "tag.a.0@href",
+        "kind": ".p1@text##\\]|\\d+|\\[",
+        "lastChapter": "",
+        "name": "tag.a.0@text",
+        "wordCount": ""
+    },
+    "ruleSearch": {
+        "author": "tag.a.1@text",
+        "bookList": "p.sone",
+        "bookUrl": "tag.a.0@href",
+        "checkKeyWord": "",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "",
+        "lastChapter": "",
+        "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "tag.ul!0@a",
+        "chapterName": "text",
+        "chapterUrl": "href##$##,{\"webView\": true}",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/s.php,{\n\t\"method\":\"POST\",\n\t\"body\":\"keyword={{key}}\"\n}",
+    "weight": 0
+}

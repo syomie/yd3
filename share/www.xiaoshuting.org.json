@@ -1,0 +1,54 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "TOP50",
+    "bookSourceName": "小书亭",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xiaoshuting.org",
+    "bookUrlPattern": "http://www.xiaoshuting.org/book/\\d+",
+    "customOrder": -88902472,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "男频小说::/class1\n女频小说::/class2\n次元同人::/class3",
+    "lastUpdateTime": 1649513839348,
+    "respondTime": 2370,
+    "ruleBookInfo": {
+        "author": "#info@tag.p.0@text",
+        "coverUrl": "#fmimg@img@data-original",
+        "init": "",
+        "intro": "#intro@text",
+        "kind": ".con_top@tag.a.1@text&&#info@tag.p.1@text&&#info@tag.p.2@text##动 作：|加入.*|最后更新：|状 态：",
+        "lastChapter": "#info@tag.p.3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "#info h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|小说|笔趣阁|免费.*|\\-",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "#content@html##一秒记住.*无弹窗免费阅读！|.*咪.*咪.*阅.*读.*"
+    },
+    "ruleExplore": {
+        "author": "dt span@text",
+        "bookList": ".item",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "img@src",
+        "intro": "dd@html",
+        "name": "dt a@text"
+    },
+    "ruleSearch": {
+        "author": ".s4@text",
+        "bookList": ".chapter-list li",
+        "bookUrl": ".s2>a@href",
+        "coverUrl": ".s2 a@href<js>\nvar id = result.match(/(\\d+)/)[1];\nvar iid = parseInt(id/1000);\n'http://www.xiaoshuting.org/cover/'+id+'.jpg';\n</js>",
+        "intro": "",
+        "kind": ".s1@text&&.s7@text",
+        "lastChapter": ".s3 a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": ".s2 a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|小说|笔趣阁|免费.*|\\-",
+        "wordCount": "all"
+    },
+    "ruleToc": {
+        "chapterList": "#list dd",
+        "chapterName": "a@text",
+        "chapterUrl": "a@href"
+    },
+    "searchUrl": "/search.php,{\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}\"\n}",
+    "weight": 0
+}

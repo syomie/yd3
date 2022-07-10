@@ -1,0 +1,59 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "正版",
+    "bookSourceName": "有乐中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.iyoule.com",
+    "bookUrlPattern": "",
+    "customOrder": 570,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "lastUpdateTime": 1630584859377,
+    "loginUrl": "http://www.iyoule.com/",
+    "respondTime": 4903,
+    "ruleBookInfo": {
+        "author": ".author@text",
+        "coverUrl": "class.bookface.0@data-original",
+        "intro": ".dot3@html",
+        "kind": ".crumb a.1:2@text&&.tag@text&&.islz@text&&class.updatetime.0@text##作品标签.|更新",
+        "lastChapter": ".chptname@text",
+        "name": ".bookname@title",
+        "wordCount": ".kpi p.0@text"
+    },
+    "ruleContent": {
+        "content": "#readtext@p@text",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "",
+        "lastChapter": "",
+        "name": "",
+        "wordCount": ""
+    },
+    "ruleSearch": {
+        "author": "a.2@text",
+        "bookList": ".picS li",
+        "bookUrl": "a.1@href",
+        "coverUrl": "img@data-original",
+        "intro": ".jj_ss@text##简介.",
+        "kind": ".xx_ss a@text&&span.0@text##.*：|\\s.*",
+        "name": "a.1@text",
+        "wordCount": "class.yellow.3@text"
+    },
+    "ruleToc": {
+        "chapterList": ".menu li!0:1",
+        "chapterName": "a@text",
+        "chapterUrl": "a@href",
+        "isVip": ".lock span@html",
+        "updateTime": ".chpttitle@title"
+    },
+    "searchUrl": "/search_new.php?q={{key}}&p=&pagenum={{page}}",
+    "weight": 0
+}

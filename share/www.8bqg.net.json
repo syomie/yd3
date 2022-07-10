@@ -1,0 +1,43 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "笔趣阁④",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.8bqg.net",
+    "customOrder": 39,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1657373482519,
+    "respondTime": 549,
+    "ruleBookInfo": {
+        "coverUrl": "",
+        "init": "",
+        "intro": "id.intro@tag.p@text",
+        "tocUrl": "<js>\nflag='{{@@tag.h1@text}}';\nresult=flag?baseUrl:baseUrl.replace(/www/,'b')\n</js>"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes||class.nr_function@tag.div.-3@textNodes##$##❎",
+        "nextContentUrl": "text.下一页@href\n<js>\nif(String(result).match(/javascript/)){\npage=src.match(/pageAll = '(\\d+)';/)[1];\nlist=[];\nfor(i = 2;i<=page;i++){\nlist.push(baseUrl.replace(/\\.html/,'_'+i+'.html'))\n}\nresult=list\n}else{result=result}\n</js>",
+        "replaceRegex": "##\\s*❎\\s*"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "class.odd.1@text",
+        "bookList": "id.nr",
+        "bookUrl": "class.odd.0@tag.a@href",
+        "lastChapter": "class.even.0@a@text",
+        "name": "class.odd.0@tag.a@text",
+        "wordCount": "class.even.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd||class.info_chapters@class.p2.-1@li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href",
+        "nextTocUrl": "select@option@value"
+    },
+    "searchUrl": "/modules/article/search.php?searchkey={{key}}&searchtype=articlename,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

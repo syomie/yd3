@@ -1,0 +1,44 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "久久小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.txt909.cc",
+    "bookUrlPattern": "https://www\\.txt909\\.cc/txt/\\d+\\.html",
+    "customOrder": 732,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1636130139596,
+    "loginUrl": "",
+    "respondTime": 5495,
+    "ruleBookInfo": {
+        "author": "id.downInfoArea@tag.li.0@tag.a.0@text",
+        "coverUrl": "class.img@tag.img.0@src##\\?.*",
+        "intro": "id.mainSoftIntro@tag.p@textNodes",
+        "name": "id.downInfoArea@tag.h1.0@text##《|》",
+        "tocUrl": "class.downAddress_li.1@tag.a.0@href"
+    },
+    "ruleContent": {
+        "content": "id.view_content_txt@html",
+        "imageStyle": "0",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "##书籍作者：</small>([^<]+)\\s*<##$1###",
+        "bookList": "class.listbg",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "",
+        "kind": "",
+        "lastChapter": "",
+        "name": "class.title@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.view_content_list@li@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.txt909.org/search/,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"show=title%2Cwriter&searchkey={{key}}&Submit=\"\n}",
+    "weight": 0
+}

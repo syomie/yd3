@@ -1,0 +1,59 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "飞速中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.feixs.com",
+    "bookUrlPattern": "https://www.feixs.com/Html/\\d+",
+    "customOrder": -88902497,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "奇幻玄幻::/Book/ShowBookList.aspx?tclassid=1&page={{page}}\n武侠仙侠::/Book/ShowBookList.aspx?tclassid=2&page={{page}}\n都市小说::/Book/ShowBookList.aspx?tclassid=3&page={{page}}\n历史军事::/Book/ShowBookList.aspx?tclassid=4&page={{page}}\n游戏竞技::/Book/ShowBookList.aspx?tclassid=5&page={{page}}\n科幻灵异::/Book/ShowBookList.aspx?tclassid=6&page={{page}}\n同人小说::/Book/ShowBookList.aspx?tclassid=7&page={{page}}\n女频言情::/Book/ShowBookList.aspx?tclassid=8&page={{page}}\n其他小说::/Book/ShowBookList.aspx?tclassid=9&page={{page}}",
+    "lastUpdateTime": 1647268387353,
+    "loginUrl": "",
+    "respondTime": 11887,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "canReName": "",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "init": "",
+        "intro": "class.intro@text##\\【作品简介\\】|最新章节.*",
+        "kind": "[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "tocUrl": "meta[property=\"og:novel:read_url\"]@content&&meta[property=\"og:url\"]@content##^.*/(\\d+)/.*$##https://m.feiszw.com/book-$1"
+    },
+    "ruleContent": {
+        "content": "#nr1>p@textNodes",
+        "imageStyle": "",
+        "nextContentUrl": "",
+        "replaceRegex": "##请收藏本站阅读最新小说|(飞速中文唯一官网|备用域名)[:：]|(飞速中文|m.feiszw|feiszw|feixs).com"
+    },
+    "ruleExplore": {
+        "author": "class.tab5@text",
+        "bookList": "@css:div.book~div.book",
+        "bookUrl": "tag.a.1@href##^.*/(\\d+)/.*$##https://m.feiszw.com/book-$1",
+        "kind": "tag.a.0@text&&class.tab6@text&&class.tab7@text",
+        "lastChapter": "tag.a.2@text",
+        "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+        "author": "tag.div.0@text##.*\\[|\\|.*|\\s",
+        "bookList": "class.clearfix!0:1:2:3",
+        "bookUrl": "tag.a.0@href##^.*/(\\d+)/.*$##https://m.feiszw.com/book-$1",
+        "coverUrl": "",
+        "intro": "id.CListText@text",
+        "kind": "tag.a.1@text&&tag.a.2@text&&tag.div.0@text##小说|.*\\||\\s|\\].*",
+        "lastChapter": "tag.a.3@text",
+        "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": ".chapter:nth-of-type(2) a",
+        "chapterName": "text",
+        "chapterUrl": "href##$##,{\"webView\": true}",
+        "nextTocUrl": "@css:option~option@value"
+    },
+    "searchUrl": "/book/search.aspx?SearchKey={{key}}&SearchClass=1&SeaButton=,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

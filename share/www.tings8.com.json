@@ -1,0 +1,48 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "有声",
+    "bookSourceName": "海盗听书",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://www.tings8.com",
+    "customOrder": 1406,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻|奇幻::/pc/index/category/catid/6.html?page={{page}}\n都市|言情::/pc/index/category/catid/7.html?page={{page}}\n宫斗|女频::/pc/index/category/catid/8.html?page={{page}}\n官场|商战::/pc/index/category/catid/9.html?page={{page}}\n武侠|仙侠::/pc/index/category/catid/10.html?page={{page}}\n刑侦|推理::/pc/index/category/catid/11.html?page={{page}}\n探险|异术::/pc/index/category/catid/12.html?page={{page}}\n重生|穿越::/pc/index/category/catid/13.html?page={{page}}\n恐怖|惊悚::/pc/index/category/catid/14.html?page={{page}}\n文学|历史::/pc/index/category/catid/15.html?page={{page}}",
+    "lastUpdateTime": 1629998496655,
+    "loginUrl": "",
+    "respondTime": 8841,
+    "ruleBookInfo": {
+        "author": ".book-info@tag.dd.2@textNodes",
+        "coverUrl": ".book-img img@src",
+        "intro": ".div-b@html",
+        "kind": ".book-info@tag.dd.1@a@text&&.book-info@tag.dd.4:5@text##.*：|\\s.*",
+        "lastChapter": ".playlist@tag.a-1@text",
+        "name": ".book-title@text##有声小说",
+        "tocUrl": ""
+    },
+    "ruleContent": {
+        "content": "all\n@js:header={\"Referer\":String(result).replace(/\\s/g,'')}\nheaders={\"headers\":JSON.stringify(header)}\nresult=result.replace(/\\s/g,'')+','+JSON.stringify(headers)",
+        "sourceRegex": ".*\\.(m4a|mp4|mp3).*"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "tag.span.2@text",
+        "bookList": ".list-works li",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "img@data-original",
+        "intro": "tag.dd.0@text",
+        "kind": ".ztlz@text&&tag.span.1@text##\\s.*",
+        "lastChapter": "tag.a.2@text",
+        "name": "tag.a.1@text##有声小说"
+    },
+    "ruleToc": {
+        "chapterList": ".playlist li a",
+        "chapterName": "text",
+        "chapterUrl": "href##$##,{\"webView\":true}"
+    },
+    "searchUrl": "/pc/index/search.html?keyword={{key}}&page={{page}}",
+    "weight": 0
+}

@@ -1,0 +1,61 @@
+{
+    "bookSourceComment": "分享者：♥ Li ♥",
+    "bookSourceGroup": "",
+    "bookSourceName": "御书阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yushuge.info",
+    "bookUrlPattern": "",
+    "concurrentRate": "",
+    "customOrder": 37,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "总榜::/top/allvisit/{{page}}.html\n推荐::/top/allvote/{{page}}.html\n最新::/top/postdate/{{page}}.html\n最近::/top/lastupdate/{{page}}.html\n原创::/tp/authorupdate/{{page}}.html\n转载::/top/masterupdate/{{page}}.html\n本站::/top/toptime/{{page}}.html\n收藏::/top/goodnum/{{page}}.html\n字数::/top/size/{{page}}.html\n玄幻::/fenlei/1_{{page}}/\n修真::/fenlei/2_{{page}}/\n都市::/fenlei/3_{{page}}/\n穿越::/fenlei/4_{{page}}/\n网游::/fenlei/5_{{page}}/\n科幻::/fenlei/6_{{page}}/\n完本::/quanben/{{page}}",
+    "header": "",
+    "lastUpdateTime": 1652483570184,
+    "loginCheckJs": "",
+    "loginUi": "",
+    "loginUrl": "",
+    "respondTime": 3168,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "init": "",
+        "intro": "#intro@html",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##小说|\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##正文\\s|正文卷.|VIP章节.|免费章节.|VIP卷.|默认卷.",
+        "name": "[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+        "content": "#content@html",
+        "imageStyle": "0",
+        "replaceRegex": "##御书阁.*|.*最新章节！"
+    },
+    "ruleExplore": {
+        "author": ".author@text||.l3@text",
+        "bookList": ".titlelist li||#articlelist li!0",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##https://www.yushuge.info/files/article/image/$2/$1/$1s.jpg###",
+        "kind": ".sj@text&&.l1@text&&.l7@text##小说|\\s.*",
+        "lastChapter": ".zz@text||.l4@text",
+        "name": ".name@text||.l2@text",
+        "wordCount": ".l5@text"
+    },
+    "ruleSearch": {
+        "author": "tag.td.2@text",
+        "bookList": "tbody tr!0",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##https://www.yushuge.info/files/article/image/$2/$1/$1s.jpg###",
+        "kind": "tag.td.5:4@text##小说",
+        "lastChapter": "tag.td.1@text",
+        "name": "tag.td.0@text",
+        "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+        "chapterList": ".zjlist dd a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&submit=&page={{page}}\"\n}",
+    "weight": 0
+}

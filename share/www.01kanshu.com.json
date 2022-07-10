@@ -1,0 +1,55 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "正版",
+    "bookSourceName": "愚猫看书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.01kanshu.com",
+    "bookUrlPattern": "",
+    "customOrder": 556,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"男生连载\",\"url\":\"/Stacks/index/gender/3/type/50/state/1/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/Stacks/index/gender/3/type/5/state/1/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/Stacks/index/gender/3/type/6/state/1/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"游戏\",\"url\":\"/Stacks/index/gender/3/type/18/state/1/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"/Stacks/index/gender/3/type/19/state/1/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"仙侠\",\"url\":\"/Stacks/index/gender/3/type/20/state/1/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑\",\"url\":\"/Stacks/index/gender/3/type/21/state/1/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/Stacks/index/gender/3/type/22/state/1/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"男生完结\",\"url\":\"/Stacks/index/gender/3/type/50/state/2/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/Stacks/index/gender/3/type/5/state/2/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/Stacks/index/gender/3/type/6/state/2/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"游戏\",\"url\":\"/Stacks/index/gender/3/type/18/state/2/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"/Stacks/index/gender/3/type/19/state/2/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"仙侠\",\"url\":\"/Stacks/index/gender/3/type/20/state/2/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑\",\"url\":\"/Stacks/index/gender/3/type/21/state/2/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/Stacks/index/gender/3/type/22/state/2/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"女生连载\",\"url\":\"/Stacks/index/gender/3/type/50/state/1/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"现代\",\"url\":\"/Stacks/index/gender/3/type/1/state/1/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"古代\",\"url\":\"/Stacks/index/gender/3/type/2/state/1/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/Stacks/index/gender/3/type/3/state/1/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"职场\",\"url\":\"/Stacks/index/gender/3/type/4/state/1/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"短篇\",\"url\":\"/Stacks/index/gender/3/type/7/state/1/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"女生完结\",\"url\":\"/Stacks/index/gender/3/type/50/state/2/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"现代\",\"url\":\"/Stacks/index/gender/3/type/1/state/2/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"古代\",\"url\":\"/Stacks/index/gender/3/type/2/state/2/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/Stacks/index/gender/3/type/3/state/2/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"职场\",\"url\":\"/Stacks/index/gender/3/type/4/state/2/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"短篇\",\"url\":\"/Stacks/index/gender/3/type/7/state/2/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"出版名著\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"古典名著\",\"url\":\"/Stacks/index/gender/3/type/24/state/3/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"外文原著\",\"url\":\"http://www.01kanshu.com/Stacks/index/gender/3/type/26/state/3/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"中国古典\",\"url\":\"http://www.01kanshu.com/Stacks/index/gender/3/type/27/state/3/vip/3/click/0/p/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1634045088126,
+    "loginUrl": "http://www.01kanshu.com/Login/index.html",
+    "respondTime": 8846,
+    "ruleBookInfo": {
+        "author": ".author_level@text",
+        "coverUrl": ".cover img.0@src",
+        "intro": ".introduction@html",
+        "kind": ".book_details@text##\\|##,",
+        "lastChapter": ".left_box2_b a.0@text##\\>",
+        "name": ".book_name@text",
+        "tocUrl": ".bk-btn a.0@href",
+        "wordCount": ".left_box2_b span.0@text##.*：|\\s.*"
+    },
+    "ruleContent": {
+        "content": ".content@p@text",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "name": ""
+    },
+    "ruleSearch": {
+        "author": "p.0@text##作者.",
+        "bookList": ".sk_box",
+        "bookUrl": "a.1@href",
+        "coverUrl": "img@src",
+        "intro": "p.1@text##\\s",
+        "kind": "a.2@text&&span.-1@text##\\[|\\]|更新时间.|\\s.*",
+        "lastChapter": "a.5@text||a.4@text",
+        "name": "a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".ML_ul li",
+        "chapterName": "a@text",
+        "chapterUrl": "a@href@js:result.replace(/(.*)\\/(\\d+)\\/(\\d+)\\.html/,'/Chapter/chapter.html?bookid=$2&num=$3');",
+        "isVip": "em@text##^##🔒",
+        "updateTime": "span@text"
+    },
+    "searchUrl": "/Select/?bookname={{key}}",
+    "weight": 0
+}

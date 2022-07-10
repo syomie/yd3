@@ -1,0 +1,50 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "顶点小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.23wx.io",
+    "bookUrlPattern": "http://www.23wx.io/book/\\d+/",
+    "customOrder": -98,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1657374281716,
+    "loginUrl": "",
+    "respondTime": 31063,
+    "ruleBookInfo": {
+        "author": "@get:{a}",
+        "coverUrl": "@get:{c}",
+        "init": "@put:{n:\"meta[property~=title]@content\n\",a:\"meta[property$=author]@content\n\",k:\"meta[property~=status|category|time]@content\n\",w:\"meta[property~=word]@content\n\",l:\"class.col-md-4.0@a.0@text\n\",c:\"meta[property~=image]@content\n\",i:\"meta[property~=description]@content\n\"}",
+        "intro": "@get:{i}",
+        "kind": "@get:{k}",
+        "lastChapter": "@get:{l}",
+        "name": "@get:{n}",
+        "wordCount": "@get:{w}"
+    },
+    "ruleContent": {
+        "content": " id.htmlContent@textNodes##顶点小说网|www.23wx.io，最快更新|最新章节！|lt;lt;|gt;gt;",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "class.caption@tag.small@text##/.*",
+        "bookList": "class.col-md-4 col-xs-4 book-coverlist",
+        "bookUrl": "h4@tag.a@href",
+        "coverUrl": "class.col-md-5.0@img.0@src",
+        "intro": "class.caption@tag.p@text",
+        "kind": "",
+        "lastChapter": "h4@tag.a@href<js>java.ajax(result)</js>class.col-md-4.0@a.0@text",
+        "name": "h4@tag.a@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.col-md-3",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.23wx.io/modules/article/search.php?searchkey={{key}}&page={{page}},{\"charset\": \"gbk\"}",
+    "weight": 0
+}

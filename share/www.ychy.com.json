@@ -1,0 +1,56 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "有声",
+    "bookSourceName": "海洋听书",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://www.ychy.com",
+    "customOrder": 312,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "盗墓探险::/list/45<,_{{page}}>.html\n官场刑侦::/list/14<,_{{page}}>.html\n网络玄幻::/list/52<,_{{page}}>.html\n历史军事::/list/15<,_{{page}}>.html\n人物传记::/list/16<,_{{page}}>.html\n儿童读物::/list/4<,_{{page}}>.html\n恐怖悬疑::/list/17<,_{{page}}>.html\n都市言情::/list/13<,_{{page}}>.html\n职场商战::/list/81<,_{{page}}>.html\n传统武侠::/list/12<,_{{page}}>.html\n相声戏曲::/list/7<,_{{page}}>.html\n百家讲坛::/list/32<,_{{page}}>.html\n经典评书::/list/3<,_{{page}}>.html\n广播电剧::/list/18<,_{{page}}>.html\n文艺戏曲::/list/53<,_{{page}}>.html",
+    "lastUpdateTime": 1629997117608,
+    "loginUrl": "",
+    "respondTime": 5970,
+    "ruleBookInfo": {
+        "author": "class.content_center.0@tag.a.1@text",
+        "coverUrl": ".content_right img@src",
+        "intro": "#BookIntro@html##展开全部",
+        "kind": "播音：{{@@class.content_center.0@tag.a.0@text}},{{@@class.content_center.0@tag.a.2@text}}",
+        "lastChapter": ".playlist@tag.a.-1@text",
+        "name": ".content_title h1@text##有声小说"
+    },
+    "ruleContent": {
+        "content": "<js>result</js>",
+        "imageStyle": "0",
+        "sourceRegex": ".*\\.(mp3|m4a)"
+    },
+    "ruleExplore": {
+        "author": "tag.p.2@text",
+        "bookList": ".bx_channel_test",
+        "bookUrl": "tag.a.2@href",
+        "coverUrl": "img@src",
+        "intro": "tag.p.3@text",
+        "kind": "tag.p.1@text##:##：",
+        "lastChapter": "tag.p.0@text",
+        "name": "tag.a.2@text"
+    },
+    "ruleSearch": {
+        "author": "tag.dd.1@text",
+        "bookList": ".pictxtList li",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "img@src",
+        "intro": "tag.dd.9@text",
+        "kind": "播音：{{@@tag.dd.0@text}},{{@@tag.dd.3:7@text}}",
+        "lastChapter": "tag.dd.2@text",
+        "name": "tag.a.1@text",
+        "wordCount": ""
+    },
+    "ruleToc": {
+        "chapterList": ".playlist li a",
+        "chapterName": "text",
+        "chapterUrl": "href##$##,{\"webView\":true}"
+    },
+    "searchUrl": "/so.asp,{\n  'charset': 'gb2312',\n  'method': 'POST',\n  'body': 'page={{page}}&searchword={{key}}&searchtype=-1'\n}",
+    "weight": 0
+}

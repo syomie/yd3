@@ -1,0 +1,62 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "正版,希弥",
+    "bookSourceName": "追更小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://cbook.zhaoxitech.com",
+    "bookUrlPattern": "https://cbook.zhaoxitech.com/system/book/detail?bookId=\\d+",
+    "customOrder": -88902395,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"男频·综合\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"东方玄幻\",\"url\":\"/system/search/condition-query?categoryId=130&sortCondition=by_default&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市小说\",\"url\":\"/system/search/condition-query?categoryId=107&sortCondition=by_default&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"修真文明\",\"url\":\"/system/search/condition-query?categoryId=134&sortCondition=by_default&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠幻想\",\"url\":\"/system/search/condition-query?categoryId=139&sortCondition=by_default&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"现代魔法\",\"url\":\"/system/search/condition-query?categoryId=144&sortCondition=by_default&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史小说\",\"url\":\"/system/search/condition-query?categoryId=112&sortCondition=by_default&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"电子竞技\",\"url\":\"/system/search/condition-query?categoryId=159&sortCondition=by_default&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"体育赛事\",\"url\":\"/system/search/condition-query?categoryId=161&sortCondition=by_default&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"末世危机\",\"url\":\"/system/search/condition-query?categoryId=165&sortCondition=by_default&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"抗战烽火\",\"url\":\"/system/search/condition-query?categoryId=155&sortCondition=by_default&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"灵异小说\",\"url\":\"/system/search/condition-query?categoryId=117&sortCondition=by_default&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"二次元\",\"url\":\"/system/search/condition-query?categoryId=118&sortCondition=by_default&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"男频·免费\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"东方玄幻\",\"url\":\"/system/search/condition-query?categoryId=130&sortCondition=free&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市小说\",\"url\":\"/system/search/condition-query?categoryId=107&sortCondition=free&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"修真文明\",\"url\":\"/system/search/condition-query?categoryId=134&sortCondition=free&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠幻想\",\"url\":\"/system/search/condition-query?categoryId=139&sortCondition=free&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"现代魔法\",\"url\":\"/system/search/condition-query?categoryId=144&sortCondition=free&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史小说\",\"url\":\"/system/search/condition-query?categoryId=112&sortCondition=free&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"电子竞技\",\"url\":\"/system/search/condition-query?categoryId=159&sortCondition=free&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"体育赛事\",\"url\":\"/system/search/condition-query?categoryId=161&sortCondition=free&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"末世危机\",\"url\":\"/system/search/condition-query?categoryId=165&sortCondition=free&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"抗战烽火\",\"url\":\"/system/search/condition-query?categoryId=155&sortCondition=free&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"灵异小说\",\"url\":\"/system/search/condition-query?categoryId=117&sortCondition=free&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"二次元\",\"url\":\"/system/search/condition-query?categoryId=118&sortCondition=free&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女频·综合\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"古代言情\",\"url\":\"/system/search/condition-query?categoryId=213&sortCondition=by_default&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"现代言情\",\"url\":\"/system/search/condition-query?categoryId=214&sortCondition=by_default&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"幻想言情\",\"url\":\"/system/search/condition-query?categoryId=237&sortCondition=by_default&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"青春校园\",\"url\":\"/system/search/condition-query?categoryId=216&sortCondition=by_default&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻未来\",\"url\":\"/system/search/condition-query?categoryId=246&sortCondition=by_default&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"耽美纯爱\",\"url\":\"/system/search/condition-query?categoryId=247&sortCondition=by_default&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑推理\",\"url\":\"/system/search/condition-query?categoryId=257&sortCondition=by_default&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"精选短篇\",\"url\":\"/system/search/condition-query?categoryId=328&sortCondition=by_default&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"女频·免费\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"古代言情\",\"url\":\"/system/search/condition-query?categoryId=213&sortCondition=free&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"现代言情\",\"url\":\"/system/search/condition-query?categoryId=214&sortCondition=free&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"幻想言情\",\"url\":\"/system/search/condition-query?categoryId=237&sortCondition=free&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"青春校园\",\"url\":\"/system/search/condition-query?categoryId=216&sortCondition=free&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻未来\",\"url\":\"/system/search/condition-query?categoryId=246&sortCondition=free&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"耽美纯爱\",\"url\":\"/system/search/condition-query?categoryId=247&sortCondition=free&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑推理\",\"url\":\"/system/search/condition-query?categoryId=257&sortCondition=free&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"精选短篇\",\"url\":\"/system/search/condition-query?categoryId=328&sortCondition=free&wordCondition=all&start={{page-1}}0&size=10\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+    "header": "{\n  \"User-Agent\": \"okhttp/3.10.0\"\n}",
+    "lastUpdateTime": 1646631313635,
+    "respondTime": 9254,
+    "ruleBookInfo": {
+        "author": "$..author",
+        "coverUrl": "$..coverUrl",
+        "intro": "$..introduction##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": "$..originPriceString&&$..moreInfo&&$..category&&$..readingCount",
+        "lastChapter": "$..latestChapterTitle",
+        "name": "$..name",
+        "tocUrl": "https://cbook.zhaoxitech.com/system/catalog/list?bookId={$..id}",
+        "wordCount": "$..wordCount"
+    },
+    "ruleContent": {
+        "content": "$..contentUrl||{$..previewUrl}&sign=1d64e71ea2b0d418c351d839804a977d&yw=true<js>java.ajax(result)</js>",
+        "imageStyle": "",
+        "nextContentUrl": "",
+        "webJs": ""
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "",
+        "lastChapter": "",
+        "name": "",
+        "wordCount": ""
+    },
+    "ruleSearch": {
+        "author": "$.author",
+        "bookList": "$..result[*]||$.value[*]",
+        "bookUrl": "https://cbook.zhaoxitech.com/system/book/detail?bookId={$.bookId}",
+        "coverUrl": "$.coverUrl",
+        "intro": "$.shortDesc",
+        "kind": "$.cpCategory&&$.publicTime##T.*",
+        "lastChapter": "https://cbook.zhaoxitech.com/system/book/detail?bookId={$.bookId}<js>java.ajax(result)</js>$..latestChapterTitle",
+        "name": "$.name",
+        "wordCount": "$.wordCount"
+    },
+    "ruleToc": {
+        "chapterList": "$..chapters[*]",
+        "chapterName": "$.name",
+        "chapterUrl": "https://cbook.zhaoxitech.com/user/content-url/list,{\n\"charset\": \"utf-8\",\n\"method\": \"POST\",\n\"body\": \"bookId={$.bookId}&chapterIds={$.id}&suportSubsidy=ture\",\n\"headers\": {\"User-Agent\": \"okhttp/3.10.0\"}\n}",
+        "updateTime": "$.wordCount##$##字"
+    },
+    "searchUrl": "/system/search/v2/keyword?keyword={{key}}&start={{page-1}}&size=10",
+    "weight": 0
+}

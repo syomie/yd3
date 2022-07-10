@@ -1,0 +1,37 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "TOP50",
+    "bookSourceName": "纵横中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.zongheng.com",
+    "customOrder": 783,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "respondTime": 1254,
+    "ruleBookInfo": {
+        "author": "class.info.0@tag.span.0@text",
+        "coverUrl": "class.bookimg.0@tag.img.0@src",
+        "intro": "class.book_intro.0@text",
+        "name": "class.bookname.0@text"
+    },
+    "ruleContent": {
+        "content": "text"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.a@tag.p@textNodes",
+        "bookList": "tag.ul@tag.li",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "class.bookimg.0@tag.img.0@src",
+        "name": "tag.a@tag.p@tag.span@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.book_list@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "https://m.zongheng.com/search?field=all&keywords={{key}}&pageNum={{page}}",
+    "weight": 0
+}

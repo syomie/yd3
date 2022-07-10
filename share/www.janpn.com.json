@@ -1,0 +1,44 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "键盘小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.janpn.com",
+    "bookUrlPattern": "",
+    "concurrentRate": "",
+    "customOrder": 30,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1646055717462,
+    "loginCheckJs": "",
+    "loginUi": "",
+    "loginUrl": "",
+    "respondTime": 6991,
+    "ruleBookInfo": {
+        "author": "class.col-md-12@tag.p.0@text##by",
+        "intro": "class.bookIntro@text",
+        "lastChapter": "id.list-chapterAll@tag.p.0@text&&class.col-md-12@tag.p.1@text##最新章节.|更新时间.|..\\:.*",
+        "name": "class.bookTitle@text##\\《|\\》|极速阅读"
+    },
+    "ruleContent": {
+        "content": "id.htmlContent@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.shop-info.1@text##\\[|著|\\]",
+        "bookList": "class.list@tag.a",
+        "bookUrl": "tag.a@href",
+        "lastChapter": "class.shop-info.2@text",
+        "name": "class.shop-info.0@text##\\《|\\》"
+    },
+    "ruleToc": {
+        "chapterList": "class.panel-chapterlist@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.janpn.com/search.php?q={{key}}&s=15947871991047423724",
+    "weight": 0
+}

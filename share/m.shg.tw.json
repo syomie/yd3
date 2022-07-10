@@ -1,0 +1,56 @@
+{
+    "bookSourceComment": "@希弥：尝试修复搜索,不确定有没有效果,我这边行",
+    "bookSourceGroup": "希弥",
+    "bookSourceName": "书海阁①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.shg.tw",
+    "bookUrlPattern": "//m\\.shg\\.tw(/html)?/\\d+/?",
+    "customOrder": 1210,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "书库全部::/shuku/<,0_0_0_{{page}}.html>\n奇幻玄幻::/xuanhuan/<,{{page}}.html>\n武侠仙侠::/wuxia/<,{{page}}.html>\n都市生活::/dushi/<,{{page}}.html>\n历史军事::/lishi/<,{{page}}.html>\n游戏竞技::/youxi/<,{{page}}.html>\n科幻未来::/kehuan/<,{{page}}.html>\n二次元あ::/erciyuan/<,{{page}}.html>\n古代言情::/guyan/<,{{page}}.html>\n现代言情::/yanqing/<,{{page}}.html>\n青春校园::/qingchun/<,{{page}}.html>\n科幻未来::/kehuan/<,{{page}}.html>\n悬疑灵异::/xuanyi/<,{{page}}.html>\n新书推荐::/xinshu/<,{{page}}.html>\n总点击榜::/allvisit/<,{{page}}.html>\n总推荐榜::/allvote/<,{{page}}.html>\n总收藏榜::/goodnum/<,{{page}}.html>\n总字数榜::/size/<,{{page}}.html>\n全部全本::/quanben/all/{{page}}.html\n强推榜::/toptime/<,{{page}}.html>\n新书榜::/goodnew/<,{{page}}.html>",
+    "header": "{\n  'Host': 'm.shg.tw',\n  'Connection': 'keep-alive',\n  'Content-Type': 'application/x-www-form-urlencoded',\n  'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'\n}",
+    "lastUpdateTime": 1648279490263,
+    "loginCheckJs": "if (java.log(java.getHeaderMap().get(\"Cookie\"))==null){\n  source.login();\n} else {\t\n\tvar c=java.getHeaderMap().get(\"Cookie\");\n\tjava.getHeaderMap().putAll({\"cookie\":String(c)});\n  java.log(java.getHeaderMap().get(\"Cookie\"));\n\tresult;\n}",
+    "loginUi": "[\n    {\n        \"name\": \"用户名\",\n        \"type\": \"text\"\n    },\n    {\n        \"name\": \"密码\",\n        \"type\": \"password\"\n    }\n]",
+    "loginUrl": "java.log(java.get(\"http://m.shg.tw\",{}).headers())",
+    "respondTime": 3422,
+    "ruleBookInfo": {
+        "author": ".author a@text",
+        "coverUrl": "img@src##^//[^/]*",
+        "init": ".detail",
+        "kind": "tag.p.2@a@text&&\ntag.p.2@tag.span.0@text&&\ntag.p.4@text##最后更新：",
+        "lastChapter": ".new a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": ".name@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节",
+        "wordCount": "tag.p.2@tag.span.1@text"
+    },
+    "ruleContent": {
+        "content": ".content@html##喜欢.*更新速度最快。|《.*》无错章节将持续.*",
+        "imageStyle": "full",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+        "bookList": "",
+        "name": ""
+    },
+    "ruleSearch": {
+        "author": ".data.0@a@text##的小说",
+        "bookList": ".list li",
+        "bookUrl": ".bookname a@href",
+        "coverUrl": "img@src",
+        "intro": ".intro@text",
+        "kind": ".data@tag.span.0@text",
+        "lastChapter": "tag.p.3@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": ".bookname a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节",
+        "wordCount": "tag.p.1@tag.span.1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".read li a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/search.html,{\n\t\"method\":\"POST\",\n\t\"body\":\"searchkey={{key}}\"\n}",
+    "weight": 0
+}

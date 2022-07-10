@@ -1,0 +1,45 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "读全本",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.duquanben.com",
+    "customOrder": 220,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1638083453562,
+    "respondTime": 5485,
+    "ruleBookInfo": {
+        "author": "##作者：([^\\s]+)##$1###",
+        "coverUrl": "class.pic@img@src",
+        "intro": "class.intro@textNodes##(\\s|\\.)",
+        "kind": "class.bread-crumbs@tag.a.1@text&&class.pic@class.tLJ.-1@text##(全本|文章状态：|中|已)",
+        "lastChapter": "##传时间：([^<]+)</em>[^>]+>{{book.name}} ([^<]+)</##$2•$1###",
+        "name": "tag.h1@text##TXT下载",
+        "tocUrl": "{{baseUrl.replace(/xiazai/,'xiaoshuo')}}",
+        "wordCount": "##已写了([\\d]+)字##$1###"
+    },
+    "ruleContent": {
+        "content": "id.htmlContent@textNodes",
+        "nextContentUrl": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.li.1@tag.font.0@text",
+        "bookList": "class.info",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "img@src",
+        "intro": "##内容简介： ([^<]+)<##$1###",
+        "kind": "tag.li.1@tag.font.1@text&&tag.li.1@tag.font.2@text",
+        "lastChapter": "tag.h2@tag.a.1@text&&tag.li.1@tag.font.3@text##\\n##•",
+        "name": "img@alt"
+    },
+    "ruleToc": {
+        "chapterList": "class.mulu_list@a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php?searchtype=keywords&entry=1&searchkey={{key}}&page={{page}},{\n\"charset\": \"gbk\"\n}",
+    "weight": 0
+}

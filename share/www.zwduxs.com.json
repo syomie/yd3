@@ -1,0 +1,52 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "八一中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.zwduxs.com",
+    "bookUrlPattern": "http?://www\\.zwduxs\\.com(/html)?/\\d+_\\d+/?",
+    "customOrder": -88902425,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/xuanhuanxiaoshuo/1_{{page}}.html\n修真小说::/xiuzhenxiaoshuo/2_{{page}}.html\n都市小说::/dushixiaoshuo/3_{{page}}.html\n穿越小说::/chuanyuexiaoshuo/4_{{page}}.html\n网游小说::/wangyouxiaoshuo/5_{{page}}.html\n科幻小说::/kehuanxiaoshuo/6_{{page}}.html",
+    "lastUpdateTime": 1657376973017,
+    "loginUrl": "",
+    "respondTime": 4541,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text##作    者：",
+        "coverUrl": "id.fmimg@tag.img@src",
+        "init": "",
+        "intro": "id.intro@text",
+        "kind": "id.info@tag.p.2@text##最后更新：",
+        "lastChapter": "@css:[property=og:novel:latest_chapter_name]@content",
+        "name": "id.info@tag.h1.0@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁|小说"
+    },
+    "ruleContent": {
+        "content": "id.content@html",
+        "nextContentUrl": ""
+    },
+    "ruleExplore": {
+        "author": "class.s5@text",
+        "bookList": "class.l@li",
+        "bookUrl": "class.s2@a@href",
+        "coverUrl": "class.s2@a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.zwduxs.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "lastChapter": "class.s3@text",
+        "name": "class.s2@a@text"
+    },
+    "ruleSearch": {
+        "author": "tag.td.2@text",
+        "bookList": "class.grid@tag.tr!0",
+        "bookUrl": "tag.td.0@tag.a@href",
+        "coverUrl": "tag.td.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.zwduxs.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "lastChapter": "tag.td.1@tag.a@text",
+        "name": "tag.td.0@tag.a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁|小说"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&searchtype=articlename\"\n}",
+    "weight": 0
+}

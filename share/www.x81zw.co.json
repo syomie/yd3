@@ -1,0 +1,52 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "八一中文②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.x81zw.co",
+    "customOrder": 1475,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/sort1/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"仙侠\",\"url\":\"/sort3/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/sort4/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"/sort5/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游\",\"url\":\"/sort6/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"竞技\",\"url\":\"/sort7/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/sort8/\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"言情\",\"url\":\"/sort2/\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+    "lastUpdateTime": 1638709835598,
+    "respondTime": 3065,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "[property=\"og:description\"]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##小说|\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+        "content": "#content@html"
+    },
+    "ruleExplore": {
+        "author": ".s5@text",
+        "bookList": ".l li",
+        "bookUrl": "a.0@href",
+        "coverUrl": "a.0@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.x81zw.co/img/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "kind": ".s1@text&&.s3@textNodes##小说|\\[|\\]|\\(|\\)",
+        "lastChapter": "a.1@text",
+        "name": "a.0@text"
+    },
+    "ruleSearch": {
+        "author": "span.1@text",
+        "bookList": ".result-item",
+        "bookUrl": "a.1@href",
+        "checkKeyWord": "",
+        "coverUrl": "img@src",
+        "intro": "p.0@text",
+        "kind": "span.3:5@text##小说|\\s.*",
+        "lastChapter": "a.2@text",
+        "name": "a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "#list dd a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/search.php?type=&keyword={{key}}&page={{page}}",
+    "weight": 0
+}

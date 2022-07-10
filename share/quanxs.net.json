@@ -1,0 +1,43 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "TOP50",
+    "bookSourceName": "全小说①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://quanxs.net/",
+    "bookUrlPattern": "http://quanxs.net/\\d+/",
+    "customOrder": -88902469,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "点击榜::/top/\n奇幻::/qihuan/\n玄幻::/xuanhuan/\n言情::/yanqing/\n都市::/dushi/\n游戏::/youxi/\n竞技::/jingji/\n武侠::/quanxiaoshuo.org/wuxia/\n历史::/lishi/\n军事::/junshi/\n科幻::/kehuan/\n仙侠::/xianxia/\n灵异::/lingyi/\n女性:://quanxiaoshuo.org/nvxing/\n其他:://quanxiaoshuo.org/qita/\n最新更新::/last1.htm\n最新入库::/new/",
+    "header": "",
+    "lastUpdateTime": 1646631313664,
+    "loginUrl": "",
+    "respondTime": 1821,
+    "ruleBookInfo": {
+        "author": "class.w2@a@text",
+        "intro": "class.desc@text##简介：",
+        "kind": "class.w3@font@text&&\nclass.w4@text##.*（|）",
+        "lastChapter": "class.w4@a@text",
+        "name": "class.text@h1@tag.a.0@text"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.cc4@tag.a@text",
+        "bookList": "class.list_content",
+        "bookUrl": "class.cc2@tag.a@href",
+        "kind": "class.cc5@text",
+        "lastChapter": "class.cc3@tag.a@text",
+        "name": "class.cc2@tag.a@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.chapters@class.chapter",
+        "chapterName": "tag.a.0@text",
+        "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "/s_{{key}}/{{page}}/,{\n\"charset\":\"gbk\"\n}",
+    "weight": 0
+}

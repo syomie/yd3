@@ -1,0 +1,54 @@
+{
+    "bookSourceComment": "作者:希弥",
+    "bookSourceGroup": "希弥",
+    "bookSourceName": "悠悠书盟移动版",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.uutxt.com",
+    "bookUrlPattern": "https://m.uutxt.com/book/\\d\\S+",
+    "customOrder": -88902342,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "排行::/top.php\n全本::/quanben/\n玄幻小说::/fenlei1_{{page}}.html\n修真小说::/fenlei2_{{page}}.html\n都市小说::/fenlei3_{{page}}.html\n历史小说::/fenlei4_{{page}}.html\n科幻小说::/fenlei5_{{page}}.html\n网游小说::/fenlei6_{{page}}.html\n女频小说::/fenlei7_{{page}}.html",
+    "lastUpdateTime": 1646631313657,
+    "respondTime": 4414,
+    "ruleBookInfo": {
+        "author": ".block_txt2@tag.p.2@text",
+        "coverUrl": ".block_img2@img@src",
+        "init": "",
+        "intro": ".intro_info@html",
+        "kind": ".block_txt2@tag.p.3@text&&.block_txt2@tag.p.4@text&&.block_txt2@tag.p.5@text##(状态|更新|分类)：",
+        "lastChapter": ".block_txt2@tag.a.2@text",
+        "name": "h2@text",
+        "tocUrl": "a:matchesOwn(完整目录|更多章节|章节目录)@href",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "#nr1@textNodes",
+        "imageStyle": "TEXT",
+        "nextContentUrl": "a:matchesOwn(下一页|下页)@href",
+        "payAction": ""
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "div.author@text",
+        "bookList": ".bookbox",
+        "bookUrl": "tag.a.1@href",
+        "checkKeyWord": "",
+        "coverUrl": "img@src",
+        "intro": ".intro_line@textNodes",
+        "kind": "",
+        "lastChapter": "tag.a.2@text",
+        "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "ul.chapter@a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "SearchBook.php?submit=&keyword={{key}}",
+    "weight": 0
+}

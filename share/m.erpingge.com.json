@@ -1,0 +1,57 @@
+{
+    "bookSourceComment": "作者:希弥",
+    "bookSourceGroup": "希弥",
+    "bookSourceName": "二品阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.erpingge.com",
+    "bookUrlPattern": "http://m.erpingge.com/articles/\\S+",
+    "customOrder": -88902340,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "最新入库::/postdate/{{page}}.html\n最近更新::/lastupdate/{{page}}.html\n日点击::/dayvisit/{{page}}.html\n周点击::/weekvisit/{{page}}.html\n月点击::/monthvisit/{{page}}.html\n总点击::/allvisit/{{page}}.html\n总收藏::/goodnum/{{page}}.html\n字数排行::/size/{{page}}.html\n日推荐::/dayvote/{{page}}.html\n周推荐::/weekvote/{{page}}.html\n月推荐::/monthvote/{{page}}.html\n总推荐::/allvote/{{page}}.html\n排行::/rank/\n完本::/full/{{page}}.html\n排行榜::/allvote/{{page}}.html",
+    "lastUpdateTime": 1646631313644,
+    "respondTime": 42934,
+    "ruleBookInfo": {
+        "author": ".catalog_author>a@text",
+        "coverUrl": ".catalog_pic_left@img@src",
+        "init": "",
+        "intro": ".catalog_intor@html##(本书)?简介：",
+        "kind": ".sort_finish_serial>span@text&&.catalog_updatetime>span@text",
+        "lastChapter": ".catalog_newest>a@text",
+        "name": ".catalog_info_right h3@text",
+        "tocUrl": "",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "#chapter_end@html",
+        "imageStyle": "TEXT",
+        "nextContentUrl": "text.下一页@href||text.下页@href##$##,{\"webView\": true}",
+        "payAction": ""
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "name": ""
+    },
+    "ruleSearch": {
+        "author": ".newbook_author@text||.p3@text",
+        "bookList": ".newbook_list||li:has(p[class=\"p1\"])",
+        "bookUrl": "tag.a@href||.p1 a@href",
+        "checkKeyWord": "",
+        "coverUrl": "img@src",
+        "intro": ".newbook_intor@html",
+        "kind": ".s1@text",
+        "lastChapter": "",
+        "name": "tag.a.0@text||img@alt||.p1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".catalog_list:nth-of-type(n+1)>ul a",
+        "chapterName": "text",
+        "chapterUrl": "href##$##,{\"webView\": true}",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/s.php,{\n\t\"method\":\"POST\",\n\t\"body\":\"keyword={{key}}\"\n}",
+    "weight": 0
+}

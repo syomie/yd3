@@ -1,0 +1,57 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "话本小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ihuaben.com",
+    "customOrder": 1101,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "                      女频                      ::/girl/clickcount_days_7/{{page}}.html\n都市::/dushiyanqing/clickcount_days_7/{{page}}.html\n古代::/gudaiyanqing/clickcount_days_7/{{page}}.html\n玄幻::/xuanhuanyanqing/clickcount_days_7/{{page}}.html\n校园::/xiaoyuanyanqing/clickcount_days_7/{{page}}.html\n穿越::/chuanyueyanqing/clickcount_days_7/{{page}}.html\n灵异::/lingyiyanqing/clickcount_days_7/{{page}}.html\n                      男频                      ::/boy/clickcount_days_7/{{page}}.html\n都市::/dushi/clickcount_days_7/{{page}}.html\n灵异::/lingyi/clickcount_days_7/{{page}}.html\n玄幻::/xuanhuanqihuan/clickcount_days_7/{{page}}.html\n历史::/lishijunshi/clickcount_days_7/{{page}}.html\n仙侠::/wuxiaxianxia/clickcount_days_7/{{page}}.html\n游戏::/youxijingji/clickcount_days_7/{{page}}.html\n科幻::/kehuanmoshi/clickcount_days_7/{{page}}.html\n轻文::/qingxiaoshuo/clickcount_days_7/{{page}}.html\n短篇::/duanpian/clickcount_days_7/{{page}}.html\n                      同人                      ::/tongren/clickcount_days_7/{{page}}.html\n明星::/mingxingtongren/clickcount_days_7/{{page}}.html\n动漫::/dongmantongren/clickcount_days_7/{{page}}.html\n游戏::/youxitongren/clickcount_days_7/{{page}}.html\n影视::/yingshitongren/clickcount_days_7/{{page}}.html\n小说::/xiaoshuotongren/clickcount_days_7/{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3704.400 QQBrowser/10.4.3587.400\"\n}",
+    "lastUpdateTime": 1657377093727,
+    "loginUrl": "https://passport.ihuaben.com/?nextUrl=http%3A%2F%2Fuser.ihuaben.com%2F",
+    "respondTime": 16634,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "init": "",
+        "intro": "[property=\"og:description\"]@content",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content##小说",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "tocUrl": "class.Catalog hidden-md hidden-lg@tag.a@href",
+        "wordCount": "class.HuabenListUL hidden-md hidden-lg@tag.li.1@text##\\s|\\|"
+    },
+    "ruleContent": {
+        "content": "id.contentsource@html",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {
+        "author": "tag.a.2@text",
+        "bookList": "class.list-inline booklist@tag.li",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.img.0@src",
+        "kind": "class.hidden-lg hidden-md@tag.a@text",
+        "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+        "author": "tag.a.1@text",
+        "bookList": "class.searchresult",
+        "bookUrl": "tag.a.2@href",
+        "coverUrl": "tag.img@src",
+        "intro": "tag.a.3@text",
+        "kind": "tag.a.4@text&&tag.small@text",
+        "name": "tag.a.2@text"
+    },
+    "ruleToc": {
+        "chapterList": "-tag.p",
+        "chapterName": "tag.span.0@text&&@tag.a@text",
+        "chapterUrl": "tag.a@href",
+        "nextTocUrl": "class.btn-group@tag.a.-1@href",
+        "updateTime": "tag.span.2@text"
+    },
+    "searchUrl": "http://so.ihuaben.com/search?keyword={{key}}&page={{page}}",
+    "weight": 0
+}

@@ -1,0 +1,46 @@
+{
+    "bookSourceComment": "两次搜索间隔10秒",
+    "bookSourceGroup": "TOP50,女频",
+    "bookSourceName": "言情小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.yqk.net",
+    "customOrder": 519,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"总榜\",\"url\":\"/articles.php?sort=allvisit&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"月榜\",\"url\":\"/articles.php?sort=monthvisit&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"周榜\",\"url\":\"/articles.php?sort=weekvisit&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"最新\",\"url\":\"/articles.php?sort=postdate&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"情节\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"欢喜冤家\",\"url\":\"/qingjie/1/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"情有独钟\",\"url\":\"/qingjie/2/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"候门似海\",\"url\":\"/qingjie/3/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"别后重逢\",\"url\":\"/qingjie/4/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"一见钟情\",\"url\":\"/qingjie/5/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"青梅竹马\",\"url\":\"/qingjie/6/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"日久生情\",\"url\":\"/qingjie/7/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"古色古香\",\"url\":\"/qingjie/8/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"近水楼台\",\"url\":\"/qingjie/9/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"后知后觉\",\"url\":\"/qingjie/10/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"灵异神怪\",\"url\":\"/qingjie/11/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"斗气冤家\",\"url\":\"/qingjie/12/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"死缠烂打\",\"url\":\"/qingjie/13/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"穿越时空\",\"url\":\"/qingjie/14/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"摩登世界\",\"url\":\"/qingjie/15/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"失而复得\",\"url\":\"/qingjie/16/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"痴心不改\",\"url\":\"/qingjie/17/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"破镜重圆\",\"url\":\"/qingjie/18/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"苦尽甘来\",\"url\":\"/qingjie/19/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"误打误撞\",\"url\":\"/qingjie/20/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"暗恋成真\",\"url\":\"/qingjie/21/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"豪门世家\",\"url\":\"/qingjie/22/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"江湖恩怨\",\"url\":\"/qingjie/23/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"弄假成真\",\"url\":\"/qingjie/24/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"时代\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"唐朝\",\"url\":\"/shidai/1/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"宋朝\",\"url\":\"/shidai/2/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"明朝\",\"url\":\"/shidai/3/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"清朝\",\"url\":\"/shidai/4/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"民国\",\"url\":\"/shidai/5/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"现代\",\"url\":\"/shidai/6/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"架空\",\"url\":\"/shidai/7/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"古代\",\"url\":\"/shidai/8/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"地点\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"大陆\",\"url\":\"/didian/1/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"香港\",\"url\":\"/didian/2/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"台湾\",\"url\":\"/didian/3/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"某市\",\"url\":\"/didian/4/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"架空\",\"url\":\"/didian/5/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"外国\",\"url\":\"/didian/6/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"美国\",\"url\":\"/didian/7/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"英国\",\"url\":\"/didian/8/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"法国\",\"url\":\"/didian/9/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"澳洲\",\"url\":\"/didian/10/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"德国\",\"url\":\"/didian/11/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"意大利\",\"url\":\"/didian/12/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"加拿大\",\"url\":\"/didian/13/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"新加坡\",\"url\":\"/didian/14/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"日本\",\"url\":\"/didian/15/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"韩国\",\"url\":\"/didian/16/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1634995043564,
+    "loginUrl": "",
+    "respondTime": 2129,
+    "ruleBookInfo": {
+        "author": ".base a.2@text",
+        "coverUrl": ".img img@src",
+        "intro": ".intro@html##.*简介.",
+        "kind": ".base p.4@a@text",
+        "lastChapter": ".base p.5@a@text",
+        "name": ".base a.1@text",
+        "wordCount": ".base em.0@text"
+    },
+    "ruleContent": {
+        "content": ".content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "a.2@text",
+        "bookList": ".left li",
+        "bookUrl": "a.1@href",
+        "coverUrl": "img@src",
+        "intro": "p.4@text##.*简介.|\\s",
+        "kind": "p.3@a@text",
+        "lastChapter": "a.-1@text",
+        "name": "a.1@text",
+        "wordCount": "em.-1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".chapter dd a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/search.php,{\n  'charset': 'gb2312',\n  'method': 'POST',\n  'body': 'searchkey={{key}}&page={{page}}'\n}",
+    "weight": 0
+}

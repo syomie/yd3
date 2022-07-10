@@ -1,0 +1,40 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "凌晨看书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.lingchenkanshu.com",
+    "bookUrlPattern": "",
+    "customOrder": 823,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1\"\n}",
+    "lastUpdateTime": 1603783156896,
+    "loginUrl": "",
+    "respondTime": 24095,
+    "ruleBookInfo": {
+        "coverUrl": "class.fm@tag.mip-img@src",
+        "intro": "class.intro@text##最新章节推荐地址.*",
+        "lastChapter": "class.lastchapter@text##更新：",
+        "tocUrl": "class.chapters@tag.mip-link@href"
+    },
+    "ruleContent": {
+        "content": "class.content@html##一秒记住.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.span@text##\\/",
+        "bookList": "class.result@tag.li",
+        "bookUrl": "tag.a.1@href",
+        "kind": "tag.a.0@text##[\\[|\\]]",
+        "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.chapters@tag.a",
+        "chapterName": "text##列表结束，点击返回书页",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"submit=&type=articlename&s={{key}}\"\n}",
+    "weight": 0
+}

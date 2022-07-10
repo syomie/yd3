@@ -1,0 +1,48 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "希弥",
+    "bookSourceName": "元尊小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yuanzun888.com",
+    "bookUrlPattern": "",
+    "customOrder": -88962061,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1648718182427,
+    "loginUrl": "",
+    "respondTime": 23196,
+    "ruleBookInfo": {
+        "author": "meta[property=\"og:novel:author\"]@content",
+        "coverUrl": "meta[property=\"og:image\"]@content",
+        "init": "",
+        "intro": "meta[property=\"og:description\"]@content",
+        "kind": "meta[property=\"og:novel:category\"]@content&&meta[property=\"og:novel:status\"]@content",
+        "lastChapter": "meta[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "meta[property=\"og:novel:book_name\"]@content||meta[property=\"og:novel:title\"]@content"
+    },
+    "ruleContent": {
+        "content": "#content@textNodes",
+        "replaceRegex": "##\\s*https://.*|\\s*天才一秒记住本.*",
+        "sourceRegex": ""
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": ".bookinfo .author@text",
+        "bookList": ".bookbox",
+        "bookUrl": "a.0@href",
+        "coverUrl": "img@src",
+        "lastChapter": ".bookinfo .update@tag.a.0@text",
+        "name": ".bookinfo@tag.a.0@text",
+        "wordCount": ""
+    },
+    "ruleToc": {
+        "chapterList": "dt:not(:nth-of-type(1))~dd",
+        "chapterName": "a@text",
+        "chapterUrl": "a@href"
+    },
+    "searchUrl": "/s.php?ie=gbk&q={{key}}",
+    "weight": 0
+}

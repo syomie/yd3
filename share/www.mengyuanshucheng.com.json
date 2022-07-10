@@ -1,0 +1,59 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "梦远书城",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.mengyuanshucheng.com/",
+    "bookUrlPattern": "",
+    "customOrder": 48,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"男频\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"玄幻\",\"url\":\"https://www.mengyuanshucheng.com/sort/xuanhuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}, {\"title\":\"奇幻\",\"url\":\"https://www.mengyuanshucheng.com/sort/qihuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}, {\"title\":\"武侠\",\"url\":\"https://www.mengyuanshucheng.com/sort/wuxia/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}, {\"title\":\"仙侠\",\"url\":\"https://www.mengyuanshucheng.com/sort/xianxia/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}, {\"title\":\"都市\",\"url\":\"https://www.mengyuanshucheng.com/sort/dushi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}, {\"title\":\"历史\",\"url\":\"https://www.mengyuanshucheng.com/sort/lishi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}, {\"title\":\"军事\",\"url\":\"https://www.mengyuanshucheng.com/sort/junshi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}, {\"title\":\"游戏\",\"url\":\"https://www.mengyuanshucheng.com/sort/youxi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}, {\"title\":\"竞技\",\"url\":\"https://www.mengyuanshucheng.com/sort/jingji/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}, {\"title\":\"科幻\",\"url\":\"https://www.mengyuanshucheng.com/sort/kehuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}, {\"title\":\"灵异\",\"url\":\"https://www.mengyuanshucheng.com/sort/lingyi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}, {\"title\":\"其他\",\"url\":\"https://www.mengyuanshucheng.com/sort/qita/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女频\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}}, {\"title\":\"总裁豪门\",\"url\":\"https://www.mengyuanshucheng.com/sort/zongcai/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}, {\"title\":\"穿越重生\",\"url\":\"https://www.mengyuanshucheng.com/sort/chongsheng/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}, {\"title\":\"古典架空\",\"url\":\"https://www.mengyuanshucheng.com/sort/gudian/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}, {\"title\":\"宫斗宅斗\",\"url\":\"https://www.mengyuanshucheng.com/sort/gongdou/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}, {\"title\":\"都市现言\",\"url\":\"https://www.mengyuanshucheng.com/sort/dushi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}, {\"title\":\"仙侠玄幻\",\"url\":\"https://www.mengyuanshucheng.com/sort/xianxiaxuanhuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}, {\"title\":\"青春校园\",\"url\":\"https://www.mengyuanshucheng.com/sort/qingchun/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}, {\"title\":\"游戏竞技\",\"url\":\"https://www.mengyuanshucheng.com/sort/game/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}, {\"title\":\"科幻灵异\",\"url\":\"https://www.mengyuanshucheng.com/sort/kehuanlingyi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}, {\"title\":\"耽美同人\",\"url\":\"https://www.mengyuanshucheng.com/sort/danmei/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}, {\"title\":\"女尊王朝\",\"url\":\"https://www.mengyuanshucheng.com/sort/nvzun/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}, {\"title\":\"其他类型\",\"url\":\"https://www.mengyuanshucheng.com/sort/other/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+    "header": "",
+    "lastUpdateTime": 1635611120854,
+    "loginUrl": "{\n  \"url\": \"\"\n}",
+    "respondTime": 26319,
+    "ruleBookInfo": {
+        "author": "#author a@text",
+        "coverUrl": "//meta[@property=\"og:image\"]/@content##.*grey.gif",
+        "intro": "#bookintro p@text<js>result.replace(/(.*)/,' ○○○STORY:\\n$1')</js>",
+        "lastChapter": "[property=og:novel:latest_chapter_name]@content&&[property=og:novel:update_time]@content##\\n##·",
+        "name": "h1@text",
+        "tocUrl": "text.打开完整目录列表@href",
+        "wordCount": "#count span.-2@text"
+    },
+    "ruleContent": {
+        "content": ".pt-read-cont div.-1@html",
+        "imageStyle": "0",
+        "nextContentUrl": "text.下一页@href",
+        "replaceRegex": "##正在跳转到(.|\\n)*请耐心点.*|www.*?com"
+    },
+    "ruleExplore": {
+        "author": "span.1@text",
+        "bookList": "#sitebox@dl",
+        "bookUrl": "a.1@href",
+        "coverUrl": "img@src",
+        "intro": ".book_des@text<js>result.replace(/(.*)/,' ○○○STORY:\\n$1')</js>",
+        "kind": "span.2@text",
+        "lastChapter": "a.-1@text",
+        "name": "h3@a@text"
+    },
+    "ruleSearch": {
+        "author": "a.2@text##.*作者：",
+        "bookList": ".pt-rank-detail",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.img@src",
+        "intro": ".compulsory-row@text<js>result.replace(/(.*)/,' ○○○STORY:\\n$1')</js>",
+        "kind": "a.3@text",
+        "lastChapter": "tag.a.0@href<js>java.ajax('https://www.mengyuanshucheng.com'+result)</js>[property=og:novel:latest_chapter_name]@content&&[property=og:novel:update_time]@content##\\n##·",
+        "name": "a.0@title"
+    },
+    "ruleToc": {
+        "chapterList": ".mulu dl@dd@a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "search/result.html?searchkey={{key}}",
+    "weight": 0
+}

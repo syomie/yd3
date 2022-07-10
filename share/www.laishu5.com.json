@@ -1,0 +1,43 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "来书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.laishu5.com",
+    "bookUrlPattern": "",
+    "customOrder": 696,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "respondTime": 6229,
+    "ruleBookInfo": {
+        "author": "##作者：([^<]*)##$1###",
+        "coverUrl": ".pic img@src",
+        "intro": ".intro@text",
+        "kind": "##小说分类：</b>([^<]*)##$1###",
+        "lastChapter": ".infot@tag.a.0@text||class.ti.1@tag.a.0@text",
+        "name": ".infot h1@text||.f20h@text##作者：.*",
+        "tocUrl": ".btopt a@href"
+    },
+    "ruleContent": {
+        "content": "id.content@p@textNodes##《.*网.+g.*》|看小说就去.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "##作者：([^<]*)##$1###",
+        "bookList": "id.alistbox",
+        "bookUrl": ".title a@href||.pic a@href",
+        "coverUrl": ".pic img@src",
+        "lastChapter": ".sys a@text",
+        "name": ".title a@text"
+    },
+    "ruleToc": {
+        "chapterList": ".liebiao a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.laishu5.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

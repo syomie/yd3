@@ -1,0 +1,36 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "TOP50",
+    "bookSourceName": "无图小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.wutuxs.com-By Dark",
+    "customOrder": 665,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "respondTime": 1743,
+    "ruleBookInfo": {
+        "coverUrl": "class.pic@tag.img.0@src",
+        "intro": "class.js@text##小说介绍：|关键词：.*"
+    },
+    "ruleContent": {
+        "content": "id.contents@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.odd.1@text||id.at@tag.tr.0@tag.td.1@text",
+        "bookList": "class.grid@tag.tr!0||id.content",
+        "bookUrl": "class.odd.0@tag.a@href||class.read@href",
+        "lastChapter": "class.even@tag.a@text||tag.p.8@tag.a.0@text",
+        "name": "class.odd.0@tag.a@text||tag.h1.0@text##全文阅读"
+    },
+    "ruleToc": {
+        "chapterList": "class.L",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.wutuxs.com/modules/article/search.php?searchtype=articlename&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

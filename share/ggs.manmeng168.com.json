@@ -1,0 +1,46 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "番薯小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://ggs.manmeng168.com",
+    "bookUrlPattern": "",
+    "customOrder": 57,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1632712055900,
+    "loginUrl": "",
+    "respondTime": 17452,
+    "ruleBookInfo": {
+        "author": "@get:{author}",
+        "init": "@js:java.get('book')",
+        "name": "@get:{name}",
+        "tocUrl": "/v1/book/chapter_list?novel_id=@get:{id}"
+    },
+    "ruleContent": {
+        "content": "data[0].content"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "author",
+        "bookList": "data.novel_list",
+        "bookUrl": "@js:java.put(\"book\",result)",
+        "coverUrl": "image_url",
+        "intro": "desc_info\n<js>result.replace(/(.*)/,' ○○○STORY:\\n$1')</js>",
+        "kind": "category_name&&tag",
+        "lastChapter": "newest_chapter_name",
+        "name": "name@put:{id:id,name:name,author:author}",
+        "wordCount": "word_count"
+    },
+    "ruleToc": {
+        "chapterList": "data",
+        "chapterName": "name",
+        "chapterUrl": "/v1/book/chapter_contents,{\"method\":\"POST\",\"body\":{\"chapter_ids\":\"{{$.chapter_id}}\",\"novelId\":{{java.get('id')}}}}",
+        "updateTime": "{{$.word_count}} 字 发布于 {{java.timeFormat(java.getString('$.version')*1000)}}"
+    },
+    "searchUrl": "/v1/search/do_search,{\"method\":\"POST\",\"body\":{\"keyword\":{{key}},\"page_index\":{{page}},\"page_size\":20}}",
+    "weight": 0
+}

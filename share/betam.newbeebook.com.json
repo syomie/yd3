@@ -1,0 +1,47 @@
+{
+    "bookSourceComment": "数据丢失",
+    "bookSourceGroup": "",
+    "bookSourceName": "新蜂中文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://betam.newbeebook.com",
+    "bookUrlPattern": "//betam.newbeebook.com/book/\\d+",
+    "customOrder": 261,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "奇幻玄幻::/book/category/1/?order=0&page={{page}}\n武侠仙侠::/book/category/2/?order=0&page={{page}}\n都市游戏::/book/category/3/?order=0&page={{page}}\n军事历史::/book/category/4/?order=0&page={{page}}\n科幻悬疑::/book/category/5/?order=0&page={{page}}\n现代言情::/book/category/6/?order=0&page={{page}}\n古典言情::/book/category/92/?order=0&page={{page}}\n幻想言情::/book/category/93/?order=0&page={{page}}\n出版影视::/book/category/100/?order=0&page={{page}}\n全本小说::/book/quanben/?order=1&page={{page}}",
+    "lastUpdateTime": 1650640267161,
+    "respondTime": 4578,
+    "ruleBookInfo": {
+        "author": "tag.p.0@text",
+        "coverUrl": ".info img@src",
+        "init": "",
+        "intro": ".desc@textNodes",
+        "lastChapter": ".last@text",
+        "name": ".info h1@text",
+        "wordCount": "tag.p.1@text"
+    },
+    "ruleContent": {
+        "content": ".viewer-content@html"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "bookList": "ul.list-page li",
+        "bookUrl": "a@href##/$##?intro=all",
+        "checkKeyWord": "开局被女神倒追",
+        "coverUrl": "img@src",
+        "intro": "p@textNodes",
+        "name": "h4@text"
+    },
+    "ruleToc": {
+        "chapterList": ".catalog li a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "@js:\nvar n=result.match(/\\d+\\/(\\d+)页/)[1];\nvar list=[];\nfor(var i=2;i<=n;i++){list.push(baseUrl+\"?order=0&page=\"+i);}\nlist",
+        "updateTime": ""
+    },
+    "searchUrl": "/book/search/?searchkey={{key}}&page={{page}}",
+    "weight": 0
+}

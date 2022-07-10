@@ -1,0 +1,48 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "漫画,墙",
+    "bookSourceName": "看漫画啦",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://kanmanhuala.com",
+    "bookUrlPattern": "",
+    "customOrder": 505,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"排行\",\"url\":\"/rank/<,page={{page}}>\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"连载\",\"url\":\"/booklist/?tag=%E5%85%A8%E9%83%A8&area=-1&end=0&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"完结\",\"url\":\"/booklist/?tag=%E5%85%A8%E9%83%A8&area=-1&end=1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"国漫\",\"url\":\"/booklist/?tag=%E5%85%A8%E9%83%A8&area=1&end=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"日韩\",\"url\":\"/booklist/?tag=%E5%85%A8%E9%83%A8&area=2&end=-1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"日常\",\"url\":\"/booklist?tag=%E6%97%A5%E5%B8%B8&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"腹黑\",\"url\":\"/booklist?tag=%E8%85%B9%E9%BB%91&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/booklist?tag=%E9%83%BD%E5%B8%82&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"穿越\",\"url\":\"/booklist?tag=%E7%A9%BF%E8%B6%8A&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"烧脑\",\"url\":\"/booklist?tag=%E7%83%A7%E8%84%91&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"治愈\",\"url\":\"/booklist?tag=%E6%B2%BB%E6%84%88&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"萌系\",\"url\":\"/booklist?tag=%E8%90%8C%E7%B3%BB&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"古风\",\"url\":\"/booklist?tag=%E5%8F%A4%E9%A3%8E&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/booklist?tag=%E7%8E%84%E5%B9%BB&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"猎奇\",\"url\":\"/booklist?tag=%E7%8C%8E%E5%A5%87&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"奇幻\",\"url\":\"/booklist?tag=%E5%A5%87%E5%B9%BB&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"搞笑\",\"url\":\"/booklist?tag=%E6%90%9E%E7%AC%91&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"推理\",\"url\":\"/booklist?tag=%E6%8E%A8%E7%90%86&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑\",\"url\":\"/booklist?tag=%E6%82%AC%E7%96%91&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"武侠\",\"url\":\"/booklist?tag=%E6%AD%A6%E4%BE%A0&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"仙侠\",\"url\":\"/booklist?tag=%E4%BB%99%E4%BE%A0&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"后宫\",\"url\":\"/booklist?tag=%E5%90%8E%E5%AE%AB&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"冒险\",\"url\":\"/booklist?tag=%E5%86%92%E9%99%A9&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"彩虹\",\"url\":\"/booklist?tag=%E5%BD%A9%E8%99%B9&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"百合\",\"url\":\"/booklist?tag=%E7%99%BE%E5%90%88&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"校园\",\"url\":\"/booklist?tag=%E6%A0%A1%E5%9B%AD&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"恋爱\",\"url\":\"/booklist?tag=%E6%81%8B%E7%88%B1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"热血\",\"url\":\"/booklist?tag=%E7%83%AD%E8%A1%80&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}}]",
+    "header": "{\n  \"User-Agent\": \"Mobile\"\n}",
+    "lastUpdateTime": 1657378213633,
+    "loginUrl": "",
+    "respondTime": 107389,
+    "ruleBookInfo": {
+        "author": "class.detail-main-info-author.1@text",
+        "coverUrl": ".detail-main-cover img@data-original",
+        "init": "",
+        "intro": ".detail-desc@html##介绍.",
+        "kind": ".detail-main-info-class span@text&&.detail-list-title-1@text&&.detail-list-title-3@text##更新",
+        "lastChapter": ".detail-list-select a.-1@text",
+        "name": ".normal-top-title@text"
+    },
+    "ruleContent": {
+        "content": "#cp_img@img@data-original@js:\nvar options = {\n\"headers\": {\"Referer\": baseUrl}\n}\nlist=result.split(\"\\n\");\nhtml='';\nfor(i in list){\nhtml+='<img src=\"'+list[i]+\",\"+JSON.stringify(options)+'\">'\n}\nhtml",
+        "imageStyle": "FULL"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "span.0@text##.*：",
+        "bookList": ".book-list li||.rank-list a||.manga-list-2 li",
+        "bookUrl": "a.0@href",
+        "coverUrl": "img@data-original",
+        "lastChapter": "span.-1@text||.manga-list-2-tip@text",
+        "name": "p.0@text"
+    },
+    "ruleToc": {
+        "chapterList": ".detail-list-select li a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/search?keyword={{key}}&page={{page}}",
+    "weight": 0
+}

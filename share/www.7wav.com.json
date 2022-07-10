@@ -1,0 +1,52 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "7wav",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.7wav.com/",
+    "customOrder": 270,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::https://www.7wav.com/xs/1-default-0-0-0-0-0-0-{{page}}.html\n武侠修真::https://www.7wav.com/xs/2-default-0-0-0-0-0-0-{{page}}.html\n穿越小说::https://www.7wav.com/xs/3-default-0-0-0-0-0-0-{{page}}.html\n都市言情::https://www.7wav.com/xs/4-default-0-0-0-0-0-0-{{page}}.html\n历史军事::https://www.7wav.com/xs/5-default-0-0-0-0-0-0-{{page}}.html\n科幻小说::https://www.7wav.com/xs/6-default-0-0-0-0-0-0-{{page}}.html\n网游动漫::https://www.7wav.com/xs/7-default-0-0-0-0-0-0-{{page}}.html\n耽美同人::https://www.7wav.com/xs/8-default-0-0-0-0-0-0-{{page}}.html\n侦探推理::https://www.7wav.com/xs/9-default-0-0-0-0-0-0-{{page}}.html\n恐怖灵异::https://www.7wav.com/xs/10-default-0-0-0-0-0-0-{{page}}.html\n其他类型::https://www.7wav.com/xs/11-default-0-0-0-0-0-0-{{page}}.html\n总点击::https://www.7wav.com/xs/quanbu-allvisit-0-0-0-0-0-0-{{page}}.html\n月点击::https://www.7wav.com/xs/quanbu-monthvisit-0-0-0-0-0-0-{{page}}.html\n周点击::https://www.7wav.com/xs/quanbu-weekvisit-0-0-0-0-0-0-{{page}}.html\n日点击::https://www.7wav.com/xs/quanbu-dayvisit-0-0-0-0-0-0-{{page}}.html\n总推荐::https://www.7wav.com/xs/quanbu-allvote-0-0-0-0-0-0-{{page}}.html\n月推荐::https://www.7wav.com/xs/quanbu-monthvote-0-0-0-0-0-0-{{page}}.html\n周推荐::https://www.7wav.com/xs/quanbu-weekvote-0-0-0-0-0-0-{{page}}.html\n日推荐::https://www.7wav.com/xs/quanbu-dayvote-0-0-0-0-0-0-{{page}}.html\n收藏数::https://www.7wav.com/xs/quanbu-goodnum-0-0-0-0-0-0-{{page}}.html\n字数::https://www.7wav.com/xs/quanbu-size-0-0-0-0-0-0-{{page}}.html\n入站时间::https://www.7wav.com/xs/quanbu-postdate-0-0-0-0-0-0-{{page}}.html\n30万以下::https://www.7wav.com/xs/quanbu-default-0-1-0-0-0-0-{{page}}.html\n30万-50万::https://www.7wav.com/xs/quanbu-default-0-2-0-0-0-0-{{page}}.html\n50万-100万::https://www.7wav.com/xs/quanbu-default-0-3-0-0-0-0-{{page}}.html\n100万-200万::https://www.7wav.com/xs/quanbu-default-0-4-0-0-0-0-{{page}}.html\n200万以上::https://www.7wav.com/xs/quanbu-default-0-5-0-0-0-0-{{page}}.html\n连载中::https://www.7wav.com/xs/quanbu-default-0-0-0-0-1-0-{{page}}.html\n已完成::https://www.7wav.com/xs/quanbu-default-0-0-0-0-2-0-{{page}}.html",
+    "lastUpdateTime": 1633229155994,
+    "respondTime": 13058,
+    "ruleBookInfo": {
+        "author": "[property$=author]@content",
+        "coverUrl": "",
+        "intro": "h3@text##.*.简介：|您要是觉得.*",
+        "kind": "[property$=category]@content&&[property$=status]@content",
+        "lastChapter": "[property$=latest_chapter_name]@content",
+        "name": "[property$=book_name]@content",
+        "wordCount": "[property$=update_time]@content"
+    },
+    "ruleContent": {
+        "content": "id.htmlContent@textNodes"
+    },
+    "ruleExplore": {
+        "author": "dd.1@span@text",
+        "bookList": "class.sitebox@dl",
+        "bookUrl": "h3@a@href",
+        "coverUrl": "img@src",
+        "intro": "dd.2@text",
+        "kind": "span.uptime@text",
+        "lastChapter": "dd.3@a@text",
+        "name": "h3@a@text"
+    },
+    "ruleSearch": {
+        "author": "p.s3@text",
+        "bookList": "div.toplist@li",
+        "bookUrl": "p.s1@a@href",
+        "kind": "p.s6@text&&p.s5@text",
+        "lastChapter": "p.s2@a@text",
+        "name": "p.s1@a@text",
+        "wordCount": "p.s4@text"
+    },
+    "ruleToc": {
+        "chapterList": "div.book_list@li",
+        "chapterName": "a@text",
+        "chapterUrl": "a@href"
+    },
+    "searchUrl": "https://www.7wav.com/modules/article/search.php?action=login&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

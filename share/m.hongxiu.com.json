@@ -1,0 +1,51 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "正版",
+    "bookSourceName": "红袖添香",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.hongxiu.com",
+    "customOrder": -88917376,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"现代言情\",\"url\":\"/category/30020_f1_f1_f1_f1_f1_0_{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"古代言情\",\"url\":\"/category/30013_f1_f1_f1_f1_f1_0_{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"浪漫青春\",\"url\":\"/category/30031_f1_f1_f1_f1_f1_0_{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻言情\",\"url\":\"/category/30001_f1_f1_f1_f1_f1_0_{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"仙侠奇缘\",\"url\":\"/category/30008_f1_f1_f1_f1_f1_0_{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"悬疑恐怖\",\"url\":\"/category/30036_f1_f1_f1_f1_f1_0_{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻空间\",\"url\":\"/category/30042_f1_f1_f1_f1_f1_0_{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏竞技\",\"url\":\"/category/30050_f1_f1_f1_f1_f1_0_{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"短篇小说\",\"url\":\"/category/30083_f1_f1_f1_f1_f1_0_{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"轻小说\",\"url\":\"/category/30055_f1_f1_f1_f1_f1_0_{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+    "lastUpdateTime": 1648725179926,
+    "loginUrl": "https://passport.yuewen.com/yuewen.html?appid=41&areaid=2&autotime=30&source=m&version=1.0&ticket=1&unionshow=110&returnurl=https%3A%2F%2Fm.hongxiu.com%2FloginSuccess%3FjumpUrl%3Dhttps%253A%252F%252Fm.hongxiu.com%252Fuser",
+    "respondTime": 3172,
+    "ruleBookInfo": {
+        "author": "meta[property=\"og:novel:author\"]@content",
+        "coverUrl": "meta[property=\"og:image\"]@content",
+        "init": "",
+        "intro": "meta[property=\"og:description\"]@content",
+        "kind": "meta[property=\"og:novel:category\"]@content&&meta[property=\"og:novel:status\"]@content",
+        "lastChapter": "meta[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "meta[property=\"og:novel:book_name\"]@content||meta[property=\"og:novel:title\"]@content",
+        "tocUrl": "meta[property=\"og:novel:read_url\"]@content&&meta[property=\"og:url\"]@content##//m##//www"
+    },
+    "ruleContent": {
+        "content": ".read-content p@text",
+        "replaceRegex": "##(\\s|\\S)*?阅读上一章|目录.*\\s|-/-"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": ".book-author@text",
+        "bookList": ".book-li",
+        "bookUrl": "a.0@href",
+        "coverUrl": "img@src",
+        "intro": ".book-desc@html",
+        "kind": ".tag-small.0@text&&.tag-small.1@text",
+        "name": "h4@text",
+        "wordCount": "em.-1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".volume@h3,li",
+        "chapterName": "h3@ownText||text",
+        "chapterUrl": "a@href##$##,{'webView': true}",
+        "isVip": ".iconfont@all",
+        "isVolume": "h3@text"
+    },
+    "searchUrl": "/so/{{key}}",
+    "weight": 0
+}

@@ -1,0 +1,45 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "正版,API",
+    "bookSourceName": "绾书文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://api.wanshu.com",
+    "bookUrlPattern": "",
+    "customOrder": 566,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"最近更新\",\"url\":\"/novel/libraryList?page={{page}}&pageSize=20&order=update\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"月点击榜\",\"url\":\"/novel/libraryList?page={{page}}&pageSize=20&order=mouth_view_count\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总字数榜\",\"url\":\"/novel/libraryList?page={{page}}&pageSize=20&order=word_num\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"/novel/libraryList?page={{page}}&pageSize=20&category_id=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"时空穿越\",\"url\":\"/novel/libraryList?page={{page}}&pageSize=20&category_id=2\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总裁豪门\",\"url\":\"/novel/libraryList?page={{page}}&pageSize=20&category_id=3\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻仙侠\",\"url\":\"/novel/libraryList?page={{page}}&pageSize=20&category_id=4\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"浪漫青春\",\"url\":\"/novel/libraryList?page={{page}}&pageSize=20&category_id=5\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑灵异\",\"url\":\"/novel/libraryList?page={{page}}&pageSize=20&category_id=6\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市异能\",\"url\":\"/novel/libraryList?page={{page}}&pageSize=20&category_id=7\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+    "lastUpdateTime": 1637001857598,
+    "loginUrl": "https://account.wanshu.com/login",
+    "respondTime": 6026,
+    "ruleBookInfo": {
+        "intro": "",
+        "lastChapter": ""
+    },
+    "ruleContent": {
+        "content": "data.content",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "author",
+        "bookList": "data",
+        "bookUrl": "/novel/chapterList?page=1&pageSize=19999&novel_id={{$.novel_id}}",
+        "coverUrl": "cover",
+        "intro": "description##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": "complete_status&&category_name",
+        "lastChapter": "latest_chapter_update_time&&latest_chapter##\\h[\\d:]+\\d\\n##▪",
+        "name": "name",
+        "wordCount": "word_num"
+    },
+    "ruleToc": {
+        "chapterList": "data",
+        "chapterName": "name",
+        "chapterUrl": "/novel/chapterInfo?novel_chapter_id={{$.id}}",
+        "isVip": "¥{{$.is_free}}##¥true",
+        "updateTime": ""
+    },
+    "searchUrl": "/novel/search?pageSize=100&kw={{key}}",
+    "weight": 0
+}

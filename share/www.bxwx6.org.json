@@ -1,0 +1,55 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "笔下文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.bxwx6.org",
+    "customOrder": -104,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1645879189331,
+    "loginUrl": "",
+    "respondTime": 2738,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content ",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "[property=\"og:description\"]@content",
+        "kind": "[property=\"og:novel:category\"]@content",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "wordCount": "[property=\"og:novel:update_time\"]@content"
+    },
+    "ruleContent": {
+        "content": "id.chaptercontent@tag.p@text##\\.?中文域名.*|最快更新小说.*访问：",
+        "imageStyle": "0",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+        "author": "tag.a.2@text",
+        "bookList": "class.librarylist@tag.li",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.img@src",
+        "intro": "class.intro@text",
+        "lastChapter": "tag.a.3@text",
+        "name": "tag.a.1@text##全文.*"
+    },
+    "ruleSearch": {
+        "author": "class.info@tag.span.1@text",
+        "bookList": "class.librarylist@tag.li",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.img@src",
+        "intro": "class.intro@text",
+        "kind": "class.info@tag.span.2@text##分类：",
+        "lastChapter": "class.last@tag.a@text",
+        "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.dirlist@tag.li@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.bxwx6.org/search/?searchkey={{key}}",
+    "weight": 0
+}

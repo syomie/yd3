@@ -1,0 +1,56 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "追书帮",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.zhuishubox.com",
+    "bookUrlPattern": "",
+    "customOrder": 554,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻·连载::/all/1_allvisit_0_0_0_0_1_0_{{page}}.html\n奇幻·连载::/all/2_allvisit_0_0_0_0_1_0_{{page}}.html\n武侠·连载::/all/3_allvisit_0_0_0_0_1_0_{{page}}.html\n仙侠·连载::/all/4_allvisit_0_0_0_0_1_0_{{page}}.html\n都市·连载::/all/5_allvisit_0_0_0_0_1_0_{{page}}.html\n职场·连载::/all/6_allvisit_0_0_0_0_1_0_{{page}}.html\n军事·连载::/all/7_allvisit_0_0_0_0_1_0_{{page}}.html\n历史·连载::/all/8_allvisit_0_0_0_0_1_0_{{page}}.html\n网游·连载::/all/9_allvisit_0_0_0_0_1_0_{{page}}.html\n竞技·连载::/all/10_allvisit_0_0_0_0_1_0_{{page}}.html\n科幻·连载::/all/11_allvisit_0_0_0_0_1_0_{{page}}.html\n灵异·连载::/all/12_allvisit_0_0_0_0_1_0_{{page}}.html\n同人·连载::/all/13_allvisit_0_0_0_0_1_0_{{page}}.html\n古代言情·连载::/all/14_allvisit_0_0_0_0_1_0_{{page}}.html\n仙侠奇缘·连载::/all/15_allvisit_0_0_0_0_1_0_{{page}}.html\n现代言情·连载::/all/16_allvisit_0_0_0_0_1_0_{{page}}.html\n浪漫青春·连载::/all/17_allvisit_0_0_0_0_1_0_{{page}}.html\n玄幻言情·连载::/all/18_allvisit_0_0_0_0_1_0_{{page}}.html\n悬疑灵异·连载::/all/19_allvisit_0_0_0_0_1_0_{{page}}.html\n科幻空间·连载::/all/20_allvisit_0_0_0_0_1_0_{{page}}.html\n游戏竞技·连载::/all/21_allvisit_0_0_0_0_1_0_{{page}}.html\n二次元·连载::/all/22_allvisit_0_0_0_0_1_0_{{page}}.html\n其他类型·连载::/all/23_allvisit_0_0_0_0_1_0_{{page}}.html\n\n玄幻·完本::/all/1_allvisit_0_0_0_0_2_0_{{page}}.html\n奇幻·完本::/all/2_allvisit_0_0_0_0_2_0_{{page}}.html\n武侠·完本::/all/3_allvisit_0_0_0_0_2_0_{{page}}.html\n仙侠·完本::/all/4_allvisit_0_0_0_0_2_0_{{page}}.html\n都市·完本::/all/5_allvisit_0_0_0_0_2_0_{{page}}.html\n职场·完本::/all/6_allvisit_0_0_0_0_2_0_{{page}}.html\n军事·完本::/all/7_allvisit_0_0_0_0_2_0_{{page}}.html\n历史·完本::/all/8_allvisit_0_0_0_0_2_0_{{page}}.html\n网游·完本::/all/9_allvisit_0_0_0_0_2_0_{{page}}.html\n竞技·完本::/all/10_allvisit_0_0_0_0_2_0_{{page}}.html\n科幻·完本::/all/11_allvisit_0_0_0_0_2_0_{{page}}.html\n灵异·完本::/all/12_allvisit_0_0_0_0_2_0_{{page}}.html\n同人·完本::/all/13_allvisit_0_0_0_0_2_0_{{page}}.html\n古代言情·完本::/all/14_allvisit_0_0_0_0_2_0_{{page}}.html\n仙侠奇缘·完本::/all/15_allvisit_0_0_0_0_2_0_{{page}}.html\n现代言情·完本::/all/16_allvisit_0_0_0_0_2_0_{{page}}.html\n浪漫青春·完本::/all/17_allvisit_0_0_0_0_2_0_{{page}}.html\n玄幻言情·完本::/all/18_allvisit_0_0_0_0_2_0_{{page}}.html\n悬疑灵异·完本::/all/19_allvisit_0_0_0_0_2_0_{{page}}.html\n科幻空间·完本::/all/20_allvisit_0_0_0_0_2_0_{{page}}.html\n游戏竞技·完本::/all/21_allvisit_0_0_0_0_2_0_{{page}}.html\n二次元·完本::/all/22_allvisit_0_0_0_0_2_0_{{page}}.html\n其他类型·完本::/all/23_allvisit_0_0_0_0_2_0_{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "respondTime": 5097,
+    "ruleBookInfo": {
+        "author": "class.bookPhr@tag.dd.0@text##作者：",
+        "coverUrl": "class.bookImg@tag.img@src",
+        "init": "class.detail@tag.div.1",
+        "intro": "class.introCon@tag.p@text",
+        "kind": "class.bookPhr@tag.dd.1@text##类型：|小说",
+        "lastChapter": "class.renew@tag.a.0@texr#最新章节：",
+        "name": "class.bookPhr@tag.h2@text",
+        "wordCount": "class.bookPhr@tag.dd.2@text##字数："
+    },
+    "ruleContent": {
+        "content": "class.articleCon@tag.p@textNodes##一秒记住.*"
+    },
+    "ruleExplore": {
+        "author": "class.writer.0@text",
+        "bookList": "class.listRightBottom@tag.li",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.img.0@src",
+        "intro": "class.bookDesc@text",
+        "kind": "class.state@text##更新:",
+        "lastChapter": "class.newChapter@tag.a.0@text",
+        "name": "tag.a.1@text",
+        "wordCount": "class.writer.1@text"
+    },
+    "ruleSearch": {
+        "author": "class.odd.1@text",
+        "bookList": "class.grid@tag.tr!0",
+        "bookUrl": "class.odd.0@tag.a.0@href",
+        "kind": "class.even.2@text",
+        "lastChapter": "class.even.0@tag.a.0@text",
+        "name": "class.odd.0@tag.a.0@text",
+        "wordCount": "class.even.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "-class.chapterCon@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.zhuishubox.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

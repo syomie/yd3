@@ -1,0 +1,53 @@
+{
+    "bookSourceComment": "作者:希弥",
+    "bookSourceGroup": "",
+    "bookSourceName": "烟雨中文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yanyuzw.com",
+    "bookUrlPattern": "https://www.yanyuzw.com/\\d+/\\d+",
+    "customOrder": -88902332,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "全本::/quanben/sort/\n玄幻::/sort/xuanhuan_{{page}}.html\n仙侠::/sort/wuxia_{{page}}.html\n都市::/sort/dushi_{{page}}.html\n历史::/sort/lishi_{{page}}.html\n科幻::/sort/kehuan_{{page}}.html\n游戏::/sort/youxi_{{page}}.html\n灵异::/sort/lingyi_{{page}}.html\n言情::/sort/mm_{{page}}.html\n其他::/sort/qita_{{page}}.html",
+    "lastUpdateTime": 1646631313705,
+    "respondTime": 3622,
+    "ruleBookInfo": {
+        "author": "meta[property=og:novel:author]@content",
+        "coverUrl": "meta[property=og:image]@content##http.*nocover.jpg#####",
+        "intro": "meta[property=og:description]@content##简介：?",
+        "kind": "meta[property=og:novel:category]@content&&meta[property=og:novel:status]@content",
+        "lastChapter": ".bookdes@tag.p.2@a@text",
+        "name": "meta[property=og:novel:book_name]@content",
+        "tocUrl": "",
+        "wordCount": ".bookdes@tag.p.0@text##.*\\|"
+    },
+    "ruleContent": {
+        "content": "#booktxt>p@textNodes",
+        "imageStyle": "TEXT",
+        "nextContentUrl": "text.下一页@href",
+        "payAction": ""
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "tag.a.2@text",
+        "bookList": "div.content>dl",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "img@src",
+        "intro": "tag.dd.0@html",
+        "kind": "dd@tag.span.0@textNodes",
+        "lastChapter": "",
+        "name": "tag.a.1@text",
+        "wordCount": "dd@tag.span.1@textNodes"
+    },
+    "ruleToc": {
+        "chapterList": ".all>ul>li>a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/search/?searchkey={{key}}",
+    "weight": 0
+}

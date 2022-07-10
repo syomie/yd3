@@ -1,0 +1,50 @@
+{
+    "bookSourceComment": "\n下一页净化的不是很好",
+    "bookSourceGroup": "",
+    "bookSourceName": "2k小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.2kxs.cc",
+    "customOrder": 867,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/list/1_{{page}}.html\n修真::/list/2_{{page}}.html\n都市::/list/3_{{page}}.html\n历史::/list/4_{{page}}.html\n网游::/list/5_{{page}}.html\n科幻::/list/6_{{page}}.html\n完本::/full/{{page}}.html",
+    "lastUpdateTime": 1633568948562,
+    "respondTime": 32619,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "[property=\"og:description\"]@content",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+        "lastChapter": ".info@p.-1@a@text&&.info@p.-2@text##\\s更新：20##▪️",
+        "name": "[property=\"og:title\"]@content",
+        "tocUrl": "text.章节目录@href"
+    },
+    "ruleContent": {
+        "content": "#nr1@html##.*最快更新.*最新章节！.*|\\s.*本章未完，点击下一页继续阅读.*\\s",
+        "nextContentUrl": "text.下一页@href",
+        "replaceRegex": "## \\-\\-\\>\\>.*",
+        "sourceRegex": "",
+        "webJs": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "span.0@text",
+        "bookList": ".list-item",
+        "bookUrl": "a.1@href",
+        "coverUrl": "img@src",
+        "intro": "span.-1@text",
+        "kind": "",
+        "lastChapter": "a.1@href\n<js>java.ajax(result)</js>\n.info@p.-1@a@text&&.info@p.-2@text##\\s更新：20##▪️",
+        "name": "a.1@text",
+        "wordCount": "{{@span.1@text}}阅读"
+    },
+    "ruleToc": {
+        "chapterList": ".last9@li!0",
+        "chapterName": "a@text",
+        "chapterUrl": "a@href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/modules/article/search.php?searchtype=articlename&searchkey={{key}}&t_btnsearch=,{\n'charset': 'gbk'\n}",
+    "weight": 0
+}

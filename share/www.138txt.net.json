@@ -1,0 +1,46 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "138阅读网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.138txt.net",
+    "bookUrlPattern": "://www.138txt.com/(html)?/\\d+/\\d+",
+    "customOrder": -88962096,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1656109876037,
+    "respondTime": 4898,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text##作者：",
+        "coverUrl": "id.fmimg@img@src",
+        "init": "",
+        "intro": "id.intro@text",
+        "kind": "id.info@tag.p.2@text##最后更新：",
+        "lastChapter": "id.list@tag.dd.0@tag.a@text",
+        "name": "id.info@tag.h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节"
+    },
+    "ruleContent": {
+        "content": "id.content@html"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "class.result-game-item-info@tag.p.0@tag.span.1@text",
+        "bookList": "class.result-list@class.result-item result-game-item",
+        "bookUrl": "class.result-game-item-detail@tag.h3@tag.a@href",
+        "coverUrl": "class.result-game-item-pic@img@src",
+        "intro": "class.result-game-item-detail@tag.p.0@text",
+        "kind": "class.result-game-item-info@tag.p.1@tag.span.1@text&&\nclass.result-game-item-info@tag.p.2@tag.span.1@text",
+        "lastChapter": "class.result-game-item-info@tag.p.3@tag.a@text",
+        "name": "class.result-game-item-detail@tag.h3@tag.a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search.php?keyword={{key}}&submit=",
+    "weight": 0
+}

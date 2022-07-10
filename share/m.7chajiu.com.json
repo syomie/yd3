@@ -1,0 +1,54 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "七茶书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.7chajiu.com/",
+    "bookUrlPattern": "",
+    "concurrentRate": "",
+    "customOrder": 196,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "{'User-Agent':'Mozilla/5.0 (Linux; Android 10.0; wv) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.110 Mobile Safari/537.36 T7/10.3 SearchCraft/2.6.2 (Baidu; P1 7.0)'}",
+    "lastUpdateTime": 1648040381640,
+    "loginCheckJs": "",
+    "loginUi": "",
+    "loginUrl": "",
+    "respondTime": 3730,
+    "ruleBookInfo": {
+        "author": "class.pt-info.0@a@text",
+        "coverUrl": ".BGsectionOne-top-left img@src",
+        "init": "",
+        "intro": "class.BGsectionTwo-bottom.-1@p@html",
+        "kind": "class.pt-info.1@a@text",
+        "lastChapter": ".newestChapter a@text",
+        "name": "h1@text",
+        "tocUrl": "text.章节目录@href"
+    },
+    "ruleContent": {
+        "content": "#BookText@html",
+        "nextContentUrl": "text.下一页@href",
+        "replaceRegex": "##如果您处于.*?地址|www.7chajiu.com"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "a.-1@text",
+        "bookList": "class.ptm-card-content.1@li",
+        "bookUrl": "a.0@href",
+        "coverUrl": "img@src",
+        "kind": "a.0@text",
+        "name": "a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.ptm-list-view.1@li@a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://m.7chajiu.com/home/search/,{'method':'post','body':'action=search&q={{key}}'}",
+    "weight": 0
+}

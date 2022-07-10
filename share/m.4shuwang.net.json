@@ -1,0 +1,38 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "私塾网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.4shuwang.net",
+    "customOrder": 68,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1645142217696,
+    "respondTime": 10473,
+    "ruleBookInfo": {
+        "intro": "id.intro@tag.p.0@html"
+    },
+    "ruleContent": {
+        "content": "id.content@tag.p!0@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.data.0@tag.a.0@text",
+        "bookList": "class.list@li",
+        "bookUrl": "tag.a.0@href##(\\d+)/##https://www.4shuwang.net/dir/$1.html###",
+        "checkKeyWord": "攻略",
+        "coverUrl": "img@src",
+        "intro": "class.intro@text",
+        "kind": "class.data.0@tag.span.0@text",
+        "lastChapter": "class.data.1@a@text",
+        "name": "class.bookname@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@dd@a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "https://m.4shuwang.net/search/result.html?searchkey={{key}}",
+    "weight": 0
+}

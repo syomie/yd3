@@ -1,0 +1,46 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "加载",
+    "bookSourceName": "格格党小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.52ggd.com",
+    "customOrder": 918,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "最新入库::http://www.52ggd.com/top/postdate_{{page}}.html\n最近更新::http://www.52ggd.com/top/lastupdate_{{page}}.html\n玄幻魔法::http://www.52ggd.com/lc/1_{{page}}.html\n武侠修真::http://www.52ggd.com/lc/2_{{page}}.html\n都市言情::http://www.52ggd.com/lc/3_{{page}}.html\n穿越历史::http://www.52ggd.com/lc/4_{{page}}.html\n青春校园::http://www.52ggd.com/lc/5_{{page}}.html\n恐怖灵异::http://www.52ggd.com/lc/8_{{page}}.html\n科幻空间::http://www.52ggd.com/lc/7_{{page}}.html\n网游动漫::http://www.52ggd.com/lc/6_{{page}}.html\n耽美同人::http://www.52ggd.com/lc/9_{{page}}.html\n其他类型::http://www.52ggd.com/lc/10_{{page}}.html\nnull",
+    "lastUpdateTime": 1652483305976,
+    "respondTime": 8227,
+    "ruleBookInfo": {
+        "author": "meta[property=\"og:novel:author\"]@content",
+        "coverUrl": "class.inner@class.details@class.book-img@tag.img.0@src",
+        "init": "",
+        "intro": "class.inner@tag.p.1@textNodes",
+        "kind": "meta[property=\"og:novel:category\"]@content&&meta[property=\"og:novel:status\"]@content",
+        "lastChapter": "meta[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "meta[property=\"og:novel:book_name\"]@content||meta[property=\"og:novel:title\"]@content",
+        "tocUrl": "class.book-link@tag.a.1@href"
+    },
+    "ruleContent": {
+        "content": "#pagecontent@textNodes"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "class.s3@text||class.item-pic@tag.p.0@tag.i.0@text||class.inner@tag.em.0@text",
+        "bookList": "class.item-con@tag.li||class.item-pic||id.content|",
+        "bookUrl": "class.s2@tag.a.0@href||class.item-pic@tag.h3.0@tag.a.0@href",
+        "coverUrl": "class.item-pic@tag.a.0@tag.img.0@src||class.inner@class.details@class.book-img@tag.img.0@src",
+        "kind": "class.s5@text||class.item-pic@tag.p.0@tag.i.1@text||class.inner@tag.p.0@text##字数.*",
+        "lastChapter": "class.s2@tag.a.1@text||class.item-pic@tag.p.1@tag.a.0@text||class.inner inner-line@tag.ul.0@tag.a.0@text",
+        "name": "class.s2@tag.a.0@text||class.item-pic@tag.h3.0@tag.a.0@text||class.inner@tag.h1.0@text"
+    },
+    "ruleToc": {
+        "chapterList": ".chapterlist dd a",
+        "chapterName": "text",
+        "chapterUrl": "href##$##,{\"webView\": true}"
+    },
+    "searchUrl": "/modules/article/search.php?searchkey={{key}}&submit=搜索,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

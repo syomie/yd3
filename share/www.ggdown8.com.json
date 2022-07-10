@@ -1,0 +1,53 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "TOP50",
+    "bookSourceName": "格格党",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ggdown8.com/",
+    "bookUrlPattern": "https://www.ggdown8.com/\\d+/\\d+/",
+    "customOrder": -118,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1645879178099,
+    "loginUrl": "",
+    "respondTime": 2143,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text",
+        "coverUrl": "id.fmimg@img@src",
+        "intro": "id.intro@tag.p.0@text",
+        "kind": "id.info@tag.p.2@text##最后更新：",
+        "lastChapter": "id.info@tag.p.3@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "id.info@tag.h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|小说|笔趣阁"
+    },
+    "ruleContent": {
+        "content": "id.content@html##一秒记住.*免费阅读！|www.*com|格格党为你提供.*|ggdown8.com|格格党|(H|h)(T|t)(T|t).*(C|c)(O|o)(M|m)|强牺.*牺(。)?|(M|m)\\.(G|g).*(O|o)(M|m)",
+        "nextContentUrl": ""
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "intro": "",
+        "name": ""
+    },
+    "ruleSearch": {
+        "author": "class.result-game-item-info@tag.p.0@tag.span.1@text",
+        "bookList": "class.result-item",
+        "bookUrl": "h3@tag.a@href",
+        "coverUrl": "img@src",
+        "intro": "class.result-game-item-desc@text",
+        "kind": "class.result-game-item-info@tag.p.2@tag.span.1@text",
+        "lastChapter": "class.result-game-item-info@tag.p.3@tag.a@text##.*全文阅读|免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "h3@a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|小说|笔趣阁"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.ggdown8.com/search.php?keyword={{key}}&page={{page}}",
+    "weight": 0
+}

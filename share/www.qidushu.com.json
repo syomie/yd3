@@ -1,0 +1,47 @@
+{
+    "bookSourceComment": "🔎网站较慢，偶尔刷新不出来",
+    "bookSourceGroup": "",
+    "bookSourceName": "起读书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.qidushu.com",
+    "bookUrlPattern": "",
+    "customOrder": 91,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/sort/1/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"奇幻\",\"url\":\"/sort/2/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"武侠\",\"url\":\"/sort/3/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"都市\",\"url\":\"/sort/4/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"历史\",\"url\":\"/sort/5/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"军事\",\"url\":\"/sort/6/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"悬疑\",\"url\":\"/sort/7/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"游戏\",\"url\":\"/sort/8/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"科幻\",\"url\":\"/sort/9/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"体育\",\"url\":\"/sort/10/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"官场\",\"url\":\"/sort/11/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"古言\",\"url\":\"/sort/12/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"现言\",\"url\":\"/sort/13/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"幻言\",\"url\":\"/sort/14/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"仙侠\",\"url\":\"/sort/15/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"青春\",\"url\":\"/sort/16/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"穿越\",\"url\":\"/sort/17/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"女生\",\"url\":\"/sort/18/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"N次元\",\"url\":\"/sort/19/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},{\"title\":\"空的\",\"url\":\"/sort/19/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}]",
+    "header": "",
+    "lastUpdateTime": 1640313014637,
+    "loginUrl": "",
+    "respondTime": 5131,
+    "ruleBookInfo": {
+        "author": "[property$=author]@content",
+        "coverUrl": "[property$=image]@content",
+        "intro": "&nbsp;最近更新：{{@@id.info@text.更新时间@text}}\n{{@css:[property$=description]@content}}\n##更新时间：",
+        "kind": "[property$=category]@content",
+        "lastChapter": "[property$=latest_chapter_name]@content",
+        "name": "[property$=book_name]@content",
+        "tocUrl": "[property$=read_url]@content"
+    },
+    "ruleContent": {
+        "content": "id.content@p@html<js>result.replace(/作者有话要说：\\s*|作者有话要说/,'◎作者有话说：\\n').replace(/※※※*/,'◎作者有话说：\\n')</js>##◎作者有话说：\\s*感谢(在|投出|灌溉|小天使|.*扔了)*.*(小天使|老板|营养液|火箭炮|地雷|手榴弹|浅水炸弹|深水鱼雷)[\\s\\S]+|感谢(在|投出|灌溉|小天使|.*扔了).*?(小天使|老板|营养液|火箭炮|地雷|手榴弹|浅水炸弹|深水鱼雷)[\\s\\S]+",
+        "replaceRegex": "##手机阅读地址.*|<!--.*?-->|chapter\\d+|第.*?章.*|『|』"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.title@tag.span.0@text",
+        "bookList": "id.alistbox@js:\nresult.toArray().slice(0, 5)",
+        "bookUrl": "class.title@tag.a.0@href",
+        "coverUrl": "class.pic@tag.img@src",
+        "intro": "class.intro@text\n<js>result.replace(/(.*)/,' ○○○STORY:\\n$1')</js>",
+        "lastChapter": "class.title@tag.a.0@href\n<js>java.ajax(\"https://www.qidushu.com\"+result)</js>\n[property$=latest_chapter_name]@content&&id.info@text.更新时间@text\n##\n更新时间：(\\d+-\\d+-\\d+)## • $1 @js:result.replace(/(第\\d+章\\s)第\\d+章/,'$1').replace(/(第\\d+章\\s)Chapter\\s\\d+/,'$1').replace(/……/,'').replace(/\\snbsp;\\s/,'')",
+        "name": "class.title@tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd@tag.a",
+        "chapterName": "text##第.*?章\\s?(第.*?章)(.*$)##$1 $2",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.qidushu.com/search.html,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"s=articlename&searchkey={{key}}&Submit=搜索\"\n}",
+    "weight": 0
+}

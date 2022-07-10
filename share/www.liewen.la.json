@@ -1,0 +1,55 @@
+{
+    "bookSourceComment": "搜索挂了，用的m站搜索",
+    "bookSourceGroup": "",
+    "bookSourceName": "猎文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.liewen.la",
+    "bookUrlPattern": "https://www.liewen.la/b/\\d+/\\d+/",
+    "customOrder": -88902477,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/liebiao1/\n修真::/liebiao2/\n都市::/liebiao3/\n历史::/liebiao4/\n网游::/liebiao5/\n科幻::/liebiao6/\n言情::/liebiao7/\n其他::/liebiao8/",
+    "lastUpdateTime": 1657373721285,
+    "loginUrl": "",
+    "respondTime": 2900,
+    "ruleBookInfo": {
+        "author": "//*[@property='og:novel:author']/@content",
+        "coverUrl": "//*[@property='og:image']/@content",
+        "init": "",
+        "intro": "//*[@id='intro']/p[1]",
+        "kind": "//*[@property='og:novel:category']/@content",
+        "lastChapter": "//*[@property='og:novel:latest_chapter_name']/@content##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "//*[@property='og:novel:book_name']/@content##\\（.*|\\(.*|免费阅读|全文.*阅读|小说|笔趣阁|免费.*",
+        "wordCount": "//*[@id=\"info\"]/p[3]##最后更新：|<p>|</p>"
+    },
+    "ruleContent": {
+        "content": "id.content@html"
+    },
+    "ruleExplore": {
+        "author": "dt span@text",
+        "bookList": ".item",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##https://www.liewen.la/files/article/image/$2/$1/$1s.jpg###",
+        "intro": "dd@text",
+        "name": "dt a@text"
+    },
+    "ruleSearch": {
+        "author": "class.result-game-item-info-tag.0@tag.span.1@text",
+        "bookList": "class.result-item",
+        "bookUrl": "class.result-item-title@tag.a@href@js:'https://www.liewen.la'+result",
+        "coverUrl": "class.result-game-item-pic-link-img@src",
+        "intro": "class.result-game-item-desc@text",
+        "kind": "class.result-game-item-info-tag.1@tag.span.1@text&&\nclass.result-game-item-info@tag.p.2@tag.span.1@text",
+        "lastChapter": "class.result-game-item-info-tag-item@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "class.result-item-title@tag.a@text##\\（.*|\\(.*|免费.*|全文.*阅读|小说|笔趣阁",
+        "wordCount": ""
+    },
+    "ruleToc": {
+        "chapterList": "//*[@id='list']//dd/a",
+        "chapterName": "//text()",
+        "chapterUrl": "//@href"
+    },
+    "searchUrl": "https://m.liewen.la/search.php?q={{key}}&p={{page}}",
+    "weight": 0
+}

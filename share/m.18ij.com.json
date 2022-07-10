@@ -1,0 +1,57 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "柚子小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.18ij.com",
+    "customOrder": 1460,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"奇幻玄幻\",\"url\":\"/modules/article/articlefilter.php?order=lastupdate&sortid=1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"/modules/article/articlefilter.php?order=lastupdate&sortid=2&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"/modules/article/articlefilter.php?order=lastupdate&sortid=3&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/modules/article/articlefilter.php?order=lastupdate&sortid=4&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"穿越女频\",\"url\":\"/modules/article/articlefilter.php?order=lastupdate&sortid=5&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游竞技\",\"url\":\"/modules/article/articlefilter.php?order=lastupdate&sortid=6&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻灵异\",\"url\":\"/modules/article/articlefilter.php?order=lastupdate&sortid=7&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"综合其他\",\"url\":\"/modules/article/articlefilter.php?order=lastupdate&sortid=8&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+    "header": "",
+    "lastUpdateTime": 1638285228385,
+    "respondTime": 3383,
+    "ruleBookInfo": {
+        "author": "p.gray@textNodes## 著[\\S\\s]*",
+        "coverUrl": "img.cover_l@src",
+        "intro": "#introa@html##\\[收起内容\\]",
+        "kind": ".mbs span@text##\\[|\\]",
+        "lastChapter": ".nw a@text",
+        "name": "h4.mbs@textNodes##《|》|最新.*|笔趣.*|SoDu.*|起点.*|小说.*",
+        "tocUrl": "text.显示全部章节@href",
+        "wordCount": ".gray span.0@text##\\s|字"
+    },
+    "ruleContent": {
+        "content": "#acontent@html",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+        "author": "a@span@text##^/",
+        "bookList": "#jieqi_page_contents tr",
+        "bookUrl": "a@href",
+        "coverUrl": "a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://pic.18ij.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "intro": "",
+        "kind": "td.0:3@text",
+        "lastChapter": "",
+        "name": "a@ownText##最新.*|笔趣.*|SoDu.*|起点.*|小说.*",
+        "wordCount": "td.2@text"
+    },
+    "ruleSearch": {
+        "author": "p@text##\\s.*",
+        "bookList": ".c_row",
+        "bookUrl": "a@href",
+        "coverUrl": "img@src",
+        "intro": "p@text##.*\\|\\s",
+        "lastChapter": "",
+        "name": "h4@text##最新.*|笔趣.*|SoDu.*|起点.*|小说.*"
+    },
+    "ruleToc": {
+        "chapterList": ".index dd a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  'method': 'POST',\n  'body': 'searchkey={{key}}&searchtype=all&page={{page}}'\n}",
+    "weight": 0
+}

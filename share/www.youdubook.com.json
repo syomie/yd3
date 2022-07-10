@@ -1,0 +1,55 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "有毒小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.youdubook.com",
+    "bookUrlPattern": "",
+    "customOrder": -88902403,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::https://pre-api.youdubook.com/api/getTypeNovel?second_type=1&page={{page}}\n仙侠::https://pre-api.youdubook.com/api/getTypeNovel?second_type=2&page={{page}}\n都市::https://pre-api.youdubook.com/api/getTypeNovel?second_type=3&page={{page}}\n历史::https://pre-api.youdubook.com/api/getTypeNovel?second_type=4&page={{page}}\n科幻::https://pre-api.youdubook.com/api/getTypeNovel?second_type=5&page={{page}}\n奇幻::https://pre-api.youdubook.com/api/getTypeNovel?second_type=6&page={{page}}\n军事::https://pre-api.youdubook.com/api/getTypeNovel?second_type=7&page={{page}}\n轻小说::https://pre-api.youdubook.com/api/getTypeNovel?second_type=9&page={{page}}\n悬疑::https://pre-api.youdubook.com/api/getTypeNovel?second_type=11&page={{page}}\n体育::https://pre-api.youdubook.com/api/getTypeNovel?second_type=12&page={{page}}\n游戏::https://pre-api.youdubook.com/api/getTypeNovel?second_type=13&page={{page}}\n武侠::https://pre-api.youdubook.com/api/getTypeNovel?second_type=14&page={{page}}",
+    "header": "",
+    "lastUpdateTime": 1646631313707,
+    "loginUrl": "https://m.youdubook.com",
+    "respondTime": 3148,
+    "ruleBookInfo": {
+        "author": "novel_author",
+        "coverUrl": "",
+        "init": "data",
+        "intro": "novel_info",
+        "kind": "novel_tags",
+        "lastChapter": "novel_newcname",
+        "name": "novel_name",
+        "tocUrl": "https://pre-api.youdubook.com/api/directoryList?nid={{$.novel_id}}&orderBy=0",
+        "wordCount": "novel_wordnumber"
+    },
+    "ruleContent": {
+        "content": "$..content",
+        "imageStyle": "",
+        "webJs": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "novel_author",
+        "bookList": "data.data",
+        "bookUrl": "https://pre-api.youdubook.com/api/webNovelDetail?novel_id={{$.novel_id}}",
+        "coverUrl": "https://alioss.youdubook.com{{$.novel_cover}}",
+        "intro": "novel_info",
+        "kind": "{{$.first_type_name}} {{$.second_type_name}} {{$.third_type_name}} {{$.type_name}}",
+        "lastChapter": "novel_newcname",
+        "name": "novel_name",
+        "wordCount": "novel_wordnumber"
+    },
+    "ruleToc": {
+        "chapterList": "data.data",
+        "chapterName": "chapter_name",
+        "chapterUrl": "https://pre-api.youdubook.com/api/readNew?nid={{$.chapter_nid}}&vid={{$.chapter_vid}}&chapter_id={{$.chapter_id}}&chapter_order={{$.chapter_order}}",
+        "isVip": "chapter_ispay",
+        "nextTocUrl": "",
+        "updateTime": "{{java.timeFormat(java.getString('$.chapter_time')*1000)}}"
+    },
+    "searchUrl": "https://pre-api.youdubook.com/api/searchAll,{\n'charset': 'UTF-8',\n'method': 'POST',\n'body': '{\"page\":{{page}},\"pageSize\":10,\"search_value\":\"{{key}}\",\"search_type\":\"novel\"}'\n}",
+    "weight": 0
+}

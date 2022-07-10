@@ -1,0 +1,51 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "漫画",
+    "bookSourceName": "米推漫画",
+    "bookSourceType": 2,
+    "bookSourceUrl": "https://m.imitui.com",
+    "bookUrlPattern": "",
+    "customOrder": 2903,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "热血::/list/rexue/<,?page={{page}}>\n玄幻::/list/xuanhuan/<,?page={{page}}>\n修真::/list/xiuzhen/<,?page={{page}}>\n古风::/list/gufeng/<,?page={{page}}>\n恋爱::/list/lianai/<,?page={{page}}>\n穿越::/list/chuanyue/<,?page={{page}}>\n都市::/list/dushi/<,?page={{page}}>\n霸总::/list/bazong/<,?page={{page}}>\n悬疑::/list/xuanyi/<,?page={{page}}>\n搞笑::/list/gaoxiao/<,?page={{page}}>\n奇幻::/list/qihuan/<,?page={{page}}>\n总裁::/list/zongcai/<,?page={{page}}>\n日常::/list/richang/<,?page={{page}}>\n冒险::/list/maoxian/<,?page={{page}}>\n科幻::/list/kehuan/<,?page={{page}}>\n纯爱::/list/chunai/<,?page={{page}}>\n魔幻::/list/mohuan/<,?page={{page}}>\n战争::/list/zhanzheng/<,?page={{page}}>\n蔷薇::/list/qiangwei/<,?page={{page}}>\n武侠::/list/wuxia/<,?page={{page}}>\n生活::/list/shenghuo/<,?page={{page}}>\n动作::/list/dongzuo/<,?page={{page}}>\n后宫::/list/hougong/<,?page={{page}}>\n游戏::/list/youxi/<,?page={{page}}>\n恐怖::/list/kongbu/<,?page={{page}}>\n漫改::/list/mangai/<,?page={{page}}>\n真人::/list/zhenren/<,?page={{page}}>\n校园::/list/xiaoyuan/<,?page={{page}}>\n剧情::/list/juqing/<,?page={{page}}>\n儿童::/list/ertong/<,?page={{page}}>\n少年::/list/shaonian/<,?page={{page}}>\n少女::/list/shaonv/<,?page={{page}}>\n青年::/list/qingnian/<,?page={{page}}>\n日本::/list/riben/<,?page={{page}}>\n大陆::/list/dalu/<,?page={{page}}>\n香港::/list/hongkong/<,?page={{page}}>\n台湾::/list/taiwan/<,?page={{page}}>\n欧美::/list/oumei/<,?page={{page}}>\n韩国::/list/hanguo/<,?page={{page}}>\n其他::/list/qita/<,?page={{page}}>",
+    "header": "",
+    "lastUpdateTime": 1656255088729,
+    "loginUrl": "{\n  \"url\": \"https://i.imitui.com/login?redirect_uri=https%3A%2F%2Fm.imitui.com%2F&device=phone\"\n}",
+    "respondTime": 1199,
+    "ruleBookInfo": {
+        "author": ".sub_r@tag.p.0@text",
+        "coverUrl": "#Cover img@src",
+        "init": "",
+        "intro": "#full-des@html##介绍.|.*简介.",
+        "kind": ".sub_r@tag.p.1@a@text&&.sub_r@tag.p.2@a@text&&.sub_r@tag.p.3@text##\\s.*",
+        "lastChapter": "#chapter-list-1@tag.a.-2@text",
+        "name": ".BarTit@text",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "#image@html",
+        "imageStyle": "FULL",
+        "nextContentUrl": ".action-list@tag.a.2@href"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "tag.p.0@text||.info@text##.*\\:",
+        "bookList": ".itemBox||.list-comic",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "img@src",
+        "kind": "tag.p.1:2@text##\\||\\s.*##,",
+        "lastChapter": "tag.a.2@text",
+        "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "#chapter-list-1 li a",
+        "chapterName": "text##下载App",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/search/?keywords={{key}}",
+    "weight": 0
+}

@@ -1,0 +1,35 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "无弹窗小说网①备用™",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://530p.com",
+    "customOrder": 416,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "奇幻::http://www.530p.com/qihuan/{{page}}.htm\n玄幻::http://www.530p.com/xuanhuan/{{page}}.htm\n言情::http://www.530p.com/yanqing/{{page}}.htm\n都市::http://www.530p.com/dushi/{{page}}.htm\n军事::http://www.530p.com/junshi/{{page}}.htm\n武侠::http://www.530p.com/wuxia/{{page}}.htm\n仙侠::http://www.530p.com/xianxia/{{page}}.htm\n历史::http://www.530p.com/lishi/{{page}}.htm\n最新更新::http://www.530p.com/p1.htm",
+    "lastUpdateTime": 0,
+    "respondTime": 2554,
+    "ruleBookInfo": {
+        "intro": "tag.tbody@tag.tr.3@text"
+    },
+    "ruleContent": {
+        "content": "id.cp_content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.conter4.0@text",
+        "bookList": "class.conter@tag.ul",
+        "bookUrl": "class.conter1.0@tag.a.0@href",
+        "lastChapter": "class.conter2.0@text",
+        "name": "class.conter1.0@tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.conter@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.530p.com/s/{{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

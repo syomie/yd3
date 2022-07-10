@@ -1,0 +1,54 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "锦绣文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.qb5.co",
+    "customOrder": 206,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/xuanhuanpage_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"修真\",\"url\":\"/xiuzhenpage_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/dushipage_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"/lishipage_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"网游\",\"url\":\"/wangyoupage_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/kehuanpage_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"女频\",\"url\":\"/nvpinpage_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"百合\",\"url\":\"/tongrenpage_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1640003175704,
+    "respondTime": 7128,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": ".intro@html##各位书友要.*",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##小说|GL|\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": "[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+        "content": "$..content",
+        "nextContentUrl": "@js: \ntry{\r\nlet u='http://m.qb5.co/home/index/ajaxchapter,';\naid=result.match(/article_id = \"(\\d+)\"/)[1],\r\ncid=result.match(/chapter_id = \"(\\d+)\"/)[1],\nk=result.match(/var hash = \"(.*?)\"/)[1];\nb={\n\t\"charset\": \"\",\r\n\"method\": \"POST\",\r\n\"body\": 'id='+aid+'&eKey='+k+'&cid='+cid+'&basecid=1'\r\n}\nu+JSON.stringify(b)\n}catch(e){}",
+        "replaceRegex": "##天才一秒.*?无广告！"
+    },
+    "ruleExplore": {
+        "author": ".pt-author a.0@text",
+        "bookList": ".pt-card-7 li",
+        "bookUrl": "a.0@href",
+        "coverUrl": "img@src",
+        "intro": ".pt-desc@text##简介.",
+        "kind": ".pt-author a.1@text&&.pt-num@text##小说|GL",
+        "name": ".pt-name@text"
+    },
+    "ruleSearch": {
+        "author": "",
+        "bookList": ".ptm-list-view!0@li",
+        "bookUrl": "a.1@href",
+        "coverUrl": "img@src",
+        "intro": "",
+        "kind": "",
+        "lastChapter": "",
+        "name": "a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "#chapterlist li a",
+        "chapterName": "text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "chapterUrl": "href",
+        "nextTocUrl": ""
+    },
+    "searchUrl": "/home/search,{\n  \"method\": \"POST\",\n  \"body\": \"action=search&q={{key}}\"\n}",
+    "weight": 0
+}

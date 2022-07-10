@@ -1,0 +1,42 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "笔趣阁⑮",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.bequgexs.com/",
+    "bookUrlPattern": "http://www.bequgexs.com/\\d+/\\d+",
+    "customOrder": -88902449,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1646631313675,
+    "respondTime": 6692,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@a@text",
+        "coverUrl": "id.fmimg@img@src",
+        "intro": "id.intro@text",
+        "kind": "id.info@tag.p.2@text##最后更新：",
+        "lastChapter": "id.info@tag.p.3@a@text",
+        "name": "id.info@h1@text"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.s4@a@text",
+        "bookList": ".novelslist2>ul@tag.li!0",
+        "bookUrl": "class.s2@a@href",
+        "coverUrl": "class.s2@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.bequgexs.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "kind": "class.s6@text",
+        "lastChapter": "class.s3@a@text",
+        "name": "class.s2@a@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search.html?name={{key}}",
+    "weight": 0
+}

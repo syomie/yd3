@@ -1,0 +1,39 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "API",
+    "bookSourceName": "咸鱼716™",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://api.zhuishushenqi",
+    "bookUrlPattern": "",
+    "customOrder": 790,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1638064309702,
+    "loginUrl": "",
+    "respondTime": 2367,
+    "ruleBookInfo": {
+        "intro": "$.shortIntro",
+        "tocUrl": "$.[?(@.source=='xbiquge')]._id||$.[?(@.source=='my176')]._id||$.[?(@.source=='hunhun')]._id||$.[?(@.source=='hunhun')]._id||$.[?(@.source=='sanjiangge')]._id||$.[?(@.source=='xiaoxiaoshuwu')]._id||$.[?(@.source=='luoqiu')]._id||$.[?(@.source=='snwx')]._id||$.[?(@.source=='tianyibook')]._id||$.[?(@.source=='shuhaha')]._id||$.[?(@.source=='lewenwu')]._id||$.[?(@.source!='zhuishuvip')]._id||$.[?(@.source=='zhuishuvip')]._id@js:\n\"http://api.zhuishushenqi.com/toc/\" + result + \"?view=chapters\""
+    },
+    "ruleContent": {
+        "content": "$.*.body"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "$.author",
+        "bookList": "$.books",
+        "bookUrl": "$._id@js:\"http://api.zhuishushenqi.com/atoc?view=summary&book=\" + result",
+        "coverUrl": "$.cover@js:\"http://statics.zhuishushenqi.com\" + result",
+        "kind": "$.cat",
+        "lastChapter": "$.lastChapter",
+        "name": "$.title"
+    },
+    "ruleToc": {
+        "chapterList": "$.chapters",
+        "chapterName": "$.title",
+        "chapterUrl": "$.link@js:\"http://chapterup.zhuishushenqi.com/chapter/\" + encodeURIComponent(result)"
+    },
+    "searchUrl": "http://api.zhuishushenqi.com/book/fuzzy-search?query={{key}}",
+    "weight": 0
+}

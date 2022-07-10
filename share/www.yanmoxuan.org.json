@@ -1,0 +1,40 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "衍墨轩",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yanmoxuan.org",
+    "bookUrlPattern": "",
+    "customOrder": 740,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "respondTime": 2778,
+    "ruleBookInfo": {
+        "coverUrl": "class.cover@img@src",
+        "intro": "class.desc@textNodes",
+        "lastChapter": "class.detail.2@i@text",
+        "tocUrl": "text.章节目录@href"
+    },
+    "ruleContent": {
+        "content": "class.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.a2@text",
+        "bookList": "class.lastest@tag.li!0",
+        "bookUrl": "a@href",
+        "kind": "class.nt@text##\\[|\\]",
+        "lastChapter": "class.c2@a@text",
+        "name": "class.n2@a@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.mulu@li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.ymoxuan.org/search.htm?keyword={{key}}",
+    "weight": 0
+}

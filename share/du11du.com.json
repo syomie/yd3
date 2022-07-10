@@ -1,0 +1,67 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "读一读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://du11du.com",
+    "bookUrlPattern": "http://duyidu.net/txt-\\d+/",
+    "customOrder": -88902480,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows; U; Windows NT 5.2;. en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 Quark/4.6.6.164\"\n}",
+    "lastUpdateTime": 1657376680185,
+    "loginUrl": "",
+    "respondTime": 13820,
+    "ruleBookInfo": {
+        "author": "meta[property=\"og:novel:author\"]@content",
+        "coverUrl": "meta[property=\"og:image\"]@content",
+        "init": "",
+        "intro": "meta[property=\"og:description\"]@content",
+        "kind": "meta[property=\"og:novel:category\"]@content&&meta[property=\"og:novel:status\"]@content",
+        "lastChapter": "meta[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "meta[property=\"og:novel:book_name\"]@content||meta[property=\"og:novel:title\"]@content",
+        "tocUrl": ".tac a@href",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "id.txtContent@html",
+        "imageStyle": "0",
+        "nextContentUrl": "",
+        "sourceRegex": "",
+        "webJs": ""
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "",
+        "lastChapter": "",
+        "name": "",
+        "wordCount": ""
+    },
+    "ruleSearch": {
+        "author": "tag.div.3@text",
+        "bookList": "class.panel-body@tag.li!0:-1",
+        "bookUrl": "tag.div.1@tag.a@href##$##,{\"webView\":true}",
+        "coverUrl": "tag.div.1@tag.a@href<js>java.ajax('http://du11du.com'+result)</js>##:image\"[^\"]+\"([^\"]+)##$1###",
+        "intro": "",
+        "kind": "tag.div.0@text",
+        "lastChapter": "tag.div.2@text",
+        "name": "tag.div.1@text",
+        "wordCount": ""
+    },
+    "ruleToc": {
+        "chapterList": "#chapters-list li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href@js:'http://du11du.com'+result+',{webView:“true”}'",
+        "isVip": "",
+        "nextTocUrl": "",
+        "updateTime": ""
+    },
+    "searchUrl": "/search.htm?keyword={{key}}&pn={{page}}",
+    "weight": 0
+}

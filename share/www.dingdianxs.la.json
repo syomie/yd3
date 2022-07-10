@@ -1,0 +1,46 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "顶点小说⑲",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.dingdianxs.la",
+    "bookUrlPattern": "http://www.dingdianxs.la/\\d+/\\d+/",
+    "customOrder": 192,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1657374319637,
+    "loginUrl": "",
+    "respondTime": 11015,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text##作 者：",
+        "coverUrl": "id.fmimg@tag.img@src",
+        "init": "",
+        "intro": "id.intro@textNodes",
+        "kind": "id.info@tag.p.2@text##更新时间：",
+        "lastChapter": "id.info@tag.p.3@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "id.info@tag.h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "class.s4@text",
+        "bookList": "class.novelslistss@tag.li",
+        "bookUrl": "class.s2@tag.a@href",
+        "coverUrl": "class.s2@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.dingdianxs.la/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "kind": "class.s1@text##.*\\[|\\]",
+        "lastChapter": "class.s3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "class.s2@tag.a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dl@dd",
+        "chapterName": "tag.a.0@text",
+        "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "http://www.dingdianxs.la/modules/article/search.php?searchkey={{key}}",
+    "weight": 0
+}

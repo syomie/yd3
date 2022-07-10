@@ -1,0 +1,42 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "未来天王",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.weilaitianwang.com/",
+    "bookUrlPattern": "http://www.weilaitianwang.com/\\d+_\\d+/",
+    "customOrder": 165,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1619196152320,
+    "respondTime": 4001,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@a@text",
+        "coverUrl": "id.fmimg@img@src",
+        "intro": "id.intro@text",
+        "kind": "id.info@tag.p.2@text##最后更新：",
+        "lastChapter": "id.info@tag.p.3@a@text",
+        "name": "id.info@h1@text"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.s4@a@text",
+        "bookList": "class.novelslist2@ul@li",
+        "bookUrl": "class.s2@a@href",
+        "coverUrl": "class.s2@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.weilaitianwang.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "kind": "class.s6@text",
+        "lastChapter": "class.s3@a@text",
+        "name": "class.s2@a@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.weilaitianwang.com/search.html?name={{key}}",
+    "weight": 0
+}

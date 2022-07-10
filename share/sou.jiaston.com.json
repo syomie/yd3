@@ -1,0 +1,56 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "笔趣阁API2",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://sou.jiaston.com",
+    "bookUrlPattern": "",
+    "customOrder": 54,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1656570960425,
+    "loginUrl": "",
+    "respondTime": 10880,
+    "ruleBookInfo": {
+        "author": "Author",
+        "coverUrl": "https://imgapi.jiaston.com/BookFiles/Bookimages/{{$.Img}}",
+        "init": "data",
+        "intro": "Desc\n<js>result.replace(/(.*)/,' ○○○STORY:\\n$1')</js>",
+        "kind": "CName",
+        "lastChapter": "LastChapter",
+        "name": "Name",
+        "tocUrl": "https://shuapi.jiaston.com/book/{$.Id}/"
+    },
+    "ruleContent": {
+        "content": "data.content##[(本章完)]"
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "",
+        "name": ""
+    },
+    "ruleSearch": {
+        "author": "Author",
+        "bookList": "data",
+        "bookUrl": "https://shuapi.jiaston.com/info/{$.Id}.html",
+        "coverUrl": "Img",
+        "intro": "Desc\n<js>result.replace(/(.*)/,' ○○○STORY:\\n$1')</js>",
+        "kind": "CName",
+        "lastChapter": "LastChapter",
+        "name": "Name@put:{id:$.Id}"
+    },
+    "ruleToc": {
+        "chapterList": "data.list[*].list[*]",
+        "chapterName": "name",
+        "chapterUrl": "https://shuapi.jiaston.com/book/@get:{id}/{{$.id}}.html"
+    },
+    "searchUrl": "https://sou.jiaston.com/search.aspx?key={{key}}&siteid=app2",
+    "weight": 0
+}

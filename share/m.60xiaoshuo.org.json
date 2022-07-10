@@ -1,0 +1,48 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "60小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.60xiaoshuo.org",
+    "customOrder": 274,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "全部::https://m.60xiaoshuo.org/ph/all0_{{page}}.html\n玄幻小说::https://m.60xiaoshuo.org/ph/all1_{{page}}.html\n修真小说::https://m.60xiaoshuo.org/ph/all2_{{page}}.html\n都市小说::https://m.60xiaoshuo.org/ph/all3_{{page}}.html\n穿越小说::https://m.60xiaoshuo.org/ph/all4_{{page}}.html\n网游小说::https://m.60xiaoshuo.org/ph/all5_{{page}}.html\n科幻小说::https://m.60xiaoshuo.org/ph/all6_{{page}}.html\n其它小说::https://m.60xiaoshuo.org/ph/all7_{{page}}.html",
+    "lastUpdateTime": 1657375668905,
+    "respondTime": 98632,
+    "ruleBookInfo": {
+        "coverUrl": "id.thumb@tag.img@src",
+        "init": "",
+        "intro": "class.review@text",
+        "kind": "class.sort@text",
+        "tocUrl": "text.查看完整目录@href"
+    },
+    "ruleContent": {
+        "content": "#chaptercontent@all##<p.*/p>",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+        "author": "tag.a@p.1@text",
+        "bookList": "class.hot_sale",
+        "bookUrl": "tag.a@href",
+        "coverUrl": "class.bookimg@tag.a@img@src",
+        "intro": "class.review@text",
+        "name": "tag.a@p.0@text"
+    },
+    "ruleSearch": {
+        "author": "tag.a@p.1@text",
+        "bookList": "class.hot_sale",
+        "bookUrl": "tag.a@href",
+        "checkKeyWord": "我的九个",
+        "lastChapter": "class.author@tag.a@text",
+        "name": "tag.a@p.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.chapterlist@tag.p!0@a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/SearchBook.html,{\n\"charset\": \"utf-8\",\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}\"\n}",
+    "weight": 0
+}

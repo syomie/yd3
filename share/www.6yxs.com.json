@@ -1,0 +1,42 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "渠道",
+    "bookSourceName": "六月小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.6yxs.com",
+    "bookUrlPattern": "",
+    "customOrder": 697,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "respondTime": 3746,
+    "ruleBookInfo": {
+        "author": "class.zht@span@text##作者：",
+        "coverUrl": "class.dcon-left left@img@src",
+        "intro": "class.jianj@p@text",
+        "lastChapter": "class.namep@h4@text",
+        "name": "class.pade-name clearfix@p@text",
+        "tocUrl": "text.立即阅读@href"
+    },
+    "ruleContent": {
+        "content": "class.redcontent@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.span.5@text",
+        "bookList": "class.mains2 mains3 clearfix@li!0",
+        "bookUrl": "tag.span.2@a@href",
+        "kind": "tag.span.1@text",
+        "lastChapter": "tag.span.3@text",
+        "name": "tag.span.2@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.mu-list@a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.6yxs.com/so/slist.html,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"custom_list=all&searchkey={{key}}&button=\"\n}",
+    "weight": 0
+}

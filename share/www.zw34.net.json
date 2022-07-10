@@ -1,0 +1,54 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "34中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.zw34.net/",
+    "bookUrlPattern": "https://www.zw34.net/book/\\d+/",
+    "customOrder": 178,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1616437664328,
+    "respondTime": 8770,
+    "ruleBookInfo": {
+        "author": "id.info@tag.h1@tag.small@tag.a@text",
+        "coverUrl": "class.pic@img@src",
+        "init": "id.box-info",
+        "intro": "class.bookinfo_intro@text",
+        "kind": "class.nav-mbx@tag.a.2@text&&\nclass.update@text##最新.*（|）",
+        "lastChapter": "class.update@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "id.info@tag.h1@text##/.*",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "id.htmlContent@html##34中文网.*最新章节！"
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "kind": "",
+        "lastChapter": "",
+        "name": ""
+    },
+    "ruleSearch": {
+        "author": "tag.td.2@text",
+        "bookList": "class.grid@tag.tr",
+        "bookUrl": "tag.td.0@tag.a@href",
+        "coverUrl": "tag.td.0@tag.a@href<js>\nvar id = result.match(/(\\d+)/)[2];\nvar iid = parseInt(id/1000);\n'https://www.zw34.net/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "kind": "tag.td.4@text&&\ntag.td.5@text",
+        "lastChapter": "tag.td.1@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "tag.td.0@tag.a@text",
+        "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.chapterlist.1@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.zw34.net/modules/article/search.php?searchkey={{key}}&submit=%CB%D1%CB%F7&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

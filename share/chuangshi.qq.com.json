@@ -1,0 +1,57 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "【Mit】创世中文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://chuangshi.qq.com",
+    "customOrder": 256,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "↓                       ✨分类专区✨                        ↓::\n最近更新::http://chuangshi.qq.com/bk/\n玄幻::http://chuangshi.qq.com/bk/xh/\n奇幻::http://chuangshi.qq.com/bk/qh/\n武侠::http://chuangshi.qq.com/bk/wx/\n仙侠::http://chuangshi.qq.com/bk/xx/\n都市::http://chuangshi.qq.com/bk/ds/\n历史::http://chuangshi.qq.com/bk/ls/\n军事::http://chuangshi.qq.com/bk/js/\n悬疑::http://chuangshi.qq.com/bk/ly/\n科幻::http://chuangshi.qq.com/bk/kh/\n游戏::http://chuangshi.qq.com/bk/yx/\n体育::http://chuangshi.qq.com/bk/ty/\n轻小说::http://chuangshi.qq.com/bk/2cy/\n现实::http://chuangshi.qq.com/bk/qc/\n短篇::http://chuangshi.qq.com/bk/dp/\n↓                       ✨排 行 榜✨                        ↓::\n原创风云榜::http://chuangshi.qq.com/bang/mo/\n销售金榜::http://chuangshi.qq.com/bang/jinbang/\n销售银榜::http://chuangshi.qq.com/bang/yinbang/\n总字数榜::http://chuangshi.qq.com/bang/zs/\n创世销售榜::http://chuangshi.qq.com/bang/cs/\n全平台销售榜::http://chuangshi.qq.com/bang/pt/\n总收藏榜::http://chuangshi.qq.com/bang/fav/\n公众新书人气榜::http://chuangshi.qq.com/bang/gz/\n签约新书人气榜::http://chuangshi.qq.com/bang/qy/",
+    "lastUpdateTime": 1614436033652,
+    "respondTime": 17304,
+    "ruleBookInfo": {
+        "author": "class.au_name@tag.p.1@text",
+        "coverUrl": ".bookcover@img@src",
+        "init": "class.mainbox.0",
+        "intro": ".info@text",
+        "kind": "class.title@tag.a.2@text&&.chaptername@ownText",
+        "lastChapter": "class.green@text",
+        "name": "tag.strong@text",
+        "tocUrl": ".bookcover@href",
+        "wordCount": ".num@text"
+    },
+    "ruleContent": {
+        "content": "class.bookreadercontent@tag.p@html",
+        "nextContentUrl": ""
+    },
+    "ruleExplore": {
+        "author": "class.grey3.0@text||.grey@text",
+        "bookList": "tag.tr.!0",
+        "bookUrl": "class.green.0@href||tag.a.0@href",
+        "kind": "class.grey2.0@text||tag.td.1@text",
+        "lastChapter": "class.grey.0@text",
+        "name": "class.green.0@text||tag.a.0@text",
+        "wordCount": "tag.td.3@text"
+    },
+    "ruleSearch": {
+        "author": "class.gray3.1@text",
+        "bookList": "id.searchResultList@tag.li",
+        "bookUrl": "text.在线阅读@href",
+        "coverUrl": "img@src",
+        "intro": "tag.em.1@text",
+        "kind": "class.green.!-1@text",
+        "lastChapter": "class.green.-1@text",
+        "name": "h1@text",
+        "wordCount": "tag.em.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.list@.block_ul@tag.li",
+        "chapterName": "@js:\nlet vip = result.parentNode().parentNode().select('h1').text().includes('VIP卷')?'【VIP】':'【免费】' ;\nresult = vip + result.select('a').text();",
+        "chapterUrl": "tag.a@href##$##,{webView:true}",
+        "updateTime": ".green@title"
+    },
+    "searchUrl": "/search/searchindex/type/chuangshi/wd/{{key}}/category/0/updatetime/0.html?p={{page>=100?99:page}}",
+    "weight": 0
+}

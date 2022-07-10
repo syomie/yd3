@@ -1,0 +1,53 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "笔下中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.bxzww.com",
+    "customOrder": 571,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/xuanhuan/{{page}}.htm\n仙侠::/xianxia/{{page}}.htm\n都市::/dushi/{{page}}.htm\n武侠::/wuxia/{{page}}.htm\n历史::/lishi/{{page}}.htm\n悬疑::/xuanyi/{{page}}.htm\n网游::/wangyou/{{page}}.htm\n科幻::/kehuan/{{page}}.htm\n惊悚::/jingsong/{{page}}.htm\n乡村::/xiangcun/{{page}}.htm\n港台::/gangtai/{{page}}.htm\n腹黑::/fuhei/{{page}}.htm\n庶女::/shunv/{{page}}.htm\n军婚::/junhun/{{page}}.htm\n官场::/guanchang/{{page}}.htm\n黑道::/heidao/{{page}}.htm\n总裁::/zongcai/{{page}}.htm\n校园::/xiaoyuan/{{page}}.htm\n穿越::/chuanyue/{{page}}.htm\n短篇::/duanpian/{{page}}.htm\n种田::/zhongtian/{{page}}.htm\n言情::/yanqing/{{page}}.htm\n宫廷::/gongting/{{page}}.htm\n重生::/chongsheng/{{page}}.htm\n军事::/junshi/{{page}}.htm\n影视::/yingshi/{{page}}.htm\n畅销::/changxiao/{{page}}.htm\n同人::/tongren/{{page}}.htm\n伦理::/lunli/{{page}}.htm\n散文::/sanwen/{{page}}.htm\n教育::/jiaoyu/{{page}}.htm\n热血::/rexue/{{page}}.htm",
+    "lastUpdateTime": 1602988345146,
+    "respondTime": 23012,
+    "ruleBookInfo": {
+        "author": "class.author@tag.a.0@text",
+        "coverUrl": "class.con_limg@tag.img@src",
+        "intro": "class.r_cons@text",
+        "lastChapter": "id.dirsort01@tag.a.0@text",
+        "name": "id.r420@tag.h1@text",
+        "tocUrl": "class.dirlwrap@tag.strong@tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.htmlContent@html##\\【公众号.*\\】|3秒钟记住.*|\\(\\)|\\【每天抢红包.*\\】|还在找.*免费\\?|\n百度直接搜索.*彩!|[www.BXZWW.COM）]|\\（未完待续\\）|x767e.*|x767E.*|天才一秒记.*\\：|转载请注明.*\\：|提示您.*方便。|\\【小说公众号.*\\】|amp;.*|\\【每天免费.*\\】|",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {
+        "author": "tag.a.2@text",
+        "bookList": "class.listone",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.a.1@href##.+\\D((\\d+)\\d{3})\\D##https://www.bxzww.com/files/article/image/$2/$1/$1s.jpg###",
+        "intro": "tag.p.1@text##简介.",
+        "kind": "tag.span.0@text&&class.cate@text##类别.|小说|已写.*",
+        "name": "tag.a.1@text",
+        "wordCount": "tag.span.2@text"
+    },
+    "ruleSearch": {
+        "author": "class.odd.1@text",
+        "bookList": "tag.tbody@tag.tr!0",
+        "bookUrl": "tag.td.0@tag.a@href",
+        "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##https://www.bxzww.com/files/article/image/$2/$1/$1s.jpg###",
+        "kind": "class.odd.2@text&&class.even.2@text",
+        "lastChapter": "class.even.0@tag.a@text",
+        "name": "class.odd.0@tag.a@text",
+        "wordCount": "class.even.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.clearfix dirconone@tag.ul@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.bxzww.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

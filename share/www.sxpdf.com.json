@@ -1,0 +1,66 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "下载",
+    "bookSourceName": "书行天下",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.sxpdf.com",
+    "bookUrlPattern": "",
+    "customOrder": 506,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "🌸历史文化🌸::https://www.sxpdf.com/lishi/<,/page/{{page}}/>\n🌸经济管理🌸::https://www.sxpdf.com/jingji/<,/page/{{page}}/>\n🌸励志职场🌸::https://www.sxpdf.com/lizhi/<,/page/{{page}}/>\n🌸社会科学🌸::https://www.sxpdf.com/shehui/<,/page/{{page}}/>\n🌸文学小说🌸::https://www.sxpdf.com/wenxue/<,/page/{{page}}/>\n🌸学习教育🌸::https://www.sxpdf.com/jiaoyu/<,/page/{{page}}/>\n🌸计算机类🌸::https://www.sxpdf.com/jisuan/<,/page/{{page}}/>\n🌸医学养生🌸::https://www.sxpdf.com/yixue/<,/page/{{page}}/>\n🌸心理学科🌸::https://www.sxpdf.com/xinli/<,/page/{{page}}/>\n🌸生活百科🌸::https://www.sxpdf.com/shenghuo/<,/page/{{page}}/>",
+    "header": "",
+    "lastUpdateTime": 1647769413704,
+    "loginUrl": "",
+    "respondTime": 3446,
+    "ruleBookInfo": {
+        "author": "",
+        "coverUrl": "",
+        "init": "",
+        "intro": "class.entry-title@text&&class.single-content@tag.p@text",
+        "kind": "",
+        "lastChapter": "",
+        "name": "",
+        "tocUrl": "class.down@a@href",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "@js:\"点击章节链接跳转浏览器下载\"+baseUrl",
+        "nextContentUrl": "",
+        "sourceRegex": "",
+        "webJs": ""
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "",
+        "lastChapter": "",
+        "name": "",
+        "wordCount": ""
+    },
+    "ruleSearch": {
+        "author": "",
+        "bookList": "id.main@article",
+        "bookUrl": "h2@a@href",
+        "coverUrl": "class.thumbnail@img@src",
+        "intro": "h2@text&&class.archive-content@text##《.*?》",
+        "kind": "",
+        "lastChapter": "",
+        "name": "h2@text##《|》.*",
+        "wordCount": ""
+    },
+    "ruleToc": {
+        "chapterList": "class.down-list-box@a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "isVip": "",
+        "nextTocUrl": "",
+        "updateTime": ""
+    },
+    "searchUrl": "https://www.sxpdf.com/?s={{key}}",
+    "weight": 0
+}

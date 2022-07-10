@@ -1,0 +1,67 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "贝切阁小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.beqege.cc",
+    "bookUrlPattern": "",
+    "customOrder": 427,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1613100768563,
+    "loginUrl": "",
+    "respondTime": 2789,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text##作者：",
+        "coverUrl": "id.fmimg@tag.img@data-original",
+        "init": "",
+        "intro": "id.intro@text##各位书友要是觉得.*",
+        "kind": "",
+        "lastChapter": "id.info@tag.p.3@text##最新章节：",
+        "name": "id.info@tag.h1@text",
+        "tocUrl": "",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "id.content@html##推荐下.*?真心不错.*?更新快！",
+        "nextContentUrl": "",
+        "replaceRegex": "##(广个告|插一句|求助下|推荐下|最快更新|插播一个|推荐一下).*?(离线阅读！|最新章节！|更新快！|都支持！|离线朗读！|咪阅读.|书吧。|com。|app 快！)",
+        "sourceRegex": "",
+        "webJs": ""
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "",
+        "lastChapter": "",
+        "name": "",
+        "wordCount": ""
+    },
+    "ruleSearch": {
+        "author": "class.s4@text",
+        "bookList": "class.chapter-list@tag.li",
+        "bookUrl": "class.s2@tag.a@href",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "class.s1@text",
+        "lastChapter": "class.s3@text",
+        "name": "class.s2@text",
+        "wordCount": "class.s5@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href",
+        "isVip": "",
+        "nextTocUrl": "",
+        "updateTime": ""
+    },
+    "searchUrl": "http://www.beqege.cc/search.php?keyword={{key}}",
+    "weight": 0
+}

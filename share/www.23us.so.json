@@ -1,0 +1,42 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "TOP50",
+    "bookSourceName": "顶点小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.23us.so",
+    "customOrder": 1468,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1656234069990,
+    "respondTime": 2074,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text##.*作者.",
+        "coverUrl": "id.fmimg@tag.img@src",
+        "init": "",
+        "intro": "id.intro@tag.p@text",
+        "lastChapter": "id.info@tag.p.2@text",
+        "name": "id.info@tag.h1@text"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes##第\\w+|.*正文卷"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "class.odd.1@text",
+        "bookList": "//tr[@id=\"nr\"]",
+        "bookUrl": "tag.tr@tag.a.0@href",
+        "kind": "tag.td.5@text",
+        "lastChapter": "tag.td.1@text",
+        "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.23wx.cc/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

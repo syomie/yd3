@@ -1,0 +1,50 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "69书吧①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://69shu.net",
+    "customOrder": 354,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"首页\",\"url\":\"https://69shu.net/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"周点击榜\",\"url\":\"/top/weekvisit/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"月点击榜\",\"url\":\"/top/monthvisit/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总点击榜\",\"url\":\"/top/allvisit/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总推荐榜\",\"url\":\"/top/allvote/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完本小说\",\"url\":\"/quanben/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1636221024396,
+    "respondTime": 4443,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": ".zoneCon@html##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": "[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "wordCount": ".tab p.1@text"
+    },
+    "ruleContent": {
+        "content": ".novelcontent@html"
+    },
+    "ruleExplore": {
+        "author": "em@text",
+        "bookList": ".xbk",
+        "bookUrl": "a.1@href",
+        "coverUrl": "img@src",
+        "intro": "p@text",
+        "kind": "span.2@text",
+        "name": "a.1@text"
+    },
+    "ruleSearch": {
+        "author": "ownText##-",
+        "bookList": ".search_list",
+        "bookUrl": "a@href",
+        "coverUrl": "a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar idi=(id)\nvar iid = parseInt(idi/1000);\n'https://img.69shu.net/'+iid+'/'+idi+'/'+idi+'s.jpg';\n</js>",
+        "name": "a@text"
+    },
+    "ruleToc": {
+        "chapterList": ".p2 li a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "option@value"
+    },
+    "searchUrl": "/s.php,{\n  'charset': 'gbk',\n  'method': 'POST',\n  'body': 'type=articlename&s={{key}}'\n}",
+    "weight": 0
+}

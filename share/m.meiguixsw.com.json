@@ -1,0 +1,51 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "玫瑰小说m",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.meiguixsw.com",
+    "bookUrlPattern": "://m.meiguixsw.com/book/\\d+.html",
+    "customOrder": 76,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1650638863321,
+    "loginUrl": "",
+    "respondTime": 5579,
+    "ruleBookInfo": {
+        "author": ".block_txt2@tag.p.2@text##作者：",
+        "coverUrl": "tag.img.0@src",
+        "init": "",
+        "intro": ".intro_info@text",
+        "kind": ".block_txt2@tag.p.2@a@text",
+        "lastChapter": ".block_txt2@tag.p.-1@a@text&&.block_txt2 p.-2@text##\\n更新：##·",
+        "name": "h1@text",
+        "tocUrl": "text.查看目录@href"
+    },
+    "ruleContent": {
+        "content": "#nr@html##玫瑰小说网.*|天才一秒.*|\\.?中文域名一键.*|首发网址.*。?|.*为你提供最快.*|最快更新无错.*",
+        "nextContentUrl": "#pb_next@href"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "p@text##.*/",
+        "bookList": ".cover p.line",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.a.1@href##.*/(\\d+)(\\d{3}).html##http://image.meiguixsw.com/$1/$1$2/$1$2s.jpg",
+        "kind": "tag.a.0@text##\\[|\\]",
+        "lastChapter": "",
+        "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".chapter li a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/modules/article/waps.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&page={{page}}&searchtype=articlename\"\n}",
+    "weight": 0
+}

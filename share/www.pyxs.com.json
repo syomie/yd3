@@ -1,0 +1,40 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "飘雨小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.pyxs.com",
+    "bookUrlPattern": "",
+    "customOrder": 580,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602545244084,
+    "loginUrl": "",
+    "respondTime": 20492,
+    "ruleBookInfo": {
+        "author": "//*[@property=\"og:novel:author\"]/@content",
+        "coverUrl": "//*[@property=\"og:image\"]/@content",
+        "intro": "//*[@property=\"og:description\"]/@content",
+        "name": "//*[@property=\"og:novel:book_name\"]/@content"
+    },
+    "ruleContent": {
+        "content": "id.content@html##一秒记住.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.s4@text",
+        "bookList": "class.novelslistss@li",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.a.0@href<js>\nvar a=result.match(/.*book_(\\d+)\\//)[1];\nvar b=Math.floor(a/1000);\n\"https://www.77xs.co/files/article/image/\"+b+\"/\"+a+\"/\"+a+\"s.jpg\"\n</js>",
+        "lastChapter": "class.s3@text",
+        "name": "class.s2@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.pyxs.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

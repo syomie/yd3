@@ -1,0 +1,33 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "殆知阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.daizhige.org",
+    "customOrder": 870,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "                              易藏                               ::\n术数::/易藏/术数\n易经::/易藏/易经\n                              儒藏                               ::儒藏\n孝经::/儒藏/孝经\n四书::/儒藏/四书\n尚书::/儒藏/尚书\n小学::/儒藏/小学\n启蒙蒙学::/儒藏/启蒙蒙学\n语录::/儒藏/语录\n礼经::/儒藏/礼经\n乐经::/儒藏/乐经\n修身治家::/儒藏/修身治家\n诗经::/儒藏/诗经\n春秋::/儒藏/春秋\n五经总义::/儒藏/五经总义\n\n                              道藏                               ::\n正统道藏洞玄部::/道藏/正统道藏洞玄部\n正统道藏太玄部::/道藏/正统道藏太玄部\n藏外::/道藏/藏外\n正统道藏太平部::/道藏/正统道藏太平部\n正统道藏续道藏::/道藏/正统道藏续道藏\n正统道藏正一部::/道藏/正统道藏正一部\n正统道藏洞神部::/道藏/正统道藏洞神部\n正统道藏太清部::/道藏/正统道藏太清部\n正统道藏洞真部::/道藏/正统道藏洞真部\n\n乾隆藏::/佛藏/乾隆藏\n大藏经::/佛藏/大藏经\n藏外::/佛藏/藏外\n嘉兴藏::/佛藏/嘉兴藏\n续藏经::/佛藏/续藏经\n",
+    "lastUpdateTime": 1630163323139,
+    "respondTime": 10149,
+    "ruleBookInfo": {},
+    "ruleContent": {
+        "content": ".panel-body@span@html",
+        "nextContentUrl": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "bookList": ".catalog@a||.catalog",
+        "bookUrl": "a@href",
+        "intro": "p@text",
+        "name": "h3@text||a@text"
+    },
+    "ruleToc": {
+        "chapterList": "h3",
+        "chapterName": "text",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://www.daizhige.org/result.php?query={{key}}&category=&page={{page}}",
+    "weight": 0
+}

@@ -1,0 +1,43 @@
+{
+    "bookSourceComment": "出版物数据",
+    "bookSourceGroup": "",
+    "bookSourceName": "孔网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.kongfz.com",
+    "bookUrlPattern": "",
+    "customOrder": 239,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "小说::http://item.kongfz.com/Cxiaoshuo/y1w{{page}}/\n文学::http://item.kongfz.com/Cwenxue/y1w{{page}}/\n历史::http://item.kongfz.com/Clishi/y1w{{page}}/\n政治::http://item.kongfz.com/Czhengzhi/y1w{{page}}/\n\n军事::http://item.kongfz.com/Cjunshi/y1w{{page}}/\n经济::http://item.kongfz.com/Cjingji/y1w{{page}}/\n地理::http://item.kongfz.com/Cdili/y1w{{page}}/\n宗教::http://item.kongfz.com/Czongjiao/y1w{{page}}/\n\n社会文化::http://item.kongfz.com/Cshwh/y1w{{page}}/\n哲学心理学::http://item.kongfz.com/Czhexue/y1w{{page}}/",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "respondTime": 3978,
+    "ruleBookInfo": {
+        "canReName": "true",
+        "intro": "class.jianjie@textNodes",
+        "kind": ""
+    },
+    "ruleContent": {
+        "content": "{{'换源阅读🎭'}}"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.zl-isbn-info@tag.span.0@text##\\s著",
+        "bookList": "@css:#listBox>div",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.img.0@src##.*error.*",
+        "intro": "",
+        "kind": "class.zl-isbn-info@tag.span!-2:-1:0@text##\\/",
+        "lastChapter": "{{'换源阅读🎭'}}",
+        "name": "class.title@text"
+    },
+    "ruleToc": {
+        "chapterList": "tag.a.0",
+        "chapterName": "{{'换源阅读🎭'}}",
+        "chapterUrl": "href",
+        "updateTime": ""
+    },
+    "searchUrl": "http://search.kongfz.com/item_result/?key={{key}}&status=1&order=0&pagenum={{page}}",
+    "weight": 0
+}

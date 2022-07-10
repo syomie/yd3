@@ -1,0 +1,57 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "正版,TOP50",
+    "bookSourceName": "酷匠网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.kujiang.com",
+    "bookUrlPattern": "http://m.kujiang.com/book/\\d+",
+    "customOrder": -88902376,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"果实榜\",\"url\":\"/m/bang/devilnut\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"人气榜\",\"url\":\"/m/bang/rq/week\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"飙升榜\",\"url\":\"/m/bang/bs/day\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"评分榜\",\"url\":\"/m/bang/rate\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"更新榜\",\"url\":\"/m/bang/gx\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"追书榜\",\"url\":\"/m/bang/zs/week\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"字数榜\",\"url\":\"/m/bang/size\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"推荐榜\",\"url\":\"/m/bang/ll/week\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+    "lastUpdateTime": 1646631313650,
+    "loginUrl": "http://m.kujiang.com/user/login",
+    "respondTime": 1254,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "[property=\"og:description\"]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": ".introduce-title-species@text&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "tocUrl": ".to-catalog@href",
+        "wordCount": "em@text##\\|"
+    },
+    "ruleContent": {
+        "content": "#readArticle p@textNodes"
+    },
+    "ruleExplore": {
+        "author": ".author@text",
+        "bookList": ".hot-list li",
+        "bookUrl": "a@href",
+        "coverUrl": "img@src",
+        "intro": "p.1@text",
+        "kind": "",
+        "name": "p.0@text",
+        "wordCount": ".size@text@js:result+'字'"
+    },
+    "ruleSearch": {
+        "author": "span.1@text",
+        "bookList": ".kj_ph_box",
+        "bookUrl": "href",
+        "checkKeyWord": "",
+        "coverUrl": "img@src",
+        "kind": "em@text",
+        "lastChapter": "p.1@textNodes",
+        "name": "p.0@ownText",
+        "wordCount": "span.2@text"
+    },
+    "ruleToc": {
+        "chapterList": ".catalog li a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/m/search?keyword={{key}}",
+    "weight": 0
+}

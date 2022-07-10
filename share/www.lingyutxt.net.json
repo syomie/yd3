@@ -1,0 +1,53 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "灵域小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.lingyutxt.net",
+    "bookUrlPattern": "https://www.lingyutxt.net/book_\\d+/",
+    "customOrder": -88902471,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/1_{{page}}/\n武侠修真::/2_{{page}}/\n都市言情::/3_{{page}}/\n历史军事::/4_{{page}}/\n侦探推理::/5_{{page}}/\n网游动漫::/6_{{page}}/\n科幻小说::/7_{{page}}/\n恐怖灵异::/8_{{page}}/\n穿越小说::/9_{{page}}/\n其它小说::/10_{{page}}/",
+    "lastUpdateTime": 1657376819663,
+    "loginUrl": "",
+    "respondTime": 4679,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@tag.a@text",
+        "coverUrl": "id.fmimg@tag.img.0@src",
+        "init": "",
+        "intro": "id.intro@text",
+        "kind": "id.info@tag.p.2@text##最后更新：",
+        "lastChapter": "id.info@tag.p.3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "id.info@h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes",
+        "replaceRegex": ""
+    },
+    "ruleExplore": {
+        "author": "class.s4@tag.a.0@text",
+        "bookList": "class.l@li",
+        "bookUrl": "class.s2@tag.a.0@href",
+        "coverUrl": "class.s2@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.lingyutxt.net/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "lastChapter": "class.s3@tag.a.0@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "class.s2@tag.a.0@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节"
+    },
+    "ruleSearch": {
+        "author": "class.s4@tag.a.0@text",
+        "bookList": "class.novelslist2@tag.li!0",
+        "bookUrl": "class.s2@tag.a.0@href",
+        "coverUrl": "class.s2@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.lingyutxt.net/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "kind": "class.s6@text",
+        "lastChapter": "class.s3@tag.a.0@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "class.s2@tag.a.0@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search.php?%20keyword={{key}}",
+    "weight": 0
+}

@@ -1,0 +1,55 @@
+{
+    "bookSourceComment": "两次搜索间隔30秒；频繁刷新容易崩溃",
+    "bookSourceGroup": "",
+    "bookSourceName": "乐文小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://s.lwlewen.net",
+    "customOrder": 526,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/list/1/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠\",\"url\":\"/list/2/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/list/3/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"/list/4/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"穿越\",\"url\":\"/list/5/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"游戏\",\"url\":\"/list/6/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/list/7/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"同人\",\"url\":\"/list/8/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"社会\",\"url\":\"/list/9/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"综合\",\"url\":\"/list/10/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"全本\",\"url\":\"/quanben/list/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+    "lastUpdateTime": 1635587255088,
+    "loginUrl": "",
+    "respondTime": 7300,
+    "ruleBookInfo": {
+        "author": ".info a.0@text",
+        "coverUrl": "tbody.0@img@src",
+        "intro": ".intro@html##简介.",
+        "kind": ".info a.1@text&&.info p.3:4@text##.*：|\\s.*",
+        "lastChapter": ".info a.2@text",
+        "name": ".info strong@text##最新章节.*|全文.*|免费.*|小说|在线阅读|\\_.*",
+        "tocUrl": "text.章节目录@href"
+    },
+    "ruleContent": {
+        "content": "#nr1@html",
+        "nextContentUrl": "#pb_next@href",
+        "replaceRegex": "##乐文小说.*|手机用户请.*|.*免费小说.*|.*502情况.*|网om】，|一秒记住.*免费阅读."
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "",
+        "name": ""
+    },
+    "ruleSearch": {
+        "author": "span.0@text##.*:",
+        "bookList": ".list-item",
+        "bookUrl": "a.1@href",
+        "coverUrl": "img@src",
+        "intro": "span.-1@text",
+        "kind": "",
+        "name": "a.1@text##最新章节.*|全文.*|免费.*|小说|在线阅读|\\_.*"
+    },
+    "ruleToc": {
+        "chapterList": ".last9 li a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "option@value"
+    },
+    "searchUrl": "/search/,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+}

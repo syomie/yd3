@@ -1,0 +1,53 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "云中书库",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.yunxs.com",
+    "customOrder": 834,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "首页::/\n排行榜::/paihangbang.html\n小说书库::/shuku_17801_{{page}}.html\n玄幻·奇幻::/xuanhuan/shuku_1949_{{page}}.html\n仙侠·武侠::/xianxia/shuku_6666_{{page}}.html\n都市·言情::/dushi/shuku_6666_{{page}}.html\n穿越·历史::/chuanyue/shuku_6666_{{page}}.html\n科幻·灵异::/kehuan/shuku_6666_{{page}}.html\n同人·网游::/tongren/shuku_6666_{{page}}.html",
+    "lastUpdateTime": 1626664364214,
+    "respondTime": 5519,
+    "ruleBookInfo": {
+        "author": "@css:[property=og:novel:author]@content",
+        "coverUrl": "@css:.pic img@src",
+        "intro": "@css:.words>p:not([style])@html<js>result.replace(\"简介：\",\"\")</js>",
+        "kind": "@css:[property=og:novel:category]@content",
+        "lastChapter": "@css:[property=og:novel:latest_chapter_name]@content",
+        "name": "@css:[property=og:novel:book_name]@content",
+        "tocUrl": ""
+    },
+    "ruleContent": {
+        "content": "@css:.box_box@textNodes"
+    },
+    "ruleExplore": {
+        "author": "@css:.author,span>a@text",
+        "bookList": "@css:.ul_m_list>li,li[onmouseover]:has(*)",
+        "bookUrl": "@css:.t>a,dt>a@href",
+        "coverUrl": "@css:img@src",
+        "kind": "@css:.c>a,.words,.abover,strong>a@text",
+        "lastChapter": "@css:.n>a:eq(1)@text",
+        "name": "@css:.t,dt>a@text"
+    },
+    "ruleSearch": {
+        "author": "@css:.state>a@text",
+        "bookList": "@css:.ul_b_list>li",
+        "bookUrl": "@css:h2>a@href",
+        "coverUrl": "@css:img@src",
+        "intro": "@css:p:not([class])@html<js>result.replace(\"简介：\",\"\")</js>",
+        "kind": "@css:h2>span@text",
+        "lastChapter": "@css:.arcurl@textNodes<js>result.replace(\"最后更新： \",\"\")</js>",
+        "name": "@css:h2>a@text"
+    },
+    "ruleToc": {
+        "chapterList": "+@css:.list_box a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "texy.下一页@href"
+    },
+    "searchUrl": "http://www.yunxs.com/plus/search.php?kwtype=0&searchtype=搜索&q={{key}}",
+    "weight": 0
+}

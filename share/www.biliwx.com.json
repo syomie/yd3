@@ -1,0 +1,44 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "笔粒文学社",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.biliwx.com",
+    "bookUrlPattern": "",
+    "customOrder": 922,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1603004455152,
+    "loginUrl": "",
+    "respondTime": 7338,
+    "ruleBookInfo": {
+        "author": "class.z-author@tag.a@text",
+        "coverUrl": "class.u-bookDetail-cover f-fl@tag.img@src",
+        "intro": "class.u-synopsis-text f-fs12@tag.p@text",
+        "kind": "class.z-category@class.f-text-overflow@tag.i@tag.a@text",
+        "lastChapter": "class.cf@tag.li.0@tag.a@text",
+        "name": "class.f-fs22@text",
+        "tocUrl": "class.u-bookDetail-more@href"
+    },
+    "ruleContent": {
+        "content": "class.acontent@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.c_tag.0@class.c_value.0@text",
+        "bookList": "class.c_row",
+        "bookUrl": "class.fl@tag.a@href",
+        "coverUrl": "class.fl@tag.a@tag.img@src",
+        "kind": "class.c_tag.0@class.c_value.4@text",
+        "lastChapter": "class.c_tag.1@class.c_value.0@tag.a@text",
+        "name": "class.c_subject@tag.a@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.index@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.biliwx.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

@@ -1,0 +1,49 @@
+{
+    "bookSourceComment": "目录列表加载很慢",
+    "bookSourceGroup": "",
+    "bookSourceName": "爱下电子书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.aixdzs.com",
+    "customOrder": 466,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"日排行榜\",\"url\":\"/hot/day/?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"月排行榜\",\"url\":\"/hot/month/?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"总排行榜\",\"url\":\"/hot/?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"最新更新\",\"url\":\"/new/?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"连载\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"/sort/1?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"修真仙侠\",\"url\":\"/sort/2?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市青春\",\"url\":\"/sort/3?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/sort/4?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游竞技\",\"url\":\"/sort/5?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻灵异\",\"url\":\"/sort/6?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"言情穿越\",\"url\":\"/sort/7?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"耽美同人\",\"url\":\"/sort/8?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"台言古言\",\"url\":\"/sort/9?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"传统武侠\",\"url\":\"/sort/10?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"古典文学\",\"url\":\"/sort/11?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"侦探推理\",\"url\":\"/sort/12?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"外国文学\",\"url\":\"/sort/13?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"当代现代\",\"url\":\"/sort/14?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"童话故事\",\"url\":\"/sort/15?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"传记纪实\",\"url\":\"/sort/16?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"韩流青春\",\"url\":\"/sort/17?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"影视文学\",\"url\":\"/sort/18?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他类别\",\"url\":\"/sort/0?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"完结\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"/sort/1?page={{page}}&t=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"修真仙侠\",\"url\":\"/sort/2?page={{page}}&t=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市青春\",\"url\":\"/sort/3?page={{page}}&t=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/sort/4?page={{page}}&t=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游竞技\",\"url\":\"/sort/5?page={{page}}&t=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻灵异\",\"url\":\"/sort/6?page={{page}}&t=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"言情穿越\",\"url\":\"/sort/7?page={{page}}&t=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"耽美同人\",\"url\":\"/sort/8?page={{page}}&t=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"台言古言\",\"url\":\"/sort/9?page={{page}}&t=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"传统武侠\",\"url\":\"/sort/10?page={{page}}&t=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"古典文学\",\"url\":\"/sort/11?page={{page}}&t=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"侦探推理\",\"url\":\"/sort/12?page={{page}}&t=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"外国文学\",\"url\":\"/sort/13?page={{page}}&t=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"当代现代\",\"url\":\"/sort/14?page={{page}}&t=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"童话故事\",\"url\":\"/sort/15?page={{page}}&t=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"传记纪实\",\"url\":\"/sort/16?page={{page}}&t=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"韩流青春\",\"url\":\"/sort/17?page={{page}}&t=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"影视文学\",\"url\":\"/sort/18?page={{page}}&t=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他类别\",\"url\":\"/sort/0?page={{page}}&t=1\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+    "lastUpdateTime": 1640066487717,
+    "respondTime": 4809,
+    "ruleBookInfo": {
+        "author": "class.ix-list-info.0@a.0@text",
+        "coverUrl": "img.0@src",
+        "intro": "#intro@html##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": "class.ix-list-info.0@a.1@text&&class.ix-list-info.0@span@text&&class.ix-list-info.0@p.4@text##\\s.*",
+        "lastChapter": "class.ix-list-info.0@a.2@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": "h1@text##下载",
+        "tocUrl": "",
+        "wordCount": "class.ix-list-info.0@p.2@text##字數.|字数.|\\s.*"
+    },
+    "ruleContent": {
+        "content": ".page-content@p@html",
+        "replaceRegex": "##[wW][\\w\\.]*[mM]"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "a.3@text",
+        "bookList": ".ix-list li",
+        "bookUrl": "a.1@href",
+        "checkKeyWord": "",
+        "coverUrl": "img@src",
+        "intro": "p.0@text##.*简介.|.*簡介.|\\s",
+        "kind": "em.0@text&&p.1@text##·|\\s.*##,",
+        "lastChapter": "a.2@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": "a.1@text",
+        "wordCount": "em.1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".chapter li a",
+        "chapterName": "text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "chapterUrl": "href",
+        "nextTocUrl": ""
+    },
+    "searchUrl": "/search/?k={{key}}&page={{page}}",
+    "weight": 0
+}

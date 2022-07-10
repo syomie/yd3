@@ -1,0 +1,53 @@
+{
+    "bookSourceComment": "//部分飞卢小说\n//正文显示转码多刷新几次，不行就等会再来",
+    "bookSourceGroup": "",
+    "bookSourceName": "小疙瘩",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.xgedaa.com",
+    "customOrder": -88902378,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/xuanhuan/p{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"修真\",\"url\":\"/xiuzhen/p{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/dushi/p{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"/lishi/p{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游\",\"url\":\"/wangyou/p{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/kehuan/p{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女生\",\"url\":\"/nvpin/p{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"恐怖悬疑\",\"url\":\"/kongbu/p{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他综合\",\"url\":\"/qita/p{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"二次元\",\"url\":\"/yuan/p{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"校园\",\"url\":\"/xiaoyuan/p{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"搞笑\",\"url\":\"/gaoxiao/p{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"同人\",\"url\":\"/tongren/p{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+    "header": "",
+    "lastUpdateTime": 1647865327087,
+    "respondTime": 7452,
+    "ruleBookInfo": {
+        "author": ".block_txt a.2@text",
+        "coverUrl": ".block_img img@src",
+        "init": "",
+        "intro": ".intro_info@html##简介.",
+        "kind": ".block_txt p.3:4:5@text##.*：|\\s.*",
+        "lastChapter": "#chapterlist a.-1@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": ".block_txt a.1@text"
+    },
+    "ruleContent": {
+        "content": "#nr1@html",
+        "nextContentUrl": "text.下一页@href",
+        "replaceRegex": "##\\s*手机支付宝搜索.*赶快参与吧.\\s*|\\s*点击复制红包码\\s*|\\s*阅读模式.*请退出\\s*"
+    },
+    "ruleExplore": {
+        "author": "p.2@text",
+        "bookList": ".block",
+        "bookUrl": "h3 a@href",
+        "coverUrl": "@js:\nvar doc = org.jsoup.Jsoup.parse(result)\nvar url = \"http://m.xgedaa.com\"+doc.select(\"a\").get(0).attr(\"href\")\nvar all = org.jsoup.Jsoup.parse(java.ajax(url))\nresult = all.select(\".block_img\").select(\"img\").attr(\"src\")",
+        "intro": "p.3@text##简介.",
+        "lastChapter": "",
+        "name": "h3@text"
+    },
+    "ruleSearch": {
+        "author": "p.2@text",
+        "bookList": ".block",
+        "bookUrl": "h3 a@href",
+        "coverUrl": "img@src",
+        "intro": "p.3@text##简介.",
+        "name": "h3@text"
+    },
+    "ruleToc": {
+        "chapterList": "#chapterlist li a",
+        "chapterName": "text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/home/search,{\n  'method': 'POST',\n  'body': 'action=search&q={{key}}'\n}",
+    "weight": 0
+}

@@ -1,0 +1,43 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "TOP50",
+    "bookSourceName": "️无弹窗",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.530p.com",
+    "bookUrlPattern": "",
+    "customOrder": 901,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/xuanhuan/{{page}}.htm\n言情小说::/yanqing/{{page}}.htm\n都市小说::/dushi/{{page}}.htm\n军事小说::/junshi/{{page}}.htm\n武侠小说::/wuxia/{{page}}.htm\n仙侠小说::/xianxia/{{page}}.htm\n历史小说::/lishi/{{page}}.htm\n最新更新::/p{{page}}.htm",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "respondTime": 1154,
+    "ruleBookInfo": {
+        "author": "class.tc.0@text",
+        "coverUrl": "class.ffw@tag.img.0@src",
+        "intro": "//h4/parent::td@text\n<js>result.replace(/(^|[。！？]”?)/g,\"$1\\n\").replace(/【内容简介】|【|】/g,\"\")</js>",
+        "kind": "class.tc.1@text",
+        "lastChapter": "class.ffw@tag.tr.1@tag.a@text",
+        "name": "class.tna@text"
+    },
+    "ruleContent": {
+        "content": "id.cp_content@textNodes##.*无弹窗小说网.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.conter4@text",
+        "bookList": "class.conter@tag.ul!0",
+        "bookUrl": "@css:.conter1>a@href",
+        "kind": "class.conter3@text",
+        "lastChapter": "class.conter2@text",
+        "name": "class.conter1@text"
+    },
+    "ruleToc": {
+        "chapterList": "+@css:div.clc a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.530p.com/s/{{key}}/{{page}}/,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

@@ -1,0 +1,48 @@
+{
+    "bookSourceComment": "By糖果",
+    "bookSourceGroup": "",
+    "bookSourceName": "下书久久",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xiashu9.com/",
+    "bookUrlPattern": "",
+    "customOrder": 767,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"总排行榜\",\"url\":\"/rank/allvisit/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"月排行榜\",\"url\":\"/rank/monthvisit/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"周排行榜\",\"url\":\"/rank/weekvisit/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"日排行榜\",\"url\":\"/rank/dayvisit/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"总收藏榜\",\"url\":\"/rank/goodnum/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"这是空的\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+    "header": "",
+    "lastUpdateTime": 1633021868545,
+    "loginUrl": "",
+    "respondTime": 9444,
+    "ruleBookInfo": {
+        "author": "p.0@a@text",
+        "coverUrl": "tag.img@src",
+        "intro": "id.bookintro@text\n<js>result.replace(/(.*)/,' ○○○STORY:\\n$1')</js>",
+        "kind": "p.1@text##分类：",
+        "lastChapter": "id.list@dl@a.1@text&&id.list@dl@dt.0@text##\\n.*最新章节\\（(.*)\\）##·$1",
+        "wordCount": "p.3@text##字数："
+    },
+    "ruleContent": {
+        "content": "id.content@html",
+        "nextContentUrl": "text.下一页@href",
+        "replaceRegex": "##&quot;"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.book-author@text",
+        "bookList": "class.book-li[0:3]",
+        "bookUrl": "a@href",
+        "coverUrl": "tag.img@src",
+        "intro": "class.book-desc@text\n<js>result.replace(/(.*)/,' ○○○STORY:\\n$1')</js>",
+        "kind": "class.tag-small@text",
+        "lastChapter": "a@href<js>java.ajax('https://www.xiashu9.com'+result)</js>id.list@dl@a.1@text&&id.list@dl@dt.0@text##\\n.*最新章节\\（(.*)\\）##·$1",
+        "name": "class.book-title@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@dl@a!0:1:2:3:4:5:6:7:8:9",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.xiashu9.com/search/,{\n'method': 'POST',\n'body': 'searchkey={{key}}&searchtype=all'\n}",
+    "weight": 0
+}

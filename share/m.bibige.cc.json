@@ -1,0 +1,41 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "笔笔阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.bibige.cc",
+    "bookUrlPattern": "",
+    "customOrder": 510,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "respondTime": 7505,
+    "ruleBookInfo": {
+        "coverUrl": "class.left@a@img@src",
+        "intro": "id.htmljieshao@textNodes##各位书友要是觉得.*",
+        "lastChapter": "id.con_one_2@tag.li.0@a@text",
+        "tocUrl": "text.开始阅读@href"
+    },
+    "ruleContent": {
+        "content": "id.htmlContent@p@html##站长强烈推荐.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.p.2@textNodes##作者：|字数.*",
+        "bookList": "class.bd@li",
+        "bookUrl": "a@href",
+        "kind": "class.status@text",
+        "lastChapter": "tag.p.1@text",
+        "name": "class.book_title@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.list_li@li@a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://m.bibige.cc/modules/article/search.php?searchkey={{key}}&searchtype=all,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

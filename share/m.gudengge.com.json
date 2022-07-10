@@ -1,0 +1,57 @@
+{
+    "bookSourceComment": "作者:希弥",
+    "bookSourceGroup": "",
+    "bookSourceName": "孤灯阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.gudengge.com",
+    "bookUrlPattern": "http://m.gudengge.com/\\d+/",
+    "customOrder": -88902324,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "日点击榜::/dayvisit-{{page}}.html\n周点击榜::/weekvisit-{{page}}.html\n月点击榜::/monthvisit-{{page}}.html\n总点击榜::/allvisit-{{page}}.html\n总收藏榜::/goodnum-{{page}}.html\n字数排行::/size-{{page}}.html\n日推荐榜::/dayvote-{{page}}.html\n周推荐榜::/weekvote-{{page}}.html\n月推荐榜::/monthvote-{{page}}.html\n总推荐榜::/allvote-{{page}}.html\n最新入库::/postdate-{{page}}.html\n最近更新::/lastupdate-{{page}}.html\n完结::/full/{{page}}/\n排行::/channel/",
+    "lastUpdateTime": 1656243192646,
+    "respondTime": 42271,
+    "ruleBookInfo": {
+        "author": ".info_novel_con@tag.div.4@text",
+        "coverUrl": ".info_novel@img@src",
+        "init": "",
+        "intro": "div.info_intro@textNodes##简介：",
+        "kind": ".info_novel_con@tag.div.2:3:5@text##(类别|状态|更新)：",
+        "lastChapter": ".info_novel_con@tag.div.6@a@text",
+        "name": ".info_novel@img@alt",
+        "tocUrl": "",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "#end@html",
+        "imageStyle": "TEXT",
+        "nextContentUrl": "text.下一页@href||text.下页@href",
+        "payAction": ""
+    },
+    "ruleExplore": {
+        "author": "tag.a.1@text",
+        "bookList": "@css:div:has(p[class=\"p1\"])",
+        "bookUrl": "tag.a.0@href",
+        "name": "tag.a.0@text"
+    },
+    "ruleSearch": {
+        "author": "tag.a.1@text",
+        "bookList": "p.sone",
+        "bookUrl": "tag.a.0@href",
+        "checkKeyWord": "",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "",
+        "lastChapter": "",
+        "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "tag.ul!0@a",
+        "chapterName": "text",
+        "chapterUrl": "href##$##,{\"webView\": true}",
+        "nextTocUrl": "text.下一页@href||text.下页@href"
+    },
+    "searchUrl": "/s.php,{\n\t\"method\":\"POST\",\n\t\"body\":\"keyword={{key}}\"\n}",
+    "weight": 0
+}

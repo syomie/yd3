@@ -1,0 +1,43 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "八零电子书①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.balingtxt.com",
+    "bookUrlPattern": "",
+    "customOrder": 489,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "respondTime": 6765,
+    "ruleBookInfo": {
+        "author": "class.txt_info@tag.span.0@a@text||class.class.block_txt2@tag.p.2@text||class.soft_info_r@tag.li.0@a@text##作者:",
+        "coverUrl": "class.block_img2@img@src||class.info_img@src",
+        "intro": "class.intro_info@textNodes##.*最新章节推荐.*",
+        "lastChapter": "class.block_txt2@tag.p.6@a@text",
+        "name": "id.titlename@h1@text||class.block_txt2@h2@a@text||id.soft_info_para@h1@text##全文阅读",
+        "tocUrl": "text.查看更多章节>>@href||text.在线阅读_目录@href"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes||id.nr1@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.line@text##.*/",
+        "bookList": "class.cover@p",
+        "bookUrl": "class.line@a@href",
+        "coverUrl": "tag.a.0@href##.*/(\\d+)(\\d{3})/##http://m.balingtxt.com/$1/$1$2/$1$2s.jpg",
+        "kind": "class.line@text##].*|\\[\\s*",
+        "name": "class.line@a@text##(最新章节目录|TXT下载).+"
+    },
+    "ruleToc": {
+        "chapterList": "id.yulan@li@a||class.book_last@dd@a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.balingtxt.com/modules/article/search.php?searchkey={{key}}",
+    "weight": 0
+}

@@ -1,0 +1,51 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "手机小说下载网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xiaxs.la",
+    "customOrder": 232,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "武侠小说::/soft/1/Soft_001_{{page}}.html&&玄幻小说::/soft/2/Soft_002_{{page}}.html&&都市言情::/soft/3/Soft_003_{{page}}.html&&恐怖灵异::/soft/4/Soft_004_{{page}}.html&&现代文学::/soft/5/Soft_005_{{page}}.html&&侦探推理::/soft/6/Soft_006_{{page}}.html&&科幻小说::/soft/7/Soft_007_{{page}}.html&&穿越架空::/soft/9/Soft_009_{{page}}.html&&古典名著::/soft/10/Soft_010_{{page}}.html&&名人自传::/soft/11/Soft_011_{{page}}.html&&历史军事::/soft/12/Soft_012_{{page}}.html&&制作工具::/soft/13/Soft_013_{{page}}.html&&网游小说::/soft/14/Soft_014_{{page}}.html&&推荐小说::http://www.xiaxs.la/soft/best/index_{{page}}.html&&热门小说::http://www.xiaxs.la/soft/hot/index_{{page}}.html&&最新小说::http://www.xiaxs.la/soft/new/index_{{page}}.html&&全本小说::http://www.xiaxs.la/soft/quanben/index_{{page}}.html&&",
+    "lastUpdateTime": 1621827253009,
+    "respondTime": 7842,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "init": "<js>\nvar act=org.jsoup.Jsoup.parse(result).select(\".downButton\").attr(\"href\");\nvar url = \"http://www.xiaxs.la\"+act;\njava.put(\"url\",url);\njava.ajax(url)</js>\n",
+        "intro": "[property=\"og:description\"]@content",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "tocUrl": "@get:{url}",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "#content1@html##.*?www.xiaxs.la.*",
+        "nextContentUrl": ""
+    },
+    "ruleExplore": {
+        "author": "##作者：([^<]+)<##$1###",
+        "bookList": ".listBox ul li",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "img@src",
+        "intro": ".u@text",
+        "lastChapter": "tag.a.1@text##最新章节[:：]",
+        "name": "tag.a.0@text##全集"
+    },
+    "ruleSearch": {
+        "author": "em@text",
+        "bookList": ".listBox ul li",
+        "bookUrl": "a@href",
+        "coverUrl": "img@src",
+        "name": "a@text##全集"
+    },
+    "ruleToc": {
+        "chapterList": ".pc_list a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.xiaxs.la/search.php?s=&searchkey={{key}}",
+    "weight": 0
+}

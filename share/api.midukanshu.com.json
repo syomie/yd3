@@ -1,0 +1,41 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "API",
+    "bookSourceName": "米读小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://api.midukanshu.com",
+    "bookUrlPattern": "",
+    "customOrder": 202,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1637927576047,
+    "loginUrl": "",
+    "respondTime": 3550,
+    "ruleBookInfo": {},
+    "ruleContent": {
+        "content": "$..content"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "$.author",
+        "bookList": "$.data.*",
+        "bookUrl": "$.book_id@js:\"https://book.midukanshu.com/book/chapter_list/100/\" + result + \".txt\"",
+        "coverUrl": "$.cover",
+        "intro": "$.description##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": "$.category&&{$.score}分",
+        "lastChapter": "第{$.chapterNum}章",
+        "name": "$.title",
+        "wordCount": "$.word_count"
+    },
+    "ruleToc": {
+        "chapterList": "$.[*]",
+        "chapterName": "$.title",
+        "chapterUrl": "https://book.midukanshu.com/book/chapter/segment/master/{$.bookId}_{$.chapterId}.txt?md5={$.content_md5}",
+        "isVip": "",
+        "updateTime": ""
+    },
+    "searchUrl": "/fiction/search/search,{\n  \"method\": \"POST\",\n  \"body\": \"device=865166023475380&app=midu&keyword={{key}}&page={{page}}\"\n}",
+    "weight": 0
+}

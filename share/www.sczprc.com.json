@@ -1,0 +1,59 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "伤城中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.sczprc.com",
+    "bookUrlPattern": "",
+    "customOrder": 294,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/sort/1_{{page}}.html\n武侠修真::/sort/2_{{page}}.html\n都市言情::/sort/3_{{page}}.html\n历史军事::/sort/4_{{page}}.html\n网游竞技::/sort/5_{{page}}.html\n科幻小说::/sort/6_{{page}}.html\n恐怖灵异::/sort/7_{{page}}.html\n其他小说::/sort/8_{{page}}.html",
+    "lastUpdateTime": 1637986297445,
+    "loginUi": "",
+    "loginUrl": "https://www.sczprc.com/login.php",
+    "respondTime": 4535,
+    "ruleBookInfo": {
+        "author": ".booktitle@tag.a.1@text",
+        "coverUrl": ".bigpic img@src",
+        "intro": ".book-intro@html",
+        "kind": ".booktitle@tag.a.0@text&&.book-intro@tag.b.1@text##小说|.*\\(|\\).*",
+        "lastChapter": ".book-intro a@text",
+        "name": ".name h1@text",
+        "tocUrl": ".catalogbtn@href",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": ".article-con@html",
+        "imageStyle": "0",
+        "replaceRegex": "##.*更新速度最快.*"
+    },
+    "ruleExplore": {
+        "bookList": ".box",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "img@data-original",
+        "intro": "span@text",
+        "kind": "",
+        "lastChapter": "",
+        "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+        "author": "tag.td.2@text",
+        "bookList": "#conn tr!0",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##https://www.sczprc.com/files/article/image/$2/$1/$1s.jpg###",
+        "intro": "",
+        "kind": "tag.td.5:4@text",
+        "lastChapter": "tag.td.1@text",
+        "name": "tag.td.0@text",
+        "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+        "chapterList": ".chapter-list li a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  'charset': 'gbk',\n  'method': 'POST',\n  'body': 'searchkey={{key}}&page={{page}}'\n}",
+    "weight": 0
+}

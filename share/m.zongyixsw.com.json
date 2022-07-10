@@ -1,0 +1,51 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "综艺文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.zongyixsw.com",
+    "customOrder": 1028,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::https://m.zongyixsw.com/fl/xuanhuan/{{page}}.html&&武侠仙侠::/fl/wuxia/{{page}}.html&&都市生活::/fl/dushi/{{page}}.html&&历史军事::/fl/lishi/{{page}}.html&&游戏竞技::/fl/youxi/{{page}}.html&&科幻未来::/fl/kehuan/{{page}}.html&&恐怖悬疑::/fl/xuanyi/{{page}}.html&&男生其他::/fl/qita/{{page}}.html&&古代言情::/fl/guyan/{{page}}.html&&现代言情::/fl/xianyan/{{page}}.html&&幻想奇缘::/fl/huanqing/{{page}}.html&&总裁豪门::/fl/zongcai/{{page}}.html&&青春校园::/fl/qingchun/{{page}}.html&&网络情缘::/fl/wangluo/{{page}}.html&&科幻灵异::/fl/mmkehuan/{{page}}.html&&女生其他::/fl/mmqita/{{page}}.html&&完本小说::/wb/all/{{page}}.html&&",
+    "lastUpdateTime": 1656432575673,
+    "respondTime": 5003,
+    "ruleBookInfo": {
+        "author": "[name=\"author\"]@content",
+        "coverUrl": "meta[property=\"og:image\"]@content",
+        "init": "",
+        "intro": ".intro.0@tag.p.0:1@html##飞卢小说网提醒您：.*",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:title\"]@content",
+        "tocUrl": "meta[property=\"og:novel:read_url\"]@content"
+    },
+    "ruleContent": {
+        "content": "[class^=akanzongyi]>div+div@html||[class*=content]+div@html",
+        "nextContentUrl": "text.下一页@href",
+        "replaceRegex": "##本章尚?未(完|结束).*",
+        "sourceRegex": ""
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "tag.a.2@text",
+        "bookList": "ul.list li",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "img@src",
+        "intro": ".intro@text",
+        "kind": "span@text",
+        "lastChapter": "a.-1@text",
+        "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "ul.read li a",
+        "chapterName": "text",
+        "chapterUrl": "href##$##,{\"webView\": true}",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.zongyixsw.com/search.html?searchkey={{key}}",
+    "weight": 0
+}

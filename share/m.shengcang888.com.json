@@ -1,0 +1,56 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "希弥",
+    "bookSourceName": "学笔网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.shengcang888.com",
+    "bookUrlPattern": "https://m.shengcang888.com/book_\\S+",
+    "customOrder": -88902379,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"点击总榜\",\"url\":\"/histp/rank/order/hits.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"点击月榜\",\"url\":\"/histp/rank/order/hits_month.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"点击周榜\",\"url\":\"/histp/rank/order/hits_week.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"点击日榜\",\"url\":\"/histp/rank/order/hits_day.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"新书榜\",\"url\":\"/histp/rank/newbook/1.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完结榜\",\"url\":\"/histp/rank/over/1.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"/lists/book_1.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠修真\",\"url\":\"/lists/book_2.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市异能\",\"url\":\"/lists/book_3.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/lists/book_4.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻灭世\",\"url\":\"/lists/book_5.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"游戏竞技\",\"url\":\"/lists/book_6.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"灵异悬疑\",\"url\":\"/lists/book_7.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"女频言情\",\"url\":\"/lists/book_8.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+    "lastUpdateTime": 1646631313654,
+    "respondTime": 21610,
+    "ruleBookInfo": {
+        "author": ".info a.1@text",
+        "coverUrl": ".base img@src",
+        "intro": ".intro@html",
+        "kind": ".info a.0@text&&.base i@text&&.info span.4@text##.*：|\\s.*",
+        "lastChapter": ".attentions a.0@ownText",
+        "name": ".base h2@text",
+        "wordCount": ".info span.2@text##.*："
+    },
+    "ruleContent": {
+        "content": ".read-section>p@textNodes",
+        "nextContentUrl": "text.下一页@href##$##,{'webView': true}",
+        "replaceRegex": ""
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "",
+        "name": ""
+    },
+    "ruleSearch": {
+        "author": ".info span@textNodes||.x-info_author span.1@text",
+        "bookList": ".clearfix li||.x-book",
+        "bookUrl": "a.0@href",
+        "checkKeyWord": "",
+        "coverUrl": "img@src",
+        "intro": ".intro@text||.x-info_intro@text##.*简介.",
+        "kind": ".type@text&&.finish@text",
+        "name": ".tit@text||.x-info_name@text",
+        "wordCount": ".word@text"
+    },
+    "ruleToc": {
+        "chapterList": ".bookshelf-list li a",
+        "chapterName": "text",
+        "chapterUrl": "href##$##,{'webView': true}"
+    },
+    "searchUrl": "/soshu.html?ss={{key}}",
+    "weight": 0
+}

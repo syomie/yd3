@@ -1,0 +1,49 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "飘天文学②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.piaotianwenxue.com",
+    "bookUrlPattern": "https://www.piaotianwenxue.com/book/\\d+/\\d+/",
+    "customOrder": 169,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1657373953147,
+    "respondTime": 7979,
+    "ruleBookInfo": {
+        "author": "class.col-md-10@tag.p.0@tag.a.0@text##\\!!",
+        "coverUrl": "class.col-md-2 col-xs-4 hidden-xs@img@src",
+        "init": "class.panel-body",
+        "intro": "class.col-md-10@tag.p.3@text",
+        "kind": "class.col-md-10@tag.p.0@tag.a.1@text&&\nclass.col-md-10@tag.p.0@tag.span.2@text&&\nclass.col-md-10@tag.p.2@text##更新时间：",
+        "lastChapter": "class.col-md-10@tag.p.1@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "class.col-md-10@tag.h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节",
+        "wordCount": "class.col-md-10@tag.p.0@tag.span.0@text##字数："
+    },
+    "ruleContent": {
+        "content": "id.htmlContent@html##求书请后台告知管理员.|本章.*下一页继续阅读|一秒记住.*免费阅读！|手机用户请浏.*书架与电脑版同步。|.*咪.*咪.*阅.*读.*",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "tag.td.2@text##\\!!",
+        "bookList": "class.table@tag.tr",
+        "bookUrl": "tag.td.0@tag.a@href",
+        "coverUrl": "tag.td.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.piaotianwenxue.com/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "kind": "tag.td.4@text&&\ntag.td.5@text",
+        "lastChapter": "tag.td.1@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "tag.td.0@tag.a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节",
+        "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.panel-body panel-chapterlist.1@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.piaotianwenxue.com/search.php?keyword={{key}}",
+    "weight": 0
+}

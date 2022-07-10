@@ -1,0 +1,54 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "书海屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.shuhaiwu.com/",
+    "bookUrlPattern": "",
+    "customOrder": 163,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/xuanhuanxiaoshuo/1_{{page}}.html\n修真小说::/xiuzhenxiaoshuo/2_{{page}}.html\n都市小说::/dushixiaoshuo/3_{{page}}.html\n穿越小说::/chuanyuexiaoshuo/4_{{page}}.html\n网游小说::/wangyouxiaoshuo/5_{{page}}.html\n科幻小说::/kehuanxiaoshuo/6_{{page}}.html",
+    "lastUpdateTime": 1615533446415,
+    "loginUrl": "",
+    "respondTime": 40486,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@a@text",
+        "coverUrl": "id.fmimg@tag.img@src",
+        "intro": "id.intro@tag.p.0@text",
+        "kind": "id.info@tag.p.2@text##最后更新：",
+        "lastChapter": "id.list@tag.dd.0@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "id.info@tag.h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁|小说",
+        "tocUrl": ""
+    },
+    "ruleContent": {
+        "content": "id.content@html##手机用户看.*更优质的用户体验。"
+    },
+    "ruleExplore": {
+        "author": "class.s5@text",
+        "bookList": "class.l@ul@li",
+        "bookUrl": "class.s2@a@href",
+        "coverUrl": "class.s2@a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.shuhaiwu.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "lastChapter": "class.s3@a@text",
+        "name": "class.s2@a@text"
+    },
+    "ruleSearch": {
+        "author": "class.odd.1@text",
+        "bookList": "id.nr",
+        "bookUrl": "class.odd.0@tag.a@href",
+        "coverUrl": "class.odd.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.shuhaiwu.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "intro": "",
+        "kind": "class.odd.2@text",
+        "lastChapter": "class.even.0@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "class.odd.0@tag.a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁|小说",
+        "wordCount": "class.even.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.shuhaiwu.com/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&action=login\"\n}",
+    "weight": 0
+}

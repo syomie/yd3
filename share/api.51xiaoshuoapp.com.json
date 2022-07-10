@@ -1,0 +1,55 @@
+{
+    "bookSourceComment": "作者：gone",
+    "bookSourceGroup": "API",
+    "bookSourceName": "51小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://api.51xiaoshuoapp.com",
+    "bookUrlPattern": "",
+    "concurrentRate": "",
+    "customOrder": 4,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1646638137685,
+    "loginCheckJs": "",
+    "loginUi": "",
+    "loginUrl": "",
+    "respondTime": 4604,
+    "ruleBookInfo": {
+        "author": "author",
+        "coverUrl": "picture",
+        "init": "<js>java.getZipStringContent(baseUrl,'detail.json')</js>$.data",
+        "intro": "chapterUpdateTime&&intro##(^|[…。!！?？.]+[”」）》】…]?)##$1<br>",
+        "kind": "categoryName&&bookStatus&&chapterUpdateTime##T.*",
+        "lastChapter": "chapterName",
+        "name": "name",
+        "wordCount": "wordNum"
+    },
+    "ruleContent": {
+        "content": "html"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "author",
+        "bookList": "data.list",
+        "bookUrl": "@js:\nlet bid=parseInt(java.getString('$.bookId'))\nif(!bid)bid=parseInt(java.getString('$.id'))\nlet subPath=Math.ceil(bid/2000)\n\"http://statics.rungean.com/static/book/zip/\"+subPath+\"/\"+bid+\".zip\"",
+        "checkKeyWord": "",
+        "coverUrl": "picture",
+        "intro": "intro",
+        "kind": "categoryName&&bookStatus&&chapterUpdateTime##T.*",
+        "lastChapter": "chapterName",
+        "name": "name",
+        "wordCount": "wordNum"
+    },
+    "ruleToc": {
+        "chapterList": "<js>java.getZipStringContent(baseUrl,'chapter.json')</js>$.data",
+        "chapterName": "$.name",
+        "chapterUrl": "$.content_url"
+    },
+    "searchUrl": "/api/v1/novelsearch?content={{key}}&pageIndex={{page}}&pageSize=20&type=2",
+    "weight": 0
+}

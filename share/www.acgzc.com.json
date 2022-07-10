@@ -1,0 +1,47 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "轻小说",
+    "bookSourceName": "ACGZC",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.acgzc.com",
+    "bookUrlPattern": "",
+    "customOrder": 581,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"古代幻想\",\"url\":\"/index.php/portal/booklist/?list=true&classid=19&classid=12&per_page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"近代幻想\",\"url\":\"/index.php/portal/booklist/?list=true&classid=19&classid=19&per_page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"未来幻想\",\"url\":\"/index.php/portal/booklist/?list=true&classid=19&classid=26&per_page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"体育游戏\",\"url\":\"/index.php/portal/booklist/?list=true&classid=19&classid=33&per_page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"同人作品\",\"url\":\"/index.php/portal/booklist/?list=true&classid=19&classid=42&per_page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"短篇作品\",\"url\":\"/index.php/portal/booklist/?list=true&classid=19&classid=46&per_page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"漫画世界\",\"url\":\"/index.php/portal/booklist/?list=true&classid=19&classid=50&per_page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"异能时代\",\"url\":\"/index.php/portal/booklist/?list=true&classid=19&sclassid=20&per_page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"穿越重生\",\"url\":\"/index.php/portal/booklist/?list=true&classid=19&sclassid=21&per_page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"架空战争\",\"url\":\"/index.php/portal/booklist/?list=true&classid=19&sclassid=23&per_page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+    "lastUpdateTime": 1634046962418,
+    "loginUrl": "http://www.acgzc.com/index.php/portal/signin",
+    "respondTime": 3103,
+    "ruleBookInfo": {
+        "author": ".a2 span.0@textNodes",
+        "coverUrl": ".a1 img@src",
+        "intro": "h3@html",
+        "kind": "tbody tr.2@a@text&&tbody tr.2@td.1@textNodes&&.nav-tabs li.-1@text##.*：|\\s.*",
+        "lastChapter": ".z_zuixin a.0@text",
+        "name": ".a2 h1@ownText",
+        "tocUrl": ".a3 a.0@href",
+        "wordCount": "tbody tr.2@td.2@textNodes"
+    },
+    "ruleContent": {
+        "content": ".z_zy@html",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "a.3@text",
+        "bookList": ".rank-detail ul",
+        "bookUrl": "a.1@href",
+        "coverUrl": "",
+        "kind": "a.0@text&&li.4@text##\\[|\\]|\\s.*",
+        "name": "a.1@text",
+        "wordCount": "li.2@text"
+    },
+    "ruleToc": {
+        "chapterList": ".zpxg a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/index.php/portal/booklist/?list=true&keywords={{key}}&per_page={{page}}",
+    "weight": 0
+}

@@ -1,0 +1,55 @@
+{
+    "bookSourceComment": "最好全名搜索\n糖果",
+    "bookSourceGroup": "",
+    "bookSourceName": "久久txt",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.txt909.com/",
+    "bookUrlPattern": "",
+    "customOrder": 47,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\" 穿越小说\",\"url\":\"/html/chuanyue/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"言情小说\",\"url\":\"/html/yanqing/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"现代都市\",\"url\":\"/html/dushi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"耽美百合\",\"url\":\"/html/baihe/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"历史架空\",\"url\":\"/html/lishi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"美文同人\",\"url\":\"/html/tongren/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"武侠仙侠\",\"url\":\"/html/wuxia/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"玄幻小说\",\"url\":\"/html/xuanhuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"惊悚悬疑\",\"url\":\"/html/jingsong/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"科幻小说\",\"url\":\"/html/kehuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"网游竞技\",\"url\":\"/html/wangyou/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"管理哲学\",\"url\":\"/html/zhexue/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+    "header": "",
+    "lastUpdateTime": 1656570721395,
+    "loginUrl": "",
+    "respondTime": 34352,
+    "ruleBookInfo": {
+        "author": ".zuozhe a@text",
+        "coverUrl": "class.img@img@src",
+        "init": "",
+        "intro": "#mainSoftIntro@p@text\n<js>result.replace(/(.*)/,' ○○○STORY:\\n$1')</js>",
+        "kind": ".downInfoRowL li.1@text##书籍分类：",
+        "lastChapter": "[property=\"og:novel:lastest_chapter_name\"]@content&&class.downInfoRowL@li.-1@text##最后更新：\n<js>result.replace(/(.*)\\s/,'$1·')</js>",
+        "name": "h1@text##《(.*)》##$1",
+        "tocUrl": "class.downAddress_li.1@a.0@href##txt##readbook",
+        "wordCount": ".downInfoRowL li.2@text##书籍大小："
+    },
+    "ruleContent": {
+        "content": "#view_content_txt@html",
+        "nextContentUrl": "text.下一页@href",
+        "replaceRegex": "##w,请牢记:,|.*本站域名.*?请访问"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": ".mainGreen@text##书籍作者：|写作进度.*",
+        "bookList": ".listbg",
+        "bookUrl": "a.0@href",
+        "coverUrl": "img@src",
+        "intro": "div.1@text\n<js>result.replace(/(.*)/,' ○○○STORY:\\n$1')</js>",
+        "kind": ".mainGreen@text##.*书籍类别：",
+        "lastChapter": "a.0@href\n<js>java.ajax(\"https://www.txt909.com\"+result)</js>[property=\"og:novel:lastest_chapter_name\"]@content&&class.downInfoRowL@li.-1@text##最后更新：|[？?]\n<js>result.replace(/第.*章.*第(.*)章/,'第$1章').replace(/(.*)\\s/,'$1·')</js>",
+        "name": ".title a@text",
+        "wordCount": ".mainGreen@text##.*文件大小：|书籍类别.*|字.*"
+    },
+    "ruleToc": {
+        "chapterList": ".view_content_list@li@a",
+        "chapterName": "text##正文\\s*?|[：，]",
+        "chapterUrl": "href",
+        "updateTime": "text##第(.*)章(.*)##○ 第$1章 ○ $2"
+    },
+    "searchUrl": "https://www.txt909.com/search/,{\"method\":\"POST\",\"body\":\"searchkey={{key}}&show=title&writer&Submit=\"}",
+    "weight": 0
+}

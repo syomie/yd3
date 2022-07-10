@@ -1,0 +1,46 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "爱书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.22ff.org",
+    "bookUrlPattern": "",
+    "concurrentRate": "",
+    "customOrder": 20,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1646055603038,
+    "loginCheckJs": "",
+    "loginUi": "",
+    "loginUrl": "",
+    "respondTime": 3082,
+    "ruleBookInfo": {
+        "author": "class.tc.0@text",
+        "coverUrl": "tag.img.1@src",
+        "intro": "class.fw@tag.tr.3@text",
+        "kind": "class.tc.1@text",
+        "lastChapter": "class.fw@tag.tr.1@tag.a@text&&class.tc.2@text##..\\:.*|正文.",
+        "name": "class.tname@text"
+    },
+    "ruleContent": {
+        "content": "id.chapter_content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.a.3@text",
+        "bookList": "class.neirong@tag.ul!0",
+        "bookUrl": "tag.a.0@href",
+        "lastChapter": "tag.a.2@text&&class.neirong3@text##..\\:.*",
+        "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.clc",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.22ff.org/s_{{key}},{\"charset\":\"gbk\"}",
+    "weight": 0
+}

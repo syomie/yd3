@@ -1,0 +1,50 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "正版,API",
+    "bookSourceName": "息壤中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://pre-api.xrzww.com",
+    "bookUrlPattern": "/api/detail/.+",
+    "customOrder": 557,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"热销\",\"url\":\"/api/hotSaleListNew?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"月票\",\"url\":\"/api/monthTicketListNew?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"粉丝\",\"url\":\"/api/fansListNew?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"打赏\",\"url\":\"/api/rewardListNew?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"收藏\",\"url\":\"/api/collectListNew?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"推荐\",\"url\":\"/api/recommendListNew?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"字数\",\"url\":\"/api/wordnumListNew?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"更新\",\"url\":\"/api/wordsListNew?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"签约\",\"url\":\"/api/signUpListNew?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"新书\",\"url\":\"/api/newNovelListNew?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"评论\",\"url\":\"/api/commentListNew?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"催更\",\"url\":\"/api/urgeListNew?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=1&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"仙侠\",\"url\":\"/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=2&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=3&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=4&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=5&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"奇幻\",\"url\":\"/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=6&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"军事\",\"url\":\"/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=7&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑\",\"url\":\"/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=11&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"轻文\",\"url\":\"/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=9&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"体育\",\"url\":\"/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=12&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"游戏\",\"url\":\"/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=13&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠\",\"url\":\"/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=14&page={{page}}&novel_sex=1&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"现言\",\"url\":\"/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=77&page={{page}}&novel_sex=2&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"古言\",\"url\":\"/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=80&page={{page}}&novel_sex=2&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"幻言\",\"url\":\"/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=81&page={{page}}&novel_sex=2&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"纯爱\",\"url\":\"/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=82&page={{page}}&novel_sex=2&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"无CP\",\"url\":\"/api/getTypeNovel?novel_process=&novel_sell=&novel_sign_id=&time_type=&word_type=&second_type=83&page={{page}}&novel_sex=2&type_id=&pageSize=20&order=novel_wordnumber+&order_type=desc&tag=\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+    "lastUpdateTime": 1636988509330,
+    "loginUrl": "",
+    "respondTime": 10473,
+    "ruleBookInfo": {
+        "author": "novel_author",
+        "coverUrl": "https://oss.xrzww.com{{$.novel_cover}}",
+        "init": "data",
+        "intro": "<br>{{$.novel_info}}",
+        "kind": "",
+        "lastChapter": "novel_newcname",
+        "name": "novel_name",
+        "tocUrl": "/api/directoryList?nid={{$.novel_id}}&orderBy=0",
+        "wordCount": "novel_wordnumber"
+    },
+    "ruleContent": {
+        "content": "data.content"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "novel_author",
+        "bookList": "data.data",
+        "bookUrl": "/api/detail?novel_id={{$.novel_id}}",
+        "coverUrl": "https://oss.xrzww.com{{$.novel_cover}}",
+        "intro": "novel_info##\\s",
+        "kind": "type_name",
+        "lastChapter": "novel_newcname",
+        "name": "novel_name",
+        "wordCount": "novel_wordnumber"
+    },
+    "ruleToc": {
+        "chapterList": "data.data",
+        "chapterName": "chapter_name",
+        "chapterUrl": "/api/readNew?nid={{$.chapter_nid}}&vid={{$.chapter_vid}}&chapter_id={{$.chapter_id}}&chapter_order={{$.chapter_order}}",
+        "isVip": "chapter_ispay"
+    },
+    "searchUrl": "/api/search?page={{page}}&type=1&keyword={{key}}",
+    "weight": 0
+}

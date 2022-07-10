@@ -1,0 +1,40 @@
+{
+    "bookSourceComment": "\"\n\"",
+    "bookSourceGroup": "",
+    "bookSourceName": "SF轻小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.sfacg.com",
+    "customOrder": 682,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "全部::http://book.sfacg.com/List/default.aspx?PageIndex={{page}}\n热血::http://book.sfacg.com/List/default.aspx?tid=1&PageIndex={{page}}\n冒险::http://book.sfacg.com/List/default.aspx?tid=2&PageIndex={{page}}\n运动::http://book.sfacg.com/List/default.aspx?tid=3&PageIndex={{page}}\n魔幻::http://book.sfacg.com/List/default.aspx?tid=4&PageIndex={{page}}\n武侠::http://book.sfacg.com/List/default.aspx?tid=5&PageIndex={{page}}\n校园::http://book.sfacg.com/List/default.aspx?tid=6&PageIndex={{page}}\n同人::http://book.sfacg.com/List/default.aspx?tid=7&PageIndex={{page}}\n搞笑::http://book.sfacg.com/List/default.aspx?tid=8&PageIndex={{page}}\n爱情::http://book.sfacg.com/List/default.aspx?tid=9&PageIndex={{page}}\n温情::http://book.sfacg.com/List/default.aspx?tid=10&PageIndex={{page}}\n推理::http://book.sfacg.com/List/default.aspx?tid=11&PageIndex={{page}}\n机战::http://book.sfacg.com/List/default.aspx?tid=12&PageIndex={{page}}\n科幻::http://book.sfacg.com/List/default.aspx?tid=13&PageIndex={{page}}\n惊悚::http://book.sfacg.com/List/default.aspx?tid=14&PageIndex={{page}}\n社会::http://book.sfacg.com/List/default.aspx?tid=15&PageIndex={{page}}",
+    "lastUpdateTime": 0,
+    "respondTime": 3910,
+    "ruleBookInfo": {
+        "author": "class.author-name.0@text",
+        "coverUrl": "tag.img.0@src",
+        "intro": "class.introduce@text",
+        "name": "cclass.text.0@text",
+        "tocUrl": "id.BasicOperation@tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.ChapterBody@tag.p@text||class.article-content@textNodes##本书连载自免费原创小说网站”不可能的世界”www.8kana.com，|中国最有爱的年轻小说网站！|各大市场下载官方免费APP，|享最快更新。"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.a.2@text||text##.*\\综合信息：|/.*",
+        "bookList": "class.comic_cover@tag.tbody@tag.ul||class.Comic_Pic_List",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.img@src",
+        "kind": "tag.a.3@text",
+        "name": "class.orange_link2.0@text||tag.li.1@tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.catalog-list@tag.ul@tag.a",
+        "chapterName": "tag.a.0@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://s.sfacg.com/?Key={{key}}&S=1&SS=0",
+    "weight": 0
+}

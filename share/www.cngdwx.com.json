@@ -1,0 +1,41 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "古典文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.cngdwx.com",
+    "bookUrlPattern": "",
+    "customOrder": 706,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "全部典籍::/shuku_1518_{{page}}.html\n先秦两汉::/xianqinlianghan/shuku_155_{{page}}.html\n魏晋南北朝::/weijinnanbeichao/shuku_91_{{page}}.html\n唐宋::/tangsong/shuku_317_{{page}}.html\n元明清::/yuanmingqing/shuku_598_{{page}}.html\n近现代::/jinxiandai/shuku_198_{{page}}.html\n国学启蒙::/guoxueqimeng/shuku.html\n译文赏析::/yiwenshangxi/shuku_99_{{page}}.html\n杂谈::/zatan/shuku.html",
+    "lastUpdateTime": 1604569627157,
+    "loginUrl": "",
+    "respondTime": 9027,
+    "ruleBookInfo": {
+        "author": "class.info@tag.li.0@text",
+        "intro": "class.words@tag.p@text",
+        "name": "class.title@tag.h1@text"
+    },
+    "ruleContent": {
+        "content": "class.box_box@tag.p@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.author@tag.a.0@text||tag.div.1@tag.p.0@tag.a.0@text",
+        "bookList": "class.ul_m_list@tag.li||class.ul_b_list@tag.li",
+        "bookUrl": "class.title1@tag.a.0@href||tag.h2@tag.a.0@href",
+        "coverUrl": "tag.div.0@tag.a.0@tag.img@src@js:result||'http://1t.click/GPx'",
+        "kind": "class.c@tag.a.0@text||tag.div.1@tag.p.0@tag.a.1@text",
+        "lastChapter": "class.title1@tag.a.1@text",
+        "name": "class.title1@tag.a.0@text||tag.h2@tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.list_box@tag.li@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/plus/search.php?kwtype=0&searchtype=&q={{key}},{\n  \"charset\": \"utf-8\"\n}",
+    "weight": 0
+}

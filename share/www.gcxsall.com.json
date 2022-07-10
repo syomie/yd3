@@ -1,0 +1,38 @@
+{
+    "bookSourceComment": "backup",
+    "bookSourceGroup": "",
+    "bookSourceName": "官场小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.gcxsall.com",
+    "customOrder": 269,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "官场经典::/jingdianguanchangxiaoshuo/<,index_{{page}}.html>\n官场推荐::/guanchangxiaoshuotuijian/<,index_{{page}}.html>\n官场好看::/haokandeguanchangxiaoshuo/<,index_{{page}}.html>\n武侠小说::/wuxiaxiaoshuo/<,index_{{page}}.html>\n世界文学::/world/<,index_{{page}}.html>\n历史军事::/lishi/<,index_{{page}}.html>\n最后更新::/book/<,index_{{page}}.html>",
+    "lastUpdateTime": 0,
+    "respondTime": 3530,
+    "ruleBookInfo": {
+        "author": "h1 a@text",
+        "coverUrl": "div.pic img@src",
+        "init": "div.m-cover",
+        "intro": "p.m-summary@textNodes"
+    },
+    "ruleContent": {
+        "content": "#content@html||ul.list-group@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.a.-1@text",
+        "bookList": "tbody tr",
+        "bookUrl": "a@href",
+        "lastChapter": "td.col-md-6@text",
+        "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "h3,li.vv-book",
+        "chapterName": "a@text",
+        "chapterUrl": "a@href"
+    },
+    "searchUrl": "@js:\nurl='https://www.gcxsall.com/e/search/index.php';\noption=\"tbname=bookname&show=title,writer&tempid=1&keyboard=\"+String(key);\nMap=java.post(url,option,{}).header(\"Location\")\nresult=\"https://www.gcxsall.com/e/search/\"+Map+\"&page=\"+(page-1)",
+    "weight": 0
+}

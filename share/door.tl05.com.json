@@ -1,0 +1,55 @@
+{
+    "bookSourceComment": "分享者：渊呀",
+    "bookSourceGroup": "",
+    "bookSourceName": "乐兔阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://door.tl05.com",
+    "bookUrlPattern": "",
+    "concurrentRate": "",
+    "customOrder": 13,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1646055518342,
+    "loginCheckJs": "",
+    "loginUi": "",
+    "loginUrl": "",
+    "respondTime": 9829,
+    "ruleBookInfo": {
+        "author": "author",
+        "coverUrl": "cover",
+        "init": "data.book",
+        "intro": "description",
+        "kind": "tag.tab&&finished",
+        "lastChapter": "{{$.last_chapter}}·{{$.last_chapter_time}}",
+        "name": "name@put:{bid:$.book_id}",
+        "tocUrl": "@js:\nfunction sign(list){\n    var sb='p33d3d7giyv8hlsd';\n    list=list.sort();\n    for(var i=0;i<list.length;i++){if(i==0){sb+=list[i];}else{sb+=\"&\";sb+=list[i];}}\n    sb+=\"ac9de0edzhozh5fwcqi3bn0w5cqvht0u\";\n    return String(java.md5Encode(sb)).toUpperCase();\n}\ntime=Math.round(new Date()/1000);\nlist=[\"book_id={{$.book_id}}\",\"packageName=com.letuapp.reader\",\"time=\"+time,\"token=\",\"marketChannel=xiaomi\",\"appId=\",\"sysVer=7.1.2\",\"osType=2\",\"udid=1f705dac-2eec-3045-96be-713264df32c2\",\"ver=1.4.1\",\"product=1\"];\nbody={\"sign\":sign(list),\"book_id\":{{$.book_id}},\"packageName\":\"com.letuapp.reader\",\"time\":time,\"token\":\"\",\"marketChannel\":\"xiaomi\",\"appId\":\"\",\"sysVer\":\"7.1.2\",\"osType\":\"2\",\"udid\":\"1f705dac-2eec-3045-96be-713264df32c2\",\"ver\":\"1.4.1\",\"product\":\"1\"};\n\noption={\"method\":\"POST\",\"body\":JSON.stringify(body)};\n\"/chapter/new-catalog,\" + JSON.stringify(option);",
+        "wordCount": "total_words"
+    },
+    "ruleContent": {
+        "content": "data.content"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "author",
+        "bookList": "data.list",
+        "bookUrl": "@js:\nfunction sign(list){\n    var sb='p33d3d7giyv8hlsd';\n    list=list.sort();\n    for(var i=0;i<list.length;i++){if(i==0){sb+=list[i];}else{sb+=\"&\";sb+=list[i];}}\n    sb+=\"ac9de0edzhozh5fwcqi3bn0w5cqvht0u\";\n    return String(java.md5Encode(sb)).toUpperCase();\n}\ntime=Math.round(new Date()/1000);\nlist=[\"book_id={{$.book_id}}\",\"packageName=com.letuapp.reader\",\"time=\"+time,\"token=\",\"marketChannel=xiaomi\",\"appId=\",\"sysVer=7.1.2\",\"osType=2\",\"udid=1f705dac-2eec-3045-96be-713264df32c2\",\"ver=1.4.1\",\"product=1\"];\nbody={\"sign\":sign(list),\"book_id\":{{$.book_id}},\"packageName\":\"com.letuapp.reader\",\"time\":time,\"token\":\"\",\"marketChannel\":\"xiaomi\",\"appId\":\"\",\"sysVer\":\"7.1.2\",\"osType\":\"2\",\"udid\":\"1f705dac-2eec-3045-96be-713264df32c2\",\"ver\":\"1.4.1\",\"product\":\"1\"};\noption={\"method\":\"POST\",\"body\":JSON.stringify(body)};\n\"/book/info,\" + JSON.stringify(option);",
+        "coverUrl": "cover",
+        "intro": "description",
+        "kind": "tag.tab&&finished",
+        "lastChapter": "@js:\nfunction sign(list){\n    var sb='p33d3d7giyv8hlsd';\n    list=list.sort();\n    for(var i=0;i<list.length;i++){if(i==0){sb+=list[i];}else{sb+=\"&\";sb+=list[i];}}\n    sb+=\"ac9de0edzhozh5fwcqi3bn0w5cqvht0u\";\n    return String(java.md5Encode(sb)).toUpperCase();\n}\ntime=Math.round(new Date()/1000);\nlist=[\"book_id={{$.book_id}}\",\"packageName=com.letuapp.reader\",\"time=\"+time,\"token=\",\"marketChannel=xiaomi\",\"appId=\",\"sysVer=7.1.2\",\"osType=2\",\"udid=1f705dac-2eec-3045-96be-713264df32c2\",\"ver=1.4.1\",\"product=1\"];\nbody={\"sign\":sign(list),\"book_id\":{{$.book_id}},\"packageName\":\"com.letuapp.reader\",\"time\":time,\"token\":\"\",\"marketChannel\":\"xiaomi\",\"appId\":\"\",\"sysVer\":\"7.1.2\",\"osType\":\"2\",\"udid\":\"1f705dac-2eec-3045-96be-713264df32c2\",\"ver\":\"1.4.1\",\"product\":\"1\"};\noption={\"method\":\"POST\",\"body\":JSON.stringify(body)};\nresp=JSON.parse(java.ajax(\"http://door.tl05.com/book/info,\"+JSON.stringify(option)));\nresp.data.book.last_chapter+\"·\"+resp.data.book.last_chapter_time",
+        "name": "name",
+        "wordCount": "@js:\nfunction sign(list){\n    var sb='p33d3d7giyv8hlsd';\n    list=list.sort();\n    for(var i=0;i<list.length;i++){if(i==0){sb+=list[i];}else{sb+=\"&\";sb+=list[i];}}\n    sb+=\"ac9de0edzhozh5fwcqi3bn0w5cqvht0u\";\n    return String(java.md5Encode(sb)).toUpperCase();\n}\ntime=Math.round(new Date()/1000);\nlist=[\"book_id={{$.book_id}}\",\"packageName=com.letuapp.reader\",\"time=\"+time,\"token=\",\"marketChannel=xiaomi\",\"appId=\",\"sysVer=7.1.2\",\"osType=2\",\"udid=1f705dac-2eec-3045-96be-713264df32c2\",\"ver=1.4.1\",\"product=1\"];\nbody={\"sign\":sign(list),\"book_id\":{{$.book_id}},\"packageName\":\"com.letuapp.reader\",\"time\":time,\"token\":\"\",\"marketChannel\":\"xiaomi\",\"appId\":\"\",\"sysVer\":\"7.1.2\",\"osType\":\"2\",\"udid\":\"1f705dac-2eec-3045-96be-713264df32c2\",\"ver\":\"1.4.1\",\"product\":\"1\"};\noption={\"method\":\"POST\",\"body\":JSON.stringify(body)};\nJSON.parse(java.ajax(\"http://door.tl05.com/book/info,\"+JSON.stringify(option))).data.book.total_words"
+    },
+    "ruleToc": {
+        "chapterList": "data.chapter_list",
+        "chapterName": "chapter_title@put:{a:$.next_chapter}",
+        "chapterUrl": "@js:\nfunction sign(list){\n    var sb='p33d3d7giyv8hlsd';\n    list=list.sort();\n    for(var i=0;i<list.length;i++){if(i==0){sb+=list[i];}else{sb+=\"&\";sb+=list[i];}}\n    sb+=\"ac9de0edzhozh5fwcqi3bn0w5cqvht0u\";\n    return String(java.md5Encode(sb)).toUpperCase();\n}\n//java.log(result)\ntime=Math.round(new Date()/1000);\nlist=[\"book_id={{$.book_id}}\",\"chapter_id={{$.chapter_id}}\",\"packageName=com.letuapp.reader\",\"time=\"+time,\"token=\",\"marketChannel=xiaomi\",\"appId=\",\"sysVer=7.1.2\",\"osType=2\",\"udid=1f705dac-2eec-3045-96be-713264df32c2\",\"ver=1.4.1\",\"product=1\"];\nbody={\"sign\":sign(list),\"book_id\":{{$.book_id}},\"chapter_id\":{{$.chapter_id}},\"packageName\":\"com.letuapp.reader\",\"time\":time,\"token\":\"\",\"marketChannel\":\"xiaomi\",\"appId\":\"\",\"sysVer\":\"7.1.2\",\"osType\":\"2\",\"udid\":\"1f705dac-2eec-3045-96be-713264df32c2\",\"ver\":\"1.4.1\",\"product\":\"1\"};\noption={\"method\":\"POST\",\"body\":JSON.stringify(body)};\n\"/chapter/text,\" + JSON.stringify(option);",
+        "nextTocUrl": "<js>result</js>$.data.chapter_list[-1].last_chapter\n@js:\nfunction sign(list){\n    var sb='p33d3d7giyv8hlsd';\n    list=list.sort();\n    for(var i=0;i<list.length;i++){if(i==0){sb+=list[i];}else{sb+=\"&\";sb+=list[i];}}\n    sb+=\"ac9de0edzhozh5fwcqi3bn0w5cqvht0u\";\n    return String(java.md5Encode(sb)).toUpperCase();\n}\ntime=Math.round(new Date()/1000);\nlist=[\"book_id=\"+java.get('bid'),\"chapter_id=\"+result[0],\"scroll_type=1\",\"packageName=com.letuapp.reader\",\"time=\"+time,\"token=\",\"marketChannel=xiaomi\",\"appId=\",\"sysVer=7.1.2\",\"osType=2\",\"udid=1f705dac-2eec-3045-96be-713264df32c2\",\"ver=1.4.1\",\"product=1\"];\nbody={\"sign\":sign(list),\"book_id\":String(java.get('bid')),\"chapter_id\":String(result[0]),\"scroll_type\":\"1\",\"packageName\":\"com.letuapp.reader\",\"time\":time,\"token\":\"\",\"marketChannel\":\"xiaomi\",\"appId\":\"\",\"sysVer\":\"7.1.2\",\"osType\":\"2\",\"udid\":\"1f705dac-2eec-3045-96be-713264df32c2\",\"ver\":\"1.4.1\",\"product\":\"1\"};\noption={\"method\":\"POST\",\"body\":JSON.stringify(body)};\n\"/chapter/new-catalog,\" + JSON.stringify(option);\n\n",
+        "updateTime": "\n"
+    },
+    "searchUrl": "@js:\nfunction sign(list){\n    var sb='p33d3d7giyv8hlsd';\n    list=list.sort();\n    for(var i=0;i<list.length;i++){if(i==0){sb+=list[i];}else{sb+=\"&\";sb+=list[i];}}\n    sb+=\"ac9de0edzhozh5fwcqi3bn0w5cqvht0u\";\n    return String(java.md5Encode(sb)).toUpperCase();\n}\ntime=Math.round(new Date()/1000);\nlist=[\"packageName=com.letuapp.reader\",\"time=\"+time,\"token=\",\"marketChannel=xiaomi\",\"appId=\",\"page_num=\"+page,\"sysVer=7.1.2\",\"osType=2\",\"keyword=\"+key,\"udid=1f705dac-2eec-3045-96be-713264df32c2\",\"ver=1.4.1\",\"product=1\"];\nbody={\"sign\":sign(list),\"packageName\":\"com.letuapp.reader\",\"time\":time,\"token\":\"\",\"marketChannel\":\"xiaomi\",\"appId\":\"\",\"page_num\":page,\"sysVer\":\"7.1.2\",\"osType\":\"2\",\"keyword\":key,\"udid\":\"1f705dac-2eec-3045-96be-713264df32c2\",\"ver\":\"1.4.1\",\"product\":\"1\"};\noption={\"method\":\"POST\",\"body\":JSON.stringify(body)};\n\"/book/search,\" + JSON.stringify(option);",
+    "weight": 0
+}

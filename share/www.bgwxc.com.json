@@ -1,0 +1,51 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "布咕阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.bgwxc.com",
+    "bookUrlPattern": "",
+    "customOrder": 62,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "{\"Cookie\":\"user_account=F76A5O7ZdGuH3Ey2Frt34k3p9WBtdKheC3N%2Bk85WDanWB4lQx42C5q136iNFIafAJdQ8ESdj2TBFTB772Djd03teGEtg\"}",
+    "lastUpdateTime": 1646055334217,
+    "loginUrl": "",
+    "respondTime": 7153,
+    "ruleBookInfo": {
+        "author": "author",
+        "coverUrl": "src",
+        "init": "data.info",
+        "intro": "text\n<js>result.replace(/(.*)/,' ○○○STORY:\\n$1')</js>",
+        "kind": "type&&state",
+        "lastChapter": "{{$.new_name}}·{{$.updatetime}}",
+        "name": "name",
+        "tocUrl": "/module/novel/menu.php?pt=wap&tid={{$.tid}}&nid={{$.nid}}&sort=0&page=1",
+        "wordCount": "zishu"
+    },
+    "ruleContent": {
+        "content": "data.chapter.contentp"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "author",
+        "bookList": "data.list",
+        "bookUrl": "/module/novel/info.php?pt=wap&tid={{$.tid}}&nid={{$.nid}}&funname=book",
+        "coverUrl": "src",
+        "intro": "text\n<js>result.replace(/(.*)/,' ○○○STORY:\\n$1')</js>",
+        "kind": "type&&state",
+        "lastChapter": "{{$.new_name}}·{{$.updatetime}}",
+        "name": "name@put:{tid:tid,nid:nid}",
+        "wordCount": "zishu"
+    },
+    "ruleToc": {
+        "chapterList": "data.menu",
+        "chapterName": "cname",
+        "chapterUrl": "/module/novel/read2.php?ajax=yes&pt=wap&tid=@get:{tid}&nid=@get:{nid}&cid={{$.cid}}&op=1&sop=1",
+        "isVip": "isvip"
+    },
+    "searchUrl": "/module/novel/search.php?pt=wap&type=1&key={{key}}&page={{page}}",
+    "weight": 0
+}

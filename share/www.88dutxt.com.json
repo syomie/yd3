@@ -1,0 +1,44 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "88读书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.88dutxt.com/",
+    "customOrder": 1443,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1617459966283,
+    "respondTime": 9750,
+    "ruleBookInfo": {
+        "author": "class.msg@tag.em.0@text##作者：",
+        "coverUrl": "class.lf@img@src",
+        "init": "class.jieshao",
+        "intro": "class.intro@tag.p.0@text",
+        "kind": "class.place@tag.a.1@text&&p\nclass.msg@tag.em.1@text&&\nclass.msg@tag.em.2@text&&\nclass.msg@tag.em.3@text##状态：|更新时间：|字数：",
+        "lastChapter": "class.msg@tag.em.4@a@text",
+        "name": "class.rt@tag.h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁|小说"
+    },
+    "ruleContent": {
+        "content": "class.yd_text2@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.block_txt@tag.p.2@text##作者：",
+        "bookList": "class.block",
+        "bookUrl": "h2@tag.a@href",
+        "coverUrl": "img@src",
+        "intro": "class.block_txt@tag.p.4@text",
+        "kind": "class.block_txt@tag.p.3@text",
+        "lastChapter": "h2@a@href<js>java.ajax('http://www.88dutxt.com'+result)</js>class.jieshao@class.msg@tag.em.4@a@text",
+        "name": "h2@tag.a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁|小说",
+        "wordCount": ""
+    },
+    "ruleToc": {
+        "chapterList": "class.mulu@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.88dutxt.com/search/result.html?searchkey={{key}}&page={{page}}",
+    "weight": 0
+}

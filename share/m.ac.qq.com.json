@@ -1,0 +1,48 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "正版,漫画",
+    "bookSourceName": "腾讯漫画",
+    "bookSourceType": 2,
+    "bookSourceUrl": "https://m.ac.qq.com",
+    "bookUrlPattern": "",
+    "customOrder": 479,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"飙升\",\"url\":\"/rank/index?type=rise&pageSize=10&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"畅销\",\"url\":\"/rank/index?type=pay&pageSize=10&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"新作\",\"url\":\"/rank/index?type=new&pageSize=10&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"完结\",\"url\":\"/category/listAll?type=wj&rank=upt&pageSize=30&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"题材\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"真香\",\"url\":\"/rank/index?type=hot&pageSize=10&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"条漫\",\"url\":\"/category/listAll?type=tm&rank=upt&pageSize=30&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"独家\",\"url\":\"/category/listAll?type=dj&rank=upt&pageSize=30&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"日漫\",\"url\":\"/category/listAll?type=rm&rank=upt&pageSize=30&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"恐怖\",\"url\":\"/category/listAll?type=kb&rank=pgv&pageSize=30&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"妖怪\",\"url\":\"/category/listAll?type=yg&rank=pgv&pageSize=30&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"恋爱\",\"url\":\"/category/listAll?type=na&rank=pgv&pageSize=30&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/category/listAll?type=xh&rank=pgv&pageSize=30&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"热血\",\"url\":\"/category/listAll?type=rx&rank=pgv&pageSize=30&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑\",\"url\":\"/category/listAll?type=xy&rank=pgv&pageSize=30&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"彩虹\",\"url\":\"/category/listAll?type=dm&rank=pgv&pageSize=30&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"少女\",\"url\":\"/category/listAll?type=sv&rank=pgv&pageSize=30&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"韩漫\",\"url\":\"/category/listAll?type=hm&rank=pgv&pageSize=30&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/category/listAll?type=kh&rank=pgv&pageSize=30&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"逗比\",\"url\":\"/category/listAll?type=db&rank=pgv&pageSize=30&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"校园\",\"url\":\"/category/listAll?type=qcxy&rank=pgv&pageSize=30&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/category/listAll?type=ds&rank=pgv&pageSize=30&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"治愈\",\"url\":\"/category/listAll?type=zy&rank=pgv&pageSize=30&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1656252864028,
+    "loginUrl": "https://m.ac.qq.com/Home/login?ret_url=https%3A%2F%2Fm.ac.qq.com%2Fhome%2Findex",
+    "respondTime": 2363,
+    "ruleBookInfo": {
+        "author": ".head-info-author@text##作者：",
+        "init": "",
+        "intro": ".head-info-desc@html",
+        "lastChapter": ".mod-chapter-title@tag.span.0@text##，",
+        "name": ".head-title-tags h1@text"
+    },
+    "ruleContent": {
+        "content": "@js:\ndata=result.match(/data:\\s*'(.*?)'/)[1];\nnonce=result.match(/<script>window.*?=(.*?)<\\/script>/)[1];\nnonce=eval(nonce);\nvar N = String(nonce).match(/\\d+\\w+/);\njlen=N.length;\nwhile(jlen){\njlen -= 1;\njlocate = parseInt(N[jlen].match(/(\\d+)/)[0]) &255;\njstr = N[jlen].replace(/\\d+/g,'');\ndata=data.substring(0,parseInt(jlocate))+data.substring(parseInt(jlocate)+jstr.length,data.length)}\npiclist=eval(java.base64Decode(data).match(/\"picture\":(\\[{\".*\\])/)[1]);\nhtml='';\nfor(i in piclist){\nhtml += '<img src=\"'+piclist[i].url+'\">\\n'\n}\nhtml",
+        "imageStyle": "FULL",
+        "nextContentUrl": ""
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "bookList": "#lst_searchResult li||#list_update li||.comic-link",
+        "bookUrl": ".comic-link@href",
+        "coverUrl": "img@src",
+        "intro": ".comic-desc@text",
+        "kind": ".comic-tag@text&&.comic-update@text##\\s.*",
+        "lastChapter": "",
+        "name": ".comic-title@text",
+        "wordCount": ""
+    },
+    "ruleToc": {
+        "chapterList": "@css:.chapter-wrap-list.normal>li",
+        "chapterName": "tag.a@class&&tag.a@text@js:result.replace(/chapter-link/g,'').replace(/\\s/g,'').replace(/lock/g,'??')",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search/result?word={{key}}",
+    "weight": 0
+}

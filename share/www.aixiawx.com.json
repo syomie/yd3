@@ -1,0 +1,54 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "爱下书小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.aixiawx.com/",
+    "bookUrlPattern": "http://www.aixiawx.com/\\d+/\\d+/",
+    "customOrder": 341,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/xuanhuanxiaoshuo/1_{{page}}.html\n武侠修真::/wuxiaxiuzhen/2_{{page}}.html\n都市言情::/dushiyanqing/3_{{page}}.html\n历史军事::/lishijunshi/4_{{page}}.html\n网游竞技::/wangyoujingji/5_{{page}}.html\n科幻小说::/kehuanxiaoshuo/6_{{page}}.html\n其他小说::/qitaxiaoshuo/7_{{page}}.html\n完本小说::/wanben/1_{{page}}",
+    "lastUpdateTime": 1618855519026,
+    "respondTime": 11125,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text##作    者：",
+        "coverUrl": "id.fmimg@tag.img@src",
+        "init": "",
+        "intro": "id.intro@tag.p@text",
+        "kind": "class.con_top@tag.a.1@text&&\nid.info@tag.p.2@text##最后更新：",
+        "lastChapter": "id.info@tag.p.3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "id.info@tag.h1@text",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "id.content@html",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {
+        "author": "class.s5@text",
+        "bookList": "class.l@tag.ul@tag.li",
+        "bookUrl": "class.s2@tag.a@href",
+        "lastChapter": "class.s3@tag.a@text",
+        "name": "class.s2@tag.a@text"
+    },
+    "ruleSearch": {
+        "author": "class.even.1@text",
+        "bookList": "class.grid@tag.tbody@tag.tr!0",
+        "bookUrl": "class.even.0@tag.a@href",
+        "coverUrl": "class.even.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "kind": "",
+        "lastChapter": "class.odd.0@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "class.even.0@tag.a@text",
+        "wordCount": ""
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dl@tag.dd!0:1:2:3:4:5:6:7:8",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href",
+        "nextTocUrl": ""
+    },
+    "searchUrl": "http://www.aixiawx.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename",
+    "weight": 0
+}

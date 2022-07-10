@@ -1,0 +1,49 @@
+{
+    "bookSourceComment": "18J",
+    "bookSourceGroup": "笔趣阁",
+    "bookSourceName": "笔趣阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biquge.city/",
+    "customOrder": 249,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"/xuanhuan/\",\"style\":{}},\n{\"title\":\"武侠仙侠\",\"url\":\"/wuxia/\",\"style\":{}},\n{\"title\":\"都市言情\",\"url\":\"/yanqing/\",\"style\":{}},\n{\"title\":\"科幻网游\",\"url\":\"/kehuan/\",\"style\":{}},\n{\"title\":\"惊悚悬疑\",\"url\":\"/xuanyi/\",\"style\":{}},\n{\"title\":\"耽美同人\",\"url\":\"/danmei/\",\"style\":{}},\n{\"title\":\"穿越架空\",\"url\":\"/chuanyue/\",\"style\":{}},\n{\"title\":\"高辣浓情\",\"url\":\"/gaola/\",\"style\":{}},\n{\"title\":\"禁忌百合\",\"url\":\"/baihe/\",\"style\":{}},\n{\"title\":\"精品文学\",\"url\":\"/jingpin/\",\"style\":{}}]",
+    "lastUpdateTime": 1630574993099,
+    "respondTime": 10506,
+    "ruleBookInfo": {
+        "author": "p.0@text",
+        "coverUrl": "id.fmimg@img@src",
+        "intro": "id.intro@text",
+        "kind": "class.con_top@tag.a.-1@text",
+        "lastChapter": "id.list@dd.0@a@text",
+        "name": "h1@text",
+        "wordCount": "p.2@text##最后更新："
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes"
+    },
+    "ruleExplore": {
+        "author": "class.s5@text",
+        "bookList": "class.l@li",
+        "bookUrl": "class.s2@a@href",
+        "lastChapter": "class.s3@a@text",
+        "name": "class.s2@a@text"
+    },
+    "ruleSearch": {
+        "author": "class.odd.1@text",
+        "bookList": "id.nr",
+        "bookUrl": "class.odd.0@a@href",
+        "kind": "class.odd.2@text&&ass.even.2@text",
+        "lastChapter": "class.even.0@a@text",
+        "name": "class.odd.0@a@text",
+        "wordCount": "class.even.1@text##[kK]##000"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@dd!0:1:2:3:4:5:6:7:8",
+        "chapterName": "a@text",
+        "chapterUrl": "a@href"
+    },
+    "searchUrl": "https://www.biquge.city/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

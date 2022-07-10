@@ -1,0 +1,55 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "正版,漫画",
+    "bookSourceName": "漫客栈",
+    "bookSourceType": 2,
+    "bookSourceUrl": "https://www.mkzhan.com",
+    "bookUrlPattern": "",
+    "customOrder": 483,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"人气榜\",\"url\":\"/top/popularity/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"月票榜\",\"url\":\"/top/ticket/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"收藏榜\",\"url\":\"/top/collection/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"独家榜\",\"url\":\"/top/exclusive/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"新作榜\",\"url\":\"/top/latest/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"上升榜\",\"url\":\"/top/ascension/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"合作榜\",\"url\":\"/top/cooperation/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"评分榜\",\"url\":\"/top/score/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"热评榜\",\"url\":\"/top/comment/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"VIP人气\",\"url\":\"/top/popularity/vip/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"付费人气\",\"url\":\"/top/popularity/pay/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"打赏榜\",\"url\":\"/top/gratuity/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"受众\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"少年\",\"url\":\"/category/?audience=1&order=2&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"少女\",\"url\":\"/category/?audience=2&order=2&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"青年\",\"url\":\"/category/?audience=3&order=2&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"少儿\",\"url\":\"/category/?audience=4&order=2&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"题材\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"更新\",\"url\":\"/update/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"霸总\",\"url\":\"/category/?order=2&theme_id=1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"修真\",\"url\":\"/category/?order=2&theme_id=2&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"恋爱\",\"url\":\"/category/?order=2&theme_id=3&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"校园\",\"url\":\"/category/?order=2&theme_id=4&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"冒险\",\"url\":\"/category/?order=2&theme_id=5&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"搞笑\",\"url\":\"/category/?order=2&theme_id=6&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"生活\",\"url\":\"/category/?order=2&theme_id=7&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"热血\",\"url\":\"/category/?order=2&theme_id=8&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"架空\",\"url\":\"/category/?order=2&theme_id=9&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"后宫\",\"url\":\"/category/?order=2&theme_id=10&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/category/?order=2&theme_id=12&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑\",\"url\":\"/category/?order=2&theme_id=13&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"恐怖\",\"url\":\"/category/?order=2&theme_id=14&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"灵异\",\"url\":\"/category/?order=2&theme_id=15&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"动作\",\"url\":\"/category/?order=2&theme_id=16&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/category/?order=2&theme_id=17&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"战争\",\"url\":\"/category/?order=2&theme_id=18&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"古风\",\"url\":\"/category/?order=2&theme_id=19&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"穿越\",\"url\":\"/category/?order=2&theme_id=20&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"竞技\",\"url\":\"/category/?order=2&theme_id=21&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"励志\",\"url\":\"/category/?order=2&theme_id=23&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"同人\",\"url\":\"/category/?order=2&theme_id=24&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"真人\",\"url\":\"/category/?order=2&theme_id=26&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "header": "",
+    "lastUpdateTime": 1657377930705,
+    "loginUrl": "https://www.mkzhan.com/login",
+    "respondTime": 5024,
+    "ruleBookInfo": {
+        "author": ".name@text",
+        "coverUrl": ".de-info__cover img@data-src",
+        "init": "",
+        "intro": ".intro@html",
+        "kind": ".comic-status b.0@text&&.de-chapter__title span.0@text##\\s##,",
+        "lastChapter": ".update-time@text##.*更新至\\s",
+        "name": ".comic-title@text",
+        "tocUrl": "",
+        "wordCount": ".update-time@text##\\s更新至.*"
+    },
+    "ruleContent": {
+        "content": "$..image@js:result.split(\"\\n\").map(x=>'<img src=\\\"'+x+'\\\">').join(\"\\n\")",
+        "imageStyle": "FULL",
+        "nextContentUrl": ""
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": ".comic-author a@text",
+        "bookList": ".common-comic-item||.top-list__box-item",
+        "bookUrl": "a.1@href",
+        "coverUrl": "img@data-src",
+        "intro": ".comic-feature@text",
+        "kind": ".comic-count@text",
+        "lastChapter": ".comic-update a@text",
+        "name": ".comic__title@text"
+    },
+    "ruleToc": {
+        "chapterList": "-.chapter__list-box li",
+        "chapterName": "a@text",
+        "chapterUrl": ".j-chapter-link@data-chapterid\n@js:\r\ncid=result;\r\nbid=baseUrl.match(/\\/(\\d+)\\//)[1],\n\n'https://comic.mkzcdn.com/chapter/content/v1/?chapter_id='+cid+'&comic_id='+bid+'&format=1&quality=1&sign=0&type=1&uid=0'",
+        "isVip": "i@text",
+        "updateTime": ".data@text"
+    },
+    "searchUrl": "/search/?keyword={{key}}&page={{page}}",
+    "weight": 0
+}

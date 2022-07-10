@@ -1,0 +1,55 @@
+{
+    "bookSourceComment": "🍭+渊呀",
+    "bookSourceGroup": "",
+    "bookSourceName": "大河小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.dahexs.net",
+    "bookUrlPattern": "",
+    "customOrder": 766,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"日点击榜\",\"url\":\"/top/dayvisit_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"周点击榜\",\"url\":\"/top/weekvisit_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"月点击榜\",\"url\":\"/top/monthvisit_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"总点击榜\",\"url\":\"/top/allvisit_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"总收藏榜\",\"url\":\"/top/goodnum_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"字数排行\",\"url\":\"/top/size_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"日推荐榜\",\"url\":\"/top/dayvote_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"周推荐榜\",\"url\":\"/top/weekvote_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"月推荐榜\",\"url\":\"/top/monthvote_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"总推荐榜\",\"url\":\"/top/allvote_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"最新入库\",\"url\":\"/top/postdate_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"最近更新\",\"url\":\"/top/lastupdate_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"玄幻魔法\",\"url\":\"/sort/1_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"仙侠修真\",\"url\":\"/sort/2_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市言情\",\"url\":\"/sort/3_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"/sort/4_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游动漫\",\"url\":\"/sort/5_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻小说\",\"url\":\"/sort/6_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女生小说\",\"url\":\"/sort/7_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他小说\",\"url\":\"/sort/8_{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"这是空的\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+    "header": "{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 10.0; wv) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.110 Mobile Safari/537.36 T7/10.3 SearchCraft/2.6.2 (Baidu; P1 7.0)\"}",
+    "lastUpdateTime": 1633021246139,
+    "loginUrl": "",
+    "respondTime": 5979,
+    "ruleBookInfo": {
+        "author": ".p1.0@text##作者：",
+        "coverUrl": ".tu img@src",
+        "kind": ".p4@text&&.p5@text",
+        "lastChapter": ".p3@a@text&&.info_chapters p.0@text##最新章节.*：(.*) \\)##$1\n@js:result.replace(/\\n/,'·')",
+        "name": "class.catalog1@h1@text",
+        "wordCount": ".p6@text"
+    },
+    "ruleContent": {
+        "content": "##decodeURIComponent\\('(.+)'\\)##$1###@js:decodeURIComponent(result)",
+        "nextContentUrl": "@js:\nreg=/(var pageAll = '\\d+')/;\nif(reg.test(src)&&!/_\\d+\\./.test(baseUrl)){\neval(src.match(reg)[0]);\nlist=[];\nb=baseUrl.replace(/.html$/,'_');\nfor(let j=2;j<=pageAll;j++){\nlist.push(b+j+'.html')}list}",
+        "replaceRegex": "##第.*章(.|\\n)*?\\)"
+    },
+    "ruleExplore": {
+        "author": ".p4@text||a.2@text",
+        "bookList": ".tt||.content_link",
+        "bookUrl": ".tt a.0@href&&.content_link a.1@href",
+        "coverUrl": "img@src",
+        "intro": ".p5@text\n<js>result.replace(/(.*)/,' ○○○STORY:\\n$1')</js>",
+        "kind": ".tt .p2@text",
+        "name": "a.4@text||a.1@text##|.*",
+        "wordCount": ".p3@text"
+    },
+    "ruleSearch": {
+        "author": "a.-1@text",
+        "bookList": ".search_list[0:3]",
+        "bookUrl": "tag.a.0@href",
+        "lastChapter": "tag.a.0@href<js>java.ajax('https://m.dahexs.net'+result)</js>class.p3@a@text&&class.info_chapters p.0@text##最新章节.*：(.*) \\)##$1\n@js:result.replace(/\\n/,'·')",
+        "name": "a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.info_chapters@ul.1@li@a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/s.php,{\n\"method\":\"POST\",\n\"charset\":\"gbk\",\n\"body\":\"s={{key}}&type=articlename&submit=\"\n}",
+    "weight": 0
+}

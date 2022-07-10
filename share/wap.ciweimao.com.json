@@ -1,0 +1,53 @@
+{
+    "bookSourceComment": "\nHINOTORI，百度\n❗该书源为正版书源，付费章节看不了。\n发现页可自行添加wap.ciweimao.com网站的书籍，规则为 书名::书籍详情链接\n例如：\n合格的资本家应当剥削怪异::https://wap.ciweimao.com/book/100222157\n马恩的日常::https://wap.ciweimao.com/book/100056803\n❗若是www.ciweimao.com网站的书籍，增加发现规则时，请自行将www改为wap",
+    "bookSourceGroup": "刺猬猫",
+    "bookSourceName": "刺猬猫wap",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://wap.ciweimao.com",
+    "customOrder": 1352,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "全部::https://wap.ciweimao.com/book_list/0/{{page}}&&玄幻奇幻::https://wap.ciweimao.com/book_list/yijiehuanxiang/{{page}}&&都市青春::https://wap.ciweimao.com/book_list/qingchunrichang/{{page}}&&灵异未知::https://wap.ciweimao.com/book_list/shenmiweizhi/{{page}}&&历史军事::https://wap.ciweimao.com/book_list/zhanzhenglishi/{{page}}&&科幻无限::https://wap.ciweimao.com/book_list/weilaihuanxiang/{{page}}&&游戏竞技::https://wap.ciweimao.com/book_list/youxishijie/{{page}}&&仙侠武侠::https://wap.ciweimao.com/book_list/rexuejingji/{{page}}&&免费同人::https://wap.ciweimao.com/book_list/tongrenfenlei/{{page}}&&女频::https://wap.ciweimao.com/book_list/nvpinfenlei/{{page}}&&",
+    "header": "",
+    "lastUpdateTime": 1620386527965,
+    "loginUrl": "",
+    "respondTime": 6502,
+    "ruleBookInfo": {
+        "author": "class.author@text##著\\s\\/\\s.*",
+        "coverUrl": "class.cover@img@data-original",
+        "intro": "class.desc-cnt@text",
+        "kind": "class.intro.0@text&&class.author@text##.*\\s\\/\\s",
+        "lastChapter": "class.intro.1@text##更新：",
+        "name": "class.book@text",
+        "wordCount": "class.intro.0@text##\\s\\/\\s.*"
+    },
+    "ruleContent": {
+        "content": ".chapter@textNodes&&.chapter@img@html",
+        "replaceRegex": ""
+    },
+    "ruleExplore": {
+        "author": "class.author@text##\\s\\/\\s.*",
+        "bookList": "class.book-item",
+        "bookUrl": "class.book-item@a@href",
+        "coverUrl": "class.lazyload@data-original",
+        "intro": "class.desc@text",
+        "kind": "class.author@text##.*\\s\\/\\s",
+        "lastChapter": "class.new@text##.*\\s\\/\\s",
+        "name": "class.title@text",
+        "wordCount": "class.new@text##更新：|\\s\\/\\s.*"
+    },
+    "ruleSearch": {
+        "bookList": ".t@a",
+        "bookUrl": "href\n@js:try{java.put(\"url\",java.get(result,{})\n.header(\"Location\"))}catch(e){\njava.put(\"url\",result)}\n##www##wap",
+        "name": "href\n<js>java.ajax(''+result)</js>\nclass.title.0@textNodes"
+    },
+    "ruleToc": {
+        "chapterList": "class.catalogue-list@li@a",
+        "chapterName": "text&&tag.i@class##icon\\sicon\\-lock##🔒",
+        "chapterUrl": "href@js:result+',{webView:\"true\"}'",
+        "isVip": ""
+    },
+    "searchUrl": "https://www.baidu.com/s?q1={{key}}&q2=&q3=&q4=&gpc=stf&ft=&q5=1&q6=www.ciweimao.com&tn=baiduadv",
+    "weight": 0
+}

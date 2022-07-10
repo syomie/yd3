@@ -1,0 +1,47 @@
+{
+    "bookSourceComment": "字体错误未修复",
+    "bookSourceGroup": "希弥",
+    "bookSourceName": "潇湘书院",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xxsy.net",
+    "customOrder": -88962076,
+    "enabled": false,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"   潇湘书库   \",\"url\":\"https://www.xxsy.net/search?s_wd=&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   古代言情   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=1&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   玄幻言情   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=3&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   仙侠奇缘   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=4&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   现代言情   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=2&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   浪漫青春   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=6&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   悬疑推理   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=5&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   科幻空间   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=7&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"   游戏竞技   \",\"url\":\"https://www.xxsy.net/search?s_wd=&s_type=8&sort=9&pn={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+    "lastUpdateTime": 1648726664920,
+    "loginUrl": "https://passport.yuewen.com/yuewen.html?appid=41&areaid=2&autotime=30&source=m&version=1.0&ticket=1&unionshow=110&returnurl=https%3A%2F%2Fwww.xxsy.net%2FloginSuccess%3FjumpUrl%3Dhttps%253A%252F%252Fwww.xxsy.net%252Fuser",
+    "respondTime": 18623,
+    "ruleBookInfo": {
+        "init": "",
+        "name": "",
+        "tocUrl": ""
+    },
+    "ruleContent": {
+        "content": "#auto-chapter@html",
+        "nextContentUrl": ""
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "name": ""
+    },
+    "ruleSearch": {
+        "author": ".subtitle@tag.a.0@text",
+        "bookList": ".result-list ul li",
+        "bookUrl": "tag.a.0@href##.+\\D(\\d+)\\D##https://m.xxsy.net/books/$1.html###",
+        "coverUrl": "img@data-src",
+        "intro": "p@text",
+        "kind": ".subtitle@tag.a!0@text",
+        "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".directory-list a",
+        "chapterName": "text",
+        "chapterUrl": "href##\\D+chapterid=(\\d+)\\&\\D+##https://www.xxsy.net/chapter/$1.html###",
+        "isVip": "vip",
+        "nextTocUrl": ""
+    },
+    "searchUrl": "/search?s_wd={{key}}",
+    "weight": 0
+}

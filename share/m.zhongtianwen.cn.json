@@ -1,0 +1,54 @@
+{
+    "bookSourceComment": "容易频繁宕机的网站，等一会就会恢复。",
+    "bookSourceGroup": "",
+    "bookSourceName": "种田小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.zhongtianwen.cn",
+    "customOrder": 303,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"总榜\",\"url\":\"/paihangbang/allvisit.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"月榜\",\"url\":\"/paihangbang/monthvisit.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"周榜\",\"url\":\"/paihangbang/weekvisit.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"日榜\",\"url\":\"/paihangbang/dayvisit.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"推荐\",\"url\":\"/paihangbang/vote.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"收藏\",\"url\":\"/paihangbang/mark.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"下载\",\"url\":\"/paihangbang/down.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"评论\",\"url\":\"/paihangbang/comment.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"评分\",\"url\":\"/paihangbang/star_score.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"入库\",\"url\":\"/paihangbang/postdate.html\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/xiaoshuofenlei/xuanhuan/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"修真\",\"url\":\"/xiaoshuofenlei/xiuzhen/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠\",\"url\":\"/xiaoshuofenlei/wuxia/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/xiaoshuofenlei/dushi/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"穿越\",\"url\":\"/xiaoshuofenlei/chuanyue/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"战争\",\"url\":\"/xiaoshuofenlei/zhanzheng/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游\",\"url\":\"/xiaoshuofenlei/wangyou/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/xiaoshuofenlei/kehuan/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"恐怖\",\"url\":\"/xiaoshuofenlei/kongbu/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/xiaoshuofenlei/qita/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"女生\",\"url\":\"/xiaoshuofenlei/nvsheng/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+    "header": "{\n    'User-Agent': ''\n}",
+    "lastUpdateTime": 1643135611426,
+    "respondTime": 5286,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "[property=\"og:description\"]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": ".synopsisArea_detail p.1:2:3@text##.*：|\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "tocUrl": "text.查看完整目录@href"
+    },
+    "ruleContent": {
+        "content": "#chaptercontent@p@html",
+        "nextContentUrl": "text.下一页@href",
+        "replaceRegex": "##本章未完.+"
+    },
+    "ruleExplore": {
+        "author": "p.1@text",
+        "bookList": ".hot_sale",
+        "bookUrl": "a@href",
+        "coverUrl": "img@src",
+        "intro": "p.2@text##简介.",
+        "name": "p.0@text"
+    },
+    "ruleSearch": {
+        "author": "p.1@text",
+        "bookList": ".hot_sale",
+        "bookUrl": "a.0@href",
+        "checkKeyWord": "",
+        "coverUrl": "",
+        "kind": "p.2@ownText##\\s.*",
+        "lastChapter": "a.1@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": "p.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "#chapterlist p!0@a",
+        "chapterName": "text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/xiaoshuosousuo/jieguo.html?searchkey={{key}}",
+    "weight": 0
+}

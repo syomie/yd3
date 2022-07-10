@@ -1,0 +1,66 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "希弥",
+    "bookSourceName": "妙笔阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.imiaobige.com       ",
+    "bookUrlPattern": "",
+    "customOrder": -88962062,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "💮全部*默认💮::/shuku/0_0_0_{{page}}.html\n💮全部*总点击💮::/shuku/0_allvisit_0_{{page}}.html\n💮全部*总推荐💮::/shuku/0_allvote_0_{{page}}.html\n💮全部*总收藏💮::/shuku/0_goodnum_0_{{page}}.html\n💮全部*字数💮::/shuku/0_size_0_{{page}}.html\n💮全部*入库💮::/shuku/0_postdate_0_{{page}}.html\n⚰️玄幻奇幻*默认⚰️::/shuku/1_0_0_{{page}}.html\n⚰️玄幻奇幻*总点击⚰️::/shuku/1_allvisit_0_{{page}}.html\n⚰️玄幻奇幻*总推荐⚰️::/shuku/1_allvote_0_{{page}}.html\n⚰️玄幻奇幻*总收藏⚰️::/shuku/1_goodnum_0_{{page}}.html\n⚰️玄幻奇幻*字数⚰️::/shuku/1_size_0_{{page}}.html\n⚰️玄幻奇幻*入库⚰️::/shuku/1_postdate_0_{{page}}.html\n🐲武侠仙侠*默认🐲::/shuku/2_0_0_{{page}}.html\n🐲武侠仙侠*总点击🐲::/shuku/2_allvisit_0_{{page}}.html\n🐲武侠仙侠*总推荐🐲::/shuku/2_allvote_0_{{page}}.html\n🐲武侠仙侠*总收藏🐲::/shuku/2_goodnum_0_{{page}}.html\n🐲武侠仙侠*字数🐲::/shuku/2_size_0_{{page}}.html\n🐲武侠仙侠*入库🐲::/shuku/2_postdate_0_{{page}}.html\n🏢都市生活*默认🏢::/shuku/3_0_0_{{page}}.html\n🏢都市生活*总点击🏢::/shuku/3_allvisit_0_{{page}}.html\n🏢都市生活*总推荐🏢::/shuku/3_allvote_0_{{page}}.html\n🏢都市生活*总收藏🏢::/shuku/3_goodnum_0_{{page}}.html\n🏢都市生活*字数🏢::/shuku/3_size_0_{{page}}.html\n🏢都市生活*入库🏢::/shuku/3_postdate_0_{{page}}.html\n☯️历史军事*默认☯️::/shuku/4_0_0_{{page}}.html\n☯️历史军事*总点击☯️::/shuku/4_allvisit_0_{{page}}.html\n☯️历史军事*总推荐☯️::/shuku/4_allvote_0_{{page}}.html\n☯️历史军事*总收藏☯️::/shuku/4_goodnum_0_{{page}}.html\n☯️历史军事*字数☯️::/shuku/4_size_0_{{page}}.html\n☯️历史军事*入库☯️::/shuku/4_postdate_0_{{page}}.html\n⚜️游戏竞技*默认⚜️::/shuku/5_0_0_{{page}}.html\n⚜️游戏竞技*总点击⚜️::/shuku/5_allvisit_0_{{page}}.html\n⚜️游戏竞技*总推荐⚜️::/shuku/5_allvote_0_{{page}}.html\n⚜️游戏竞技*总收藏⚜️::/shuku/5_goodnum_0_{{page}}.html\n⚜️游戏竞技*字数⚜️::/shuku/5_size_0_{{page}}.html\n⚜️游戏竞技*入库⚜️::/shuku/5_postdate_0_{{page}}.html\n🛰科幻未来*默认🛰::/shuku/6_0_0_{{page}}.html\n🛰科幻未来*总点击🛰::/shuku/6_allvisit_0_{{page}}.html\n🛰科幻未来*总推荐🛰::/shuku/6_allvote_0_{{page}}.html\n🛰科幻未来*总收藏🛰::/shuku/6_goodnum_0_{{page}}.html\n🛰科幻未来*字数🛰::/shuku/6_size_0_{{page}}.html\n🛰科幻未来*入库🛰::/shuku/6_postdate_0_{{page}}.html\n🎭悬疑灵异*默认🎭::/shuku/7_0_0_{{page}}.html\n🎭悬疑灵异*总点击🎭::/shuku/7_allvisit_0_{{page}}.html\n🎭悬疑灵异*总推荐🎭::/shuku/7_allvote_0_{{page}}.html\n🎭悬疑灵异*总收藏🎭::/shuku/7_goodnum_0_{{page}}.html\n🎭悬疑灵异*字数🎭::/shuku/7_size_0_{{page}}.html\n🎭悬疑灵异*入库🎭::/shuku/7_postdate_0_{{page}}.html\n🐉二次元*默认🐉::/shuku/8_0_0_{{page}}.html\n🐉二次元*总点击🐉::/shuku/8_allvisit_0_{{page}}.html\n🐉二次元*总推荐🐉::/shuku/8_allvote_0_{{page}}.html\n🐉二次元*总收藏🐉::/shuku/8_goodnum_0_{{page}}.html\n🐉二次元*字数🐉::/shuku/8_size_0_{{page}}.html\n🐉二次元*入库🐉::/shuku/8_postdate_0_{{page}}.html\n🌛经典短篇*默认🌛::/shuku/9_0_0_{{page}}.html\n🌛经典短篇*总点击🌛::/shuku/9_allvisit_0_{{page}}.html\n🌛经典短篇*总推荐🌛::/shuku/9_allvote_0_{{page}}.html\n🌛经典短篇*总收藏🌛::/shuku/9_goodnum_0_{{page}}.html\n🌛经典短篇*字数🌛::/shuku/9_size_0_{{page}}.html\n🌛经典短篇*入库🌛::/shuku/9_postdate_0_{{page}}.html\n🦚古代言情*默认🦚::/shuku/10_0_0_{{page}}.html\n🦚古代言情*总点击🦚::/shuku/10_allvisit_0_{{page}}.html\n🦚古代言情*总推荐🦚::/shuku/10_allvote_0_{{page}}.html\n🦚古代言情*总收藏🦚::/shuku/10_goodnum_0_{{page}}.html\n🦚古代言情*字数🦚::/shuku/10_size_0_{{page}}.html\n🦚古代言情*入库🦚::/shuku/10_postdate_0_{{page}}.html\n🌃现代言情*默认🌃::/shuku/11_0_0_{{page}}.html\n🌃现代言情*总点击🌃::/shuku/11_allvisit_0_{{page}}.html\n🌃现代言情*总推荐🌃::/shuku/11_allvote_0_{{page}}.html\n🌃现代言情*总收藏🌃::/shuku/11_goodnum_0_{{page}}.html\n🌃现代言情*字数🌃::/shuku/11_size_0_{{page}}.html\n🌃现代言情*入库🌃::/shuku/11_postdate_0_{{page}}.html\n🌠幻想奇缘*默认🌠::/shuku/12_0_0_{{page}}.html\n🌠幻想奇缘*总点击🌠::/shuku/12_allvisit_0_{{page}}.html\n🌠幻想奇缘*总推荐🌠::/shuku/12_allvote_0_{{page}}.html\n🌠幻想奇缘*总收藏🌠::/shuku/12_goodnum_0_{{page}}.html\n🌠幻想奇缘*字数🌠::/shuku/12_size_0_{{page}}.html\n🌠幻想奇缘*入库🌠::/shuku/12_postdate_0_{{page}}.html\n🔮浪漫青春*默认🔮::/shuku/13_0_0_{{page}}.html\n🔮浪漫青春*总点击🔮::/shuku/13_allvisit_0_{{page}}.html\n🔮浪漫青春*总推荐🔮::/shuku/13_allvote_0_{{page}}.html\n🔮浪漫青春*总收藏🔮::/shuku/13_goodnum_0_{{page}}.html\n🔮浪漫青春*字数🔮::/shuku/13_size_0_{{page}}.html\n🔮浪漫青春*入库🔮::/shuku/13_postdate_0_{{page}}.html\n🍸网络情缘*默认🍸::/shuku/14_0_0_{{page}}.html\n🍸网络情缘*总点击🍸::/shuku/14_allvisit_0_{{page}}.html\n🍸网络情缘*总推荐🍸::/shuku/14_allvote_0_{{page}}.html\n🍸网络情缘*总收藏🍸::/shuku/14_goodnum_0_{{page}}.html\n🍸网络情缘*字数🍸::/shuku/14_size_0_{{page}}.html\n🍸网络情缘*入库🍸::/shuku/14_postdate_0_{{page}}.html🔋科幻空间*默认🔋::/shuku/15_0_0_{{page}}.html\n🔋科幻空间*总点击🔋::/shuku/15_allvisit_0_{{page}}.html\n🔋科幻空间*总推荐🔋::/shuku/15_allvote_0_{{page}}.html\n🔋科幻空间*总收藏🔋::/shuku/15_goodnum_0_{{page}}.html\n🔋科幻空间*字数🔋::/shuku/15_size_0_{{page}}.html\n🔋科幻空间*入库🔋::/shuku/15_postdate_0_{{page}}.html\n👾恐怖灵异*默认👾::/shuku/16_0_0_{{page}}.html\n👾恐怖灵异*总点击👾::/shuku/16_allvisit_0_{{page}}.html\n👾恐怖灵异*总推荐👾::/shuku/16_allvote_0_{{page}}.html\n👾恐怖灵异*总收藏👾::/shuku/16_goodnum_0_{{page}}.html\n👾恐怖灵异*字数👾::/shuku/16_size_0_{{page}}.html\n👾恐怖灵异*入库👾::/shuku/16_postdate_0_{{page}}.html\n🎞N次元*默认🎞::/shuku/17_0_0_{{page}}.html\n🎞N次元*总点击🎞::/shuku/17_allvisit_0_{{page}}.html\n🎞N次元*总推荐🎞::/shuku/17_allvote_0_{{page}}.html\n🎞N次元*总收藏🎞::/shuku/17_goodnum_0_{{page}}.html\n🎞N次元*字数🎞::/shuku/17_size_0_{{page}}.html\n🎞N次元*入库🎞::/shuku/17_postdate_0_{{page}}.html\n🎎言情美文*默认::/shuku/18_0_0_{{page}}.html\n🎎言情美文*总点击🎎::/shuku/18_allvisit_0_{{page}}.html\n🎎言情美文*总推荐🎎::/shuku/18_allvote_0_{{page}}.html\n🎎言情美文*总收藏🎎::/shuku/18_goodnum_0_{{page}}.html\n🎎言情美文*字数🎎::/shuku/18_size_0_{{page}}.html\n🎎言情美文*入库🎎::/shuku/18_postdate_0_{{page}}.html\n❄️其他类型*默认❄️::/shuku/19_0_0_{{page}}.html\n❄️其他类型*总点击❄️::/shuku/19_allvisit_0_{{page}}.html\n❄️其他类型*总推荐❄️::/shuku/19_allvote_0_{{page}}.html\n❄️其他类型*总收藏❄️::/shuku/19_goodnum_0_{{page}}.html\n❄️其他类型*字数❄️::/shuku/19_size_0_{{page}}.html\n❄️其他类型*入库❄️::/shuku/19_postdate_0_{{page}}.html\n❄️其他类型*入库*完本❄️::/shuku/19_postdate_2_{{page}}.html",
+    "header": "",
+    "lastUpdateTime": 1648718219803,
+    "loginUrl": "",
+    "respondTime": 21155,
+    "ruleBookInfo": {
+        "author": "meta[property=\"og:novel:author\"]@content",
+        "coverUrl": "meta[property=\"og:image\"]@content",
+        "init": "",
+        "intro": "meta[property=\"og:description\"]@content",
+        "kind": "meta[property=\"og:novel:category\"]@content&&meta[property=\"og:novel:status\"]@content",
+        "lastChapter": "meta[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "meta[property=\"og:novel:book_name\"]@content||meta[property=\"og:novel:title\"]@content",
+        "tocUrl": "meta[property=\"og:novel:read_url\"]@content&&meta[property=\"og:url\"]@content",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "#content>p:not(:first-child)@textNodes",
+        "nextContentUrl": "",
+        "sourceRegex": "",
+        "webJs": ""
+    },
+    "ruleExplore": {
+        "author": "tag.td.2@text",
+        "bookList": ".booklists tbody tr",
+        "bookUrl": "tag.td.1@a@href",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "tag.td.1@text##\\[(.*)\\]##$1###",
+        "lastChapter": "tag.td.1@span@text",
+        "name": "tag.td.1@tag.a.0@text",
+        "wordCount": "tag.td.3@text"
+    },
+    "ruleSearch": {
+        "author": ".book_other.0@a.1@text",
+        "bookList": "#sitembox>dl",
+        "bookUrl": "h3 a@href",
+        "coverUrl": "img@src",
+        "intro": ".book_des@html",
+        "kind": ".book_other.0@a.0@text",
+        "lastChapter": "dd.3@a@text",
+        "name": "h3@text",
+        "wordCount": ".book_other.0@span.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "h3:contains(正文)~li a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "isVip": "",
+        "nextTocUrl": "",
+        "updateTime": ""
+    },
+    "searchUrl": "/search.html,{\n'method': 'POST',\n'body': 'searchkey={{key}}'\n}",
+    "weight": 0
+}

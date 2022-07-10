@@ -1,0 +1,57 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "全本小说5200",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xs5200.com",
+    "bookUrlPattern": "http://www.xs5200.com/\\d+_\\d+/",
+    "customOrder": -88902458,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/xuanhuanxiaoshuo/1_{{page}}.html\n修真小说::/xiuzhenxiaoshuo/2_{{page}}.html\n都市小说::/dushixiaoshuo/3_{{page}}.html\n穿越小说::/chuanyuexiaoshuo/4_{{page}}.html\n网游小说::/wangyouxiaoshuo/5_{{page}}.html\n科幻小说::/kehuanxiaoshuo/6_{{page}}.html",
+    "lastUpdateTime": 1657373990408,
+    "respondTime": 4298,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text##作 者：",
+        "coverUrl": "id.bookimg@img@src",
+        "init": "",
+        "intro": "id.intro@tag.p.1@text",
+        "kind": "id.info@tag.p.2@text&&\nid.info@tag.p.1@text##最后更新：|状 态：",
+        "lastChapter": "id.info@tag.p.3@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "id.info@h1@text",
+        "tocUrl": "",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "id.content@html##一秒记住.*最新章节！|清爽免费阅读请记.*|手机免费.*|www.*cc"
+    },
+    "ruleExplore": {
+        "author": "class.s5@text",
+        "bookList": "class.l@li",
+        "bookUrl": "class.s2@a@href",
+        "coverUrl": "class.s2@a@href<js>\nvar id = result.match(/_(\\d+)/)[1];\nvar iid = parseInt(id/1000);\n'http://www.xs5200.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "intro": "",
+        "kind": "",
+        "lastChapter": "class.s3@text",
+        "name": "class.s2@a@text",
+        "wordCount": ""
+    },
+    "ruleSearch": {
+        "author": "tag.td.2@text",
+        "bookList": "class.grid@id.nr",
+        "bookUrl": "tag.td.0@tag.a@href",
+        "coverUrl": "tag.td.0@tag.a@href<js>\nvar id = result.match(/_(\\d+)/)[1];\nvar iid = parseInt(id/1000);\n'http://www.xs5200.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "kind": "tag.td.4@text&&\ntag.td.5@text",
+        "lastChapter": "tag.td.1@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "tag.td.0@tag.a@text",
+        "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/modules/article/search.php?s=10362325638345863231&q={{key}}",
+    "weight": 0
+}

@@ -1,0 +1,39 @@
+{
+    "bookSourceComment": "受于番茄小说网的限制，只有前十章能看",
+    "bookSourceGroup": "",
+    "bookSourceName": "番茄小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://fanqienovel.com",
+    "customOrder": -88902420,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1646631313636,
+    "respondTime": 4851,
+    "ruleBookInfo": {
+        "name": "",
+        "tocUrl": ""
+    },
+    "ruleContent": {
+        "content": "$..content"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "$.author",
+        "bookList": "$..search_book_data_list[*]",
+        "bookUrl": "/api/reader/directory/detail?bookId={$.book_id}&_signature=zk8BoAAgEAY8YDPn6ALn885PAbAAK6s",
+        "coverUrl": "https://p3-tt.byteimg.com/{$.thumb_uri}~180x234.jpg",
+        "intro": "$.book_abstract",
+        "kind": "$.category",
+        "lastChapter": "$.last_chapter_title",
+        "name": "$.book_name",
+        "wordCount": "$.word_count"
+    },
+    "ruleToc": {
+        "chapterList": "$..chapterListWithVolume[0].[*]",
+        "chapterName": "$.title",
+        "chapterUrl": "https://fanqienovel.com/api/reader/full?itemId={$.itemId}&_signature=oDt7fgAgEABSFEk5-.OdvKA7e2AAMDh"
+    },
+    "searchUrl": "/api/author/search/search_book/v1?filter=127%2C127%2C127&page_count=100&page_index=0&query_type=0&query_word={{key}}&_signature=5AdOWAAgEAwWKHwfAPauGOQHTkAAITx",
+    "weight": 0
+}

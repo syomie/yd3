@@ -1,0 +1,46 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "雅文言情",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yawen.cc",
+    "bookUrlPattern": "https://www.yawen.cc/dushi/\\d+/",
+    "customOrder": 83,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
+    "lastUpdateTime": 1640311339468,
+    "loginUrl": "",
+    "respondTime": 3774,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text##作者：",
+        "coverUrl": "id.fmimg@tag.img@src",
+        "intro": "id.intro@tag.p.0@text\n<js>result.replace(/(.*)/,' ○○○STORY:\\n$1')</js>",
+        "kind": "class.con_top@tag.a.1@text&&\nid.info@tag.p.2@text##最后更新：",
+        "lastChapter": "id.info@tag.p.-1@a@text&&id.info@tag.p.-2@text<js>result.replace(/\\n最后更新：(\\d+-\\d+-\\d+).*/,'• $1').replace(/、/,'.').replace(/\\.\\d+/,'').replace(/\\d+\\.第/,'第').replace(/\\d+\\.Chapter/,'Chapter')</js>",
+        "name": "id.info@h1@text"
+    },
+    "ruleContent": {
+        "content": "id.content@html##\\(.=\\)|.*咪.*咪.*阅.*读.*",
+        "replaceRegex": "<js>result.replace(/作者有话要说：\\s*|作者有话要说/,'◎作者有话说：\\n').replace(/※※※*/,'◎作者有话说：\\n')</js>##◎作者有话说：\\s*感谢(在|投出|灌溉|小天使|.*扔了)*.*(小天使|老板|营养液|火箭炮|地雷|手榴弹|浅水炸弹|深水鱼雷)[\\s\\S]+|感谢(在|投出|灌溉|小天使|.*扔了).*?(小天使|老板|营养液|火箭炮|地雷|手榴弹|浅水炸弹|深水鱼雷)[\\s\\S]+"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.s4@text",
+        "bookList": "class.novelslist2@tag.li[1:4]",
+        "bookUrl": "class.s2@tag.a@href",
+        "coverUrl": "class.s2@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://imgyawenb.cdn.bcebos.com/cover/'+iid+'/'+id+'/'+id+'m.jpg';\n</js>",
+        "kind": "class.s1@text",
+        "lastChapter": "class.s2@tag.a@href<js>java.ajax(result)</js>id.info@tag.p.-1@a@text&&id.info@tag.p.-2@text<js>result.replace(/\\n最后更新：(\\d+-\\d+-\\d+).*/,'• $1').replace(/、/,'.').replace(/\\.\\d+/,'').replace(/\\d+\\.第/,'第').replace(/\\d+\\.Chapter/,'Chapter')</js>",
+        "name": "class.s2@tag.a@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8:9",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.yawen.cc/modules/article/search.php?keyword={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

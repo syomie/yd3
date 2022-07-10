@@ -1,0 +1,56 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "奇奇小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.477zw.com/",
+    "bookUrlPattern": "https://www.477zw.com/html/\\d+/\\d+/",
+    "customOrder": 152,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1618507092323,
+    "loginUrl": "",
+    "respondTime": 6403,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text##作 者：",
+        "coverUrl": "id.fmimg@img@src",
+        "init": "",
+        "intro": "id.intro@tag.p.0@text",
+        "kind": "class.con_top@tag.a.1@text&&\nid.info@tag.p.2@text##最后更新：",
+        "lastChapter": "id.info@tag.p.3@a@text##免费章节 |正文卷 |正文 |VIP章节 |最新章节：",
+        "name": "id.info@h1@text"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes##奇奇小说.*com|奇奇小说更新最快.*com/|奇奇小説更新最快.*/ヽ。|\\(首发.*=0|あ奇奇小説.*请记住",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "",
+        "lastChapter": "",
+        "name": ""
+    },
+    "ruleSearch": {
+        "author": "class.result-game-item-info-tag.0@tag.span.1@text",
+        "bookList": "class.result-list@class.result-item",
+        "bookUrl": "class.result-item-title@tag.a.0@href",
+        "coverUrl": "class.result-game-item-pic@tag.img@src",
+        "intro": "class.result-game-item-desc@text",
+        "kind": "class.result-game-item-info-tag.1@tag.span.1@text",
+        "lastChapter": "class.result-game-item-info-tag.3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "class.result-game-item-detail@h3@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href##$##,{\"webView\":true}"
+    },
+    "searchUrl": "https://www.477zw.com/search.php?keyword={{key}}&page={{page}}",
+    "weight": 0
+}

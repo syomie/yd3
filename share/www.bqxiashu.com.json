@@ -1,0 +1,36 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "笔趣下书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.bqxiashu.com",
+    "customOrder": 32,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1645142316963,
+    "respondTime": 5356,
+    "ruleBookInfo": {},
+    "ruleContent": {
+        "content": "id.chaptercontent@html",
+        "nextContentUrl": "text.下一页 →@href",
+        "replaceRegex": "##\\s*.*本章未完,点击下一页.*\\s*|\\(本章完\\)"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.author@text",
+        "bookList": "class.bookbox",
+        "bookUrl": "tag.a.0@href",
+        "intro": "p@html",
+        "kind": "class.cat@texts##分类：",
+        "lastChapter": "class.update@a@text",
+        "name": "class.bookname@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.hide@a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.bqxiashu.com/search.html?searchtype=novelname&searchkey={{key}}",
+    "weight": 0
+}

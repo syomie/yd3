@@ -1,0 +1,40 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "笔趣阁",
+    "bookSourceName": "笔趣阁㊱",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.qbiqu.com",
+    "bookUrlPattern": "",
+    "customOrder": 1133,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1603073599679,
+    "loginUrl": "",
+    "respondTime": 4293,
+    "ruleBookInfo": {
+        "coverUrl": "img@src",
+        "intro": "id.intro@tag.p.0@text",
+        "lastChapter": "id.info@tag.p.3@a@text"
+    },
+    "ruleContent": {
+        "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.odd.1@text",
+        "bookList": "class.grid@tag.tr!0",
+        "bookUrl": "class.odd.0@tag.a.0@href",
+        "coverUrl": "tag.a.0@href##.*_(\\d+)(\\d{3})/##/files/article/image/$1/$1$2/$1$2s.jpg",
+        "kind": "class.even.2@text",
+        "lastChapter": "class.even.0@tag.a.0@text",
+        "name": "class.odd.0@tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.qbiqu.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

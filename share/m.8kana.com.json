@@ -1,0 +1,47 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "轻小说",
+    "bookSourceName": "不可能的世界",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.8kana.com",
+    "bookUrlPattern": "",
+    "customOrder": 585,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"连载\",\"url\":\"/book/ajaxGetList,{\\\"method\\\": \\\"POST\\\",\\\"body\\\": \\\"class_id&series_status=1&page={{page}}\\\"}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"完结\",\"url\":\"/book/ajaxGetList,{\\\"method\\\": \\\"POST\\\",\\\"body\\\": \\\"class_id&series_status=4&page={{page}}\\\"}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"超能\",\"url\":\"/book/ajaxGetList,{\\\"method\\\": \\\"POST\\\",\\\"body\\\": \\\"class_id=101&series_status&page={{page}}\\\"}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"游戏\",\"url\":\"/book/ajaxGetList,{\\\"method\\\": \\\"POST\\\",\\\"body\\\": \\\"class_id=103&series_status&page={{page}}\\\"}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"现实\",\"url\":\"/book/ajaxGetList,{\\\"method\\\": \\\"POST\\\",\\\"body\\\": \\\"class_id=104&series_status&page={{page}}\\\"}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/book/ajaxGetList,{\\\"method\\\": \\\"POST\\\",\\\"body\\\": \\\"class_id=201&series_status&page={{page}}\\\"}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"奇幻\",\"url\":\"/book/ajaxGetList,{\\\"method\\\": \\\"POST\\\",\\\"body\\\": \\\"class_id=202&series_status&page={{page}}\\\"}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/book/ajaxGetList,{\\\"method\\\": \\\"POST\\\",\\\"body\\\": \\\"class_id=203&series_status&page={{page}}\\\"}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑\",\"url\":\"/book/ajaxGetList,{\\\"method\\\": \\\"POST\\\",\\\"body\\\": \\\"class_id=302&series_status&page={{page}}\\\"}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"智斗\",\"url\":\"/book/ajaxGetList,{\\\"method\\\": \\\"POST\\\",\\\"body\\\": \\\"class_id=303&series_status&page={{page}}\\\"}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"灵异\",\"url\":\"/book/ajaxGetList,{\\\"method\\\": \\\"POST\\\",\\\"body\\\": \\\"class_id=305&series_status&page={{page}}\\\"}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"同人\",\"url\":\"/book/ajaxGetList,{\\\"method\\\": \\\"POST\\\",\\\"body\\\": \\\"class_id=404&series_status&page={{page}}\\\"}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"幻想\",\"url\":\"/book/ajaxGetList,{\\\"method\\\": \\\"POST\\\",\\\"body\\\": \\\"class_id=602&series_status&page={{page}}\\\"}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"脑洞\",\"url\":\"/book/ajaxGetList,{\\\"method\\\": \\\"POST\\\",\\\"body\\\": \\\"class_id=701&series_status&page={{page}}\\\"}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"青春\",\"url\":\"/book/ajaxGetList,{\\\"method\\\": \\\"POST\\\",\\\"body\\\": \\\"class_id=801&series_status&page={{page}}\\\"}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"民国\",\"url\":\"/book/ajaxGetList,{\\\"method\\\": \\\"POST\\\",\\\"body\\\": \\\"class_id=802&series_status&page={{page}}\\\"}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/book/ajaxGetList,{\\\"method\\\": \\\"POST\\\",\\\"body\\\": \\\"class_id=803&series_status&page={{page}}\\\"}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"奇幻\",\"url\":\"/book/ajaxGetList,{\\\"method\\\": \\\"POST\\\",\\\"body\\\": \\\"class_id=901&series_status&page={{page}}\\\"}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"仙侠\",\"url\":\"/book/ajaxGetList,{\\\"method\\\": \\\"POST\\\",\\\"body\\\": \\\"class_id=902&series_status&page={{page}}\\\"}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"架空\",\"url\":\"/book/ajaxGetList,{\\\"method\\\": \\\"POST\\\",\\\"body\\\": \\\"class_id=904&series_status&page={{page}}\\\"}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"轻文\",\"url\":\"/book/ajaxGetList,{\\\"method\\\": \\\"POST\\\",\\\"body\\\": \\\"class_id=405&series_status&page={{page}}\\\"}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"次元\",\"url\":\"/book/ajaxGetList,{\\\"method\\\": \\\"POST\\\",\\\"body\\\": \\\"class_id=702&series_status&page={{page}}\\\"}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"武侠\",\"url\":\"/book/ajaxGetList,{\\\"method\\\": \\\"POST\\\",\\\"body\\\": \\\"class_id=601&series_status&page={{page}}\\\"}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"宫斗\",\"url\":\"/book/ajaxGetList,{\\\"method\\\": \\\"POST\\\",\\\"body\\\": \\\"class_id=903&series_status&page={{page}}\\\"}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1657374204826,
+    "loginUrl": "://m.8kana.com/passport/login",
+    "respondTime": 5136,
+    "ruleBookInfo": {
+        "coverUrl": ".bookContainImgBox img@src",
+        "init": "",
+        "intro": "#li_booknote@html",
+        "lastChapter": "#chapter_con a.-1@text"
+    },
+    "ruleContent": {
+        "content": ".readMain@p@text",
+        "imageStyle": "0",
+        "replaceRegex": "##本书连载.*最快更新。"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "AuthorName",
+        "bookList": "Data.List",
+        "bookUrl": "BookId@js:'https://www.8kana.com/book/'+result+'.html'",
+        "coverUrl": "Cover",
+        "intro": "Note@js:result.trim()",
+        "kind": "ClassName",
+        "name": "BookName",
+        "wordCount": "TotalWords"
+    },
+    "ruleToc": {
+        "chapterList": "#chapter_con li a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/index/search,{\n  \"method\": \"POST\",\n  \"body\": \"kw={{key}}&page={{page}}\"\n}",
+    "weight": 0
+}

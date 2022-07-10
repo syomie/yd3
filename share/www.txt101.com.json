@@ -1,0 +1,48 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "101言情",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.txt101.com",
+    "bookUrlPattern": "//www.txt101.com/id/\\d+.html",
+    "customOrder": 9,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "最近更新::http://www.txt101.com/top/lastupdate_{{page}}.html\n最新入库::http://www.txt101.com/top/postdate_{{page}}.html\n总排行榜::http://www.txt101.com/top.php\n古代言情::http://www.txt101.com/class/1_{{page}}.html\n现代言情::http://www.txt101.com/class/2_{{page}}.html\n纯爱耽美::http://www.txt101.com/class/3_{{page}}.html\n仙侠玄幻::http://www.txt101.com/class/4_{{page}}.html\n科幻未来::http://www.txt101.com/class/5_{{page}}.html\n悬疑鬼怪::http://www.txt101.com/class/6_{{page}}.html\n游戏人生::http://www.txt101.com/class/7_{{page}}.html\n百合GL::http://www.txt101.com/class/8_{{page}}.html\n其他类型::http://www.txt101.com/class/9_{{page}}.html",
+    "lastUpdateTime": 1652107771539,
+    "loginUrl": "",
+    "respondTime": 15493,
+    "ruleBookInfo": {
+        "author": "meta[property=\"og:novel:author\"]@content",
+        "coverUrl": "meta[property=\"og:image\"]@content",
+        "init": "",
+        "intro": "meta[property=\"og:description\"]@content",
+        "kind": "meta[property=\"og:novel:category\"]@content&&meta[property=\"og:novel:status\"]@content",
+        "lastChapter": "meta[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "meta[property=\"og:novel:book_name\"]@content||meta[property=\"og:novel:title\"]@content",
+        "tocUrl": "meta[property=\"og:novel:read_url\"]@content&&meta[property=\"og:url\"]@content##.html##/"
+    },
+    "ruleContent": {
+        "content": "#content@textNodes"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": ".author@text||tag.td.4@text",
+        "bookList": ".bookbox||.sf-grid tr",
+        "bookUrl": "a@href",
+        "coverUrl": "tag.a.0@href##/id/(\\d+).html##/img/$1.jpg",
+        "kind": ".update@textNodes&&tag.td.0@text&&tag.td.7@text##\\[|]",
+        "lastChapter": ".cat a@text||tag.td.2@a@text",
+        "name": "h4 a@text||tag.td.1@a@text##.*完整版.*|.*最新章节.*|小说"
+    },
+    "ruleToc": {
+        "chapterList": ".chaper0 a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.txt101.com/book/search.aspx?key={{key}}",
+    "weight": 0
+}

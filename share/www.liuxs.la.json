@@ -1,0 +1,57 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "五六书库",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.liuxs.la",
+    "bookUrlPattern": "",
+    "customOrder": 356,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"最近更新\",\"url\":\"/lastupdate/{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"最新新书\",\"url\":\"/postdate/{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"日点击榜\",\"url\":\"/dayvisit/{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"周点击榜\",\"url\":\"/weekvisit/{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"月点击榜\",\"url\":\"/monthvisit/{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总点击榜\",\"url\":\"/allvisit/{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"日推荐榜\",\"url\":\"/dayvote/{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"周推荐榜\",\"url\":\"/weekvote/{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"月推荐榜\",\"url\":\"/monthvote/{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总推荐榜\",\"url\":\"/allvote/{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"字数排行\",\"url\":\"/size/{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总收藏榜\",\"url\":\"/goodnum/{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"本站推荐\",\"url\":\"/toptime/{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻魔法\",\"url\":\"/leibie1_{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠修真\",\"url\":\"/leibie2_{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"/leibie3_{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/leibie4_{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"侦探推理\",\"url\":\"/leibie5_{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"游戏竞技\",\"url\":\"/leibie6_{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻小说\",\"url\":\"/leibie7_{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"恐怖灵异\",\"url\":\"/leibie8_{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"散文诗词\",\"url\":\"/leibie9_{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他类型\",\"url\":\"/leibie10_{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完本小说\",\"url\":\"/wanben1_{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1643142911642,
+    "loginUrl": "",
+    "respondTime": 6177,
+    "ruleBookInfo": {
+        "author": "class.infot.0@span@text##.*：",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "##更新时间.([^<]+)<##$1###@js:result.replace(/\\s.*/g,\"\")",
+        "lastChapter": "class.infot.1@a@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": "class.infot.0@h1@text",
+        "tocUrl": "",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "#content@html",
+        "imageStyle": "0",
+        "replaceRegex": "##本书由.*转载."
+    },
+    "ruleExplore": {
+        "author": "span@text##.*：",
+        "bookList": "#alistbox",
+        "bookUrl": "a.1@href",
+        "coverUrl": "img@src",
+        "intro": ".intro@text",
+        "lastChapter": "a.2@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": "a.1@text"
+    },
+    "ruleSearch": {
+        "author": "span.2@text",
+        "bookList": "#articlelist li!0",
+        "bookUrl": "a.0@href",
+        "coverUrl": "a.0@href##.+\\D((\\d+)\\d{3})\\D##http://www.liuxs.la/files/article/image/$2/$1/$1s.jpg###",
+        "kind": "span.3@text",
+        "lastChapter": "a.1@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": "a.0@text",
+        "wordCount": ""
+    },
+    "ruleToc": {
+        "chapterList": ".dccss a",
+        "chapterName": "text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+}

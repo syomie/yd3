@@ -1,0 +1,59 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "正版",
+    "bookSourceName": "梧桐中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.wtzw.com",
+    "customOrder": 569,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"都市生活\",\"url\":\"/shuku.html?category=3&p={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"历史小说\",\"url\":\"/shuku.html?category=6&p={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"历史传奇\",\"url\":\"/shuku.html?category=15&p={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"青春校园\",\"url\":\"/shuku.html?category=18&p={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1638273234069,
+    "respondTime": 10418,
+    "ruleBookInfo": {
+        "author": ".sName@text",
+        "coverUrl": ".w_pic@img@src",
+        "intro": "🔖  {{@.w_txt li.4@textNodes}}{{'\\n'+'​'}}\n{{@.pWorkInformation@html}}##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": ".w_txt li.1@textNodes&&.li_tit i@text&&.li_upDate@textNodes##\\s..:.*",
+        "lastChapter": ".li_upDate a.0@text",
+        "name": ".li_tit a@text",
+        "wordCount": ".w_txt li.2@textNodes"
+    },
+    "ruleContent": {
+        "content": ".article@html",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {
+        "author": "span.1@text##\\s.*",
+        "bookList": ".w_picTxt_lr li",
+        "bookUrl": "a.1@href",
+        "coverUrl": "img@src",
+        "intro": "span.2@text",
+        "kind": "span.1@text",
+        "lastChapter": "span.3@text##.*\\s|更新",
+        "name": "a.1@text",
+        "wordCount": "span.3@text##\\s.*"
+    },
+    "ruleSearch": {
+        "author": "span.1@textNodes",
+        "bookList": ".w_picTxt_lr li",
+        "bookUrl": "a.1@href",
+        "checkKeyWord": "",
+        "coverUrl": "img@src",
+        "intro": "span.6@text",
+        "kind": "span.4:2@textNodes",
+        "lastChapter": "a.2@text##\\s..:.*",
+        "name": "a.1@text",
+        "wordCount": "span.3@textNodes"
+    },
+    "ruleToc": {
+        "chapterList": ".w_ulTxt li a",
+        "chapterName": "textNodes",
+        "chapterUrl": "href",
+        "isVip": "i@text",
+        "updateTime": ""
+    },
+    "searchUrl": "/search-{{key}}.html?p={{page}}",
+    "weight": 0
+}

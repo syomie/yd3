@@ -1,0 +1,53 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "红甘泉网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://hgq26.com",
+    "bookUrlPattern": "",
+    "customOrder": 75,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\"\n}",
+    "lastUpdateTime": 1657373868644,
+    "loginUrl": "",
+    "respondTime": 14153,
+    "ruleBookInfo": {
+        "author": "id.author@text",
+        "coverUrl": "id.bookimg@tag.img@src",
+        "init": "",
+        "intro": "id.bookintro@text\n<js>result.replace(/(.*)/,' ○○○STORY:\\n$1')</js>",
+        "kind": "class.pd_r.0@text",
+        "lastChapter": "id.newlist@tag.li.0@tag.a@text",
+        "name": "class.bookright@tag.h1@text",
+        "tocUrl": "id.reader@tag.a@href",
+        "wordCount": "class.pd_r.4@text"
+    },
+    "ruleContent": {
+        "content": "id.content@html##你是天才.*",
+        "imageStyle": "FULL",
+        "replaceRegex": "<js>result.replace(/作者有话要说：\\s*|作者有话要说/,'◎作者有话说：\\n').replace(/※※※*/,'◎作者有话说：\\n')</js>\n##◎作者有话说：\\s*感谢(在|投出|灌溉|小天使|.*扔了)*.*(小天使|老板|营养液|火箭炮|地雷|手榴弹|浅水炸弹|深水鱼雷)[\\s\\S]+|感谢(在|投出|灌溉|小天使|.*扔了).*?(小天使|老板|营养液|火箭炮|地雷|手榴弹|浅水炸弹|深水鱼雷)[\\s\\S]+"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "class.text-layout@class.ellipsis.0@text\n@js:/作者/.test(result)?result.replace(/作者：(.*)/,'$1'):String(java.getString('@class.clamp3@text',false)).replace(/.*是(.*?)书写.*/,'$1')",
+        "bookList": "class.vrResult!0",
+        "bookUrl": "h3@tag.a.0@href\n<js>a=result.match(/http.*/)[0];\ndecodeURIComponent(a).replace(/\\/&vrid.*/,'');</js>\n##-(\\d+)##http://www.hgq26.com/book/$1.html###",
+        "coverUrl": "class.img-flex@img@src##url=(http.*?)&##$1###\n@js:decodeURIComponent(result)",
+        "intro": "class.clamp3@text\n<js>result.replace(/(.*)/,' ○○○STORY:\\n$1')</js>",
+        "kind": "class.text-layout@class.ellipsis.-1@text##状态：(.*)##$1###",
+        "lastChapter": "h3@tag.a.0@href\n<js>a=result.match(/http.*/)[0];\ndecodeURIComponent(a).replace(/\\/&vrid.*/,'');</js>\n##-(\\d+)##http://m.hgq26.com/info-$1/###<js>java.ajax(result)</js>.block_txt2@tag.p.-1@text&&.block_txt2@tag.p.-2@text##(最|更)新：<js>result.replace(/\\n(\\d+-\\d+-\\d+)/,'• $1').replace(/、/,'.').replace(/第\\d+章\\s(第.*)/,'$1')</js>",
+        "name": "h3@text##(.*?)最新章节.*##$1###"
+    },
+    "ruleToc": {
+        "chapterList": "id.readerlist@li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://wap.sogou.com/web/sl?keyword={{key}} site:hgq26.com",
+    "weight": 0
+}

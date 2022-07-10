@@ -1,0 +1,44 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "燃文小说④",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ranwen.la/",
+    "bookUrlPattern": "https://www.ranwen.la/files/article/\\d+/\\d+/",
+    "customOrder": 143,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1615998385739,
+    "respondTime": 2457,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text##作 者：",
+        "coverUrl": "id.fmimg@img@src",
+        "init": "",
+        "intro": "id.intro@text",
+        "kind": "class.con_top@tag.a.1@text&&\nid.info@tag.p.1@text&&\nid.info@tag.p.2@text##动 作：|加入.*|最后更新：",
+        "lastChapter": "id.info@tag.p.3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "id.info@tag.h1@text",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "id.content@html##一秒记住.*无弹窗免费阅读！|.*咪.*咪.*阅.*读.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.s4@text",
+        "bookList": "class.novelslist2@tag.li",
+        "bookUrl": "class.s2@tag.a@href",
+        "coverUrl": "class.s2@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.ranwen.la/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "kind": "class.s1@text&&\nclass.s7@text",
+        "lastChapter": "class.s3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "class.s2@tag.a@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.ranwen.la/modules/article/search.php?keyword={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

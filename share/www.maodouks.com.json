@@ -1,0 +1,55 @@
+{
+    "bookSourceComment": "作者:希弥",
+    "bookSourceGroup": "",
+    "bookSourceName": "毛豆看书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.maodouks.com",
+    "bookUrlPattern": "https://www.maodouks.com/\\d\\S+",
+    "customOrder": -88902321,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "排行榜单::/top.html\n玄幻魔法::/fenlei/1/{{page}}/\n武侠修真::/fenlei/2/{{page}}/\n都市言情::/fenlei/3/{{page}}/\n历史军事::/fenlei/4/{{page}}/\n科幻灵异::/fenlei/5/{{page}}/\n游戏竞技::/fenlei/6/{{page}}/\n女生小说::/fenlei/7/{{page}}/\n其他类型::/fenlei/8/{{page}}/",
+    "lastUpdateTime": 1646631313689,
+    "respondTime": 8022,
+    "ruleBookInfo": {
+        "author": "meta[property=og:novel:author]@content",
+        "coverUrl": "",
+        "intro": ".info-main-intro@html",
+        "kind": "meta[property=og:novel:category]@content&&meta[property=og:novel:status]@content",
+        "lastChapter": "meta[property=og:novel:lastest_chapter_name]@content",
+        "name": "meta[property=og:novel:book_name]@content",
+        "tocUrl": "",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "#article>p@textNodes",
+        "imageStyle": "TEXT",
+        "nextContentUrl": "text.下一页@href",
+        "payAction": ""
+    },
+    "ruleExplore": {
+        "author": "tag.span.-1@text",
+        "bookList": "div.category-div||.list-out",
+        "bookUrl": "a@href",
+        "name": "a@text"
+    },
+    "ruleSearch": {
+        "author": "span@text",
+        "bookList": "div.category-div",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "",
+        "intro": "@css:div.intro@html",
+        "kind": "",
+        "lastChapter": "",
+        "name": "a@text"
+    },
+    "ruleToc": {
+        "chapterList": ".mb20 .info-chapters a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/search8,{\n\t\"method\":\"POST\",\n\t\"body\":\"Submit=&searchkey={{key}}\"\n\t}",
+    "weight": 0
+}

@@ -1,0 +1,54 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "书轩网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.bookxuan.com/",
+    "bookUrlPattern": "http://www.bookxuan.com/book/\\d+/\\d+/",
+    "customOrder": 1260,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::http://wap.bookxuan.net/sort/1_{{page}}/\n仙侠修真::http://wap.bookxuan.net/sort/2_{{page}}/\n都市言情::http://wap.bookxuan.net/sort/3_{{page}}/\n历史军事::http://wap.bookxuan.net/sort/4_{{page}}/\n网游竞技::http://wap.bookxuan.net/sort/5_{{page}}/\n科幻小说::http://wap.bookxuan.net/sort/6_{{page}}/\n恐怖灵异::http://wap.bookxuan.net/sort/7_{{page}}/\n其他小说::http://wap.bookxuan.net/sort/8_{{page}}/",
+    "lastUpdateTime": 1616039006442,
+    "respondTime": 3599,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@tag.a@text",
+        "coverUrl": "id.fmimg@img@src",
+        "intro": "id.intro@tag.p.0@text",
+        "kind": "class.con_top@tag.a.7@text&&\nid.info@tag.p.1@text&&\nid.info@tag.p.2@text##最后更新：|状 态：|,加入.*",
+        "lastChapter": "id.info@tag.p.3@tag.a@text",
+        "name": "id.info@tag.h1@text",
+        "tocUrl": "",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "id.content@html##精彩小说免费阅读！"
+    },
+    "ruleExplore": {
+        "author": "class.newbook_author@a@text",
+        "bookList": "class.newbook_list",
+        "bookUrl": "class.newbook_title@a@href@js:'http://www.bookxuan.com'+result",
+        "coverUrl": "img@src",
+        "intro": "class.newbook_intor@text",
+        "kind": "class.s1@text",
+        "name": "class.newbook_title@a@text"
+    },
+    "ruleSearch": {
+        "author": "tag.td.2@text",
+        "bookList": "tag.tr||id.nr",
+        "bookUrl": "tag.td.0@tag.a@href",
+        "coverUrl": "tag.td.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.bookxuan.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "kind": "tag.td.4@text&&\ntag.td.5@text",
+        "lastChapter": "tag.td.1@tag.a@text",
+        "name": "tag.td.0@tag.a@text",
+        "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.bookxuan.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

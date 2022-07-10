@@ -1,0 +1,43 @@
+{
+    "bookSourceComment": "http://lightapp-bookstore.cread.com",
+    "bookSourceGroup": "API",
+    "bookSourceName": "中文书城#2",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://app-inter-v2-bookstore.cread.com",
+    "bookUrlPattern": "",
+    "customOrder": -88962047,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1648718695840,
+    "loginUrl": "",
+    "respondTime": 2409,
+    "ruleBookInfo": {
+        "init": "",
+        "name": "$..bookName"
+    },
+    "ruleContent": {
+        "content": "@js:list=result.split(\"\\n\");\ndelete list[0];\nlist.join(\"\\n\")"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "$.author",
+        "bookList": "$.result.dataList",
+        "bookUrl": "/book/getCatalogAndBook?cnid=3022&uid=168260955&son=CU&osv=9&idSign=&bookid={{$.bookId}}",
+        "coverUrl": "$.cover",
+        "intro": "$.summary",
+        "kind": "$.categoryName",
+        "name": "$.bookName@put:{book:bookId}",
+        "wordCount": "$.words"
+    },
+    "ruleToc": {
+        "chapterList": "$.result.bookData[*].chapter[*]",
+        "chapterName": "$.name",
+        "chapterUrl": "/book/content?cnid=3022&uid=168260955&packname=com.chineseall.singlebook&vcode=156&channelId=3022&aid=b972c73cd7081a2d&net=4G&son=CU&osv=9&idSign=&bid=@get:{book}&chapterIds={{$.id}}",
+        "isVip": "$.isVIP"
+    },
+    "searchUrl": "http://app-inter-bookstore.cread.com/search/search?&pageNo={{page}}&keyWordType=0&pageSize=20&keyWord={{key}}",
+    "weight": 0
+}

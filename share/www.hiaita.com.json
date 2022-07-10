@@ -1,0 +1,58 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "爱他小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.hiaita.com",
+    "customOrder": 604,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"熊熊\",\"url\":\"/plugin.php?id=jameson_read&contrl=index&act=shaixuan&category_id=17\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"军警\",\"url\":\"/plugin.php?id=jameson_read&contrl=index&act=shaixuan&category_id=18\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"古典\",\"url\":\"/plugin.php?id=jameson_read&contrl=index&act=shaixuan&category_id=19\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"同志\",\"url\":\"/plugin.php?id=jameson_read&contrl=index&act=shaixuan&category_id=20\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"校园\",\"url\":\"/plugin.php?id=jameson_read&contrl=index&act=shaixuan&category_id=4\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"职场\",\"url\":\"/plugin.php?id=jameson_read&contrl=index&act=shaixuan&category_id=5\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"中年\",\"url\":\"/plugin.php?id=jameson_read&contrl=index&act=shaixuan&category_id=6\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"老年\",\"url\":\"/plugin.php?id=jameson_read&contrl=index&act=shaixuan&category_id=7\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"重生\",\"url\":\"/plugin.php?id=jameson_read&contrl=index&act=tag&tag=重生&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"穿越\",\"url\":\"/plugin.php?id=jameson_read&contrl=index&act=tag&tag=穿越&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+    "lastUpdateTime": 1634051069479,
+    "loginUrl": "",
+    "respondTime": 8073,
+    "ruleBookInfo": {
+        "author": ".bookname a@text",
+        "coverUrl": ".uk-grid-medium img@src",
+        "init": "",
+        "intro": ".desco@html",
+        "kind": ".tag-book a@text&&.y!0@span@text##\\s.*",
+        "lastChapter": ".z!0@text",
+        "name": ".bookname@text##\\ .*",
+        "tocUrl": "",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": ".messagecontent@p@text",
+        "imageStyle": "0",
+        "nextContentUrl": ""
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "",
+        "name": "",
+        "wordCount": ""
+    },
+    "ruleSearch": {
+        "author": "a.2@text",
+        "bookList": ".uk-margin-top",
+        "bookUrl": "a.1@href",
+        "coverUrl": "img@src",
+        "intro": "p@text##\\s",
+        "kind": "a.3@text&&span@text",
+        "name": "a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".zhangjie div a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": ""
+    },
+    "searchUrl": "/plugin.php?keyword={{key}}&id=jameson_read&contrl=index&act=search",
+    "weight": 0
+}

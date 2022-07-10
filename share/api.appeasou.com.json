@@ -1,0 +1,45 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "API",
+    "bookSourceName": "宜搜",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://api.appeasou.com",
+    "bookUrlPattern": "",
+    "customOrder": 858,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1646308506638,
+    "loginUrl": "http://book.easou.com/ta/login.m",
+    "respondTime": 4540,
+    "ruleBookInfo": {
+        "init": "",
+        "intro": "@get:{Intro}",
+        "tocUrl": "@JSon:$..curl"
+    },
+    "ruleContent": {
+        "content": "$.content"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "$.author",
+        "bookList": "$.all_book_items[*]",
+        "bookUrl": "@json:http://api.easou.com/api/bookapp/chapter_list.m?gid={$..gid}&nid={$..nid}&size=10000&cid=eef_easou_book&os=android&appverion=1011",
+        "coverUrl": "$.imgUrl",
+        "intro": "$.desc@put:{Intro:$.Intro, gid:$.gid, nid:$.nid}",
+        "kind": "$.classes",
+        "lastChapter": "$.lastChapterName",
+        "name": "$.name",
+        "wordCount": "{$.wordCount}"
+    },
+    "ruleToc": {
+        "chapterList": "@JSon:$.items",
+        "chapterName": "$.chapter_name",
+        "chapterUrl": "http://api.appeasou.com/api/bookapp/chargeChapter.m?a=1&autoBuy=0&cid=eef_easou_book&version=002&os=android&appverion=1070&appid=10001&gid=@get:{gid}&nid={{$.nid}}&sort={{$.sort}}",
+        "isVip": "$.charge"
+    },
+    "searchUrl": "http://api.appeasou.com/api/bookapp/searchdzh.m?word={{key}}&type=0&page_id=1&count=3&cid=eef_easou_book&os=android&appverion=1070&appid=10001&ptype=4",
+    "weight": 0
+}

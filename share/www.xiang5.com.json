@@ -1,0 +1,63 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "正版,女频",
+    "bookSourceName": "香网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xiang5.com",
+    "customOrder": 511,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"穿越\",\"url\":\"/sort/20/201/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"架空\",\"url\":\"/sort/20/202/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"宫斗\",\"url\":\"/sort/21/211/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"宅斗\",\"url\":\"/sort/21/212/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女尊\",\"url\":\"/sort/21/213/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"民国\",\"url\":\"/sort/21/214/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总裁\",\"url\":\"/sort/22/221/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"豪门\",\"url\":\"/sort/22/222/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"青春\",\"url\":\"/sort/23/231/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"校园\",\"url\":\"/sort/23/232/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"奇幻\",\"url\":\"/sort/24/241/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"仙侠\",\"url\":\"/sort/24/242/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"修真\",\"url\":\"/sort/24/244/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/sort/24/245/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑\",\"url\":\"/sort/27/243/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"灵异\",\"url\":\"/sort/27/258/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+    "header": "",
+    "lastUpdateTime": 1643867527232,
+    "loginUrl": "http://pass.xiang5.com/login.php",
+    "respondTime": 9433,
+    "ruleBookInfo": {
+        "author": ".author a@text",
+        "coverUrl": ".bkdetail_top img@src",
+        "intro": "class.intro_neirong.1@html##(^|[。！？]+[”」）】]?)##$1<br>@js:result.replace(/内容介绍./g,\"\")",
+        "kind": ".lastchapter a@text&&.bkdetails_mulu i@text##更新",
+        "lastChapter": ".bkdetails_mulu@p.0@text##目录",
+        "name": ".bookcont h4@text",
+        "tocUrl": ".mulu@a@href",
+        "wordCount": ".type@ownText##.*："
+    },
+    "ruleContent": {
+        "content": "#chapcont@textNodes",
+        "imageStyle": "0",
+        "nextContentUrl": "",
+        "replaceRegex": ""
+    },
+    "ruleExplore": {
+        "author": "a.3@text",
+        "bookList": ".second_content2_content li",
+        "bookUrl": "a.1@href@js:result.replace(\"www\",\"m\")",
+        "coverUrl": "img@src",
+        "intro": "p.1:2@text##.*\\|",
+        "kind": "a.2@text&&span.2@text##小说|\\s.*",
+        "lastChapter": "a.-2@text",
+        "name": "a.1@text##\\《|\\》",
+        "wordCount": "##字数：</span>([^<]+)<##$1###"
+    },
+    "ruleSearch": {
+        "author": "a.5@text",
+        "bookList": ".textlist",
+        "bookUrl": "a.4@href@js:result.replace(\"www\",\"m\")",
+        "coverUrl": "img@src",
+        "intro": "a.-2@text##\\s",
+        "kind": "a.6:7@text&&cite@text&&.colR a@text##小说|\\s.*",
+        "lastChapter": "a.-1@text",
+        "name": "a.4@text",
+        "wordCount": "code@text"
+    },
+    "ruleToc": {
+        "chapterList": ".blist a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "isVip": "",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&page=1&over=&orderby=&page={{page}}\"\n}",
+    "weight": 0
+}

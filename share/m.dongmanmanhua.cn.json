@@ -1,0 +1,47 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "漫画",
+    "bookSourceName": "咚漫",
+    "bookSourceType": 2,
+    "bookSourceUrl": "https://m.dongmanmanhua.cn",
+    "bookUrlPattern": "",
+    "customOrder": 500,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"发现\",\"url\":\"/dailySchedule\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"分类\",\"url\":\"/genre\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}}]",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.0.0; MIX 2 Build/OPR1.170623.027) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 YaBrowser/18.9.1.2199.00 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1657377996219,
+    "loginUrl": "",
+    "respondTime": 919,
+    "ruleBookInfo": {
+        "author": "class.author.0@text",
+        "init": "",
+        "intro": ".summary@html",
+        "kind": ".genre@text",
+        "lastChapter": "#_episodeList span.0@text",
+        "name": "class.subj.0@text"
+    },
+    "ruleContent": {
+        "content": "@js:\neval(result.match(/(var imageList = \\[[\\s\\S]+?\\])/)[1]);\nhtml='';\nheader={\"Referer\":baseUrl}\nheaders={\n\"headers\": JSON.stringify(header)\n}\nfor(i in imageList){\nhtml+='<img src=\"'+imageList[i].url+','+JSON.stringify(headers)+'\">'\n}\nhtml",
+        "imageStyle": "FULL"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "writingAuthorName",
+        "bookList": ".daily_list li||$.titleList",
+        "bookUrl": "a@href||https://m.dongmanmanhua.cn/{$.genreNew.gnTitle}/{$.titleGroupName}/list?title_no={$.titleNo}",
+        "coverUrl": "img@src||https://cdn.dongmanmanhua.cn{$.thumbnailMobile},{\"headers\": {\"Referer\": \"https://m.dongmanmanhua.cn\"}}",
+        "kind": ".genre@text",
+        "name": ".subj@text||$.title"
+    },
+    "ruleToc": {
+        "chapterList": "-id._episodeList@li",
+        "chapterName": "span.0@text",
+        "chapterUrl": "a@href"
+    },
+    "searchUrl": "/searchResult,{\n  \"headers\": \"{Content-Type: application/x-www-form-urlencoded}\",\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&searchType=WEBTOON&start=1\"\n}",
+    "weight": 0
+}

@@ -1,0 +1,55 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "少数派文库",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://sspwk.me",
+    "customOrder": 593,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"全部\",\"url\":\"/booksort/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"耽美\",\"url\":\"/booksort/1/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"百合\",\"url\":\"/booksort/2/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/booksort/3/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"修真\",\"url\":\"/booksort/4/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"言情\",\"url\":\"/booksort/5/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"辣文\",\"url\":\"/booksort/6/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"腹黑\",\"url\":\"/booksort/7/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"种田\",\"url\":\"/booksort/8/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"高干\",\"url\":\"/booksort/9/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游\",\"url\":\"/booksort/10/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/booksort/11/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"/booksort/12/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/booksort/13/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"恐怖\",\"url\":\"/booksort/14/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1635675707358,
+    "loginUrl": "",
+    "respondTime": 18173,
+    "ruleBookInfo": {
+        "author": ".article_info_td a.0@text",
+        "coverUrl": "",
+        "intro": "pre@html##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": ".h_nav_items li.0@text&&.article_info_td time@text##小说",
+        "lastChapter": ".article_info_td a.1@text",
+        "name": ".h_nav_items li.1@text",
+        "tocUrl": "text.开始阅读(目录)@href",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "#nr1@html",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+        "author": "strong@text",
+        "bookList": ".common-bookele",
+        "bookUrl": "a.0@href",
+        "intro": "a.1@text",
+        "kind": "time@text",
+        "name": "a.0@text"
+    },
+    "ruleSearch": {
+        "author": "a.2@text",
+        "bookList": ".SHsectionThree-middle p",
+        "bookUrl": "a.1@href",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "a.0@text",
+        "name": "a.1@text",
+        "wordCount": ""
+    },
+    "ruleToc": {
+        "chapterList": ".list_li li a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "option@value"
+    },
+    "searchUrl": "/search/,{\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlesearch&searchkey={{key}}\"\n}",
+    "weight": 0
+}

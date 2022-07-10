@@ -1,0 +1,45 @@
+{
+    "bookSourceComment": "全名搜索\n🍭改",
+    "bookSourceGroup": "",
+    "bookSourceName": "2k小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.2kxs.org",
+    "bookUrlPattern": "",
+    "customOrder": 720,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1632396787297,
+    "loginUrl": "{\n  \"url\": \"\"\n}",
+    "respondTime": 41762,
+    "ruleBookInfo": {
+        "author": "tag.h3.0@tag.a.0@text",
+        "coverUrl": "class.pannel-body info@class.info1@tag.img.0@src",
+        "intro": "class.pannel-body info@tag.p.0@textNodes##简介:",
+        "lastChapter": "class.info3@p.2@a@text&&class.info3@p.1@text##全部章节|最后更新：|正文\n<js>result.replace(/(.*)\\s/,'$1·')</js>",
+        "name": "tag.h1@text"
+    },
+    "ruleContent": {
+        "content": "class.panel-body content-body content-ext@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.tr@tag.p.1@tag.a.0@text||tag.h3.0@tag.a.0@text",
+        "bookList": "//*[@id=\"bookcon\"]//tr[position()>1 and position() < 6]",
+        "bookUrl": "tag.tr@tag.p.0@tag.a.0@href",
+        "coverUrl": "tag.a.0@href<js>'/files/article/image'+String(result).replace(/.*?(\\d*?)(\\d{1,3})\\//,'/$1/$1$2/$1$2s.jpg').replace('//','/0/')</js>",
+        "intro": "tag.a.0@href<js>java.ajax(result)</js>class.pannel-body@tag.p.0@text##简介:",
+        "kind": "tag.tr@tag.p.3@text||tag.p.1@text##.*状态：",
+        "lastChapter": "tag.a.0@href<js>java.ajax(result)</js>class.info3@p.2@a@text&&class.info3@p.1@text##全部章节\\s|最后更新：|正文\\s|\n<js>result.replace(/(.*)\\s/,'$1·')</js>",
+        "name": "tag.tr@tag.p.0@tag.a.0@text||tag.h1@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.list-group list-charts.0@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.2kxs.org/modules/article/search.php?searchkey={{key}}&submit=搜索",
+    "weight": 0
+}

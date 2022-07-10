@@ -1,0 +1,34 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "笔趣阁",
+    "bookSourceName": "笔趣阁™",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.bequgew.com",
+    "customOrder": 826,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "respondTime": 5554,
+    "ruleBookInfo": {},
+    "ruleContent": {
+        "content": "id.book_text@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "$5",
+        "bookList": ":odd\"><a[^\\d]*(\\d{1,2})(\\d{1,4})[^>]*>([^<]*)[^_]*[^>]*>([^<]*)[^=]*[^>]*>([^<]*)",
+        "bookUrl": "https://www.bequgew.com/$1$2/",
+        "coverUrl": "https://www.bequgew.com/files/article/image/$1/$1$2/$1$2s.jpg",
+        "lastChapter": "$4",
+        "name": "$3"
+    },
+    "ruleToc": {
+        "chapterList": ":href=\"(/\\d+/\\d+.html)\">([^<]*)",
+        "chapterName": "$2",
+        "chapterUrl": "$1"
+    },
+    "searchUrl": "/modules/article/search.php?searchkey={{key}}",
+    "weight": 0
+}

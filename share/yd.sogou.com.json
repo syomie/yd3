@@ -1,0 +1,53 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "希弥",
+    "bookSourceName": "搜狗阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://yd.sogou.com",
+    "bookUrlPattern": "https://yd.sogou.com/h5/cpt/detail?bkey=.*",
+    "customOrder": -88902424,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1646631313716,
+    "respondTime": 9113,
+    "ruleBookInfo": {
+        "author": ".book-detail .book-info>span:eq(0)@text",
+        "intro": "id.l_descr@text",
+        "kind": "p.book-info>span:not(:eq(0))@text",
+        "lastChapter": ".index-new-txt>p@text",
+        "name": "h3.detail-title:eq(0)@text"
+    },
+    "ruleContent": {
+        "content": "id.cacheContent@p@html",
+        "imageStyle": "FULL"
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "intro": "",
+        "kind": "",
+        "name": ""
+    },
+    "ruleSearch": {
+        "author": "class.book-info@tag.span.0@text",
+        "bookList": "class.list-search@ul@li",
+        "bookUrl": "##bkey=\"([^\"]+)\"##https://yd.sogou.com/h5/cpt/detail?bkey=$1&gf=ebye-d1-psearch-i&uID=-&sgid=0###",
+        "coverUrl": "img@src",
+        "intro": "class.book-summary@text",
+        "kind": "class.book-info@tag.span.1@text&&class.book-info@tag.span.2@text",
+        "lastChapter": "",
+        "name": "class.book-title@text",
+        "wordCount": "tag.p.1@tag.span.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.index-list@li",
+        "chapterName": "text",
+        "chapterUrl": "##bkey=\"([^\"]+)\" ckey=\"([^\"]+)\"##https://yd.sogou.com/h5/cpt/chapter?bkey=$1&ckey=$2&gf=ebye-d1-pdetail-i&uID=-&sgid=0###",
+        "isVip": "VIP",
+        "nextTocUrl": "option@value"
+    },
+    "searchUrl": "/h5/search?query={{key}}",
+    "weight": 0
+}

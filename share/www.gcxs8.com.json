@@ -1,0 +1,55 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "官场小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.gcxs8.com",
+    "bookUrlPattern": "",
+    "customOrder": 438,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"连载\",\"url\":\"/xs/0_0_1_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"官场\",\"url\":\"/xs/1_0_1_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"沉浮\",\"url\":\"/xs/2_0_1_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"商战\",\"url\":\"/xs/3_0_1_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"仕途\",\"url\":\"/xs/4_0_1_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"风云\",\"url\":\"/xs/5_0_1_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"古代\",\"url\":\"/xs/6_0_1_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"言情\",\"url\":\"/xs/7_0_1_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"乡村\",\"url\":\"/xs/8_0_1_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/xs/9_0_1_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完结\",\"url\":\"/xs/0_0_2_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"官场\",\"url\":\"/xs/1_0_2_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"沉浮\",\"url\":\"/xs/2_0_2_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"商战\",\"url\":\"/xs/3_0_2_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"仕途\",\"url\":\"/xs/4_0_2_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"风云\",\"url\":\"/xs/5_0_2_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"古代\",\"url\":\"/xs/6_0_2_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"言情\",\"url\":\"/xs/7_0_2_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"乡村\",\"url\":\"/xs/8_0_2_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/xs/9_0_2_0_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1633882063967,
+    "loginUrl": "",
+    "respondTime": 5864,
+    "ruleBookInfo": {
+        "author": ".BookAuthor a.0@text",
+        "coverUrl": ".BookImg@src",
+        "intro": ".BookIntro@html##介绍.|各位书友要.*",
+        "kind": "##别：([^<]+)<##$1###",
+        "lastChapter": ".BookInfo font@text##正文.",
+        "name": ".BookTitle@text##最新章节"
+    },
+    "ruleContent": {
+        "content": "#content@textNodes",
+        "imageStyle": "0",
+        "replaceRegex": "##\\(.*www.*\\)"
+    },
+    "ruleExplore": {
+        "author": "span.0@text##作者.",
+        "bookList": "#alistbox",
+        "bookUrl": "a.1@href",
+        "coverUrl": "img@src",
+        "intro": ".intro@text",
+        "kind": "li.0@text##最新更新.|\\s.*",
+        "name": "a.1@text"
+    },
+    "ruleSearch": {
+        "author": "td.2@text",
+        "bookList": "tbody tr!0",
+        "bookUrl": "a.0@href",
+        "coverUrl": "a.0@href##.+\\D((\\d+)\\d{3})\\D##http://www.gcxs8.com/files/article/image/$2/$1/$1s.jpg###",
+        "kind": "td.5:4@text",
+        "lastChapter": "td.1@text",
+        "name": "td.0@text",
+        "wordCount": "td.3@text"
+    },
+    "ruleToc": {
+        "chapterList": ".ListRow li a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"show=articlename&searchkey={{key}}&tbname=download&tempid=1&page={{page}}\"\n}",
+    "weight": 0
+}

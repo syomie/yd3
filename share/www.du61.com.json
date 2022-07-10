@@ -1,0 +1,53 @@
+{
+    "bookSourceComment": "作者:希弥",
+    "bookSourceGroup": "",
+    "bookSourceName": "读61小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.du61.com",
+    "bookUrlPattern": "https://www.du61.com/book/\\S+",
+    "customOrder": -88902339,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "科幻灵异::/booklist/5/{{page}}.html\n玄幻魔法::/booklist/1/{{page}}.html\n武侠修真::/booklist/2/{{page}}.html\n都市言情::/booklist/3/{{page}}.html\n历史军事::/booklist/4/{{page}}.html\n游戏竞技::/booklist/6/{{page}}.html\n女生::/booklist/7/{{page}}.html\n其他::/booklist/8/{{page}}.html\n全本::/quanben/booklist/\n排行::/rank/",
+    "lastUpdateTime": 1646631313679,
+    "respondTime": 12895,
+    "ruleBookInfo": {
+        "author": "meta[property=og:novel:author]@content",
+        "coverUrl": "meta[property=og:image]@content##http.*nocover.jpg#####",
+        "intro": "meta[property=og:description]@content##简介：?",
+        "kind": ".wppc@tag.p.0:1:2@text##(类别|更新|状态)：",
+        "lastChapter": "meta[property=og:novel:lastest_chapter_name]@content",
+        "name": "meta[property=og:novel:book_name]@content",
+        "tocUrl": "",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "#booktxt>p@textNodes",
+        "imageStyle": "TEXT",
+        "nextContentUrl": "text.下一页@href",
+        "payAction": ""
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": ".btm a@text",
+        "bookList": ".item",
+        "bookUrl": "dt a@href",
+        "checkKeyWord": "",
+        "coverUrl": "img@src",
+        "intro": "dd@text",
+        "kind": "em@text&&",
+        "lastChapter": "",
+        "name": "img@alt||dl.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "#list dt:nth-of-type(2)~a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/search/?searchkey={{key}}",
+    "weight": 0
+}

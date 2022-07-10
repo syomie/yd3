@@ -1,0 +1,51 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "【Mit】追书神器",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.zhuishushenqi.com",
+    "customOrder": 1331,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "                        ♂️男  频  专  区♂️                     ::\n♂️玄幻::/category?gender=male&type=hot&major=%E7%8E%84%E5%B9%BB&minor=&page={{page}}\n♂️都市::/category?gender=male&type=hot&major=%E9%83%BD%E5%B8%82&minor=&page={{page}}\n♂️仙侠::/category?gender=male&type=hot&major=%E4%BB%99%E4%BE%A0&minor=&page={{page}}\n♂️游戏::/category?gender=male&type=hot&major=%E6%B8%B8%E6%88%8F&minor=&page={{page}}\n♂️历史::/category?gender=male&type=hot&major=%E5%8E%86%E5%8F%B2&minor=&page={{page}}\n♂️科幻::/category?gender=male&type=hot&major=%E7%A7%91%E5%B9%BB&minor=&page={{page}}\n♂️奇闻::/category?gender=male&type=hot&major=%E5%A5%87%E9%97%BB&minor=&page={{page}}\n♂️轻小说::/category?gender=male&type=hot&major=%E8%BD%BB%E5%B0%8F%E8%AF%B4&minor=&page={{page}}\n♂️奇幻::/category?gender=male&type=hot&major=%E5%A5%87%E5%B9%BB\"&minor=&page={{page}}\n♂️军事::/category?gender=male&type=hot&major=%E5%86%9B%E4%BA%8B&minor=&page={{page}}\n♂️武侠::/category?gender=male&type=hot&major=%E6%AD%A6%E4%BE%A0&minor=&page={{page}}\n                        ♀️女  频  专  区♀️                     ::\n♀️现代言情::/category?gender=female&type=hot&major=%E7%8E%B0%E4%BB%A3%E8%A8%80%E6%83%85&minor=&page={{page}}\n♀️古代言情::/category?gender=female&type=hot&major=%E5%8F%A4%E4%BB%A3%E8%A8%80%E6%83%85&minor=&page={{page}}\n♀️幻想言情::/category?gender=female&type=hot&major=%E5%B9%BB%E6%83%B3%E8%A8%80%E6%83%85&minor=&page={{page}}\n♀️科幻空间::/category?gender=female&type=hot&major=%E7%A7%91%E5%B9%BB%E7%A9%BA%E9%97%B4&minor=&page={{page}}\n♀️青春校园::/category?gender=female&type=hot&major=%E9%9D%92%E6%98%A5%E6%A0%A1%E5%9B%AD&minor=&page={{page}}\n♀️唯美纯爱::/category?gender=female&type=hot&major=%E5%94%AF%E7%BE%8E%E7%BA%AF%E7%88%B1&minor=&page={{page}}\n♀️同人衍生::/category?gender=female&type=hot&major=%E5%90%8C%E4%BA%BA%E8%A1%8D%E7%94%9F&minor=&page={{page}}",
+    "lastUpdateTime": 1638083855364,
+    "respondTime": 2345,
+    "ruleBookInfo": {
+        "kind": "class.tags@text",
+        "lastChapter": "class.book-section.1@tag.ul@tag.li.0@tag.a@text",
+        "wordCount": "class.info@class.sup.0@text"
+    },
+    "ruleContent": {
+        "content": "class.inner-text@html"
+    },
+    "ruleExplore": {
+        "author": "class.author@tag.span.0@text",
+        "bookList": "class.books-list@tag.a",
+        "bookUrl": "href",
+        "coverUrl": "class.cover@src",
+        "intro": "class.desc@text",
+        "kind": "class.author@tag.span.2@text",
+        "name": "class.name@text",
+        "wordCount": ""
+    },
+    "ruleSearch": {
+        "author": "class.author@text",
+        "bookList": "class.books-list@tag.div!0",
+        "bookUrl": "class.name@tag.a@href",
+        "coverUrl": "class.cover@src",
+        "intro": "class.desc@text",
+        "kind": "",
+        "name": "class.name@text",
+        "wordCount": "class.popularity@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.book-section.2@tag.ul@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href",
+        "isVip": "id.J_book_monthly@text",
+        "updateTime": "class.info@class.sup.1@text"
+    },
+    "searchUrl": "/search?val={{key}}&page={{page}}",
+    "weight": 0
+}

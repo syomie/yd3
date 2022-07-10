@@ -1,0 +1,56 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "希弥",
+    "bookSourceName": "58小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.wbxsw.com/",
+    "bookUrlPattern": "http://m.wbxsw.com/html/\\d+",
+    "customOrder": -88902421,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::http://www.wbxsw.com/xiaoshuosort1/\n修真小说::http://www.wbxsw.com/xiaoshuosort2/\n都市小说::http://www.wbxsw.com/xiaoshuosort3/\n历史小说::http://www.wbxsw.com/xiaoshuosort4/\n网游小说::http://www.wbxsw.com/xiaoshuosort6/\n科幻小说::http://www.wbxsw.com/xiaoshuosort5/\n女生小说::http://www.wbxsw.com/xiaoshuosort7/\n全本小说::http://www.wbxsw.com/wanbenxiaoshuo/",
+    "lastUpdateTime": 1646631313659,
+    "respondTime": 9942,
+    "ruleBookInfo": {
+        "author": "meta[property=\"og:novel:author\"]@content",
+        "coverUrl": "meta[property=\"og:image\"]@content",
+        "intro": "meta[property=\"og:description\"]@content",
+        "kind": "meta[property=\"og:novel:category\"]@content&&meta[property=\"og:novel:status\"]@content",
+        "lastChapter": "meta[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "meta[property=\"og:novel:book_name\"]@content||meta[property=\"og:novel:title\"]@content"
+    },
+    "ruleContent": {
+        "content": "id.nr1@textNodes||id.content@textNodes",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+        "author": "class.s5@text&&tag.dt@tag.span@text",
+        "bookList": "class.item&&tag.li",
+        "bookUrl": "class.s2@tag.a@href&&tag.dt@tag.a@href",
+        "coverUrl": "tag.img@src",
+        "intro": "tag.dd@text",
+        "kind": "class.s1@text##\\[|\\]",
+        "lastChapter": "class.s3@text",
+        "name": "class.s2@tag.a@text&&tag.dt@tag.a@text"
+    },
+    "ruleSearch": {
+        "author": "class.result-game-item-info@tag.p.0@text",
+        "bookList": "class.result-game-item",
+        "bookUrl": "tag.h3@tag.a@href",
+        "coverUrl": "tag.img@src",
+        "intro": "class.result-game-item-desc@text",
+        "kind": "class.result-game-item-info@tag.p.1@text",
+        "lastChapter": "class.result-game-item-info@tag.p.3@text##最新章节：",
+        "name": "tag.h3@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.cover@class.chapter.1@tag.li||tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href",
+        "nextTocUrl": "text.下一页@href",
+        "updateTime": "id.info@tag.p.2@text"
+    },
+    "searchUrl": "http://m.wbxsw.com/search.php?q={{key}}",
+    "weight": 0
+}

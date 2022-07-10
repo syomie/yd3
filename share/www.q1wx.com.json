@@ -1,0 +1,46 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "Q1文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.q1wx.com/",
+    "customOrder": 241,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1625021175437,
+    "respondTime": 3515,
+    "ruleBookInfo": {
+        "author": "[property$=author]@content",
+        "coverUrl": "[property$=read_url]@content",
+        "intro": "[property$=description]@content##Q1文学.*观看小说:",
+        "kind": "[property$=category]@content&&[property$=status]@content",
+        "lastChapter": "[property$=latest_chapter_name]@content",
+        "name": "[property$=book_name]@content",
+        "wordCount": "[property$=update_time]@content"
+    },
+    "ruleContent": {
+        "content": "id.content@p@html",
+        "nextContentUrl": "text.下一页@href",
+        "replaceRegex": "##\\s*.*本章未完.*\\s*|\\s*喜欢{{book.name}}.*速度最快。\\s*|攫.*(攫。|攫)|巘.*(戅。|戅)|厺.*(厽。|厽)|芈.*(芈。|芈)|汜.*(汜。|汜)|牺如.*(牺如。|牺如)"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.span.0@text",
+        "bookList": "id.sitembox@dl",
+        "bookUrl": "a@href",
+        "coverUrl": "img@src",
+        "intro": "tag.dd.2@text##Q1文学.*观看小说:",
+        "kind": "tag.span.2@text&&tag.span.1@text",
+        "lastChapter": "tag.a.2@text&&tag.span.4@text##\\n\\h?##▪",
+        "name": "h3@a@text",
+        "wordCount": "tag.span.3@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@dd",
+        "chapterName": "a@text",
+        "chapterUrl": "a@href"
+    },
+    "searchUrl": "http://www.q1wx.com/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchtype=all&searchkey={{key}}\"\n}",
+    "weight": 0
+}

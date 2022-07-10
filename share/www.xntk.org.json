@@ -1,0 +1,53 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "567中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xntk.org",
+    "customOrder": 363,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/mlist.php?t_id=1<,&page={{page}}-1>\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"奇幻\",\"url\":\"/mlist.php?t_id=2<,&page={{page}}-1>\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"武侠\",\"url\":\"/mlist.php?t_id=3<,&page={{page}}-1>\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"仙侠\",\"url\":\"/mlist.php?t_id=4<,&page={{page}}-1>\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/mlist.php?t_id=5<,&page={{page}}-1>\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"言情\",\"url\":\"/mlist.php?t_id=6<,&page={{page}}-1>\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"/mlist.php?t_id=7<,&page={{page}}-1>\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"军事\",\"url\":\"/mlist.php?t_id=8<,&page={{page}}-1>\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"游戏\",\"url\":\"/mlist.php?t_id=9<,&page={{page}}-1>\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"竞技\",\"url\":\"/mlist.php?t_id=10<,&page={{page}}-1>\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/mlist.php?t_id=11<,&page={{page}}-1>\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"灵异\",\"url\":\"/mlist.php?t_id=12<,&page={{page}}-1>\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"同人\",\"url\":\"/mlist.php?t_id=14<,&page={{page}}-1>\",\"style\":{\"layout_flexBasisPercent\":0.21}},\n{\"title\":\"全本\",\"url\":\"/mlist.php?t_id=20<,&page={{page}}-1>\",\"style\":{\"layout_flexBasisPercent\":0.21}}]",
+    "lastUpdateTime": 1634041296839,
+    "loginUrl": "",
+    "respondTime": 14415,
+    "ruleBookInfo": {
+        "author": "",
+        "coverUrl": "img.pic_line2@src##/180\\s*##/600",
+        "intro": "p@html",
+        "lastChapter": "u@text",
+        "name": "",
+        "tocUrl": "{{baseUrl}}##(\\d+)##$1###@js:var xid=Math.floor(result/1000);'http://www.xntk.org/html/'+xid+'/'+result+'/'"
+    },
+    "ruleContent": {
+        "content": "#booktext@html",
+        "imageStyle": "FULL",
+        "replaceRegex": "##.*起点中文.*"
+    },
+    "ruleExplore": {
+        "author": "td.4@text",
+        "bookList": "#list",
+        "bookUrl": "a.0@href",
+        "coverUrl": "",
+        "kind": "td.3:5@text##\\s.*",
+        "lastChapter": "td.2@text",
+        "name": "td.1@text"
+    },
+    "ruleSearch": {
+        "author": "td.2@text",
+        "bookList": "tbody tr!0:1:2:3:4:5",
+        "bookUrl": "a.0@href",
+        "coverUrl": "",
+        "kind": "td.3:5@text",
+        "lastChapter": "td.1@text",
+        "name": "td.0@text"
+    },
+    "ruleToc": {
+        "chapterList": ".mainbody li a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/search.php,{\n  'charset': 'gb2312',\n  'method': 'POST',\n  'body': 'searchtype=articlename&keyword={{key}}&submit='\n}",
+    "weight": 0
+}

@@ -1,0 +1,53 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "腐文阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.fuwenge.com/",
+    "customOrder": 248,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"/list1_{{page}}.html\",\"style\":{}},\n{\"title\":\"武侠修真\",\"url\":\"/list2_{{page}}.html\",\"style\":{}},\n{\"title\":\"都市青春\",\"url\":\"/list3_{{page}}.html\",\"style\":{}},\n{\"title\":\"科幻悬疑\",\"url\":\"/list4_{{page}}.html\",\"style\":{}},\n{\"title\":\"穿越历史\",\"url\":\"/list5_{{page}}.html\",\"style\":{}},\n{\"title\":\"浪漫浓情\",\"url\":\"/list6_{{page}}.html\",\"style\":{}},\n{\"title\":\"游戏竞技\",\"url\":\"/list7_{{page}}.html\",\"style\":{}},\n{\"title\":\"精品其他\",\"url\":\"/list8_{{page}}.html\",\"style\":{}}]",
+    "lastUpdateTime": 1630573756523,
+    "respondTime": 6494,
+    "ruleBookInfo": {
+        "author": "class.detail@li.0@p@text",
+        "coverUrl": "class.cm_tab@img@src",
+        "intro": "class.mlist@text",
+        "kind": "class.detail@li.1:3@p@text",
+        "lastChapter": "class.short_de@a@text",
+        "name": "h1@text",
+        "tocUrl": "class.read@href",
+        "wordCount": "class.detail@li.2@p@text"
+    },
+    "ruleContent": {
+        "content": "class.inner@textNodes"
+    },
+    "ruleExplore": {
+        "author": "span.0@text",
+        "bookList": "li.clearfix",
+        "bookUrl": "a@href",
+        "coverUrl": "img@src",
+        "intro": ".fr@text",
+        "kind": "span.1:2:3@text##分类：|状态：|更新：",
+        "name": "a.1@text",
+        "wordCount": "span.4@text##字数：|[kK]##000"
+    },
+    "ruleSearch": {
+        "author": "class.odd.1@text",
+        "bookList": "class.grid@tr!0",
+        "bookUrl": "class.odd.0@a@href",
+        "kind": "class.odd.2@text&&class.even.2@text",
+        "lastChapter": "class.even.0@a@text",
+        "name": "class.odd.0@text",
+        "wordCount": "class.even.1@text##[kK]##000"
+    },
+    "ruleToc": {
+        "chapterList": "ol li a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.fuwenge.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

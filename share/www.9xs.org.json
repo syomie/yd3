@@ -1,0 +1,45 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "轮回小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.9xs.org",
+    "bookUrlPattern": "",
+    "customOrder": 663,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "respondTime": 2942,
+    "ruleBookInfo": {
+        "author": ".zz@text##作者：",
+        "coverUrl": "##:image\" content=\"([^\"]+)##$1###",
+        "intro": ".jj_con@text##阅读.*?最新章节请关注（轮回小说网 https.*?html）",
+        "lastChapter": ".zj@text",
+        "name": "tag.h3.0@text",
+        "tocUrl": ".mulu@a@href"
+    },
+    "ruleContent": {
+        "content": "@js:java.getElements('dd!-1').toArray().sort((a,b)=>a.attr('data-id')-b.attr('data-id')).map(x=>x.html()).join('')"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.a.2@text",
+        "bookList": ".result@li",
+        "bookUrl": "h3@a@href",
+        "coverUrl": "img@data-original",
+        "intro": ".int@text",
+        "kind": "span!0:2@text##(分类|更新时间|总字数)：|\\s[0-9].+",
+        "lastChapter": "tag.a.4@text",
+        "name": "h3@text"
+    },
+    "ruleToc": {
+        "chapterList": "+@js:org.jsoup.Jsoup.parse(result).select('[data-id]>li>a').toArray().sort().map(x=>({n:x.text(),u:x.attr('href')}))",
+        "chapterName": "n",
+        "chapterUrl": "u"
+    },
+    "searchUrl": "https://www.9xs.org/search.php?key={{key}},{\n  \"charset\": \"utf-8\"\n}",
+    "weight": 0
+}

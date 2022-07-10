@@ -1,0 +1,54 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "7017k小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.7017k.com",
+    "customOrder": 276,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/xuanhuan/\n武侠::/xianxia/\n都市::/dushi/\n穿越::/chuanyue/\n恐怖::/kongbu/\n网游::/wangyou/\n科幻::/kehuan/\n全本::/full.html\n排行榜::/top.html",
+    "lastUpdateTime": 1648368357305,
+    "respondTime": 9248,
+    "ruleBookInfo": {
+        "author": ".dd_box.0@tag.span.0@text##作者：",
+        "coverUrl": "tag.img@src",
+        "init": "",
+        "intro": ".book_about@tag.dd@text##最新章节推荐地址：https://m.*",
+        "kind": ".dd_box.0@tag.span.1@text&&.dd_box.1@tag.span.0@text##分类：|状态：",
+        "lastChapter": "tag.dd.3@tag.a@text",
+        "tocUrl": "",
+        "wordCount": ".dd_box.1@tag.span.1@text##字数："
+    },
+    "ruleContent": {
+        "content": "#chaptercontent@html##7017k小说网阅读.*|\\(第.*?\\/.*?页\\)|第.*章.*",
+        "nextContentUrl": "text.下一章@href",
+        "replaceRegex": "##.*感谢投出.*的小天使.*|.*感谢.*营养液.*|感谢灌溉营养液的小天使：.*|\\d{3}瓶|非常感谢大家对我的支持，我会继续努力的！|感谢在\\d{4}-.*|.*期间为我投出霸王票或灌溉营养液的小天使.*|感谢.*小天使.*支持.*|.*扔了.*(手榴弹|地雷|火箭炮).*"
+    },
+    "ruleExplore": {
+        "author": ".s3@text",
+        "bookList": "li",
+        "bookUrl": "tag.a@href",
+        "kind": "",
+        "name": "tag.a@text",
+        "wordCount": ""
+    },
+    "ruleSearch": {
+        "author": ".author@text##作者：",
+        "bookList": ".bookbox",
+        "bookUrl": ".bookname@tag.a@href",
+        "coverUrl": "tag.img@src",
+        "kind": ".cat@text##分类：",
+        "lastChapter": ".update@tag.a@text",
+        "name": ".bookname@tag.a@text"
+    },
+    "ruleToc": {
+        "chapterList": ".book_last.1@tag.dd",
+        "chapterName": "text",
+        "chapterUrl": "tag.a@href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/s.php?ie=gbk&q={{key}}",
+    "weight": 0
+}

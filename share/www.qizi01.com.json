@@ -1,0 +1,55 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "棋子小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.qizi01.com",
+    "bookUrlPattern": "https://www.qizi01.com/book/\\d+.html",
+    "customOrder": 98,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/list/1<,/{{page}}>.html\n仙侠::/list/2<,/{{page}}>.html\n都市::/list/3<,/{{page}}>.html\n历史::/list/4<,/{{page}}>.html\n科幻::/list/5<,/{{page}}>.html\n网游::/list/6<,/{{page}}>.html\n恐怖::/list/7<,/{{page}}>.html\n其他::/list/8<,/{{page}}>.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "respondTime": 5001,
+    "ruleBookInfo": {
+        "author": ".booktag@tag.a.0@text",
+        "coverUrl": "img@src",
+        "intro": "【{{@@p.visible-xs@textNodes}}】\n<p>{{@@id.bookIntro.0@textNodes}}",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content##小说|中|已",
+        "lastChapter": "class.col-md-10@tag.p.1@a@text",
+        "name": "h1@text",
+        "wordCount": ".booktag@tag.span.-3@text@js:\nlet x=result.match(/(\\d+)/)[1];\nx>10000?(parseInt(x/10000)+\"万字\"):(parseInt(x)+\"字\")"
+    },
+    "ruleContent": {
+        "content": "id.htmlContent@textNodes",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+        "author": "tag.td.-3@text||small@text##/\\s*",
+        "bookList": "//*[@class=\"table\" or @class=\"list-group list-top\"\n]//*[@class=\"list-group-item\" or /td]",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.a.0@href@js:\nlet bid=result.match(/\\/(\\d+)/)[1];\n\"https://www.qizi01.com/files/article/image/\"+parseInt(bid/1000)+\"/\"+bid+\"/\"+bid+\"s.jpg\"",
+        "kind": "tag.td.-1@text##已|中",
+        "lastChapter": "tag.td.1@text",
+        "name": "tag.a.0@text",
+        "wordCount": "tag.td.-2@text"
+    },
+    "ruleSearch": {
+        "author": "tag.li.2@text##作者：",
+        "bookList": "class.mySearch@ul",
+        "bookUrl": "a@href",
+        "coverUrl": "tag.a.0@href@js:\nlet bid=result.match(/\\/(\\d+)/)[1];\n\"https://www.qizi01.com/files/article/image/\"+parseInt(bid/1000)+\"/\"+bid+\"/\"+bid+\"s.jpg\"",
+        "kind": "tag.li.4@text&&tag.li.5@text##状态：|更新时间.",
+        "lastChapter": "tag.li.1@a@text",
+        "name": "tag.li.0@a@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.panel-body panel-chapterlist.1@dd",
+        "chapterName": "a@text",
+        "chapterUrl": "a@href"
+    },
+    "searchUrl": "https://www.qizi01.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

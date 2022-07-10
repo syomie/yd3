@@ -1,0 +1,57 @@
+{
+    "bookSourceComment": "冷魅",
+    "bookSourceGroup": "API",
+    "bookSourceName": "必看悦读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://api.97yd.com",
+    "bookUrlPattern": "",
+    "concurrentRate": "",
+    "customOrder": 800,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "                              男频                              ::https://api.97yd.com/top?&bid=1&type=today&page={{page-1}}\n男生人气榜::https://api.97yd.com/top?&bid=1&type=0&page={{page-1}}\n男生好评榜::https://api.97yd.com/top?&bid=1&type=1&page={{page-1}}\n男生完结榜::https://api.97yd.com/top?&bid=1&type=2&page={{page-1}}\n男生新书榜::https://api.97yd.com/top?&bid=1&type=3&page={{page-1}}\n男生热搜榜::https://api.97yd.com/top?&bid=1&type=4&page={{page-1}}\n男生推荐榜::https://api.97yd.com/top?&bid=1&type=5&page={{page-1}}\n玄幻魔法::https://api.97yd.com/sortlist?&sortid=1&page={{page-1}}\n武侠修真::https://api.97yd.com/sortlist?&sortid=2&page={{page-1}}\n都市生活::https://api.97yd.com/sortlist?&sortid=3&page={{page-1}}\n历史军事::https://api.97yd.com/sortlist?&sortid=4&page={{page-1}}\n游戏竞技::https://api.97yd.com/sortlist?&sortid=5&page={{page-1}}\n科幻灵异::https://api.97yd.com/sortlist?&sortid=6&page={{page-1}}\n恐怖悬疑::https://api.97yd.com/sortlist?&sortid=7&page={{page-1}}\n穿越架空::https://api.97yd.com/sortlist?&sortid=8&page={{page-1}}\n经典短篇::https://api.97yd.com/sortlist?&sortid=9&page={{page-1}}\n                              女频                             ::https://api.97yd.com/top?&bid=2&type=today&page={{page-1}}\n女生人气榜::https://api.97yd.com/top?&bid=2&type=0&page={{page-1}}\n女生好评榜::https://api.97yd.com/top?&bid=2&type=1&page={{page-1}}\n女生完结榜::https://api.97yd.com/top?&bid=2&type=2&page={{page-1}}\n女生新书榜::https://api.97yd.com/top?&bid=2&type=3&page={{page-1}}\n女生热搜榜::https://api.97yd.com/top?&bid=2&type=4&page={{page-1}}\n女生推荐榜::https://api.97yd.com/top?&bid=2&type=5&page={{page-1}}\n古代言情::https://api.97yd.com/sortlist?&sortid=10&page={{page-1}}\n现代言情::https://api.97yd.com/sortlist?&sortid=11&page={{page-1}}\n幻想奇缘::https://api.97yd.com/sortlist?&sortid=12&page={{page-1}}\n青春校园::https://api.97yd.com/sortlist?&sortid=13&page={{page-1}}\n网络情缘::https://api.97yd.com/sortlist?&sortid=14&page={{page-1}}\n精选爽文::https://api.97yd.com/sortlist?&sortid=15&page={{page-1}}\n言情美文::https://api.97yd.com/sortlist?&sortid=17&page={{page-1}}\n其他类型::https://api.97yd.com/sortlist?&sortid=18&page={{page-1}}\nN次元::https://api.97yd.com/sortlist?&sortid=16&page={{page-1}}",
+    "header": "{\"type\"=\"app\"}",
+    "lastUpdateTime": 1646055704510,
+    "loginCheckJs": "",
+    "loginUi": "",
+    "loginUrl": "",
+    "respondTime": 4053,
+    "ruleBookInfo": {
+        "author": "$..author",
+        "coverUrl": "$..img",
+        "intro": "$..intro",
+        "kind": "$..sortname&&$..lastupdate",
+        "lastChapter": "$..lastchapter",
+        "name": "$..title",
+        "tocUrl": "https://api.97yd.com/menu?&bookid=@get:{bid}&start=0"
+    },
+    "ruleContent": {
+        "content": "$.data"
+    },
+    "ruleExplore": {
+        "author": "$.author",
+        "bookList": "$..data[*]",
+        "bookUrl": "$.bookid<js>\nbid=result;\njava.put('bid',bid);\nresult=\"https://api.97yd.com/info?&bookid=\"+bid+\"&type=all\";\n</js>",
+        "coverUrl": "$.img",
+        "intro": "$.desc",
+        "kind": "$.sortname",
+        "name": "$.title"
+    },
+    "ruleSearch": {
+        "author": "$.author",
+        "bookList": "$..data[*]",
+        "bookUrl": "$.bookid<js>\nbid=result;\njava.put('bid',bid);\nresult=\"https://api.97yd.com/info?&bookid=\"+bid+\"&type=all\";\n</js>",
+        "coverUrl": "$.img",
+        "intro": "$.desc",
+        "kind": "$.sortname",
+        "name": "$.title"
+    },
+    "ruleToc": {
+        "chapterList": "$..data[*]",
+        "chapterName": "$.chaptername",
+        "chapterUrl": "https://api.97yd.com/reader?&bookid=@get:{bid}&chapterid={{$.chapterid}}"
+    },
+    "searchUrl": "/search,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&page={{page-1}}\"\n}",
+    "weight": 0
+}

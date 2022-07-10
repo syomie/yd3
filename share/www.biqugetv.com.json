@@ -1,0 +1,48 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "笔趣阁④",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biqugetv.com",
+    "bookUrlPattern": "https://www.biqugetv.com/\\d+_\\d+/",
+    "customOrder": -88962085,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "header": "",
+    "lastUpdateTime": 1656571040664,
+    "loginUrl": "",
+    "respondTime": 4270,
+    "ruleBookInfo": {
+        "author": "meta[property=\"og:novel:author\"]@content",
+        "coverUrl": "meta[property=\"og:image\"]@content",
+        "init": "",
+        "intro": "meta[property=\"og:description\"]@content",
+        "kind": "meta[property=\"og:novel:category\"]@content&&meta[property=\"og:novel:status\"]@content&&\nid.info@tag.p.2@text##最后更新：",
+        "lastChapter": "meta[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "meta[property=\"og:novel:book_name\"]@content||meta[property=\"og:novel:title\"]@content"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes##手机端.*小說閱讀。|笔趣阁.*com"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "class.result-game-item-info@tag.p.0@tag.span.1@text",
+        "bookList": "class.result-list@class.result-item result-game-item",
+        "bookUrl": "class.result-game-item-detail@tag.h3@tag.a@href",
+        "coverUrl": "class.result-game-item-pic@img@src",
+        "intro": "class.result-game-item-detail@tag.p.0@text",
+        "kind": "class.result-game-item-info@tag.p.1@tag.span.1@text&&\nclass.result-game-item-info@tag.p.2@tag.span.1@text",
+        "lastChapter": "class.result-game-item-info@tag.p.3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "class.result-game-item-detail@tag.h3@tag.a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search.php?keyword={{key}}&page={{page}}",
+    "weight": 0
+}

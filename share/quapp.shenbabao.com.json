@@ -1,0 +1,43 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "API",
+    "bookSourceName": "趣APP",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://quapp.shenbabao.com",
+    "bookUrlPattern": "https://quapp.shenbabao.com/book/.*",
+    "customOrder": 632,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "header": "'User-Agent': 'quapp'",
+    "lastUpdateTime": 1654155251188,
+    "respondTime": 3579,
+    "ruleBookInfo": {
+        "init": ""
+    },
+    "ruleContent": {
+        "content": "$..content##还在为找不到小说的最新章节苦恼.*|推荐一个淘宝天猫内部.*|本书来自.*|最快更新，.*|{{title}}.*|\\<\\>|天才.秒.住.*|手机用户请.*",
+        "imageStyle": "0.0",
+        "replaceRegex": ""
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "$.Author",
+        "bookList": "$..data[*]",
+        "bookUrl": "https://quapp.shenbabao.com/book/{$.Id}/",
+        "coverUrl": "$.Img",
+        "intro": "$.Desc",
+        "kind": "$.CName&&$.BookStatus",
+        "lastChapter": "$.LastChapter",
+        "name": "$.Name@put:{a:$.Id}"
+    },
+    "ruleToc": {
+        "chapterList": "$..list[*].list[*]",
+        "chapterName": "$.name",
+        "chapterUrl": "https://quapp.shenbabao.com/book/@get:{a}/{{$.id}}.html"
+    },
+    "searchUrl": "https://sou.jiaston.com/search.aspx?key={{key}}&page=Page&siteid=app2",
+    "weight": 0
+}

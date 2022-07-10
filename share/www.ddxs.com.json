@@ -1,0 +1,47 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "顶点小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.ddxs.com",
+    "bookUrlPattern": "",
+    "concurrentRate": "",
+    "customOrder": 18,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1646055586199,
+    "loginCheckJs": "",
+    "loginUi": "",
+    "loginUrl": "",
+    "respondTime": 2889,
+    "ruleBookInfo": {
+        "author": "class.btitle@tag.i.0@text##作者.",
+        "coverUrl": "class.pic@tag.img@src",
+        "intro": "class.intro@text##小说介绍.",
+        "kind": "class.btitle@tag.i.2@text##类别.",
+        "lastChapter": "class.news@tag.a@text&&class.btitle@tag.i.3@text##时间.|..\\:.*",
+        "name": "class.btitle@tag.h1@text"
+    },
+    "ruleContent": {
+        "content": "id.contents@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.td.3@text",
+        "bookList": "class.bdsub@tag.tr!0",
+        "bookUrl": "tag.a.0@href",
+        "kind": "tag.td.0@text##\\[|\\]",
+        "lastChapter": "tag.a.1@text&&tag.td.-2@text",
+        "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.at.1@class.L",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.ddxs.com/search.php?keyword={{key}}",
+    "weight": 0
+}

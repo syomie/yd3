@@ -1,0 +1,48 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "爪机书屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.zjsw.org/",
+    "bookUrlPattern": "https?://www\\.zjsw\\.org(/html)?/book/\\d+/?",
+    "customOrder": 1216,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "❀                       全 部 小 说                      ❀::\n玄幻小说::/sort/1/{{page}}.html\n奇幻小说::/sort/2/{{page}}.html\n武侠小说::/sort/3/{{page}}.html\n都市小说::/sort/4/{{page}}.html\n历史小说::/sort/5/{{page}}.html\n军事小说::/sort/6/{{page}}.html\n悬疑小说::/sort/7/{{page}}.html\n游戏小说::/sort/8/{{page}}.html\n科幻小说::/sort/9/{{page}}.html\n体育小说::/sort/10/{{page}}.html\n官场小说::/sort/11/{{page}}.html\n古言小说::/sort/12/{{page}}.html\n现言小说::/sort/13/{{page}}.html\n幻言小说::/sort/14/{{page}}.html\n仙侠小说::/sort/15/{{page}}.html\n青春小说::/sort/16/{{page}}.html\n穿越小说::/sort/17/{{page}}.html\n女生小说::/sort/18/{{page}}.html\nN次い 元::/sort/19/{{page}}.html\n❀                       排 行 榜 单                      ❀::\n总点击榜::/allvisit/{{page}}.html\n月点击榜::/monthvisit/{{page}}.html\n周点击榜::/weekvisit/{{page}}.html\n日点击榜::/dayvisit/{{page}}.html\n总推荐榜::/allvote/{{page}}.html\n月推荐榜::/monthvote/{{page}}.html\n周推荐榜::/weekvote/{{page}}.html\n日推荐榜::/dayvote/{{page}}.html\n总收藏榜::/goodnum/{{page}}.html\n总字数榜::/size/{{page}}.html\n最新入库::/postdate/{{page}}.html\n最近更新::/lastupdate/{{page}}.html\n新书榜单::/goodnew/{{page}}.html\n❀                       全 部 全 本                      ❀::\n玄幻小说::/quanben/1/{{page}}.html\n奇幻小说::/quanben/2/{{page}}.html\n武侠小说::/quanben/3/{{page}}.html\n都市小说::/quanben/4/{{page}}.html\n历史小说::/quanben/5/{{page}}.html\n军事小说::/quanben/6/{{page}}.html\n悬疑小说::/quanben/7/{{page}}.html\n游戏小说::/quanben/8/{{page}}.html\n科幻小说::/quanben/9/{{page}}.html\n体育小说::/quanben/10/{{page}}.html\n古言小说::/quanben/12/{{page}}.html\n现言小说::/quanben/13/{{page}}.html\n幻言小说::/quanben/14/{{page}}.html\n仙侠小说::/quanben/15/{{page}}.html\n青春小说::/quanben/16/{{page}}.html\n穿越小说::/quanben/17/{{page}}.html\n女生小说::/quanben/18/{{page}}.html\nN次い 元::/quanben/19/{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows; U; Windows NT 5.2;. en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 Quark/4.6.2.161\"\n}",
+    "lastUpdateTime": 1619683390292,
+    "respondTime": 11975,
+    "ruleBookInfo": {
+        "author": "class.bookname@h1@em@text##作者：",
+        "coverUrl": "class.pic@img@src",
+        "intro": "class.intro@text",
+        "kind": "class.top@tag.span.1@text&&\nclass.bread-crumbs@tag.li.1@a@text##更新时间：",
+        "lastChapter": "class.top@tag.span.0@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "class.bookname@h1@text##作者.*|\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节",
+        "tocUrl": "class.btopt@tag.a@href##$##,{\"webView\":true}",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "id.content@html##百镀一下.*第一时间免费阅读。|.*zjsw.*|本站.*zw|－－|－|一秒记住.*免费阅读！|●：iw0",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.title@span@text##作者：",
+        "bookList": "id.alistbox",
+        "bookUrl": "h2@a@href##$##,{\"webView\":true}",
+        "coverUrl": "img@src",
+        "intro": "class.intro@text",
+        "kind": "",
+        "lastChapter": "class.sys@tag.li@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "h2@a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节"
+    },
+    "ruleToc": {
+        "chapterList": "class.link_14@tag.dl@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.zjsw.org/search.html,{\r\n  \"method\": \"POST\",\r\n  \"body\": \"searchkey={{key}}\",\n\"headers\": {\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\"}, \"webView\": true}",
+    "weight": 0
+}

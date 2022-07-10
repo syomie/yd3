@@ -1,0 +1,53 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "API",
+    "bookSourceName": "独阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://app.duread8.com",
+    "bookUrlPattern": "",
+    "customOrder": -88902275,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1649172567634,
+    "loginUrl": "",
+    "respondTime": 4574,
+    "ruleBookInfo": {
+        "author": "$.author_name",
+        "coverUrl": "$.cover",
+        "init": "<js>\nvar javaImport = new JavaImporter();\njavaImport.importPackage(\n    Packages.java.lang,\n    Packages.javax.crypto.spec,\n    Packages.javax.crypto,\n    Packages.android.util\n);\n\nwith(javaImport){\n  function decode(word){\n      let key=SecretKeySpec(java.base64DecodeToByteArray(\"EP99Mjk5Bc5jInLnKfUgRaOo0oZmUANFRDmyf05uTx8=\"),\"AES\");\n      let iv=IvParameterSpec(java.base64DecodeToByteArray(\"AAAAAAAAAAAAAAAAAAAAAA==\"));\n      let chipher=Cipher.getInstance(\"AES/CBC/PKCS5Padding\");\n      let bytes=Base64.decode(String(word).getBytes(),2);\n      chipher.init(2,key,iv);\n      return String(chipher.doFinal(bytes));\n    }\n}\ndecode(result)\n</js>\n$.data.book_info",
+        "intro": "$.tag&&$.description##^##        🔖标签：",
+        "kind": "$.category_name&&$.last_chapter_info.uptime##\\s.*",
+        "lastChapter": "$.last_chapter_info.chapter_title",
+        "name": "$.book_name",
+        "tocUrl": "@js:\nvar javaImport = new JavaImporter();\njavaImport.importPackage(\n    Packages.java.lang,\n    Packages.javax.crypto.spec,\n    Packages.javax.crypto,\n    Packages.android.util\n);\n\nwith(javaImport){\n  function encode(word){\n      let key=SecretKeySpec(java.base64DecodeToByteArray(\"EP99Mjk5Bc5jInLnKfUgRaOo0oZmUANFRDmyf05uTx8=\"),\"AES\");\n      let iv=IvParameterSpec(java.base64DecodeToByteArray(\"AAAAAAAAAAAAAAAAAAAAAA==\"));\n      let chipher=Cipher.getInstance(\"AES/CBC/PKCS5Padding\");\n      chipher.init(1,key,iv);\n      return java.encodeURI(Base64.encodeToString(chipher.doFinal(String(word).getBytes()),Base64.NO_WRAP));\n    }\n}\nlet jsonObj={\"app_signature_md5\":\"02ebc876b59abf1294791faf89cf04d7\",\"app_version\":\"1.0.5\",\"channel\":\"default\",\"last_update_time\":\"0\",\"book_id\":{{$.book_id}},\"login_token\":String(java.get('login_token')),\"account\":String(java.get('account'))}\nlet body = \"secret_content=\"+encode(JSON.stringify(jsonObj));\nlet option = {\"method\": \"POST\",\"body\": String(body)};\n\"/chapter/get_chapter_list_group_by_division,\" + JSON.stringify(option)",
+        "wordCount": "$.total_word_count"
+    },
+    "ruleContent": {
+        "content": "<js>\nvar javaImport = new JavaImporter();\njavaImport.importPackage(\n    Packages.java.lang,\n    Packages.javax.crypto.spec,\n    Packages.javax.crypto,\n    Packages.android.util\n);\n\nwith(javaImport){\n  function decode(word){\n      let key=SecretKeySpec(java.base64DecodeToByteArray(\"EP99Mjk5Bc5jInLnKfUgRaOo0oZmUANFRDmyf05uTx8=\"),\"AES\");\n      let iv=IvParameterSpec(java.base64DecodeToByteArray(\"AAAAAAAAAAAAAAAAAAAAAA==\"));\n      let chipher=Cipher.getInstance(\"AES/CBC/PKCS5Padding\");\n      let bytes=Base64.decode(String(word).getBytes(),2);\n      chipher.init(2,key,iv);\n      return String(chipher.doFinal(bytes));\n    }\n}\ndecode(result)\n</js>\n$.data.chapter_info.txt_content"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "$.author_name",
+        "bookList": "<js>\nvar javaImport = new JavaImporter();\njavaImport.importPackage(\n    Packages.java.lang,\n    Packages.javax.crypto.spec,\n    Packages.javax.crypto,\n    Packages.android.util\n);\n\nwith(javaImport){\n  function decode(word){\n      let key=SecretKeySpec(java.base64DecodeToByteArray(\"EP99Mjk5Bc5jInLnKfUgRaOo0oZmUANFRDmyf05uTx8=\"),\"AES\");\n      let iv=IvParameterSpec(java.base64DecodeToByteArray(\"AAAAAAAAAAAAAAAAAAAAAA==\"));\n      let chipher=Cipher.getInstance(\"AES/CBC/PKCS5Padding\");\n      let bytes=Base64.decode(String(word).getBytes(),2);\n      chipher.init(2,key,iv);\n      return String(chipher.doFinal(bytes));\n    }\n}\n\nresponse=decode(result)\n// 打印解密结果\n//java.log(JSON.stringify(JSON.parse(response)))\nresponse\n</js>\n$.data.book_list",
+        "bookUrl": "@js:\nvar javaImport = new JavaImporter();\njavaImport.importPackage(\n    Packages.java.lang,\n    Packages.javax.crypto.spec,\n    Packages.javax.crypto,\n    Packages.android.util\n);\n\nwith(javaImport){\n  function encode(word){\n      let key=SecretKeySpec(java.base64DecodeToByteArray(\"EP99Mjk5Bc5jInLnKfUgRaOo0oZmUANFRDmyf05uTx8=\"),\"AES\");\n      let iv=IvParameterSpec(java.base64DecodeToByteArray(\"AAAAAAAAAAAAAAAAAAAAAA==\"));\n      let chipher=Cipher.getInstance(\"AES/CBC/PKCS5Padding\");\n      chipher.init(1,key,iv);\n      return java.encodeURI(Base64.encodeToString(chipher.doFinal(String(word).getBytes()),Base64.NO_WRAP));\n    }\n}\nlet jsonObj={\"app_signature_md5\":\"02ebc876b59abf1294791faf89cf04d7\",\"app_version\":\"1.0.5\",\"channel\":\"default\",\"book_id\":{{$.book_id}},\"login_token\":String(java.get('login_token')),\"account\":String(java.get('account'))}\nlet body = \"secret_content=\"+encode(JSON.stringify(jsonObj));\nlet option = {\"method\": \"POST\",\"body\": String(body)};\n\"/book/get_info_by_id,\" + JSON.stringify(option)\n\n\n",
+        "coverUrl": "$.cover",
+        "intro": "$.tag&&$.description##^##        🔖标签：",
+        "kind": "$.category_name&&$.uptime##\\s.*",
+        "lastChapter": "",
+        "name": "$.book_name@put:{bid:book_id}",
+        "wordCount": "$.total_word_count"
+    },
+    "ruleToc": {
+        "chapterList": "<js>\nvar javaImport = new JavaImporter();\njavaImport.importPackage(\n    Packages.java.lang,\n    Packages.javax.crypto.spec,\n    Packages.javax.crypto,\n    Packages.android.util\n);\n\nwith(javaImport){\n  function decode(word){\n      let key=SecretKeySpec(java.base64DecodeToByteArray(\"EP99Mjk5Bc5jInLnKfUgRaOo0oZmUANFRDmyf05uTx8=\"),\"AES\");\n      let iv=IvParameterSpec(java.base64DecodeToByteArray(\"AAAAAAAAAAAAAAAAAAAAAA==\"));\n      let chipher=Cipher.getInstance(\"AES/CBC/PKCS5Padding\");\n      let bytes=Base64.decode(String(word).getBytes(),2);\n      chipher.init(2,key,iv);\n      return String(chipher.doFinal(bytes));\n    }\n}\ndecode(result)\n</js>\n$.data.chapter_list_group[*].chapter_list[*]",
+        "chapterName": "$.chapter_title",
+        "chapterUrl": "@js:\nvar javaImport = new JavaImporter();\njavaImport.importPackage(\n    Packages.java.lang,\n    Packages.javax.crypto.spec,\n    Packages.javax.crypto,\n    Packages.android.util\n);\n\nwith(javaImport){\n  function encode(word){\n      let key=SecretKeySpec(java.base64DecodeToByteArray(\"EP99Mjk5Bc5jInLnKfUgRaOo0oZmUANFRDmyf05uTx8=\"),\"AES\");\n      let iv=IvParameterSpec(java.base64DecodeToByteArray(\"AAAAAAAAAAAAAAAAAAAAAA==\"));\n      let chipher=Cipher.getInstance(\"AES/CBC/PKCS5Padding\");\n      chipher.init(1,key,iv);\n      return java.encodeURI(Base64.encodeToString(chipher.doFinal(String(word).getBytes()),Base64.NO_WRAP));\n    }\n}\nlet jsonObj={\"app_signature_md5\":\"02ebc876b59abf1294791faf89cf04d7\",\"app_version\":\"1.0.5\",\"channel\":\"default\",\"chapter_id\":{{$.chapter_id}},\"login_token\":String(java.get('login_token')),\"account\":String(java.get('account'))}\nlet body = \"secret_content=\"+encode(JSON.stringify(jsonObj));\nlet option = {\"method\": \"POST\",\"body\": String(body)};\n\"/chapter/get_chapter_info,\" + JSON.stringify(option)\n\n\n",
+        "updateTime": "{{$.word_count}} 字 发布于：{{$.uptime}}"
+    },
+    "searchUrl": "<js>\njava.put('login_token','2a91987146624575f9aed1a5107029f7')\njava.put('account','书友3356893835')\n\nvar javaImport = new JavaImporter();\njavaImport.importPackage(\n    Packages.java.lang,\n    Packages.javax.crypto.spec,\n    Packages.javax.crypto,\n    Packages.android.util\n);\n\nwith(javaImport){\n  function encode(word){\n      let key=SecretKeySpec(java.base64DecodeToByteArray(\"EP99Mjk5Bc5jInLnKfUgRaOo0oZmUANFRDmyf05uTx8=\"),\"AES\");\n      let iv=IvParameterSpec(java.base64DecodeToByteArray(\"AAAAAAAAAAAAAAAAAAAAAA==\"));\n      let chipher=Cipher.getInstance(\"AES/CBC/PKCS5Padding\");\n      chipher.init(1,key,iv);\n      return java.encodeURI(Base64.encodeToString(chipher.doFinal(String(word).getBytes()),Base64.NO_WRAP));\n    }\n}\n\nlet jsonObj={\"app_signature_md5\":\"02ebc876b59abf1294791faf89cf04d7\",\"app_version\":\"1.0.5\",\"channel\":\"default\",\"count\":\"15\",\"order\":\"week_click\",\"key\":key,\"page\":page-1,\"login_token\":String(java.get('login_token')),\"account\":String(java.get('account'))}\nlet body = \"secret_content=\"+encode(JSON.stringify(jsonObj));\nlet option = {\"method\": \"POST\",\"body\": String(body)};\n\"/bookcity/get_filter_search_book_list,\" + JSON.stringify(option)\n</js>",
+    "weight": 0
+}

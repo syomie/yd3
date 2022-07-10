@@ -1,0 +1,49 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "看书堂",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.kanshutang.org",
+    "bookUrlPattern": "",
+    "concurrentRate": "",
+    "customOrder": 27,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1646055696738,
+    "loginCheckJs": "",
+    "loginUi": "",
+    "loginUrl": "",
+    "respondTime": 3655,
+    "ruleBookInfo": {
+        "author": "class.c2.0@text##作者.",
+        "coverUrl": "class.fra@tag.img@src",
+        "intro": "class.intro.0@text",
+        "kind": "class.intro.1@tag.td.0@text##类　　别：",
+        "lastChapter": "class.c2.1@text##最新更新章节：|\\（|\\）",
+        "name": "class.titT@tag.h1@text",
+        "tocUrl": "class.r4@tag.a.1@href"
+    },
+    "ruleContent": {
+        "content": "id.table_container@html##\\（记住本站网址.*能进入本站\\）"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.c2@text##作者.",
+        "bookList": "class.box1@class.list",
+        "bookUrl": "tag.a.0@href",
+        "intro": "class.t1@text##内容简介：",
+        "kind": "tag.a.1@text",
+        "lastChapter": "text.更新时间@text",
+        "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.dirbox@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.kanshutang.org/modules/article/search.php?searchkey={{key}}&searchtype=articlename,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

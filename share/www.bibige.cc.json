@@ -1,0 +1,37 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "笔笔阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.bibige.cc",
+    "customOrder": 512,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "respondTime": 3765,
+    "ruleBookInfo": {
+        "author": "class.name.0@text",
+        "coverUrl": "tag.img.2@src",
+        "intro": "class.note.0@text",
+        "name": "tag.h2@text",
+        "tocUrl": "text.开始阅读@href"
+    },
+    "ruleContent": {
+        "content": "id.ChapterContents@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.author@text",
+        "bookList": "class.bd@tag.tr!0",
+        "bookUrl": "class.range.0@tag.a.0@href",
+        "name": "class.range.0@tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.float-list fill-block@tag.li@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.bibige.cc/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

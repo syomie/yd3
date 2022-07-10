@@ -1,0 +1,56 @@
+{
+    "bookSourceComment": "频繁刷新容易宕机",
+    "bookSourceGroup": "",
+    "bookSourceName": "吞噬小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.tszw.org",
+    "customOrder": 529,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/sort/1_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠\",\"url\":\"/sort/2_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/sort/3_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"/sort/4_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"穿越\",\"url\":\"/sort/5_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"游戏\",\"url\":\"/sort/6_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/sort/7_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"同人\",\"url\":\"/sort/8_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"社会\",\"url\":\"/sort/9_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"综合\",\"url\":\"/sort/10_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+    "header": "",
+    "lastUpdateTime": 1643140966467,
+    "loginUrl": "",
+    "respondTime": 9182,
+    "ruleBookInfo": {
+        "author": ".info a.0@text",
+        "coverUrl": "tbody.0@img@src",
+        "intro": ".content_detail@html##简介.|各位书友要.*",
+        "kind": ".info a.1@text&&.info p.3:4@text##.*：|\\s.*",
+        "lastChapter": ".info a.2@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": ".info strong@text",
+        "tocUrl": "text.章节目录@href"
+    },
+    "ruleContent": {
+        "content": "#nr1@html",
+        "nextContentUrl": "#pb_next@href",
+        "replaceRegex": "##吞噬小说.*|手机用户请.*|.*免费小说.*|.*502情况.*"
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "",
+        "name": ""
+    },
+    "ruleSearch": {
+        "author": "span.0@text##.*:",
+        "bookList": ".list-item",
+        "bookUrl": "a.1@href",
+        "coverUrl": "img@src",
+        "intro": "span.-1@text",
+        "kind": "",
+        "name": "a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".last9 li a",
+        "chapterName": "text##返回.*简介|[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/search/?searchkey={{key}}",
+    "weight": 0
+}

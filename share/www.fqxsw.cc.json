@@ -1,0 +1,48 @@
+{
+    "bookSourceComment": "                    \"\n                    \"\n\"\"",
+    "bookSourceGroup": "",
+    "bookSourceName": "饭圈小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.fqxsw.cc",
+    "customOrder": 243,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::https://www.fqxsw.cc/fenlei/1_{{page}}/&&言情小说::/fenlei/2_{{page}}/&&仙侠修真::/fenlei/3_{{page}}/&&都市小说::/fenlei/4_{{page}}/&&历史小说::/fenlei/5_{{page}}/&&网游小说::/fenlei/6_{{page}}/&&竞技小说::/fenlei/7_{{page}}/&&科幻小说::/fenlei/8_{{page}}/&&",
+    "lastUpdateTime": 1625461510992,
+    "respondTime": 11369,
+    "ruleBookInfo": {
+        "author": "@get:{a}",
+        "coverUrl": "@get:{c}",
+        "init": "@put:{n:\"meta[property~=title]@content\n\",a:\"meta[property$=author]@content\n\",k:\"meta[property~=status|category|time]@content\n\",w:\"meta[property~=word]@content\n\",l:\"meta[property~=latest_chapter_name]@content\n\",c:\"meta[property~=image]@content\n\",i:\"meta[property~=description]@content\n\"}",
+        "intro": "@get:{i}",
+        "kind": "@get:{k}",
+        "lastChapter": "@get:{l}",
+        "name": "@get:{n}",
+        "wordCount": "@get:{w}"
+    },
+    "ruleContent": {
+        "content": "[id*=ontent]@html##.*?fqxsw.cc.*|请安装我们的客户端|更多好书|离线下载|无广告阅读|下载APP|终身免费阅读|本章未完，点击下一页继续阅读",
+        "imageStyle": "full",
+        "nextContentUrl": "[id*=ext]@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.td.2@text||.author@text",
+        "bookList": "tr:has(a)||.titlelist li",
+        "bookUrl": "tag.a.0@href@js:if(baseUrl.match(/\\/book/)){baseUrl}else{result}",
+        "coverUrl": "img@src",
+        "intro": "#bookIntro@text||p@text",
+        "kind": "tag.td.5@text&&tag.td.4@text&&.sj@text",
+        "lastChapter": "a[href$=html]@text",
+        "name": "a:not([href$=html])@text",
+        "wordCount": "tag.td.3@text##[kK]##000"
+    },
+    "ruleToc": {
+        "chapterList": "a[href$=html]",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.fqxsw.cc/modules/article/search.php?searchkey={{key}}&page={{page}},{\"charset\": \"gbk\"}",
+    "weight": 0
+}

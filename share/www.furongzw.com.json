@@ -1,0 +1,45 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "芙蓉中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.furongzw.com",
+    "bookUrlPattern": "://www.furongzw.com/html/.+html",
+    "customOrder": 14,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1657267040745,
+    "respondTime": 94616,
+    "ruleBookInfo": {
+        "author": "//meta[@property=\"og:novel:author\"]/@content",
+        "coverUrl": "//meta[@property=\"og:image\"]/@content",
+        "init": "",
+        "intro": "//meta[@property=\"og:description\"]/@content",
+        "kind": "//meta[@property=\"og:novel:category\"]/@content&&//meta[@property=\"og:novel:status\"]/@content",
+        "lastChapter": "//meta[@property=\"og:novel:latest_chapter_name\"]/@content",
+        "name": "//meta[@property=\"og:title\"]/@content",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "tag.article@html",
+        "nextContentUrl": "##a href=\"(/html/.*?_\\d+\\.html)\"><button type=\"button\" class=\"btn btn-page btn-lg\">下##$1###"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "tag.td.2@text",
+        "bookList": "tbody@tr",
+        "bookUrl": "tag.a.0@href",
+        "lastChapter": "tag.a.1@text",
+        "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": ".booklist@class.list-group-item@a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/search.php?search={{key}}",
+    "weight": 0
+}

@@ -1,0 +1,38 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "五吉小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.5gxs.com2",
+    "customOrder": 12,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0\"}",
+    "lastUpdateTime": 1645142276414,
+    "respondTime": 6214,
+    "ruleBookInfo": {
+        "author": "##作者：([^\"]+)\"##$1###",
+        "coverUrl": "class.bookintro@img@src",
+        "intro": "class.bookintro@text",
+        "lastChapter": "class.bookchapter@text",
+        "name": "class.booktitle@text"
+    },
+    "ruleContent": {
+        "content": "class.readcotent@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "",
+        "bookList": "class.result",
+        "bookUrl": "tag.a.0@href",
+        "name": "h3@text##最新章节目录.*"
+    },
+    "ruleToc": {
+        "chapterList": "id.list-chapterAll@dd@a",
+        "chapterName": "text",
+        "chapterUrl": "href<js>\"https://m.5gxs.com\"+result</js>##\\s*"
+    },
+    "searchUrl": "http://www.baidu.com/s?wd={{key}} site:5gxs.com",
+    "weight": 0
+}

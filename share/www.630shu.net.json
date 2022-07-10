@@ -1,0 +1,54 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "恋上你看书①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.630shu.net/",
+    "bookUrlPattern": "https://www.630shu.net/shu/\\d+.html",
+    "customOrder": -88902474,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/list/1/{{page}}.html\n言情小说::/list/2/{{page}}.html\n仙侠修真::/list/3/{{page}}.html\n都市小说::/list/4/{{page}}.html\n历史小说::/list/5/{{page}}.html\n网游小说::/list/6/{{page}}.html\n竞技小说::/list/7/{{page}}.html\n科幻小说::/list/8/{{page}}.html\n全本小说::/quanben/{{page}}",
+    "lastUpdateTime": 1646631313672,
+    "respondTime": 2666,
+    "ruleBookInfo": {
+        "author": "id.info@class.options@tag.span.0@tag.a@text",
+        "coverUrl": "id.picbox@img@src",
+        "init": "id.bookdetail",
+        "intro": "id.intro@text",
+        "kind": "class.nav-mbx@tag.a.3@text&&\nclass.update@text##最新.*（|）",
+        "lastChapter": "class.update@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "id.info@tag.h1@text",
+        "wordCount": "id.info@class.options@tag.span.1@text##字数："
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes##^恋上你看书网.*"
+    },
+    "ruleExplore": {
+        "author": "class.author@text",
+        "bookList": "class.titlelist@li",
+        "bookUrl": "class.zp@a@href",
+        "coverUrl": "class.zp@a@href@js:\r\nvar id = result.match(/\\/(\\d+)\\.?/)[1];\r\n'/files/article/image/'+parseInt(id/1000)+'/'+id+'/'+id+'s.jpg';",
+        "kind": "class.sj@text",
+        "lastChapter": "class.zz@a@text",
+        "name": "class.zp@a@text"
+    },
+    "ruleSearch": {
+        "author": "tag.td.2@text",
+        "bookList": "class.grid@tag.tr",
+        "bookUrl": "tag.td.0@tag.a@href",
+        "coverUrl": "tag.td.0@tag.a@href@js:\r\nvar id = result.match(/\\/(\\d+)\\.?/)[1];\r\n'/files/article/image/'+parseInt(id/1000)+'/'+id+'/'+id+'s.jpg';",
+        "kind": "tag.td.4@text&&\ntag.td.5@text",
+        "lastChapter": "tag.td.1@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "tag.td.0@tag.a@text",
+        "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.zjbox@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/modules/article/search.php?searchtype=articlename&searchkey={{key}}&action=login&submit=%26%23160%3B%CB%D1%26%23160%3B%26%23160%3B%CB%F7%26%23160%3B&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

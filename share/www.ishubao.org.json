@@ -1,0 +1,66 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "爱书包",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ishubao.org/",
+    "bookUrlPattern": "https://www.ishubao.org/files/article/html/\\d+/\\d+/",
+    "customOrder": 1212,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::http://www.39shubao.com/list/1_{{page}}.html\n武侠修真::/list/2_{{page}}.html\n都市言情::/list/3_{{page}}.html\n历史军事::/list/4_{{page}}.html\n网游竞技::/list/5_{{page}}.html\n科幻灵异::/list/6_{{page}}.html\n其它类型::/list/7_{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
+    "lastUpdateTime": 1646638137689,
+    "loginUrl": "",
+    "respondTime": 10879,
+    "ruleBookInfo": {
+        "author": "class.info@h3@a@text",
+        "coverUrl": "class.img@tag.img@src",
+        "init": "",
+        "intro": "id.intro@text",
+        "kind": "class.info@tag.p.0@text##更新时间：",
+        "lastChapter": "class.info@tag.span@a@text",
+        "name": "class.info@tag.h1@text",
+        "tocUrl": "",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "id.book_text@html##一秒记住.*免费阅读！",
+        "nextContentUrl": "class.book_content_text_next@tag.a.4@href",
+        "sourceRegex": "",
+        "webJs": ""
+    },
+    "ruleExplore": {
+        "author": "class.name@tag.a.1@text",
+        "bookList": "id.BookList@li",
+        "bookUrl": "class.name@tag.a.0@href",
+        "coverUrl": "img@src",
+        "intro": "tag.p@text",
+        "kind": "tag.dt@tag.em.0@text",
+        "lastChapter": "tag.dt@a@text",
+        "name": "class.name@tag.a.0@text",
+        "wordCount": "tag.dt@span@text##字"
+    },
+    "ruleSearch": {
+        "author": "class.odd.1@text",
+        "bookList": "class.grid@tag.tr!0",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.a.0@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.ishubao.org/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "intro": "",
+        "kind": "class.odd.2@text",
+        "lastChapter": "tag.a.1@text",
+        "name": "tag.a.0@text",
+        "wordCount": "class.even.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.chapterlist@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href",
+        "isVip": "",
+        "nextTocUrl": "",
+        "updateTime": ""
+    },
+    "searchUrl": "https://www.ishubao.org/modules/article/search.php?s=12839966820499815668&entry=1&ie=gbk&q={{key}}",
+    "weight": 0
+}

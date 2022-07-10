@@ -1,0 +1,46 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "爱看书吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.aikanshu.cc",
+    "bookUrlPattern": "",
+    "customOrder": 873,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::https://m.aikanshu.cc/xuanhuan/page_{{page}}.html\n武侠修真::https://m.aikanshu.cc/xiuzhen/page_{{page}}.html\n都市言情::https://m.aikanshu.cc/dushi/page_{{page}}.html\n历史军事::https://m.aikanshu.cc/lishi/page_{{page}}.html\n网游竞技::https://m.aikanshu.cc/wangyou/page_{{page}}.html\n科幻灵异::https://m.aikanshu.cc/kehuan/page_{{page}}.html\n女频频道::https://m.aikanshu.cc/nvpin/page_{{page}}.html",
+    "lastUpdateTime": 1637304480530,
+    "loginCheckJs": "",
+    "loginUrl": "",
+    "respondTime": 6886,
+    "ruleBookInfo": {
+        "author": "class.pt-info.1@text##作者：",
+        "coverUrl": "class.baseinfo@img@src",
+        "intro": "class.intro@textNodes##.*最新章节.*",
+        "kind": "class.pt-info@a@text",
+        "lastChapter": "id.newchaperlist@tag.li.0@a@text"
+    },
+    "ruleContent": {
+        "content": "class.chaptercontent@p@textNodes||class.chaptercontent@textNodes",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.s712@text##作者:",
+        "bookList": "class.pt-card pt-card-7@li||class.ptm-card-content@li",
+        "bookUrl": "a@href",
+        "coverUrl": "img@data-original||img@src",
+        "intro": "class.pt-desc@textNodes",
+        "kind": "class.s713!0@text",
+        "name": "class.pt-name@a@text||class.ptm-img-body@a@text##《|》"
+    },
+    "ruleToc": {
+        "chapterList": "id.chapterlist@li@a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.aikanshu.cc/home/search,{\n  \"method\": \"POST\",\n  \"body\": \"action=search&q={{key}}\"\n}",
+    "weight": 0
+}

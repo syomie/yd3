@@ -1,0 +1,42 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "出版",
+    "bookSourceName": "坏蛋1234",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.huaidan1234.com/",
+    "customOrder": 756,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "lastUpdateTime": 1637465060536,
+    "respondTime": 4357,
+    "ruleBookInfo": {
+        "intro": "class.m-bkcont@text",
+        "lastChapter": "class.book-describe@tag.a.-1@text",
+        "tocUrl": ""
+    },
+    "ruleContent": {
+        "content": "class.m-article-text@html",
+        "nextContentUrl": ""
+    },
+    "ruleExplore": {
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "name": ""
+    },
+    "ruleSearch": {
+        "author": "h3@text##全文阅读 - (.*?) - ##$1###",
+        "bookList": "tag.article",
+        "bookUrl": "tag.a.0@href\n<js>java.ajax(result)</js>\n##window.location.replace\\(\"([^\"]+)\"\\);##$1###<js>result.replace(/\\d+\\.html$/,'')</js>",
+        "name": "h3@text##(.*?)全文阅读##$1###"
+    },
+    "ruleToc": {
+        "chapterList": "class.book-list@a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "https://m.baidu.com/from=1022560v/ssid=0/s?word={{key}} site:huaidan1234.com",
+    "weight": 0
+}

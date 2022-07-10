@@ -1,0 +1,69 @@
+{
+    "bookSourceComment": "笔趣阁",
+    "bookSourceGroup": "笔趣阁",
+    "bookSourceName": "笔趣阁-www.biquge7.com",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biquge7.com",
+    "bookUrlPattern": "/book/\\d+/",
+    "customOrder": 251,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/xuanhuan/&&武侠::/wuxia/&&都市::/dushi/&&历史::/lishi/&&网游::/wangyou/&&科幻::/kehuan/&&完本::/finish/",
+    "header": "",
+    "lastUpdateTime": 1633878266119,
+    "loginUrl": "/login.html",
+    "respondTime": 6841,
+    "ruleBookInfo": {
+        "author": "class.small@tag.span.0@text##作者：",
+        "canReName": "",
+        "coverUrl": "class.cover@tag.img.0@src",
+        "init": "class.info",
+        "intro": "class.intro@tag.dd.0@text",
+        "kind": "class.small@tag.span.1@text",
+        "lastChapter": "class.last@tag.a.0@text",
+        "name": "class.info@tag.h1.0@text",
+        "tocUrl": "",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "id.chaptercontent@textNodes",
+        "imageStyle": "",
+        "nextContentUrl": "",
+        "replaceRegex": "",
+        "sourceRegex": "",
+        "webJs": ""
+    },
+    "ruleExplore": {
+        "author": "tag.dt.0@tag.span.0@text",
+        "bookList": "class.hot@class.item",
+        "bookUrl": "tag.dt.0@tag.a.0@href",
+        "coverUrl": "class.image@tag.a.0@tag.img.0@src",
+        "intro": "tag.dd.0@text",
+        "kind": "",
+        "lastChapter": "",
+        "name": "tag.dt.0@tag.a.0@text",
+        "wordCount": ""
+    },
+    "ruleSearch": {
+        "author": "class.author@text##作者：",
+        "bookList": "class.type_show@class.bookbox",
+        "bookUrl": "class.bookname@tag.a.0@href",
+        "coverUrl": "class.bookimg@tag.a.0@tag.img.0@src",
+        "intro": "class.uptime@text",
+        "kind": "class.cat@text",
+        "lastChapter": "class.update@tag.a.0@text",
+        "name": "class.bookname@tag.a.0@text",
+        "wordCount": ""
+    },
+    "ruleToc": {
+        "chapterList": "class.listmain@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href",
+        "isVip": "",
+        "nextTocUrl": "",
+        "updateTime": ""
+    },
+    "searchUrl": "/s?q={{key}}",
+    "weight": 0
+}

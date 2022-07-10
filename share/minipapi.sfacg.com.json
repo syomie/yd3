@@ -1,0 +1,57 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "API,轻小说",
+    "bookSourceName": "SF轻小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://minipapi.sfacg.com",
+    "customOrder": 280,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "魔幻::https://api.sfacg.com/novels/21/sysTags/novels?sort=latest&systagids=&isfree=both&isfinish=both&updatedays=-1&charcountbegin=0&charcountend=0&page={{page - 1}}&size=20&expand=typeName,tags,discount,discountExpireDate\n玄幻::https://api.sfacg.com/novels/22/sysTags/novels?sort=latest&systagids=&isfree=both&isfinish=both&updatedays=-1&charcountbegin=0&charcountend=0&page={{page - 1}}&size=20&expand=typeName,tags,discount,discountExpireDate\n古风::https://api.sfacg.com/novels/23/sysTags/novels?sort=latest&systagids=&isfree=both&isfinish=both&updatedays=-1&charcountbegin=0&charcountend=0&page={{page - 1}}&size=20&expand=typeName,tags,discount,discountExpireDate\n科幻::https://api.sfacg.com/novels/24/sysTags/novels?sort=latest&systagids=&isfree=both&isfinish=both&updatedays=-1&charcountbegin=0&charcountend=0&page={{page - 1}}&size=20&expand=typeName,tags,discount,discountExpireDate\n校园::https://api.sfacg.com/novels/25/sysTags/novels?sort=latest&systagids=&isfree=both&isfinish=both&updatedays=-1&charcountbegin=0&charcountend=0&page={{page - 1}}&size=20&expand=typeName,tags,discount,discountExpireDate\n都市::https://api.sfacg.com/novels/26/sysTags/novels?sort=latest&systagids=&isfree=both&isfinish=both&updatedays=-1&charcountbegin=0&charcountend=0&page={{page - 1}}&size=20&expand=typeName,tags,discount,discountExpireDate\n游戏::https://api.sfacg.com/novels/27/sysTags/novels?sort=latest&systagids=&isfree=both&isfinish=both&updatedays=-1&charcountbegin=0&charcountend=0&page={{page - 1}}&size=20&expand=typeName,tags,discount,discountExpireDate\n悬疑::https://api.sfacg.com/novels/28/sysTags/novels?sort=latest&systagids=&isfree=both&isfinish=both&updatedays=-1&charcountbegin=0&charcountend=0&page={{page - 1}}&size=20&expand=typeName,tags,discount,discountExpireDate",
+    "header": "{\n\"content-type\": \"application/json\",\n\"sf-minip-info\": \"minip_novel/1.0.70(android;10)/wxmp\",\n\"authorization\": \"Basic YW5kcm9pZHVzZXI6MWEjJDUxLXl0Njk7KkFjdkBxeHE=\"\n}",
+    "lastUpdateTime": 1641706197741,
+    "respondTime": 5458,
+    "ruleBookInfo": {
+        "author": "$.data.authorName",
+        "coverUrl": "$.data.novelCover",
+        "intro": "$.data.expand.intro",
+        "kind": "$.data.typeName",
+        "lastChapter": "$.data.expand.latestChapter.title",
+        "name": "$.data.novelName",
+        "tocUrl": "https://minipapi.sfacg.com/pas/mpapi/novels/{{$.data.novelId}}/dirs",
+        "wordCount": "$.data.charCount"
+    },
+    "ruleContent": {
+        "content": "$.data.expand.content",
+        "imageStyle": "",
+        "replaceRegex": "",
+        "sourceRegex": ""
+    },
+    "ruleExplore": {
+        "author": "$.authorName",
+        "bookList": "$.data",
+        "bookUrl": "https://minipapi.sfacg.com/pas/mpapi/novels/{{$.novelId}}?expand=latestchapter,chapterCount,typeName,intro,fav,ticket,pointCount,tags,sysTags,signlevel,discount,discountExpireDate,totalNeedFireMoney,originTotalNeedFireMoney",
+        "coverUrl": "$.novelCover",
+        "kind": "$.expand.typeName",
+        "name": "$.novelName",
+        "wordCount": "$.charCount"
+    },
+    "ruleSearch": {
+        "author": "$.AuthorName",
+        "bookList": "$.Novels",
+        "bookUrl": "https://minipapi.sfacg.com/pas/mpapi/novels/{{$.NovelID}}?expand=latestchapter,chapterCount,typeName,intro,fav,ticket,pointCount,tags,sysTags,signlevel,discount,discountExpireDate,totalNeedFireMoney,originTotalNeedFireMoney",
+        "coverUrl": "https://rs.sfacg.com/web/novel/images/NovelCover/Big/{{$.NovelCover}}",
+        "kind": "$.TypeName",
+        "name": "$.NovelName"
+    },
+    "ruleToc": {
+        "chapterList": "$.data.volumeList[*].chapterList[*]",
+        "chapterName": "$.title",
+        "chapterUrl": "https://minipapi.sfacg.com/pas/mpapi/Chaps/{{$.chapId}}?expand=content,needFireMoney,originNeedFireMoney,tsukkomi&autoOrder=false",
+        "isVip": "$.isVip",
+        "updateTime": "$.updateTime"
+    },
+    "searchUrl": "https://m.sfacg.com/API/HTML5.ashx?op=search&keyword={{key}}",
+    "weight": 0
+}

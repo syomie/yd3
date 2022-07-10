@@ -1,0 +1,67 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "米趣小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.meegoq.com",
+    "bookUrlPattern": "https://www.meegoq.com/info\\d+.html",
+    "customOrder": -88902475,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\"\n}",
+    "lastUpdateTime": 1657374069180,
+    "loginUrl": "",
+    "respondTime": 27425,
+    "ruleBookInfo": {
+        "author": "class.detail.0@tag.a.0@text",
+        "coverUrl": "class.cover@tag.img@src",
+        "init": "",
+        "intro": "class.desc@text",
+        "kind": "class.detail.0@tag.a.1@text&&\nclass.detail.0@tag.i.2@text&&\nclass.detail.1@tag.i@text",
+        "lastChapter": "class.detail.2@tag.a@text",
+        "name": "class.line@text",
+        "tocUrl": "class.operate clearfix@tag.a.2@href@js:result+',{webView:“true”}'",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "id.content@html",
+        "nextContentUrl": "",
+        "replaceRegex": "##一秒记住.*免费阅读！|.*第.*章.*",
+        "sourceRegex": "",
+        "webJs": ""
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "",
+        "lastChapter": "",
+        "name": "",
+        "wordCount": ""
+    },
+    "ruleSearch": {
+        "author": "class.a2@text",
+        "bookList": "class.lastest@tag.li!0",
+        "bookUrl": "class.n2@tag.a@href@js:result+',{webView:“true”}'",
+        "coverUrl": "class.n2@tag.a@href<js>java.ajax('https:'+result)</js>class.cover@tag.img@src",
+        "intro": "",
+        "kind": "class.nt@text&&\nclass.t@text",
+        "lastChapter": "class.c2@text",
+        "name": "class.n2@text",
+        "wordCount": ""
+    },
+    "ruleToc": {
+        "chapterList": "class.mulu@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href@js:result+',{webView:“true”}'",
+        "isVip": "",
+        "nextTocUrl": "",
+        "updateTime": ""
+    },
+    "searchUrl": "http://www.viviyzw.com/search.htm?keyword={{key}}&pn={{page}}",
+    "weight": 0
+}

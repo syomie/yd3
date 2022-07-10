@@ -1,0 +1,36 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "TOP50",
+    "bookSourceName": "中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.cread.com",
+    "bookUrlPattern": "",
+    "customOrder": 857,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1603201477826,
+    "loginUrl": "",
+    "respondTime": 2271,
+    "ruleBookInfo": {},
+    "ruleContent": {
+        "content": "@js:result.replace(/.*　|.*\u0001/,\"\")"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "author",
+        "bookList": "$.result.dataList",
+        "bookUrl": "/book/getCatalogAndBook?cnid=3022&uid=168260955&son=CU&osv=9&idSign=&bookid={$.bookId}",
+        "coverUrl": "cover",
+        "intro": "summary",
+        "kind": "categoryName",
+        "name": "$.bookName@put:{book:bookId}"
+    },
+    "ruleToc": {
+        "chapterList": "$.result.bookData[*].chapter[*]",
+        "chapterName": "$.name",
+        "chapterUrl": "/book/content?cnid=3022&uid=168260955&packname=com.chineseall.singlebook&vcode=156&channelId=3022&aid=b972c73cd7081a2d&net=4G&son=CU&osv=9&idSign=&bid=@get:{book}&chapterIds={{$.id}}"
+    },
+    "searchUrl": "http://app-inter-bookstore.cread.com/search/search?&pageNo={{page}}&keyWordType=0&pageSize=20&keyWord={{key}}",
+    "weight": 0
+}

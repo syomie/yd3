@@ -1,0 +1,55 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "全本小说②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.qb50.com",
+    "bookUrlPattern": "https://www.qb50.com/book_\\d+/",
+    "customOrder": 1243,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/fenlei/1_{{page}}/\n仙侠修真::/fenlei/2_{{page}}/\n都市言情::/fenlei/3_{{page}}/\n历史军事::/fenlei/4_{{page}}/\n网游竞技::/fenlei/5_{{page}}/\n科幻灵异::/fenlei/6_{{page}}/\n恐怖惊悚::/fenlei/7_{{page}}/\n其他类型::/fenlei/8_{{page}}/\n完本小说::/quanben/{{page}}",
+    "header": "",
+    "lastUpdateTime": 1657373986338,
+    "loginUrl": "",
+    "respondTime": 6704,
+    "ruleBookInfo": {
+        "author": "id.info@h1@small@a@text",
+        "coverUrl": "class.img_in@tag.img@src",
+        "init": "",
+        "intro": "id.intro@text",
+        "kind": "class.update@text&&\nclass.nav-mbx@tag.a.2@text##.*（|）",
+        "lastChapter": "class.update@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 |卷1",
+        "name": "id.info.0@h1@text##/.*",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes##全本小说网.*最新章节！|全本小说网.*最快更新|最新章节！|一秒记住.*免费阅读！|.*第.*章.*",
+        "replaceRegex": ""
+    },
+    "ruleExplore": {
+        "author": "class.author@text",
+        "bookList": "class.titlelist@li",
+        "bookUrl": "class.zp@a@href",
+        "coverUrl": "class.zp@a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.qb5.tw/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "kind": "class.sj@text",
+        "lastChapter": "class.zz@a@text",
+        "name": "class.zp@a@text"
+    },
+    "ruleSearch": {
+        "author": "class.odd.1@text",
+        "bookList": "class.grid@tag.tr",
+        "bookUrl": "class.odd.0@tag.a@href",
+        "coverUrl": "class.odd.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.qb50.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "lastChapter": "class.even.0@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 |卷1",
+        "name": "class.odd.0@tag.a@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.zjlist@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.qb50.com/modules/article/search.php?searchkey={{key}}&submit=%CB%D1%CB%F7&page={{page}},{\"charset\":\"gbk\"}",
+    "weight": 0
+}

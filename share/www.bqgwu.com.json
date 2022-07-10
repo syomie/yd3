@@ -1,0 +1,56 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "笔趣阁⑨",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.bqgwu.com/",
+    "bookUrlPattern": "http://www.bqgwu.com/\\d+_\\d+/",
+    "customOrder": -88902452,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::http://m.bqgwu.com/sort/1_{{page}}/\n仙侠小说::http://m.bqgwu.com/sort/2_{{page}}/\n都市小说::http://m.bqgwu.com/sort/3_{{page}}/\n历史小说::http://m.bqgwu.com/sort/4_{{page}}/\n游戏小说::http://m.bqgwu.com/sort/5_{{page}}/\n科幻小说::http://m.bqgwu.com/sort/6_{{page}}/",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 10; zh-Hans-CN; PCT-AL10 Build/HUAWEIPCT-AL10) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 Quark/4.6.6.164 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1646631313677,
+    "respondTime": 7484,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text##作 者：",
+        "coverUrl": "id.fmimg@img@src",
+        "init": "",
+        "intro": "id.intro@tag.p.0@text",
+        "kind": "id.info@tag.p.2@text##最后更新：",
+        "lastChapter": "id.info@tag.p.3@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "id.info@tag.h1@text",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": ".text>p@textNodes"
+    },
+    "ruleExplore": {
+        "author": "tag.a.2@text",
+        "bookList": "class.line",
+        "bookUrl": "tag.a.1@href@js:\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.bqgwu.com/'+iid+'_'+id+'/'",
+        "coverUrl": "tag.a.1@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.bqgwu.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "intro": "",
+        "kind": "",
+        "lastChapter": "",
+        "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+        "author": "tag.td.2@text",
+        "bookList": "class.grid@tag.tr!0",
+        "bookUrl": "tag.td.0@tag.a@href",
+        "coverUrl": "tag.td.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.bqgwu.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "kind": "tag.td.4@text&&\ntag.td.5@text",
+        "lastChapter": "tag.td.1@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "tag.td.0@tag.a@text",
+        "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+        "chapterList": "//*[@id=\"list\"]//dt[2]/following-sibling::dd/a",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href##$##,{\"webView\":true}"
+    },
+    "searchUrl": "/modules/article/search.php?searchkey={{key}},{\n\"charset\": \"gbk\",\n\"headers\": {\"User-Agent\":\"Mozilla/5.0 (Linux; U; Android 10; zh-Hans-CN; PCT-AL10 Build/HUAWEIPCT-AL10) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 Quark/4.6.6.164 Mobile Safari/537.36\"}, \"webView\": true}",
+    "weight": 0
+}

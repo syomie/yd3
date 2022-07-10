@@ -1,0 +1,47 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "TOP50",
+    "bookSourceName": "笔尚小说m",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.bsxiaoshuo.com",
+    "bookUrlPattern": "//m.bsxiaoshuo.com/\\d+",
+    "customOrder": -88902405,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "现代言情::/xianyan_{{page}}\n古代言情::/guyan_{{page}}\n幻想言情::/huanyan_{{page}}\n悬疑言情::/lingyan_{{page}}\n都市青春::/doushi_{{page}}\n男频悬疑::/nangui_{{page}}\n历史军事::/lishi_{{page}}\n玄幻仙侠::/xuanhuan_{{page}}\n科幻奇幻::/kehuan_{{page}}\n网游竞技::/wangyou_{{page}}\n二次元::/erciyuan_{{page}}",
+    "lastUpdateTime": 1656255146916,
+    "loginUrl": "https://m.bsxiaoshuo.com/user/",
+    "respondTime": 1651,
+    "ruleBookInfo": {
+        "author": "tag.u.3@text##作者：| \\|.*",
+        "init": "",
+        "lastChapter": "tag.em.0@a@text",
+        "name": "id.bkt@text",
+        "tocUrl": "@js:baseUrl.replace(/(\\d+)/,'mulu/$1.html')",
+        "wordCount": "tag.u.1@text##字数："
+    },
+    "ruleContent": {
+        "content": ".con@html"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "tag.p.1@ownText",
+        "bookList": "#j@li",
+        "bookUrl": "a@href",
+        "coverUrl": "a@href##/(\\d+)##https://imgz.bsxiaoshuo.com/$1.jpg",
+        "intro": "tag.p.0@text",
+        "kind": "s@text",
+        "name": "b@text"
+    },
+    "ruleToc": {
+        "chapterList": ".dn@a",
+        "chapterName": "ownText",
+        "chapterUrl": "href",
+        "updateTime": "i@text"
+    },
+    "searchUrl": "/s.php?sid=3&k={{key}}",
+    "weight": 0
+}

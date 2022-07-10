@@ -1,0 +1,43 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "TOP50",
+    "bookSourceName": "全小说②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://quanxiaoshuo.net/",
+    "bookUrlPattern": "http://quanxiaoshuo.net/\\d+/",
+    "customOrder": 159,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1618510143257,
+    "loginUrl": "",
+    "respondTime": 1196,
+    "ruleBookInfo": {
+        "author": "class.w2@a@text",
+        "intro": "class.desc@text##简介：",
+        "kind": "class.w3@font@text&&\nclass.w4@text##.*（|）",
+        "lastChapter": "class.w4@a@text",
+        "name": "class.text@h1@tag.a.0@text"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.cc4@tag.a@text",
+        "bookList": "class.list_content",
+        "bookUrl": "class.cc2@tag.a@href",
+        "kind": "class.cc5@text",
+        "lastChapter": "class.cc3@tag.a@text",
+        "name": "class.cc2@tag.a@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.chapters@class.chapter",
+        "chapterName": "tag.a.0@text",
+        "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "http://quanxiaoshuo.net/s_{{key}}/{{page}}/,{\n\"charset\":\"gbk\"\n}",
+    "weight": 0
+}

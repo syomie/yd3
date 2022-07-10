@@ -1,0 +1,45 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "笔趣阁",
+    "bookSourceName": "笔趣阁⑤⑦",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ibiquge.net",
+    "bookUrlPattern": "https://www.ibiquge.net/\\d+_\\d+/",
+    "customOrder": 175,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1657373937501,
+    "loginUrl": "",
+    "respondTime": 15973,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@a@text",
+        "coverUrl": "id.fmimg@tag.img@src",
+        "init": "",
+        "intro": "id.intro@text",
+        "kind": "id.info@tag.p.2@text##最后更新：",
+        "lastChapter": "id.info@tag.p.3@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "id.info@h1@text"
+    },
+    "ruleContent": {
+        "content": "id.content@html##天才一秒记住.*无广告！|断更反馈|章节错误.*请耐心等待。"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "class.s4@tag.a@text",
+        "bookList": "class.novelslist2@tag.li!0",
+        "bookUrl": "class.s2@tag.a@href",
+        "coverUrl": "class.s2@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.ibiquge.net/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "lastChapter": "class.s3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "class.s2@tag.a@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.ibiquge.net/search.html?name={{key}}",
+    "weight": 0
+}

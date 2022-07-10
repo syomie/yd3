@@ -1,0 +1,39 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "小说屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.xiaoshuowu.com",
+    "bookUrlPattern": "",
+    "customOrder": 701,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1638072648423,
+    "loginUrl": "",
+    "respondTime": 11086,
+    "ruleBookInfo": {
+        "intro": "class.intro@text",
+        "lastChapter": "class.infotype@p@a@text"
+    },
+    "ruleContent": {
+        "content": "class.novelcontent@html##（本章未完.*|上一章|下一页|返回目录|加入书签|第.*章.*|上一页",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.author@text",
+        "bookList": "class.sone",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.a.0@href@js:var o=result.match(/(\\d+)/); if(o!=null){'http://www.xiaoshuowu.com/files/article/image/'+parseInt(o[1]/1000)+'/'+o[1]+'/'+o[1]+'s.jpg';}",
+        "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.info_menu1.1@tag.li@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://m.xiaoshuowu.com/modules/article/search.php?q={{key}}",
+    "weight": 0
+}

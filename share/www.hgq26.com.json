@@ -1,0 +1,49 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "小红甘泉",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.hgq26.com",
+    "bookUrlPattern": "",
+    "customOrder": 744,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1632923637059,
+    "loginUrl": "",
+    "respondTime": 2068,
+    "ruleBookInfo": {
+        "author": "id.author@text",
+        "coverUrl": "id.bookimg@tag.img@src",
+        "intro": "id.bookintro@text\n<js>result.replace(/(.*)/,' ○○○STORY:\\n$1')</js>",
+        "kind": "class.pd_r.0@text",
+        "lastChapter": "id.newlist@tag.li.0@tag.a@text",
+        "name": "class.bookright@tag.h1@text",
+        "tocUrl": "id.reader@tag.a@href",
+        "wordCount": "class.pd_r.4@text"
+    },
+    "ruleContent": {
+        "content": "id.content@html##你是天才.*",
+        "imageStyle": "FULL"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.text-layout@class.ellipsis.0@text\n@js:/作者/.test(result)?result.replace(/作者：(.*)/,'$1'):String(java.getString('@class.clamp3@text',false)).replace(/.*是(.*?)书写.*/,'$1')",
+        "bookList": "class.vrResult!0",
+        "bookUrl": "h3@tag.a.0@href\n<js>a=result.match(/http.*/)[0];\ndecodeURIComponent(a).replace(/\\/&vrid.*/,'');</js>\n##-(\\d+)##http://www.hgq26.com/book/$1.html###",
+        "coverUrl": "class.img-flex@img@src##url=(http.*?)&##$1###\n@js:decodeURIComponent(result)",
+        "intro": "class.clamp3@text\n<js>result.replace(/(.*)/,' ○○○STORY:\\n$1')</js>",
+        "kind": "class.text-layout@class.ellipsis.-1@text##状态：(.*)##$1###",
+        "lastChapter": "class.chapter-title@tag.p@text&&class.chapter-time@text##\\n##·",
+        "name": "h3@text##(.*?)最新章节.*##$1###"
+    },
+    "ruleToc": {
+        "chapterList": "id.readerlist@li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://wap.sogou.com/web/sl?keyword={{key}} site:hgq26.com",
+    "weight": 0
+}

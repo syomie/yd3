@@ -1,0 +1,47 @@
+{
+    "bookSourceComment": "post发现页,haxc",
+    "bookSourceGroup": "",
+    "bookSourceName": "潇湘书院m",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.xxsy.net",
+    "customOrder": 1187,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "古代言情::https://m.xxsy.net/Service/ServiceMethod?requestData={\"Method\":\"book_byclasses\",\"Parameters\":{\"sort\":26,\"state\":0,\"parentClassId\":1,\"subClassId\":0,\"vip\":0,\"isMonth\":0,\"isSpecial\":0,\"startWords\":0,\"endWords\":0,\"index\":{{page-1}},\"size\":10}}\n现代言情::https://m.xxsy.net/Service/ServiceMethod?requestData={\"Method\":\"book_byclasses\",\"Parameters\":{\"sort\":26,\"state\":0,\"parentClassId\":2,\"subClassId\":0,\"vip\":0,\"isMonth\":0,\"isSpecial\":0,\"startWords\":0,\"endWords\":0,\"index\":{{page-1}},\"size\":10}}\n玄幻言情::https://m.xxsy.net/Service/ServiceMethod?requestData={\"Method\":\"book_byclasses\",\"Parameters\":{\"sort\":26,\"state\":0,\"parentClassId\":3,\"subClassId\":0,\"vip\":0,\"isMonth\":0,\"isSpecial\":0,\"startWords\":0,\"endWords\":0,\"index\":{{page-1}},\"size\":10}}\n仙侠奇缘::https://m.xxsy.net/Service/ServiceMethod?requestData={\"Method\":\"book_byclasses\",\"Parameters\":{\"sort\":26,\"state\":0,\"parentClassId\":4,\"subClassId\":0,\"vip\":0,\"isMonth\":0,\"isSpecial\":0,\"startWords\":0,\"endWords\":0,\"index\":{{page-1}},\"size\":10}}\n悬疑推理::https://m.xxsy.net/Service/ServiceMethod?requestData={\"Method\":\"book_byclasses\",\"Parameters\":{\"sort\":26,\"state\":0,\"parentClassId\":5,\"subClassId\":0,\"vip\":0,\"isMonth\":0,\"isSpecial\":0,\"startWords\":0,\"endWords\":0,\"index\":{{page-1}},\"size\":10}}\n浪漫清春::https://m.xxsy.net/Service/ServiceMethod?requestData={\"Method\":\"book_byclasses\",\"Parameters\":{\"sort\":26,\"state\":0,\"parentClassId\":6,\"subClassId\":0,\"vip\":0,\"isMonth\":0,\"isSpecial\":0,\"startWords\":0,\"endWords\":0,\"index\":{{page-1}},\"size\":10}}\n科幻空间::https://m.xxsy.net/Service/ServiceMethod?requestData={\"Method\":\"book_byclasses\",\"Parameters\":{\"sort\":26,\"state\":0,\"parentClassId\":7,\"subClassId\":0,\"vip\":0,\"isMonth\":0,\"isSpecial\":0,\"startWords\":0,\"endWords\":0,\"index\":{{page-1}},\"size\":10}}\n游戏竞技::https://m.xxsy.net/Service/ServiceMethod?requestData={\"Method\":\"book_byclasses\",\"Parameters\":{\"sort\":26,\"state\":0,\"parentClassId\":8,\"subClassId\":0,\"vip\":0,\"isMonth\":0,\"isSpecial\":0,\"startWords\":0,\"endWords\":0,\"index\":{{page-1}},\"size\":10}}\n轻小说::https://m.xxsy.net/Service/ServiceMethod?requestData={\"Method\":\"book_byclasses\",\"Parameters\":{\"sort\":26,\"state\":0,\"parentClassId\":9,\"subClassId\":0,\"vip\":0,\"isMonth\":0,\"isSpecial\":0,\"startWords\":0,\"endWords\":0,\"index\":{{page-1}},\"size\":10}}\n短篇::https://m.xxsy.net/Service/ServiceMethod?requestData={\"Method\":\"book_byclasses\",\"Parameters\":{\"sort\":26,\"state\":0,\"parentClassId\":11,\"subClassId\":0,\"vip\":0,\"isMonth\":0,\"isSpecial\":0,\"startWords\":0,\"endWords\":0,\"index\":{{page-1}},\"size\":10}}",
+    "header": "{\n\"User-Agent\":\"Mozilla/5.0 (Linux; Android 11; PCLM10 Build/RKQ1.200928.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/90.0.4430.210 Mobile Safari/537.36\",\n\"Referer\":\"https://m.xxsy.net/\",\n\"X-Requested-With\":\"XMLHttpRequest\"\n}",
+    "lastUpdateTime": 1623057356540,
+    "loginUrl": "https://m.xxsy.net/page/Login",
+    "respondTime": 8229,
+    "ruleBookInfo": {
+        "author": "class.book-author@a@ownText##签约作家",
+        "coverUrl": "img@data-src",
+        "name": "##bookname: \\'(.*?)\\',##$1###",
+        "tocUrl": "@js:baseUrl.replace(/info/,\"books\")"
+    },
+    "ruleContent": {
+        "content": "$..Content"
+    },
+    "ruleExplore": {
+        "bookList": "",
+        "name": ""
+    },
+    "ruleSearch": {
+        "author": "$.AuthorName",
+        "bookList": "$.Data",
+        "bookUrl": "https://m.xxsy.net/info/{{$.ID}}.html",
+        "coverUrl": "https://images.xxsy.net/img/{{$.ID}}.jpg",
+        "intro": "$.LongIntro",
+        "kind": "{{$.ClassName}} {{$.State}}",
+        "name": "$.Title",
+        "wordCount": "$.Words"
+    },
+    "ruleToc": {
+        "chapterList": ".directory-list@li@a",
+        "chapterName": "text",
+        "chapterUrl": "href##chapterid=(\\d+)##$1###\n@js:\n'https://m.xxsy.net/Service/ServiceMethod?requestData={\"Method\":\"chapter_getdetail\",\"Parameters\":{\"userid\":0,\"chapterid\":'+result+',\"notdefault\":0,\"stat_page\":\"\"}}'",
+        "isVip": ""
+    },
+    "searchUrl": "https://m.xxsy.net/Service?requestData={\"Method\":\"book_byshuyuansearch\",\"Parameters\":{\"query\":\"{{key}}\",\"userid\":0,\"cid\":\"undefined\",\"state\":0,\"parentclassid\":0,\"startwords\":0,\"endwords\":0,\"revert\":1,\"sort\":0,\"hascover\":-1,\"ismonthly\":0,\"discountprice\":0,\"index\":{{page-1}},\"size\":10,\"vip\":-1,\"isboy\":0}}",
+    "weight": 0
+}

@@ -1,0 +1,54 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "147小说网①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.147xs.org/",
+    "bookUrlPattern": "http://www.147xs.org/book/\\d+/",
+    "customOrder": 31,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1646631313668,
+    "respondTime": 3031,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text##作 者：",
+        "coverUrl": "id.fmimg@img@src",
+        "init": "",
+        "intro": "id.intro@text",
+        "kind": "class.con_top@tag.a.1@text&&\nid.info@tag.p.2@text##更 新：",
+        "lastChapter": "id.info@tag.p.3@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "id.info@h1@text"
+    },
+    "ruleContent": {
+        "content": "id.content@html##147小说.*最新章节！|插播一个完美.*com。|广个告.*卓苹果手机都支持！|\\\\咪.*|一秒记住.*免费阅读！|.*第.*章.*|.*咪.*咪.*阅.*读.*|www.*com",
+        "replaceRegex": ""
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "kind": "",
+        "lastChapter": "",
+        "name": ""
+    },
+    "ruleSearch": {
+        "author": "tag.td.3@text",
+        "bookList": "id.bookcase_list@tag.tr",
+        "bookUrl": "tag.td.1@tag.a@href",
+        "coverUrl": "tag.td.1@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\n'https://img147xscom.cdn.bcebos.com/img/'+id+'.jpg';\n</js>",
+        "kind": "tag.td.0@text&&\ntag.td.4@text&&\ntag.td.5@text",
+        "lastChapter": "tag.td.2@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "tag.td.1@tag.a@text",
+        "wordCount": ""
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.147xs.org/search.php?keyword={{key}}",
+    "weight": 0
+}

@@ -1,0 +1,56 @@
+{
+    "bookSourceComment": "作者:希弥\nsearchtype是一个选项,可选值有:articlename  author  ",
+    "bookSourceGroup": "",
+    "bookSourceName": "笔趣阁顶点",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.biqugedd.com",
+    "bookUrlPattern": "http://m.biqugedd.com/book_\\d+",
+    "customOrder": -88902326,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "完本::/full/{{page}}.html\n玄幻::/list/1_{{page}}.html\n修真::/list/2_{{page}}.html\n都市::/list/3_{{page}}.html\n历史::/list/4_{{page}}.html\n网游::/list/5_{{page}}.html\n科幻::/list/6_{{page}}.html",
+    "lastUpdateTime": 1646631313641,
+    "respondTime": 42258,
+    "ruleBookInfo": {
+        "author": "meta[property=og:novel:author]@content",
+        "coverUrl": "meta[property=\"og:image\"]@content",
+        "intro": "div.intro@html",
+        "kind": "meta[property=og:novel:category]@content&&meta[property=og:novel:status]@content",
+        "lastChapter": "meta[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "h1@text",
+        "tocUrl": "li.more a@href",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "#nr1@textNodes",
+        "imageStyle": "TEXT",
+        "nextContentUrl": "text.下一页@href||text.下页@href",
+        "payAction": ""
+    },
+    "ruleExplore": {
+        "bookList": "",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "img@src",
+        "name": ""
+    },
+    "ruleSearch": {
+        "author": "span.mr15@text",
+        "bookList": "table.list-item",
+        "bookUrl": "tag.a.1@href",
+        "checkKeyWord": "",
+        "coverUrl": "img@src",
+        "intro": "span.gray@text",
+        "kind": "",
+        "lastChapter": "",
+        "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "ul.last9 a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href||text.下页@href"
+    },
+    "searchUrl": "/modules/article/search.php?t_btnsearch=&searchkey={{key}},{\"charset\":\"gbk\"}",
+    "weight": 0
+}

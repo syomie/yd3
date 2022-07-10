@@ -1,0 +1,59 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "五五小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.55shuba.com",
+    "bookUrlPattern": "",
+    "customOrder": 388,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"总榜\",\"url\":\"/top/allvisit_{{page}}.htm\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"月榜\",\"url\":\"/top/monthvisit_{{page}}.htm\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"周榜\",\"url\":\"/top/weekvisit_{{page}}.htm\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总推\",\"url\":\"/top/allvote_{{page}}.htm\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"月推\",\"url\":\"/top/monthvote_{{page}}.htm\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"周推\",\"url\":\"/top/weekvote_{{page}}.htm\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"最新\",\"url\":\"/top/postdate_{{page}}.htm\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"最近\",\"url\":\"/top/lastupdate_{{page}}.htm\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"收藏\",\"url\":\"/top/goodnum_{{page}}.htm\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"字数\",\"url\":\"/top/size_{{page}}.htm\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/sort/1_{{page}}.htm\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"修真\",\"url\":\"/sort/2_{{page}}.htm\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/sort/3_{{page}}.htm\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"军事\",\"url\":\"/sort/4_{{page}}.htm\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游\",\"url\":\"/sort/5_{{page}}.htm\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑\",\"url\":\"/sort/6_{{page}}.htm\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/sort/7_{{page}}.htm\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"灵异\",\"url\":\"/sort/8_{{page}}.htm\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"散文\",\"url\":\"/sort/9_{{page}}.htm\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/sort/10_{{page}}.htm\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女生\",\"url\":\"/sort/11_{{page}}.htm\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"全本\",\"url\":\"/modules/article/index.php?fullflag=1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "header": "",
+    "lastUpdateTime": 1642169463534,
+    "loginUrl": "",
+    "respondTime": 7151,
+    "ruleBookInfo": {
+        "author": "h1 a@text",
+        "coverUrl": ".atc img@src",
+        "intro": ".intro p.1@html##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": "tbody td.1:5:4@textNodes##小说",
+        "lastChapter": ".last a@text",
+        "name": "h1@textNodes",
+        "tocUrl": ".btn a.0@href",
+        "wordCount": "tbody td.3@textNodes##字"
+    },
+    "ruleContent": {
+        "content": "#contents@html",
+        "replaceRegex": "##纯文字在线阅读.*"
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "kind": "",
+        "lastChapter": "",
+        "name": "",
+        "wordCount": ""
+    },
+    "ruleSearch": {
+        "author": ".author@text",
+        "bookList": ".listtab dl",
+        "bookUrl": ".name a@href",
+        "checkKeyWord": "",
+        "coverUrl": "img@src||.name a@href##.+\\D((\\d+)\\d{3})\\D##http://www.55shuba.com/files/article/image/$2/$1/$1s.jpg###",
+        "kind": "p.1@text&&.date@text##.*：|小说|\\s.*",
+        "lastChapter": ".chapter@text",
+        "name": ".name@text",
+        "wordCount": ".size@text"
+    },
+    "ruleToc": {
+        "chapterList": ".list td a",
+        "chapterName": "text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  'charset': 'gbk',\n  'method': 'POST',\n  'body': 'searchkey={{key}}&searchtype=articlename&submit=&page={{page}}'\n}",
+    "weight": 0
+}

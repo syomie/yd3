@@ -1,0 +1,50 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "正版",
+    "bookSourceName": "次元姬",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ciyuanji.com",
+    "bookUrlPattern": "",
+    "customOrder": 537,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"最近更新\",\"url\":\"/Classification?rankType=3&acvtiveWord=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"最新上架\",\"url\":\"/Classification?rankType=4&acvtiveWord=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"畅销小说\",\"url\":\"/Classification?rankType=2&acvtiveWord=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总畅销榜\",\"url\":\"/ranking?rankCode=3&countType=4&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总月票榜\",\"url\":\"/ranking?rankCode=1&countType=2&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总推荐榜\",\"url\":\"/ranking?rankCode=2&countType=3&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总人气榜\",\"url\":\"/ranking?rankCode=4&countType=3&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总打赏榜\",\"url\":\"/ranking?rankCode=5&countType=3&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总刀片榜\",\"url\":\"/ranking?rankCode=6&countType=3&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总收藏榜\",\"url\":\"/ranking?rankCode=7&countType=3&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总更新榜\",\"url\":\"/ranking?rankCode=8&countType=3&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总战力榜\",\"url\":\"/ranking?rankCode=9&countType=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"全部小说\",\"url\":\"/Classification?rankType=1&acvtiveWord=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市青春\",\"url\":\"/Classification?firstClassify=6&rankType=1&acvtiveWord=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"/Classification?firstClassify=5&rankType=1&acvtiveWord=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻未来\",\"url\":\"/Classification?firstClassify=4&rankType=1&acvtiveWord=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/Classification?firstClassify=3&rankType=1&acvtiveWord=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"诡秘悬疑\",\"url\":\"/Classification?firstClassify=2&rankType=1&acvtiveWord=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"游戏竞技\",\"url\":\"/Classification?firstClassify=1&rankType=1&acvtiveWord=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"精品同人\",\"url\":\"/Classification?firstClassify=10&rankType=1&acvtiveWord=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"仙侠武侠\",\"url\":\"/Classification?firstClassify=12&rankType=1&acvtiveWord=1&pageNo={{page}}&pageSize=10\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1650258282613,
+    "loginUrl": "https://www.ciyuanji.com/login",
+    "respondTime": 5165,
+    "ruleBookInfo": {
+        "author": ".icons span.0@text",
+        "coverUrl": "",
+        "init": "",
+        "intro": "🔖 标签：{{@@.des .tags@text}}{{'\\n'+'​'}}\n{{@@.content@text}}##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": ".icons span.1:2:3@text&&.footer .tag@text##·",
+        "lastChapter": ".footer a.0@text",
+        "name": "h1@text",
+        "tocUrl": ".tabs a.1@href",
+        "wordCount": "class.tags.0@div.2@text##\\s"
+    },
+    "ruleContent": {
+        "content": ".content-chapter@html"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": ".author@text",
+        "bookList": ".left section||.book a||.item",
+        "bookUrl": "a@href",
+        "coverUrl": "img@data-src",
+        "intro": ".textarea@text##\\s",
+        "kind": ".num@text##·##,",
+        "name": "h4@text"
+    },
+    "ruleToc": {
+        "chapterList": ".list div",
+        "chapterName": "a@text",
+        "chapterUrl": "a@href",
+        "isVip": "img@src"
+    },
+    "searchUrl": "/searchList?keyword={{key}}&pageNo={{page}}",
+    "weight": 0
+}

@@ -1,0 +1,50 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "文桑小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.wlwx.org",
+    "customOrder": 385,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"奇幻玄幻\",\"url\":\"/xuanhuan/page_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"/xiuzhen/page_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"/dushi/page_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/lishi/page_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游竞技\",\"url\":\"/wangyou/page_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻悬疑\",\"url\":\"/kehuan/page_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女生小说\",\"url\":\"/nvpin/page_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"青春校园\",\"url\":\"/qingchun/page_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"耽美同人\",\"url\":\"/bl/page_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"乡村小说\",\"url\":\"/xiangcun/page_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其它小说\",\"url\":\"/qita/page_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"文桑视界\",\"url\":\"/wensang/page_{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1640092942013,
+    "respondTime": 3811,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "[property=\"og:description\"]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##正文卷.|正文.|VIP章节.|免费章节.|VIP卷.|默认卷.|章节目录.|免费章节.|卷1.|卷2.|卷3.|卷4.|[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": "[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+        "content": "#BookText@html"
+    },
+    "ruleExplore": {
+        "author": ".d1@ownText",
+        "bookList": ".filter-ret li",
+        "bookUrl": "a.1@href",
+        "coverUrl": "img@src",
+        "intro": ".d2@text",
+        "lastChapter": "a.2@text##正文卷.|正文.|VIP章节.|免费章节.|VIP卷.|默认卷.|章节目录.|免费章节.|卷1.|卷2.|卷3.|卷4.|[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": "a.1@text"
+    },
+    "ruleSearch": {
+        "author": "span.1@text",
+        "bookList": "#sitebox dl",
+        "bookUrl": "a.1@href",
+        "coverUrl": "img@src",
+        "kind": "span.3:2:0@text##\\s.*",
+        "lastChapter": "a.4@text##正文卷.|正文.|VIP章节.|免费章节.|VIP卷.|默认卷.|章节目录.|免费章节.|卷1.|卷2.|卷3.|卷4.|[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": "a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".chapter li a",
+        "chapterName": "text##正文\\s|[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/home/search,{\n  'charset': '',\n  'method': 'POST',\n  'body': 'type=action&q={{key}}'\n}",
+    "weight": 0
+}

@@ -1,0 +1,38 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "书山中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://shushan.zhangyue.net",
+    "bookUrlPattern": "",
+    "customOrder": 517,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "http://shushan.zhangyue.net/user/login",
+    "respondTime": 3905,
+    "ruleBookInfo": {
+        "tocUrl": "@js:n=baseUrl.match(/(\\d+)/)[1];\nresult=\"http://shushan.zhangyue.net/book/directory?bid=\"+n;"
+    },
+    "ruleContent": {
+        "content": "class.art_con@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.author-name@text",
+        "bookList": "class.result-list@li",
+        "bookUrl": "class.book-info@tag.a.0@href",
+        "coverUrl": "tag.a.0@img@data-src",
+        "intro": "class.paragragh rows@text",
+        "kind": "class.type@text&&class.words-click@text",
+        "name": "class.book-info@tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "li@a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "http://shushan.zhangyue.net/books/search/?keyword={{key}}&page=1",
+    "weight": 0
+}

@@ -1,0 +1,59 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "希弥",
+    "bookSourceName": "采墨阁①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.caimoge.com/",
+    "bookUrlPattern": "https?://www\\.caimoge\\.com(/html)?/txt/(\\d+).html/?",
+    "customOrder": -88902458,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "全部小说::/shuku/{{page}}.html\n玄幻修真::/shuku/xuanhuanxiuzhen/{{page}}.html\n奇幻魔法::/shuku/qihuanmofa/{{page}}.html\n异术超能::/shuku/yishuchaoneng/{{page}}.html\n王朝争霸::/shuku/wangchaozhengba/{{page}}.html\n江湖武侠::/shuku/jianghuwuxia/{{page}}.html\n未来幻想::/shuku/weilaihuanxiang/{{page}}.html\n鬼怪灵异::/shuku/lingyiguiguai/{{page}}.html\n探险揭秘::/shuku/tanxianjiemi/{{page}}.html\n历史传记::/shuku/lishizhuanji/{{page}}.html\n特种军旅::/shuku/tezhongjunlv/{{page}}.html\n网游竞技::/shuku/wangyoujingji/{{page}}.html\n魔幻女强::/shuku/mohuannvqiang/{{page}}.html\n都市婚姻::/shuku/dushihunyan/{{page}}.html\n百合之恋::/shuku/baihezhilian/{{page}}.html\n同人美文::/shuku/tongrenmeiwen/{{page}}.html\n穿越架空::/shuku/chuanyuajiekong/{{page}}.html\n王室贵族::/shuku/wangshiguizu/{{page}}.html\n魔法校园::/shuku/mofaxiaoyuan/{{page}}.html\n乡土布衣::/shuku/xiangtubuyi/{{page}}.html\n官职商战::/shuku/guanzhishangzhan/{{page}}.html\n间谍暗战::/shuku/jiandieanzhan/{{page}}.html\n唯美言情::/shuku/weimeiyanqing/{{page}}.html\n其他小说::/shuku/qitaxiaoshuo/{{page}}.html",
+    "header": "",
+    "lastUpdateTime": 1647272841336,
+    "respondTime": 34298,
+    "ruleBookInfo": {
+        "author": "id.author@a@text",
+        "coverUrl": "id.bookimg@img@src",
+        "init": "",
+        "intro": "id.bookintro@tag.p@text",
+        "lastChapter": "id.readerlist@tag.li.-1@a@text##免费章节 |正文卷 |正文 |VIP章节 |百度搜索.*|\\-",
+        "name": "class.booktitle@h1@text",
+        "tocUrl": "class.motion2@tag.a.0@href",
+        "wordCount": "class.count@tag.li.1@span@text"
+    },
+    "ruleContent": {
+        "content": "#content>p@textNodes",
+        "imageStyle": "",
+        "nextContentUrl": "text.下一页@href",
+        "replaceRegex": ""
+    },
+    "ruleExplore": {
+        "author": "tag.li.3@text",
+        "bookList": "class.shulist@tag.ul",
+        "bookUrl": "tag.li.2@tag.a.0@href",
+        "coverUrl": "tag.li.2@tag.a.0@href@js:\r\nvar id = result.match(/\\/(\\d+)\\.?/)[1];\r\n'https://img.caimoge.com/'+parseInt(id/1000)+'/'+id+'/'+id+'s.jpg';",
+        "kind": "tag.li.1@text&&\ntag.li.5@text##\\[|\\]",
+        "lastChapter": "tag.li.2@tag.span@text",
+        "name": "tag.li.2@tag.a.0@text"
+    },
+    "ruleSearch": {
+        "author": "tag.dd.1@tag.span.0@text",
+        "bookList": "id.sitembox@tag.dl",
+        "bookUrl": "tag.dd.0@tag.h3@tag.a@href",
+        "coverUrl": "tag.dt@img@src",
+        "intro": "tag.dd.2@text",
+        "kind": "tag.dd.1@tag.span.2@text&&\ntag.dd.1@tag.span.1@text&&\ntag.dd.3@tag.span@text",
+        "lastChapter": "tag.dd.3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 |百度搜索.*|\\-",
+        "name": "tag.dd.0@tag.h3@tag.a@text",
+        "wordCount": "tag.dd.1@tag.span.3@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.readerlist@tag.li",
+        "chapterName": "tag.a@text##\\-",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search/,{\r\n  \"method\": \"POST\",\r\n  \"body\": \"searchkey={{key}}\"\r\n}\r\n",
+    "weight": 0
+}

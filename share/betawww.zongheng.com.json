@@ -1,0 +1,38 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "纵横",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://betawww.zongheng.com",
+    "customOrder": 1135,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "最新 ⇨::/store/c0/c0/b0/u0/p{{page}}/v9/s0/t0/u0/i1/ALL.html\n♂::/store/c0/c0/b0/u0/p{{page}}/v9/s0/t0/u0/i1/ALL.html\n⇦ 完本::/store/c0/c0/b0/u0/p{{page}}/v9/s1/t0/u0/i1/ALL.html\n总点击::/store/c0/c0/b0/u1/p{{page}}/v9/s9/t0/u0/i1/ALL.html\n周点击::/store/c0/c0/b0/u9/p{{page}}/v9/s9/t0/u0/i1/ALL.html\n总推荐::/store/c0/c0/b0/u2/p{{page}}/v9/s9/t0/u0/i1/ALL.html\n周推荐::/store/c0/c0/b0/u10/p{{page}}/v9/s9/t0/u0/i1/ALL.html\n总收藏::/store/c0/c0/b0/u4/p{{page}}/v9/s9/t0/u0/i1/ALL.html\n总字数::/store/c0/c0/b0/u5/p{{page}}/v9/s9/t0/u0/i1/ALL.html\n最新 ⇨::/store/c0/c0/b1/u0/p{{page}}/v9/s0/t0/u0/i1/ALL.html\n♀::/store/c0/c0/b1/u0/p{{page}}/v9/s0/t0/u0/i1/ALL.html\n⇦ 完本::/store/c0/c0/b1/u0/p{{page}}/v9/s1/t0/u0/i1/ALL.html\n总点击::/store/c0/c0/b1/u1/p{{page}}/v9/s9/t0/u0/i1/ALL.html\n周点击::/store/c0/c0/b1/u9/p{{page}}/v9/s9/t0/u0/i1/ALL.html\n总推荐::/store/c0/c0/b1/u2/p{{page}}/v9/s9/t0/u0/i1/ALL.html\n周推荐::/store/c0/c0/b1/u10/p{{page}}/v9/s9/t0/u0/i1/ALL.html\n总收藏::/store/c0/c0/b1/u4/p{{page}}/v9/s9/t0/u0/i1/ALL.html\n总字数::/store/c0/c0/b1/u5/p{{page}}/v9/s9/t0/u0/i1/ALL.html",
+    "lastUpdateTime": 0,
+    "respondTime": 2742,
+    "ruleBookInfo": {
+        "tocUrl": "class.all-catalog@href"
+    },
+    "ruleContent": {
+        "content": "class.content@tag.p@text"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.bookinfo@tag.a.0@text",
+        "bookList": "class.search-result-list",
+        "bookUrl": "class.tit@tag.a@href",
+        "coverUrl": "tag.img@src",
+        "intro": "tag.p@text",
+        "kind": "class.bookinfo@tag.a.1@text&&class.bookinfo@tag.span.0@text&&class.bookinfo@tag.span.1@text##字",
+        "lastChapter": "class.key-word@text@js:result.replace(/.+：/, '#').replace(/\\s+/g, '  #')",
+        "name": "class.tit@tag.a@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.chapter-list@tag.li",
+        "chapterName": "@js:result.className().includes('vip') ? '🔒'+result.text() : result.text()",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://search.zongheng.com/s?keyword={{key}}&pageNo={{page}}&sort=",
+    "weight": 0
+}

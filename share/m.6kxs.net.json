@@ -1,0 +1,54 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "六看小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.6kxs.net",
+    "customOrder": 762,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/xuanhuan/{{page}}.html\n仙侠::/xianxia/{{page}}.html\n都市::/dushi/{{page}}.html\n历史::/lishi/{{page}}.html\n网游::/youxi/{{page}}.html\n科幻::/kehuan/{{page}}.html\n耽美::/danmei/{{page}}.html\n穿越::/chuanyue/{{page}}.html\n推理::/tuili/{{page}}.html\n其他::/qita/{{page}}.html\n全本::/quanben/0/{{page}}.html",
+    "lastUpdateTime": 1629996962393,
+    "loginUrl": "",
+    "respondTime": 49823,
+    "ruleBookInfo": {
+        "author": ".xx@tag.a.1@text",
+        "coverUrl": ".xsfm img@src",
+        "intro": ".jianjie@html##本文链接.*|.*相关：.*|也许你还喜.*",
+        "kind": ".xx@tag.a.0@text##小说",
+        "lastChapter": ".xx@tag.a.2@text",
+        "name": ".xx h1@text##TXT.*",
+        "tocUrl": ".gengduo a@href"
+    },
+    "ruleContent": {
+        "content": "#nr@html",
+        "nextContentUrl": "text.下一页@href",
+        "replaceRegex": "##本章未完.*"
+    },
+    "ruleExplore": {
+        "author": "tag.a.2@text",
+        "bookList": ".list ul",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "img@src",
+        "intro": "tag.span.2@text",
+        "kind": "tag.span.3@text",
+        "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+        "author": "tag.a.1@text",
+        "bookList": ".fk li",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##https://www.6kxs.net/files/cover/$2/$1/$1s.jpg###",
+        "kind": "ownText##\\[|\\].*|小说",
+        "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": ".zjlb li a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/kw/{{key}}",
+    "weight": 0
+}

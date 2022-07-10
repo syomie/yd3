@@ -1,0 +1,52 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "笔趣阁⑯",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.20xs.cc",
+    "bookUrlPattern": "https://www.20xs.la/dingdian/\\d+_\\d+",
+    "customOrder": -88962087,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1656571033507,
+    "loginUrl": "",
+    "respondTime": 4397,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text##作    者：",
+        "coverUrl": "id.fmimg@tag.img@src",
+        "init": "",
+        "intro": "id.intro@text",
+        "kind": "id.info@tag.p.2@text##最后更新：",
+        "lastChapter": "id.info@tag.p.3@a@text",
+        "name": "id.info@tag.h1.0@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁|小说"
+    },
+    "ruleContent": {
+        "content": "id.content@html##您可以在百度里.*查找最新章节！",
+        "nextContentUrl": ""
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "name": ""
+    },
+    "ruleSearch": {
+        "author": "class.name@tag.span.1@text##作者：",
+        "bookList": "class.nr@li",
+        "bookUrl": "class.name@tag.a@href",
+        "coverUrl": "img@src",
+        "intro": "tag.p@text",
+        "kind": "tag.dt@em@text",
+        "lastChapter": "tag.dt@a@text",
+        "name": "class.name@tag.a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁|小说"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/searchbook.php?search_key={{key}}",
+    "weight": 0
+}

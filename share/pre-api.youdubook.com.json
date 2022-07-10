@@ -1,0 +1,55 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "正版,API",
+    "bookSourceName": "有毒小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://pre-api.youdubook.com",
+    "bookUrlPattern": "",
+    "customOrder": 558,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/api/getTypeNovel?second_type=1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"仙侠\",\"url\":\"/api/getTypeNovel?second_type=2&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/api/getTypeNovel?second_type=3&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"/api/getTypeNovel?second_type=4&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/api/getTypeNovel?second_type=5&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"奇幻\",\"url\":\"/api/getTypeNovel?second_type=6&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"军事\",\"url\":\"/api/getTypeNovel?second_type=7&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"轻说\",\"url\":\"/api/getTypeNovel?second_type=9&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑\",\"url\":\"/api/getTypeNovel?second_type=11&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"体育\",\"url\":\"/api/getTypeNovel?second_type=12&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"游戏\",\"url\":\"/api/getTypeNovel?second_type=13&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠\",\"url\":\"/api/getTypeNovel?second_type=14&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "header": "",
+    "lastUpdateTime": 1636988499145,
+    "loginUrl": "",
+    "respondTime": 5988,
+    "ruleBookInfo": {
+        "author": "novel_author",
+        "coverUrl": "",
+        "init": "data",
+        "intro": "novel_info##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": "novel_tags",
+        "lastChapter": "novel_newcname",
+        "name": "novel_name",
+        "tocUrl": "/api/directoryList?nid={{$.novel_id}}&orderBy=0",
+        "wordCount": "novel_wordnumber"
+    },
+    "ruleContent": {
+        "content": "$..content",
+        "imageStyle": "",
+        "webJs": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "novel_author",
+        "bookList": "data.data",
+        "bookUrl": "/api/webNovelDetail?novel_id={{$.novel_id}}",
+        "coverUrl": "https://alioss.youdubook.com{{$.novel_cover}}",
+        "intro": "novel_info",
+        "kind": "{{$.first_type_name}},{{$.second_type_name}},{{$.third_type_name}},{{$.type_name}}",
+        "lastChapter": "novel_newcname",
+        "name": "novel_name",
+        "wordCount": "novel_wordnumber"
+    },
+    "ruleToc": {
+        "chapterList": "data.data",
+        "chapterName": "chapter_name",
+        "chapterUrl": "/api/readNew?nid={{$.chapter_nid}}&vid={{$.chapter_vid}}&chapter_id={{$.chapter_id}}&chapter_order={{$.chapter_order}}",
+        "isVip": "chapter_ispay",
+        "nextTocUrl": "",
+        "updateTime": "{{java.timeFormat(java.getString('$.chapter_time')*1000)}}"
+    },
+    "searchUrl": "/api/searchAll,{\n'charset': 'UTF-8',\n'method': 'POST',\n'body': '{\"page\":{{page}},\"pageSize\":10,\"search_value\":\"{{key}}\",\"search_type\":\"novel\"}'\n}",
+    "weight": 0
+}

@@ -1,0 +1,47 @@
+{
+    "bookSourceComment": "作者：希弥",
+    "bookSourceGroup": "",
+    "bookSourceName": "书荒啦",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.shuhuang.la",
+    "bookUrlPattern": "https?://www.shuhuang.la/xs/\\S+",
+    "customOrder": -88902331,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "排行榜单::/ph/\n收藏榜单::/collect/\n完本小说::/wanbenxiaoshuo/\n玄幻奇幻::/xs1/{{page}}.html\n武侠仙侠::/xs2/{{page}}.html\n都市言情::/xs3/{{page}}.html\n历史军事::/xs4/{{page}}.html\n科幻灵异::/xs5/{{page}}.html\n网游竞技::/xs6/{{page}}.html\n女生频道::/xs7/{{page}}.html",
+    "lastUpdateTime": 1646631313695,
+    "respondTime": 41607,
+    "ruleBookInfo": {
+        "author": "meta[property=\"og:novel:author\"]@content||class.fix@tag.p.0@text",
+        "coverUrl": "class.imgbox@tag.img@src",
+        "intro": "class.m-desc@text",
+        "kind": "class.fix@tag.p.1@text&&\nclass.fix@tag.p.2@text&&\nclass.fix@tag.p.4@text##类 别：|状 态：|最后更新：",
+        "lastChapter": "class.section-box.0@tag.li.0@a@text",
+        "name": "meta[property=\"og:novel:book_name\"]@content||meta[property=\"og:novel:title\"]@content||@css:[id*=book_name|bookname]@text",
+        "tocUrl": ""
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.s4@text",
+        "bookList": "ul.txt-list@tag.li!0",
+        "bookUrl": "tag.a.0@href",
+        "checkKeyWord": "",
+        "coverUrl": "",
+        "kind": "class.s1@text&&class.s5@text##\\]|\\[",
+        "lastChapter": "class.s3@text",
+        "name": "class.s2@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.section-box.1@li",
+        "chapterName": "tag.a.0@text",
+        "chapterUrl": "tag.a.0@href",
+        "nextTocUrl": ""
+    },
+    "searchUrl": "/ar.php?keyWord={{key}}",
+    "weight": 0
+}

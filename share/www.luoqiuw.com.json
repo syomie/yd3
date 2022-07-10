@@ -1,0 +1,43 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "落秋中文①™九天之狼",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.luoqiuw.com",
+    "bookUrlPattern": "",
+    "customOrder": 832,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "respondTime": 3817,
+    "ruleBookInfo": {
+        "author": "//meta[@property=\"og:novel:author\"]/@content",
+        "coverUrl": "//meta[@property=\"og:image\"]/@content",
+        "intro": "//meta[@property=\"og:description\"]/@content",
+        "kind": "//meta[@property=\"og:novel:category\"]/@content",
+        "lastChapter": "//meta[@property=\"og:novel:latest_chapter_name\"]/@content",
+        "name": "//meta[@property=\"og:novel:book_name\"]/@content"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes##http://www.luoqiuw.*com"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.odd.1@text",
+        "bookList": "id.content@tag.tr!0",
+        "bookUrl": "tag.a.0@href",
+        "kind": "class.odd.2@text&&class.even.1@text&&class.even.2@text",
+        "lastChapter": "class.even.0@text",
+        "name": "class.odd.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.luoqiuw.com/modules/article/search.php?searchkey={{key}}&ct=2097152&si=luoqiuw.com&sts=luoqiuw.com&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

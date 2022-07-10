@@ -1,0 +1,44 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "7017k小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.7017k.com/",
+    "bookUrlPattern": "",
+    "customOrder": 176,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1616054139191,
+    "loginUrl": "",
+    "respondTime": 7265,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text##作 者：",
+        "coverUrl": "id.fmimg@img@src",
+        "intro": "id.intro@tag.p.0@text",
+        "kind": "id.info@tag.p.2@text##最后更新：",
+        "lastChapter": "id.info@tag.p.3@a@text##免费章节 |正文卷 |正文 |VIP章节 |百度搜索.*",
+        "name": "id.info@h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁|小说"
+    },
+    "ruleContent": {
+        "content": "id.content@html##一秒记住.*无弹窗免费阅读！|本站重要通知.*|天才一秒.*|http.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.author@text##作者：",
+        "bookList": "class.bookbox",
+        "bookUrl": "class.bookname@tag.a.0@href",
+        "coverUrl": "tag.img@src",
+        "intro": "tag.p.0@text",
+        "kind": "class.cat@text##分类：",
+        "lastChapter": "class.update@tag.a.0@text##免费章节 |正文卷 |正文 |VIP章节 |百度搜索.*",
+        "name": "class.bookname@tag.a.0@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁|小说"
+    },
+    "ruleToc": {
+        "chapterList": "class.listmain@tag.dl@tag.dd@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.7017k.com/s.php?ie=gbk&q={{key}}",
+    "weight": 0
+}

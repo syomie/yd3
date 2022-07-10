@@ -1,0 +1,52 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "txt免费",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.nbbookne.com",
+    "bookUrlPattern": "",
+    "customOrder": 45,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "{\"Version-Code\":\"27000\",\"Channel\":\"guan\",\"appid\":\"txtqbxs\"}",
+    "lastUpdateTime": 1634958799701,
+    "loginUrl": "",
+    "respondTime": 4943,
+    "ruleBookInfo": {
+        "author": "author_name",
+        "coverUrl": "book_cover",
+        "init": "<js>\nvar javaImport = new JavaImporter();\njavaImport.importPackage(\n    Packages.java.lang,\n    Packages.javax.crypto.spec,\n    Packages.javax.crypto,\n    Packages.android.util\n);\n\nwith(javaImport){\n    function decrypt(str){\n        var key=SecretKeySpec(String(\"ZKYm5vSUhvcG9IbXNZTG1pb2\").getBytes(),\"DESede\");\n        var iv=IvParameterSpec(String(\"01234567\").getBytes());\n        var bytes=Base64.decode(String(str).getBytes(),2);\n        var chipher=Cipher.getInstance(\"DESede/CBC/PKCS5Padding\");\n        chipher.init(2,key,iv);\n        return String(chipher.doFinal(bytes));\n    }\n}\ndecrypt(JSON.parse(result).data.replace(/(\\r\\n)|(\\n)|(\\r)/g,''))\n</js>result",
+        "intro": "book_brief",
+        "kind": "category_name&&book_tags",
+        "lastChapter": "{{$.chapter_new_name}}·{{String(java.timeFormat(java.getString('$.chapter_time')*1000)).replace(/\\s.+/,'')}}",
+        "name": "book_name",
+        "tocUrl": "@js:\nlet bid=parseInt(java.getString('$.book_id'))\nlet subPath=parseInt(bid/1000)\n\"https://jm-novel.oss-cn-shenzhen.aliyuncs.com/api/book/chapter/\"+subPath+\"/\"+bid+\"/list.json\"",
+        "wordCount": "book_word_num"
+    },
+    "ruleContent": {
+        "content": "<js>\nvar javaImport = new JavaImporter();\njavaImport.importPackage(\n    Packages.java.lang,\n    Packages.javax.crypto.spec,\n    Packages.javax.crypto,\n    Packages.android.util\n);\n\nwith(javaImport){\n    function decrypt(str){\n        var key=SecretKeySpec(String(\"ZKYm5vSUhvcG9IbXNZTG1pb2\").getBytes(),\"DESede\");\n        var iv=IvParameterSpec(String(\"01234567\").getBytes());\n        var bytes=Base64.decode(String(str).getBytes(),2);\n        var chipher=Cipher.getInstance(\"DESede/CBC/PKCS5Padding\");\n        chipher.init(2,key,iv);\n        return String(chipher.doFinal(bytes));\n    }\n}\ndecrypt(JSON.parse(result).data.replace(/(\\r\\n)|(\\n)|(\\r)/g,''))\n</js>content"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "author_name",
+        "bookList": "<js>\nvar javaImport = new JavaImporter();\njavaImport.importPackage(\n    Packages.java.lang,\n    Packages.javax.crypto.spec,\n    Packages.javax.crypto,\n    Packages.android.util\n);\n\nwith(javaImport){\n    function decrypt(str){\n        var key=SecretKeySpec(String(\"ZKYm5vSUhvcG9IbXNZTG1pb2\").getBytes(),\"DESede\");\n        var iv=IvParameterSpec(String(\"01234567\").getBytes());\n        var bytes=Base64.decode(String(str).getBytes(),2);\n        var chipher=Cipher.getInstance(\"DESede/CBC/PKCS5Padding\");\n        chipher.init(2,key,iv);\n        return String(chipher.doFinal(bytes));\n    }\n}\ndecrypt(JSON.parse(result).data.replace(/(\\r\\n)|(\\n)|(\\r)/g,''))\n</js>result",
+        "bookUrl": "@js:\nlet bid=parseInt(java.getString('$.book_id'))\nlet subPath=parseInt(bid/1000)\n\"https://jm-novel.oss-cn-shenzhen.aliyuncs.com/api/book/detail/\"+subPath+\"/\"+bid+\".json\"",
+        "coverUrl": "book_cover",
+        "intro": "book_brief",
+        "kind": "{{$.category_name}},评分{{$.book_level}}",
+        "lastChapter": "{{$.chapter_new_name}}·{{String(java.timeFormat(java.getString('$.chapter_time')*1000)).replace(/\\s.+/,'')}}",
+        "name": "book_name@put:{bid:$.book_id}",
+        "wordCount": "book_word_num"
+    },
+    "ruleToc": {
+        "chapterList": "<js>\nvar javaImport = new JavaImporter();\njavaImport.importPackage(\n    Packages.java.lang,\n    Packages.javax.crypto.spec,\n    Packages.javax.crypto,\n    Packages.android.util\n);\n\nwith(javaImport){\n    function decrypt(str){\n        var key=SecretKeySpec(String(\"ZKYm5vSUhvcG9IbXNZTG1pb2\").getBytes(),\"DESede\");\n        var iv=IvParameterSpec(String(\"01234567\").getBytes());\n        var bytes=Base64.decode(String(str).getBytes(),2);\n        var chipher=Cipher.getInstance(\"DESede/CBC/PKCS5Padding\");\n        chipher.init(2,key,iv);\n        return String(chipher.doFinal(bytes));\n    }\n}\ndecrypt(JSON.parse(result).data.replace(/(\\r\\n)|(\\n)|(\\r)/g,''))\n</js>result",
+        "chapterName": "chapter_name",
+        "chapterUrl": "https://jm-novel.oss-cn-shenzhen.aliyuncs.com/api/book/chapter/{{parseInt(java.get('bid')/1000)}}/@get:{bid}/{{$._id}}.json",
+        "isVip": "@js:!{{$.is_free}}",
+        "updateTime": "{{$.words_count}} 字"
+    },
+    "searchUrl": "/search/book/result,{\"method\":\"POST\",\"body\":\"kw={{key}}&pn={{page}}\"}",
+    "weight": 0
+}

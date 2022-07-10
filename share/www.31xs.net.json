@@ -1,0 +1,44 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "31小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.31xs.net",
+    "bookUrlPattern": "",
+    "concurrentRate": "",
+    "customOrder": 13,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1646055527609,
+    "loginCheckJs": "",
+    "loginUi": "",
+    "loginUrl": "",
+    "respondTime": 4135,
+    "ruleBookInfo": {
+        "intro": "meta[property=\"og:description\"]@content"
+    },
+    "ruleContent": {
+        "content": "#content p:not(:matches(^[a-z\\s_-]+\\.[a-z\\s]+\\.[a-z\\s_-]+$))@text",
+        "replaceRegex": "##【31小说网\\s*31xs\\.com】|www\\.31xs\\.net\\s*|(^|\\s+)...[，,]【[^【\\n】]*咪.?咪.?阅.?读[^\\u4e00-\\u9fa5]*(?:\\.com|app)[^】a-z0-9A-Z\\u4e00-\\u9fa5]*】[^\\n]+|【认识十年的老书友给我推荐的追书app，咪咪阅读！真特么好用，开车、睡前都靠这个朗读听书打发时间，这里可以下载 www.mimiread.com 】"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.td.3@text",
+        "bookList": "id.bookcase_list@tag.tr",
+        "bookUrl": "@get:{h}",
+        "coverUrl": "@get:{h}##(/\\d+)(/\\d+)##/img$1$2$2s.jpg###",
+        "kind": "td:eq(0),td:eq(5)@text",
+        "lastChapter": "{{@@tag.a.1@text}} {{@@tag.td.4@text}}",
+        "name": "tag.a.0@text@put:{h:\"tag.a.0@href\"}"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.31xs.net/search.php?keyword={{key}}",
+    "weight": 0
+}

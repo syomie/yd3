@@ -1,0 +1,52 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "正版",
+    "bookSourceName": "17K小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.17k.com",
+    "bookUrlPattern": "",
+    "customOrder": 277,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1648376094505,
+    "loginUrl": "",
+    "respondTime": 6133,
+    "ruleBookInfo": {
+        "author": "img.1@alt",
+        "coverUrl": "img.0@src",
+        "init": ".BookInfo&&.AuthorInfo&&dl.NewsChapter",
+        "intro": "p.intro@html",
+        "kind": "tr.label span@text",
+        "lastChapter": "li:last-of-type a@text",
+        "name": "img.0@alt",
+        "tocUrl": "class.Bar@tag.a.0@href",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "div.p p:not([class])@textNodes||.content>p@textNodes##{{title}}"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "span.ls@tag.a.0@text",
+        "bookList": ".search-list .textlist!0",
+        "bookUrl": "dt@a@href",
+        "coverUrl": "img@src",
+        "intro": "p.-1@a@html",
+        "kind": ".bq@tag.a.1@text",
+        "lastChapter": "code.1@text",
+        "name": "p.name@textNodes||img@alt",
+        "wordCount": "code.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.Volume@tag.a",
+        "chapterName": "tag.a@tag.span@text",
+        "chapterUrl": "tag.a@href",
+        "isVip": "span.vip@all",
+        "updateTime": ""
+    },
+    "searchUrl": "http://search.17k.com/search.xhtml?c.q={{key}}",
+    "weight": 0
+}

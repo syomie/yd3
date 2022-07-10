@@ -1,0 +1,45 @@
+{
+    "bookSourceComment": "搜索间隔不少于60秒",
+    "bookSourceGroup": "",
+    "bookSourceName": "百合小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.baihexs.com",
+    "bookUrlPattern": "",
+    "customOrder": 58,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"/sort-1-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠仙侠\",\"url\":\"/sort-2-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市言情\",\"url\":\"/sort-3-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"/sort-4-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"游戏竞技\",\"url\":\"/sort-5-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻灵异\",\"url\":\"/sort-6-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他类型\",\"url\":\"/sort-7-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"全本小说\",\"url\":\"/full-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"这是空的\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"排行榜\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},{\"title\":\"日点击榜\",\"url\":\"/top-dayvisit-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"周点击榜\",\"url\":\"/top-weekvisit-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"月点击榜\",\"url\":\"/top-monthvisit-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"总点击榜\",\"url\":\"/top-allvisit-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"总收藏榜\",\"url\":\"/top-goodnum-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"字数排行\",\"url\":\"/top-size-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"日推荐榜\",\"url\":\"/top-dayvote-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"周推荐榜\",\"url\":\"/top-weekvote-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"月推荐榜\",\"url\":\"/top-monthvote-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"总推荐榜\",\"url\":\"/top-allvote-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"最新入库\",\"url\":\"/top-postdate-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"最近更新\",\"url\":\"/top-lastupdate-{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+    "header": "",
+    "lastUpdateTime": 1646055938495,
+    "loginUrl": "",
+    "respondTime": 18684,
+    "ruleBookInfo": {
+        "author": "class.block_txt2.0@tag.p.2@text##作\\s*者：",
+        "coverUrl": "class.block_img2.0@tag.img.0@src",
+        "intro": "class.intro_info.0@text\n<js>result.replace(/(.*)/,' ○○○STORY:\\n$1')</js>",
+        "name": "class.block_txt2.0@tag.h2.0@text",
+        "tocUrl": "class.ablum_read.0@tag.span.1@tag.a.0@href"
+    },
+    "ruleContent": {
+        "content": "id.nr1@html##感谢阅读，请您牢记.*|.*?请牢记，百合小说.*|请牢记.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.block_txt2.0@tag.p.2@text||tag.a.2@text||tag.p@text##.*/",
+        "bookList": "class.block_txt2.0||class.cover@tag.p",
+        "bookUrl": "class.block_txt2.0@tag.p.0@tag.a.0@href||tag.a.1@href",
+        "coverUrl": "class.block_img2.0@tag.img.0@src",
+        "kind": "class.block_txt2.0@tag.p.2@tag.a.0@text||tag.a.0@text",
+        "lastChapter": "tag.a.1@href<js>java.ajax('https://m.baihexs.com'+result)</js>class.block_txt2@tag.p.-1@a@text&&class.block_txt2@tag.p.-2@text##\\n更新：(.*)## • $1",
+        "name": "class.block_txt2.0@tag.p.0@tag.a.0@tag.h2.0@text||tag.a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.chapter@tag.li",
+        "chapterName": "tag.a@text##第.*?章\\s?(第.*?章)(.*$)##$1 $2",
+        "chapterUrl": "tag.a@href",
+        "nextTocUrl": "class.page.0@text.下一页.0@href"
+    },
+    "searchUrl": "https://m.baihexs.com/modules/article/waps.php?searchtype=articlename&searchkey={{key}}&submit=,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

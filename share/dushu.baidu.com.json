@@ -1,0 +1,54 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "正版",
+    "bookSourceName": "百度小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://dushu.baidu.com",
+    "customOrder": 547,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "<js>\nvar cat1='东方玄幻,古典仙侠,现代修真,都市生活,都市超能,架空历史,虚拟网游,时空穿梭,末世进化';\nvar cat2='穿越,重生,异界,修真,都市,异能';\nvar cat3='修仙,奇遇,奋斗,争霸,权谋,升级';\nvar cat4='古代言情,穿越重生,浪漫言情,烽火情缘,忧伤青春,玄幻仙侠,都市幻想,悬疑灵异';\nvar cat5='穿越,重生,宅斗,宫廷';\nvar list=[];\nfunction getUrl(cats,url1){\ncats.split(',').forEach((i)=>{list.push(i+'::'+url1+i+'&query='+i+'&page={{page}}')});\n}\nlist.push('◎                        男生分类                        ◎::');\ngetUrl(cat1,'/api/getCateDetail?channel=男频&status=完结&count=10&cate2=');\nlist.push('◎                        男生背景                        ◎::');\ngetUrl(cat2,'/api/getCateDetail?channel=男频&status=完结&count=10&tag_name=');\nlist.push('◎                        男生情节                        ◎::');\ngetUrl(cat3,'/api/getCateDetail?channel=男频&status=完结&count=10&tag_name=');\nlist.push('◎                        女生分类                        ◎::');\ngetUrl(cat4,'/api/getCateDetail?channel=女频&status=完结&count=10&cate2=');\nlist.push('◎                        女生背景                        ◎::');\ngetUrl(cat5,'/api/getCateDetail?channel=女频&status=完结&count=10&tag_name=');\nlist.join('\\n');\n</js>",
+    "lastUpdateTime": 1652483490867,
+    "loginUrl": "https://wappass.baidu.com/password_login",
+    "respondTime": 7946,
+    "ruleBookInfo": {
+        "author": "$3",
+        "coverUrl": "$4",
+        "init": "(?<id>{{java.get(\"id\")}})\",\"title\":\"([^\"]+)\",[^}]*author\":\"([^\"]+)\",[^}]*cover\":\"([^\"]+)\",\"description\":\"([^\"]+)\",\"status\":\"([^\"]+)\",[^}]*followersNum\":\"(\\d*)",
+        "intro": "$5",
+        "kind": "$6",
+        "lastChapter": "",
+        "name": "$2",
+        "tocUrl": "https://boxnovel.baidu.com/boxnovel/wiseapi/chapterList?bookid={{java.get(\"id\")}}&pageNum=1&order=asc&site=",
+        "wordCount": "$7"
+    },
+    "ruleContent": {
+        "content": "$.data.novel.content"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "$.author",
+        "bookList": "$..novelList[*]",
+        "bookUrl": "",
+        "checkKeyWord": "系统",
+        "coverUrl": "$.cover",
+        "intro": "$.description",
+        "kind": "{{$.tagList}},{{$.status}}",
+        "lastChapter": "@put:{id:$.bookId}",
+        "name": "$.title",
+        "wordCount": "$.followersNum"
+    },
+    "ruleToc": {
+        "chapterList": "$.data.chapter.chapterInfo",
+        "chapterName": "$.chapter_title##默认卷.|正文.",
+        "chapterUrl": "http://dushu.baidu.com/api/pc/getChapterContent?data=%7B%22book_id%22:%22{{$.book_id}}%22,%22cid%22:%22{{$.book_id}}%7C{{$.chapter_id}}%22,%22need_bookinfo%22:0%7D",
+        "isVip": "$.price_status<js>if (result != \"0\") result</js>",
+        "nextTocUrl": "@js:\nvar n=(JSON.parse(result).data.chapter.chapterCount)/50+1;\nvar list=[];\nbaseUrl=baseUrl.replace(/1&order=asc&site=/,'');\nfor(var i=2;i<n;i++){\nvar url=baseUrl+i+'&order=asc&site=';\nlist.push(url);\n}\nlist;",
+        "updateTime": "$.update_time<js>java.timeFormat​(result+\"000\")</js>"
+    },
+    "searchUrl": "/api/getSearchResultData?page={{page}}&count=10&query={{key}}",
+    "weight": 0
+}

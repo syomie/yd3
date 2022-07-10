@@ -1,0 +1,43 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "️海棠小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.htwxs.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1652274937913,
+    "respondTime": 22560,
+    "ruleBookInfo": {
+        "author": "",
+        "coverUrl": "tag.img.0@src",
+        "init": "",
+        "intro": ".intro@html",
+        "kind": "class.pt-info@a@text",
+        "lastChapter": "class.ptm-list-view.0@tag.li.0@text",
+        "name": "h1 a@text"
+    },
+    "ruleContent": {
+        "content": ".chaptercontent@html",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "bookList": "class.ptm-list-view ptm-grid-view pt-card-1@tag.li",
+        "bookUrl": "a@href",
+        "coverUrl": "tag.img.0@src",
+        "name": "class.imgarea.0@tag.a.0@title"
+    },
+    "ruleToc": {
+        "chapterList": "class.ptm-list-view@li@a",
+        "chapterName": "text",
+        "chapterUrl": "href##$##,{\"webView\": true}",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/home/search,{\n\"method\": \"POST\",\n\"body\": \"action=search&q={{key}}\"\n}",
+    "weight": 0
+}

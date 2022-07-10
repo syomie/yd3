@@ -1,0 +1,44 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "爱下书小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.aixiashu.com",
+    "customOrder": 601,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/xuanhuanxiaoshuo/1_{{page}}.html\n武侠修真::/wuxiaxiuzhen/2_{{page}}.html\n都市言情::/dushiyanqing/3_{{page}}.html\n历史军事::/lishijunshi/4_{{page}}.html\n科幻小说::/kehuanxiaoshuo/6_{{page}}.html\n网游竞技::/wangyoujingji/5_{{page}}.html\n其他小说::/qitaxiaoshuo/7_{{page}}.html",
+    "lastUpdateTime": 0,
+    "respondTime": 163547,
+    "ruleBookInfo": {
+        "coverUrl": "id.sidebar@id.fmimg@tag.img.0@src",
+        "intro": "id.maininfo@id.intro@tag.p@textNodes"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes"
+    },
+    "ruleExplore": {
+        "author": "class.s5@text",
+        "bookList": "id.newscontent@tag.ul@tag.li",
+        "bookUrl": "class.s2@tag.a.0@href",
+        "lastChapter": "class.s3@tag.a.0@text",
+        "name": "class.s2@tag.a.0@text"
+    },
+    "ruleSearch": {
+        "author": "class.even.1@text",
+        "bookList": "class.grid@tag.tr!0",
+        "bookUrl": "class.even.0@tag.a.0@href",
+        "kind": "class.odd.2@text&&class.even.2@text",
+        "lastChapter": "class.odd.0@tag.a.0@text",
+        "name": "class.even.0@tag.a@text",
+        "wordCount": "class.odd.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/modules/article/search.php?searchkey={{key}}",
+    "weight": 0
+}

@@ -1,0 +1,55 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "希弥",
+    "bookSourceName": "手机笔趣阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.biquqe.com",
+    "bookUrlPattern": "//m.biquqe.com/book/\\S+",
+    "customOrder": -88962094,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/list/1_{{page}}/\n武侠修真::/list/2_{{page}}/\n都市言情::/list/3_{{page}}/\n历史军事::/list/4_{{page}}/\n科幻灵异::/list/5_{{page}}/\n游戏竞技::/list/6_{{page}}/\n女生耽美::/list/7_{{page}}/\n其他类型::/list/8_{{page}}/",
+    "lastUpdateTime": 1649346847571,
+    "respondTime": 109299,
+    "ruleBookInfo": {
+        "author": "meta[property=og:novel:author]@content",
+        "coverUrl": "meta[property=og:image]@content",
+        "init": "",
+        "intro": "pre@textNodes",
+        "kind": "meta[property=og:novel:category]@content&&meta[property=og:novel:status]@content",
+        "lastChapter": "meta[property=og:novel:lastest_chapter_name]@content",
+        "name": "meta[property=og:novel:book_name]@content",
+        "tocUrl": "",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "#TextContent>p@textNodes",
+        "imageStyle": "TEXT",
+        "nextContentUrl": "text.下一页@href",
+        "payAction": ""
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "a@text##.*\\(|\\)",
+        "bookList": ".searchList>dd",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "",
+        "lastChapter": "",
+        "name": "a@text||img@alt##(.*)\\(.*##$1",
+        "wordCount": ""
+    },
+    "ruleToc": {
+        "chapterList": ".clist a,.clist a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "isVolume": "b@text",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/search/?key={{key}}",
+    "weight": 0
+}

@@ -1,0 +1,49 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "52书库①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.52shuku.me",
+    "bookUrlPattern": "https://www.52shuku.me/.*?/\\d+/.*?html",
+    "customOrder": 79,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "现代都市::https://www.52shuku.me/xiandaidushi/index<,_{{page}}>.html\n穿越重生::https://www.52shuku.me/chongsheng/index<,_{{page}}>.html\n古代架空::https://www.52shuku.me/jiakong/index<,_{{page}}>.html\n综漫同人::https://www.52shuku.me/bl/index<,_{{page}}>.html\nGL百合::https://www.52shuku.me/gl/index<,_{{page}}>.html\n甜宠文::https://www.52shuku.me/tuijian/chongwentianwen/index<,_{{page}}>.html\nnull",
+    "lastUpdateTime": 1646055399321,
+    "loginUrl": "",
+    "respondTime": 4066,
+    "ruleBookInfo": {
+        "author": "class.article-header@tag.h1@text##.*_|【.*",
+        "coverUrl": "@js:'https://m.kanshujun.com/style/noimg.jpg'",
+        "intro": "class.article-content@tag.p.1@text##.*】",
+        "name": "class.article-header@tag.h1@text##_.*|\\[.*\\]"
+    },
+    "ruleContent": {
+        "content": "class.article-content@p@html##52书.*|推荐浏览.*",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {
+        "author": "h2@a@text##.*_|【.*|.*作者：",
+        "bookList": "class.excerpt!0",
+        "bookUrl": "h2@a@href",
+        "intro": "class.note@text",
+        "name": "h2@a@text##_.*|作者.*"
+    },
+    "ruleSearch": {
+        "author": "tag.h2@tag.a@text##.*_|【.*?】",
+        "bookList": "class.excerpt",
+        "bookUrl": "class.excerpt@tag.h2@tag.a@href",
+        "coverUrl": "@js:'https://m.kanshujun.com/style/noimg.jpg'",
+        "intro": "class.note@text##.*】",
+        "lastChapter": "class.muted.0@text##\\(|\\).*",
+        "name": "tag.h2@tag.a@text##_.*|作者.*"
+    },
+    "ruleToc": {
+        "chapterList": "class.list clearfix@tag.li",
+        "chapterName": "tag.a@text##章##页",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.52shuku.vip/e/search/,{\n  \"method\": \"POST\",\n  \"body\": \"tbname=article&tempid=1&show=title%2Cwriter&keyboard={{key}}\"\n}",
+    "weight": 0
+}

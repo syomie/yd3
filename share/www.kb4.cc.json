@@ -1,0 +1,53 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "笔趣阁⑥",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.kb4.cc",
+    "customOrder": 372,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/sort/1/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠\",\"url\":\"/sort/2/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/sort/3/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"/sort/4/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/sort/5/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"游戏\",\"url\":\"/sort/6/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女生\",\"url\":\"/sort/7/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/sort/8/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完本\",\"url\":\"/quanben/sort/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1643866215893,
+    "respondTime": 3435,
+    "ruleBookInfo": {
+        "author": ".fix a.0@text",
+        "coverUrl": ".imgbox img@src",
+        "intro": ".m-desc@textNodes##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": ".fix p.1:2:4@text##.*：|\\s.*",
+        "lastChapter": ".section-list!1@a.0@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": ".top h1@text",
+        "wordCount": ".fix span.-1@text"
+    },
+    "ruleContent": {
+        "content": ".content@p@html",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+        "author": ".s4@text",
+        "bookList": ".txt-list-row5 li",
+        "bookUrl": "a.0@href",
+        "coverUrl": "a.0@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://img.kb4.cc/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "kind": ".s1@text&&.s5@text##\\[|\\]",
+        "lastChapter": ".s3@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": ".s2@text"
+    },
+    "ruleSearch": {
+        "author": ".s4@text",
+        "bookList": ".txt-list li!0",
+        "bookUrl": "a.0@href",
+        "coverUrl": "a.0@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://img.kb4.cc/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "kind": ".s1@text&&.s5@text##\\[|\\]",
+        "lastChapter": ".s3@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": ".s2@text"
+    },
+    "ruleToc": {
+        "chapterList": ".section-list!0@li a",
+        "chapterName": "text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "chapterUrl": "href",
+        "nextTocUrl": "option@value"
+    },
+    "searchUrl": "/search/,{\n  'method': 'POST',\n  'body': 'searchkey={{key}}'\n}",
+    "weight": 0
+}

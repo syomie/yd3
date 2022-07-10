@@ -1,0 +1,45 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "笔趣读②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.biqusk.com/",
+    "bookUrlPattern": "http://www.biqusk.com/\\d+_\\d+/",
+    "customOrder": 160,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1616040735871,
+    "loginUrl": "",
+    "respondTime": 10139,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text##作 者：",
+        "coverUrl": "id.fmimg@img@src",
+        "intro": "id.intro@text",
+        "kind": "id.info@tag.p.2@text##最后更新：",
+        "lastChapter": "@css:[property=og:novel:latest_chapter_name]@content",
+        "name": "id.info@h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁|小说"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.td.2@text",
+        "bookList": "class.grid@id.nr",
+        "bookUrl": "tag.td.0@a@href",
+        "coverUrl": "tag.td.0@a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.biqusk.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "intro": "",
+        "kind": "tag.td.4@text",
+        "lastChapter": "tag.td.1@a@text",
+        "name": "tag.td.0@a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|笔趣阁|小说",
+        "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.biqusk.com/s.php?q={{key}}",
+    "weight": 0
+}

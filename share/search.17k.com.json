@@ -1,0 +1,39 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "17K小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://search.17k.com",
+    "bookUrlPattern": "",
+    "customOrder": 253,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "respondTime": 8926,
+    "ruleBookInfo": {
+        "intro": "class.intro@html",
+        "lastChapter": "class.NewsChapter@tag.a.-1@text",
+        "tocUrl": "class.read@tag.a@href"
+    },
+    "ruleContent": {
+        "content": "class.p@tag.p!-1@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.ls@tag.a.0@text",
+        "bookList": "class.textlist!0",
+        "bookUrl": "class.textmiddle@tag.a.0@href",
+        "coverUrl": "class.textleft@tag.img.0@src",
+        "kind": "class.bq@tag.span.1@tag.a@text",
+        "name": "class.textmiddle@tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.Volume@tag.a!0",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "https://search.17k.com/search.xhtml?c.q={{key}}",
+    "weight": 0
+}

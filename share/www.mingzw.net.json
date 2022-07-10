@@ -1,0 +1,41 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "明智屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.mingzw.net",
+    "bookUrlPattern": "",
+    "customOrder": 822,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "respondTime": 2873,
+    "ruleBookInfo": {
+        "coverUrl": "tag.img.2@src",
+        "intro": "class.content@textNodes",
+        "lastChapter": "class.newsection@a@text",
+        "tocUrl": "text.查看目录@href"
+    },
+    "ruleContent": {
+        "content": "class.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.cont@tag.dl.0@dd@text",
+        "bookList": "class.bd@children",
+        "bookUrl": "a@href",
+        "coverUrl": "class.pic@img@src",
+        "kind": "class.info@text",
+        "lastChapter": "class.update@text",
+        "name": "class.cont@h3@a@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.gclearfix.-1@li@a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.mingzw.net/mzwlist/{{key}}_{{page}},{\n  \"charset\": \"utf-8\"\n}",
+    "weight": 0
+}

@@ -1,0 +1,44 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "燃文小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.ranwen.la",
+    "bookUrlPattern": "",
+    "customOrder": 229,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::https://m.ranwen.la/xuanhuan/\n修真小说::https://m.ranwen.la/xiuzhen/\n都市小说::https://m.ranwen.la/dushi/\n历史小说::https://m.ranwen.la/lishi/\n网游小说::https://m.ranwen.la/wangyou/\n科幻小说::https://m.ranwen.la/kehuan/\n浪漫青春::https://m.ranwen.la/qingchun/\n言情小说::https://m.ranwen.la/yanqing/\n同人次元::https://m.ranwen.la/ciyuan/\n全本小说::https://m.ranwen.la/quanben/",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; Redmi Note 8 Pro Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.101 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "respondTime": 3503,
+    "ruleBookInfo": {
+        "coverUrl": "class.block_img2@img@src",
+        "intro": "class.intro_info@textNodes",
+        "lastChapter": "class.chapter@tag.li.0@a@text",
+        "tocUrl": "text.点击查看更多@href"
+    },
+    "ruleContent": {
+        "content": "id.nr1@p@textNodes##www.mimiread.com"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.author@text##作者：",
+        "bookList": "class.bookbox",
+        "bookUrl": "a@href",
+        "coverUrl": "tag.a.0@href##.*/(\\d+)/(\\d+)/##https://imgranwena.cdn.bcebos.com/files/article/image/$1/$2/$2s.jpg",
+        "intro": "class.intro_line@textNodes",
+        "kind": "class.cat@text##分类：",
+        "lastChapter": "class.update@a@text",
+        "name": "class.bookname@a@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.chapter@li@a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "https://m.ranwen.la/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&submit=\"\n}",
+    "weight": 0
+}

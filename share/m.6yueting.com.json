@@ -1,0 +1,51 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "有声",
+    "bookSourceName": "六月听书",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://m.6yueting.com",
+    "customOrder": -88902397,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::http://m.6yueting.com/ys/t1/o1/p{{page}}",
+    "lastUpdateTime": 1649148024458,
+    "respondTime": 3749,
+    "ruleBookInfo": {
+        "author": ".book-item-info@.author@text",
+        "init": "",
+        "kind": ".book-type@text",
+        "lastChapter": ".list@li.-1@a@text",
+        "name": ".bread-book@text"
+    },
+    "ruleContent": {
+        "content": "",
+        "sourceRegex": ""
+    },
+    "ruleExplore": {
+        "author": ".author@text",
+        "bookList": ".album-list@li",
+        "bookUrl": "a@href",
+        "coverUrl": "img@src",
+        "intro": ".book-item-desc@text",
+        "lastChapter": "tag.span.-1@text",
+        "name": ".book-item-name@a@text",
+        "wordCount": ".icon-listen@text"
+    },
+    "ruleSearch": {
+        "author": "author",
+        "bookList": "data.content",
+        "bookUrl": "http://m.6yueting.com/list/{{$.code}}",
+        "coverUrl": "coverUrlLocal",
+        "intro": "descXx",
+        "lastChapter": "udate",
+        "name": "name##\\<.*?\\>"
+    },
+    "ruleToc": {
+        "chapterList": "a[target=\"player\"]",
+        "chapterName": "text",
+        "chapterUrl": "href##$##,{\"webView\": true}"
+    },
+    "searchUrl": "http://m.6yueting.com/search/index/search?content={{key}}&type=1&pageNum={{page}}&pageSize=40",
+    "weight": 0
+}

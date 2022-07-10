@@ -1,0 +1,52 @@
+{
+    "bookSourceComment": "作者:希弥",
+    "bookSourceGroup": "",
+    "bookSourceName": "黄易小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.huangyixiaoshuo.com",
+    "bookUrlPattern": "http://www.huangyixiaoshuo.com/\\d+",
+    "customOrder": -88902322,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/xuanhuan/{{page}}.html\n仙侠小说::/xianxia/{{page}}.html\n都市小说::/dushi/{{page}}.html\n军史小说::/junshi/{{page}}.html\n网游小说::/wangyou/{{page}}.html\n科幻小说::/kehuan/{{page}}.html\n恐怖小说::/kongbu/{{page}}.html\n其它小说::/qita/{{page}}.html\n完结小说::/full.html\n小说大全::/xiaoshuodaquan/",
+    "lastUpdateTime": 1646631313681,
+    "loginUrl": "",
+    "respondTime": 7325,
+    "ruleBookInfo": {
+        "author": "meta[property=\"og:novel:author\"]@content",
+        "coverUrl": "id.fmimg@tag.img@src",
+        "intro": "meta[property=\"og:description\"]@content",
+        "kind": "meta[property=\"og:novel:category\"]@content&&meta[property=\"og:novel:status\"]@content",
+        "lastChapter": "##<meta pro\\S+latest_chapter_name. content=\"([^\"]*)##$1###",
+        "name": "meta[property=\"og:novel:book_name\"]@content||meta[property=\"og:novel:title\"]@content"
+    },
+    "ruleContent": {
+        "content": "#content@textNodes",
+        "nextContentUrl": "text.下一页@href||text.下页@href"
+    },
+    "ruleExplore": {
+        "author": "tag.a.1@text",
+        "bookList": ".novellist a||.item",
+        "bookUrl": "tag.a.2@href||a@href",
+        "coverUrl": "img@src",
+        "intro": "dd@html",
+        "name": "tag.a.2@text||a@text"
+    },
+    "ruleSearch": {
+        "author": "class.s4@text",
+        "bookList": "div.novelslist2 ul@tag.li!0",
+        "bookUrl": "tag.a.0@href",
+        "checkKeyWord": "",
+        "coverUrl": "tag.a.0@href##/(\\d+)/(\\d+)/##/files/article/image/$1/$2/$2s.jpg",
+        "lastChapter": "class.s3@text",
+        "name": "class.s2@text"
+    },
+    "ruleToc": {
+        "chapterList": "#list dl@js:java.getElement('tag.dt.1').nextAll(\"dd\").select(\"a\")",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/index.php?s=/web/index/search,{\n  \"method\": \"POST\",\n  \"body\": \"name={{key}}\"\n}",
+    "weight": 0
+}

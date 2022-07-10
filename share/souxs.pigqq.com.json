@@ -1,0 +1,41 @@
+{
+    "bookSourceComment": "\n某大佬2.0书源",
+    "bookSourceGroup": "笔趣阁,API",
+    "bookSourceName": "笔趣阁app",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://souxs.pigqq.com",
+    "bookUrlPattern": "",
+    "customOrder": 323,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "header": "",
+    "lastUpdateTime": 1638083476007,
+    "loginUrl": "",
+    "respondTime": 4312,
+    "ruleBookInfo": {
+        "tocUrl": "$.data.Id@js:\nvar n=result.match(/(^\\d+)\\d{3,}/);\nn=(n)?n[1]:'0';\nresult=(Number(n)+1)+'/'+result;\n'https://infosxs.pigqq.com/BookFiles/Html/'+result+'/index.html';"
+    },
+    "ruleContent": {
+        "content": "$.data.content"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "$.Author",
+        "bookList": "$.data",
+        "bookUrl": "$.Id@js:\nvar n=result.match(/(^\\d+)\\d{3,}/);\nn=(n)?n[1]:'0';\nresult=(Number(n)+1)+'/'+result;\n'https://infosxs.pigqq.com/BookFiles/Html/'+result+'/info.html';",
+        "coverUrl": "$.Img",
+        "intro": "$.Desc",
+        "kind": "$.CName",
+        "lastChapter": "$.LastChapter&&$.UpdateTime##\\n##•",
+        "name": "$.Name",
+        "wordCount": "$.BookStatus"
+    },
+    "ruleToc": {
+        "chapterList": "$..[?(@.hasContent)]",
+        "chapterName": "$.name",
+        "chapterUrl": "$.id@js:\nbaseUrl.replace(/index.html/,result).replace(/infos/,'content')+'.html'"
+    },
+    "searchUrl": "/search.aspx?key={{key}}&page={{page}}&siteid=app2",
+    "weight": 0
+}

@@ -1,0 +1,39 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "秋语阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.qiuyuge.com",
+    "bookUrlPattern": "",
+    "customOrder": 550,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "respondTime": 16933,
+    "ruleBookInfo": {
+        "author": "@css:[property=og:novel:author_link]@content",
+        "coverUrl": "id.fmimg@tag.img@src",
+        "intro": "id.intro@text",
+        "name": "@css:[property=og:novel:book_name]@content"
+    },
+    "ruleContent": {
+        "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.odd.1@text",
+        "bookList": "class.grid@tag.tr!0",
+        "bookUrl": "class.odd.0@tag.a.0@href",
+        "lastChapter": "class.even@tag.a.0@text",
+        "name": "class.odd.0@tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.qiuyuge.com/modules/article/search.php?searchtype=articlename&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

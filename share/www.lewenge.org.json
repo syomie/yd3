@@ -1,0 +1,45 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "乐文小说①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.lewenge.org",
+    "customOrder": 459,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"总点击榜\",\"url\":\"/allvisit/{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"月点击榜\",\"url\":\"/monthvisit/{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"周点击榜\",\"url\":\"/weekvisit/{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"日点击榜\",\"url\":\"/dayvisit/{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总推荐榜\",\"url\":\"/allvote/{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"月推荐榜\",\"url\":\"/monthvote/{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"周推荐榜\",\"url\":\"/weekvote/{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"日推荐榜\",\"url\":\"/dayvote/{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总收藏榜\",\"url\":\"/goodnum/{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"总字数榜\",\"url\":\"/size/{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"最新入库\",\"url\":\"/postdate/{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"最近更新\",\"url\":\"/lastupdate/{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"魔幻玄幻\",\"url\":\"/fenlei1_{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"仙侠修真\",\"url\":\"/fenlei2_{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市青春\",\"url\":\"/fenlei3_{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/fenlei4_{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻游戏\",\"url\":\"/fenlei5_{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"近代现代\",\"url\":\"/fenlei6_{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"同人耽美\",\"url\":\"/fenlei7_{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"架空历史\",\"url\":\"/fenlei8_{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"重生异能\",\"url\":\"/fenlei9_{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"恐怖推理\",\"url\":\"/fenlei10_{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"完本小说\",\"url\":\"/wanben1_{{page}}.shtml\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+    "lastUpdateTime": 1643457942178,
+    "loginUrl": "",
+    "respondTime": 26602,
+    "ruleBookInfo": {
+        "author": "[name=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": ".intro@html",
+        "kind": "[name=\"og:novel:category\"]@content&&[name=\"og:novel:status\"]@content&&[name=\"og:novel:update_time\"]@content",
+        "lastChapter": "[name=\"og:novel:latest_chapter_name\"]@content##正文卷.|正文.|VIP章节.|免费章节.|VIP卷.|默认卷.|章节目录.|免费章节.|卷1.|卷2.|卷3.|卷4.",
+        "name": "[name=\"og:novel:book_name\"]@content",
+        "tocUrl": "[name=\"og:novel:read_url\"]@content",
+        "wordCount": "tbody tr.5@td.1@textNodes##字"
+    },
+    "ruleContent": {
+        "content": "#content@p@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "span.0@text##.*：",
+        "bookList": "#alistbox",
+        "bookUrl": "a.0@href",
+        "coverUrl": "img@src",
+        "intro": ".intro@text",
+        "lastChapter": "a.2@text##正文卷\\s|正文\\s",
+        "name": "a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "tbody.0@td a",
+        "chapterName": "text##正文卷\\s|正文\\s",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+}

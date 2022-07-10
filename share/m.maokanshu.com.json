@@ -1,0 +1,54 @@
+{
+    "bookSourceComment": "笛寄明月楼",
+    "bookSourceGroup": "",
+    "bookSourceName": "猫看书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.maokanshu.com/",
+    "customOrder": 156,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"                         排行榜                         \",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"收藏\",\"url\":\"/goodnum/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"字数\",\"url\":\"/size/{{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"强推\",\"url\":\"/toptime/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"新书\",\"url\":\"/goodnew/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"                         点击榜                         \",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"总榜\",\"url\":\"/allvisit/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"月榜\",\"url\":\"/monthvisit/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"周榜\",\"url\":\"/weekvisit/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"日榜\",\"url\":\"/dayvisit/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"                         推荐榜                         \",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"总榜\",\"url\":\"/allvote/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"月榜\",\"url\":\"/monthvote/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"周榜\",\"url\":\"/weekvote/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"日榜\",\"url\":\"/dayvote/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"                          分   类                         \",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"全本\",\"url\":\"/quanben/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"玄幻\",\"url\":\"/sort/1/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"奇幻\",\"url\":\"/sort/2/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"武侠\",\"url\":\"/sort/3/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"都市\",\"url\":\"/sort/4/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"历史\",\"url\":\"/sort/5/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"军事\",\"url\":\"/sort/6/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"悬疑\",\"url\":\"/sort/7/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"游戏\",\"url\":\"/sort/8/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"科幻\",\"url\":\"/sort/9/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"体育\",\"url\":\"/sort/10/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"官场\",\"url\":\"/sort/11/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"古言\",\"url\":\"/sort/12/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"现言\",\"url\":\"/sort/13/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"幻言\",\"url\":\"/sort/14/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"仙侠\",\"url\":\"/sort/15/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"青春\",\"url\":\"/sort/16/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"穿越\",\"url\":\"/sort/17/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"女生\",\"url\":\"/sort/18/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"N次元\",\"url\":\"/sort/19/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}]",
+    "lastUpdateTime": 1640313042927,
+    "respondTime": 7009,
+    "ruleBookInfo": {
+        "author": "class.author@text",
+        "coverUrl": "class.detail@img@src",
+        "intro": "class.intro@text<js>result.replace(/(.*)/,' ๑ STORY ๑ :\\n$1')</js>##.*阅读地址.*",
+        "kind": "tag.p.2@tag.a@text",
+        "lastChapter": "class.update@text",
+        "name": "class.name@text",
+        "tocUrl": "class.title@tag.a@href",
+        "wordCount": "tag.p.2@tag.span.1@text"
+    },
+    "ruleContent": {
+        "content": "class.content@html"
+    },
+    "ruleExplore": {
+        "author": "class.data@tag.a@text",
+        "bookList": "class.list@li",
+        "bookUrl": "class.bookname@tag.a@href",
+        "coverUrl": "tag.a.0@img@src",
+        "intro": "class.intro@text",
+        "kind": "class.data@tag.span@text",
+        "lastChapter": "class.data@tag.a@text",
+        "name": "class.bookname@tag.a@text"
+    },
+    "ruleSearch": {
+        "author": "tag.a@tag.p.1@textNodes",
+        "bookList": "class.list@li",
+        "bookUrl": "tag.a@href",
+        "coverUrl": "tag.a@img@src",
+        "intro": "tag.a@tag.p.2@textNodes",
+        "kind": "tag.a@tag.p.1@tag.span@text",
+        "name": "tag.a@tag.p.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.read@li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.maokanshu.com/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"s=articlename&searchkey={{key}}\"\n}",
+    "weight": 0
+}

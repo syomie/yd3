@@ -1,0 +1,41 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "渠道",
+    "bookSourceName": "逐浪网手机版",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.zhulang.com",
+    "bookUrlPattern": "",
+    "customOrder": 699,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "respondTime": 3054,
+    "ruleBookInfo": {
+        "author": "class.yellow@text",
+        "coverUrl": "class.bk-info@img@data-src",
+        "intro": "id.bk-brief@p@text",
+        "name": "tag.h3.0@text",
+        "tocUrl": "text.开始阅读@href"
+    },
+    "ruleContent": {
+        "content": "class.rd-txt@p@text"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "h4@text",
+        "bookList": "id.ret-list@li",
+        "bookUrl": "a@href",
+        "coverUrl": "img@data-src",
+        "name": "h3@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.idx-ol@a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "class.blue.0@option!0@value"
+    },
+    "searchUrl": "https://m.zhulang.com/search/index.html?k={{key}}",
+    "weight": 0
+}

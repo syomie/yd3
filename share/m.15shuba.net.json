@@ -1,0 +1,52 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "女频",
+    "bookSourceName": "十五书吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.15shuba.net",
+    "customOrder": 515,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"全部\",\"url\":\"/wanben/0/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/wanben/1/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠\",\"url\":\"/wanben/2/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/wanben/3/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"/wanben/4/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/wanben/5/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"言情\",\"url\":\"/wanben/6/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"穿越\",\"url\":\"/wanben/7/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"耽美\",\"url\":\"/wanben/8/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"恐怖\",\"url\":\"/wanben/9/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游\",\"url\":\"/wanben/10/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"推理\",\"url\":\"/wanben/11/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"同人\",\"url\":\"/wanben/12/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"名著\",\"url\":\"/wanben/13/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/wanben/14/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1642844043127,
+    "respondTime": 17013,
+    "ruleBookInfo": {
+        "author": ".synopsisArea_detail a.1@text",
+        "coverUrl": ".synopsisArea_detail img@src",
+        "intro": ".review@html##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": ".synopsisArea_detail p.2:4@text##.*：",
+        "lastChapter": ".cleare a@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": ".synopsisArea_detail a.0@text",
+        "tocUrl": ".ablum_read a.1@href"
+    },
+    "ruleContent": {
+        "content": "#chaptercontent@html",
+        "replaceRegex": "##『加入书签，方便阅读』"
+    },
+    "ruleExplore": {
+        "author": "p.1@text",
+        "bookList": ".hot_sale",
+        "bookUrl": "a@href",
+        "coverUrl": "img@src",
+        "intro": "p.2@text##简介.",
+        "name": "p.0@text"
+    },
+    "ruleSearch": {
+        "author": "p.1@text##.*作者.",
+        "bookList": ".hot_sale",
+        "bookUrl": "a@href",
+        "coverUrl": "a@href##.+\\D((\\d+)\\d{3})\\D##https://www.15shuba.net/files/article/image/$2/$1/$1s.jpg###",
+        "kind": "p.1:2@text##\\s.*",
+        "lastChapter": "p.2@text##.*更新.|[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": "p.0@text"
+    },
+    "ruleToc": {
+        "chapterList": ".lb li a",
+        "chapterName": "text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/s.php?keyword={{key}}",
+    "weight": 0
+}

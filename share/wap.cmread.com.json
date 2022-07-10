@@ -1,0 +1,57 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "正版",
+    "bookSourceName": "咪咕阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://wap.cmread.com",
+    "bookUrlPattern": "",
+    "customOrder": 552,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1}},\n{\"title\":\"男生新锐\",\"url\":\"https://wap.cmread.com/r/p/mgxrb.jsp?ln=34350_528619_110624987_1_1_L2L1&vt=3&ftl_tab=0\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"女生新锐\",\"url\":\"https://wap.cmread.com/r/p/mgxrb.jsp?ln=34350_528619_110624987_1_1_L2L1L2&vt=3&ftl_tab=1\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"出版热销\",\"url\":\"https://wap.cmread.com/r/p/cbphb.jsp?ln=11004_494326_100884784_1_1_L1&vt=3&ftl_tab=0\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"出版人气\",\"url\":\"https://wap.cmread.com/r/p/cbphb.jsp?ln=11004_494326_100884784_1_1_L2&vt=3&ftl_tab=1\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"男生畅销\",\"url\":\"https://wap.cmread.com/r/p/nsphb.jsp?ln=10482_490196_99938811_1_1_L1L2L3L1&vt=3&ftl_tab=0\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"男生完结\",\"url\":\"https://wap.cmread.com/r/p/nsphb.jsp?ln=10482_490196_99938811_1_1_L2L3L1L2&vt=3&ftl_tab=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"男生人气\",\"url\":\"https://wap.cmread.com/r/p/nsphb.jsp?ln=10482_490196_99938811_1_1_L2L3L1L3&vt=3&ftl_tab=2\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女生畅销\",\"url\":\"https://wap.cmread.com/r/p/nvsphb.jsp?ln=11003_492882_100555353_1_1_L2L1L1&vt=3&ftl_tab=0\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女生完结\",\"url\":\"https://wap.cmread.com/r/p/nvsphb.jsp?ln=11003_492882_100555353_1_1_L2L1L2&vt=3&ftl_tab=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女生人气\",\"url\":\"https://wap.cmread.com/r/p/nvsphb.jsp?ln=11003_492882_100555353_1_1_L2L1L3&vt=3&ftl_tab=2\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"次元热销\",\"url\":\"https://wap.cmread.com/r/p/ecyphb.jsp?ln=44266_631473_127049878_1_1_L1&vt=3&ftl_tab=0\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"次元点击\",\"url\":\"https://wap.cmread.com/r/p/ecyphb.jsp?ln=44266_631473_127049878_1_1_L2&vt=3&ftl_tab=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"次元新书\",\"url\":\"https://wap.cmread.com/r/p/ecyphb.jsp?ln=44266_631473_127049878_1_1_L3&vt=3&ftl_tab=2\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"男生\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"现代都市\",\"url\":\"/r/p/xddswbsk.jsp?vt=3\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"/r/p/xhqhwbsk.jsp?vt=3\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"/r/p/wuxiaxxwb.jsp?vt=3\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/r/p/lsjswbsk.jsp?vt=3\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"游戏竞技\",\"url\":\"/r/p/yxjjwbsk.jsp?vt=3\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻灵异\",\"url\":\"/r/p/khlywbsk.jsp?vt=3\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"男生独家\",\"url\":\"/r/p/zqysk.jsp?vt=3\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女生独家\",\"url\":\"/r/p/nsgxph.jsp?vt=3\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"幻想精品\",\"url\":\"/r/p/hxjpb.jsp?vt=3\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"文学小说\",\"url\":\"/r/p/wxxs.jsp?vt=3\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"影视剧本\",\"url\":\"/r/p/ysjb.jsp?vt=3\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"时尚生活\",\"url\":\"/r/p/ssxx.jsp?vt=3\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"灵异悬疑\",\"url\":\"/r/p/lyxy.jsp?vt=3\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"经管励志\",\"url\":\"/r/p/jglz.jsp?vt=3\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"社科科普\",\"url\":\"/r/p/skkp.jsp?vt=3\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"情感小说\",\"url\":\"/r/p/qgxsfl.jsp?vt=3\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"教育教辅\",\"url\":\"/r/p/jyjf.jsp?vt=3\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"文史传记\",\"url\":\"/r/p/wszj.jsp?vt=3\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"短篇\",\"url\":\"/r/p/wbdpsk.jsp?vt=3\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"中篇\",\"url\":\"/r/p/wbzpsk.jsp?vt=3\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"长篇\",\"url\":\"/r/p/wbcpsk.jsp?vt=3\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1637000713045,
+    "loginUrl": "https://passport.migu.cn/login",
+    "respondTime": 38156,
+    "ruleBookInfo": {
+        "author": "aside a.1@text",
+        "coverUrl": ".cmr-bkdetail-cover img@src",
+        "intro": ".cmr-content-line i@html##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": "aside a.0@text&&.show-price span@text&&.item4@text##更新于|\\s.*",
+        "lastChapter": ".item-box .item3@text||.i.tem-box-NoNew .item3-NoNew@text",
+        "name": "aside p@text",
+        "tocUrl": "@js:baseUrl.replace(/.+\\/r\\/(\\d+).+/,'/r/p/catalog.jsp?bid=$1&vt=2&page=1');",
+        "wordCount": ".show-price span@text##.*\\s"
+    },
+    "ruleContent": {
+        "content": ".charpterContent@html"
+    },
+    "ruleExplore": {
+        "author": ".bookauther@text",
+        "bookList": ".bookBox",
+        "bookUrl": "a.0@href@js:result+',{webView:\"true\"}'",
+        "coverUrl": "img@src",
+        "intro": ".bookcon@text",
+        "kind": "i@text",
+        "name": ".bookname@text"
+    },
+    "ruleSearch": {
+        "author": "span.2@text",
+        "bookList": ".cmr-book-list li",
+        "bookUrl": "a@href@js:result+',{webView:\"true\"}'",
+        "checkKeyWord": "",
+        "coverUrl": "img@src",
+        "intro": "span.1@text",
+        "kind": "span.3@text",
+        "lastChapter": "",
+        "name": "span.0@text"
+    },
+    "ruleToc": {
+        "chapterList": ".catalog",
+        "chapterName": "@js:\nresult=new String(result);\nif(!(result.match(/最新/)))\nresult=(result.match(/free/)?'':'🔒')+(result.replace(/[\\s\\S]*title.*>(.+)<\\/a>[\\s\\S]*/,'$1'));\nelse result='';",
+        "chapterUrl": "a@href##$##,{\"webView\":true}",
+        "nextTocUrl": "@js:\nvar n=result.match(/[^\\d](\\d+)页/);\nn=(n)?n[1]:'1';\nvar list=[];\nfor(var i=2;i<=n;i++){list.push(baseUrl.replace(/page=\\d+/,'page=')+i);}\nlist;"
+    },
+    "searchUrl": "/r/p/searchResult.jsp?is_np=1&cm=&kw={{key}},{'webView': true}",
+    "weight": 0
+}

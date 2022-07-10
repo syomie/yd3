@@ -1,0 +1,55 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "燃文小说②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ranwena.net/",
+    "bookUrlPattern": "http?://www\\.ranwena\\.net(/html)?/files/article/\\d+/\\d+/?",
+    "customOrder": 24,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1646103288480,
+    "respondTime": 5297,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text",
+        "coverUrl": "id.fmimg@img@src",
+        "init": "",
+        "intro": "id.intro@text",
+        "kind": "id.info@tag.p.1@text##最后更新：",
+        "lastChapter": "id.info@tag.p.3@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "id.info@tag.h1@text",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "id.content@html##燃文小说网.*最新章节！| 本章未完.*页继续阅读|广个告.*更新快！|热门推荐.*|.*咪.*咪.*阅.*读.*",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "kind": "",
+        "lastChapter": "",
+        "name": ""
+    },
+    "ruleSearch": {
+        "author": "class.s4@text",
+        "bookList": "class.search-list@tag.li!0",
+        "bookUrl": "class.s2@tag.a@href",
+        "coverUrl": "class.s2@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.ranwena.net/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "kind": ".s6@text&&.s7@text",
+        "lastChapter": "class.s3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "class.s2@tag.a@text",
+        "wordCount": ""
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.ranwena.net/search.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}\"\n}",
+    "weight": 0
+}

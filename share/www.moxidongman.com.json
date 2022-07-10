@@ -1,0 +1,41 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "漫画",
+    "bookSourceName": "MOXI动漫(8本)™",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.moxidongman.com",
+    "bookUrlPattern": "",
+    "customOrder": 685,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "最新更新::http://www.moxidongman.com",
+    "lastUpdateTime": 1657378133735,
+    "loginUrl": "",
+    "respondTime": 774,
+    "ruleBookInfo": {
+        "init": "",
+        "intro": "class.color-hui@text",
+        "kind": "class.box-details@tag.p.2@tag.span.0@text##类型："
+    },
+    "ruleContent": {
+        "content": ".view-content@img@html##src=\".+data-echo##src"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "bookList": "class.comic-list@tag.li",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.img@src",
+        "lastChapter": "tag.span.1@text",
+        "name": "tag.span.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.catalog-order@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "#",
+    "weight": 0
+}

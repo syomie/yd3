@@ -1,0 +1,52 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "一三中文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.13zw.com/",
+    "bookUrlPattern": "https://www.13zw.com/\\d+_\\d+/",
+    "customOrder": 210,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::https://m.13zw.com/list/1_{{page}}.html\n修真小说::https://m.13zw.com/list/2_{{page}}.html\n都市小说::https://m.13zw.com/list/3_{{page}}.html\n穿越小说::https://m.13zw.com/list/4_{{page}}.html\n网游小说::https://m.13zw.com/list/5_{{page}}.html\n科幻小说::https://m.13zw.com/list/6_{{page}}.html\n完本小说::https://m.13zw.com/full/{{page}}.html",
+    "lastUpdateTime": 1619237454116,
+    "respondTime": 7053,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@tag.a@text",
+        "coverUrl": "id.fmimg@img@src",
+        "init": "class.box_con",
+        "intro": "id.intro@text",
+        "kind": "",
+        "lastChapter": "id.info@tag.p.3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "id.info@tag.h1@text",
+        "wordCount": "id.info@tag.p.2@text##更新时间："
+    },
+    "ruleContent": {
+        "content": "id.content@html##一秒记住.*无弹窗免费阅读！|一三中文网.*最新章节！"
+    },
+    "ruleExplore": {
+        "author": "class.article@tag.p.0@tag.span.0@text##作者:",
+        "bookList": "class.list-item",
+        "bookUrl": "class.article@tag.a.0@href@js:\nr=result.match(/_(\\d+)/)\nid=r[1]\nvar iid = parseInt(id/1000);\n'https://www.13zw.com/'+iid+'_'+id+'/'",
+        "coverUrl": "img@src",
+        "intro": "class.article@tag.a.1@text",
+        "name": "class.article@tag.a.0@text"
+    },
+    "ruleSearch": {
+        "author": "class.s4@text",
+        "bookList": "class.novelslistss@tag.li",
+        "bookUrl": "class.s2@tag.a@href",
+        "coverUrl": "class.s2@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.13zw.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "kind": "class.s1@text&&\nclass.s7@text",
+        "lastChapter": "class.s3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "class.s2@tag.a@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text##【求收藏！】|（.*）",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.13zw.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

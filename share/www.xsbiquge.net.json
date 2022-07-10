@@ -1,0 +1,45 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "笔趣阁",
+    "bookSourceName": "笔趣阁新站",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xsbiquge.net",
+    "customOrder": 768,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1657377757904,
+    "respondTime": 6567,
+    "ruleBookInfo": {
+        "init": "",
+        "intro": "//div[@id=\"intro\"]/text()",
+        "lastChapter": "//div[@id=\"info\"]/p[6]/a/text()",
+        "tocUrl": "//div[@id=\"maininfo\"]/div[@class=\"readbtn\"]/a[@class=\"chapterlist\"]/@href"
+    },
+    "ruleContent": {
+        "content": "id.booktxt@p!0@html",
+        "nextContentUrl": "text.下一页@href",
+        "replaceRegex": "##\\s*本章未完.*\\s*"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "//dl/div[@class=\"btm\"]/a/text()",
+        "bookList": "//div[@id=\"hotcontent\"]/div[@class=\"l rank\"]/div[@class=\"item\"]",
+        "bookUrl": "a@href",
+        "coverUrl": "img@data-original",
+        "intro": "dd@text",
+        "lastChapter": "//em[@class=\"blue visible-xs\"]/text()",
+        "name": "//dl/dt/a/text()",
+        "wordCount": "//em[@class=\"orange visible-xs\"]/text()"
+    },
+    "ruleToc": {
+        "chapterList": "//div[@id=\"content_1\"]/a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "//select[@id=\"indexselect\"]/option/@value"
+    },
+    "searchUrl": "/search/?searchkey={{key}}",
+    "weight": 0
+}

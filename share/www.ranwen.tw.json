@@ -1,0 +1,55 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "燃文小说③",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ranwen.tw",
+    "bookUrlPattern": "https://www.ranwen.tw/book_\\d+/",
+    "customOrder": 134,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/fenlei/1_{{page}}/\n仙侠修真::/fenlei/2_{{page}}/\n都市言情::/fenlei/3_{{page}}/\n历史军事::/fenlei/4_{{page}}/\n网游竞技::/fenlei/5_{{page}}/\n科幻灵异::/fenlei/6_{{page}}/\n恐怖惊悚::/fenlei/7_{{page}}/\n其他类型::/fenlei/8_{{page}}/\n完本小说::/quanben/{{page}}",
+    "lastUpdateTime": 1657373899066,
+    "respondTime": 6963,
+    "ruleBookInfo": {
+        "author": "id.info@tag.h1@tag.small@tag.a@text",
+        "coverUrl": "class.pic@img@src",
+        "init": "",
+        "intro": "class.bookinfo_intro@text",
+        "kind": "class.update@text##.*（|\\）",
+        "lastChapter": "class.update@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "id.info@tag.h1@text##/.*",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "id.htmlContent@html##燃文小说网.*最新章节！| 本章未完.*页继续阅读|",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+        "author": "class.s4@text",
+        "bookList": "class.news@ul@li",
+        "bookUrl": "class.s2@a@href",
+        "coverUrl": "class.s2@a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.ranwen.tw/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "kind": "class.s1@text&&\nclass.s5@text",
+        "lastChapter": "class.s3@a@text",
+        "name": "class.s2@a@text"
+    },
+    "ruleSearch": {
+        "author": "tag.td.2@text",
+        "bookList": "class.grid@tag.tr!0",
+        "bookUrl": "tag.td.0@tag.a@href",
+        "coverUrl": "tag.td.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.ranwen.tw/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "kind": "tag.td.4@text&&\ntag.td.5@text",
+        "lastChapter": "tag.td.1@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "tag.td.0@tag.a@text",
+        "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.chapterlist.1@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.ranwen.tw/modules/article/search.php?searchkey={{key}}&submit=%CB%D1%CB%F7&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

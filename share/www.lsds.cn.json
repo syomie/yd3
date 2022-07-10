@@ -1,0 +1,66 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "连尚读书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.lsds.cn",
+    "bookUrlPattern": "",
+    "customOrder": 299,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"现实\",\"url\":\"/all-0-283.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"仙武\",\"url\":\"/all-0-1.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/all-0-6.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"/all-0-22.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"军事\",\"url\":\"/all-0-26.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/all-0-30.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/all-0-37.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游\",\"url\":\"/all-0-44.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"推理\",\"url\":\"/all-0-50.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"竞技\",\"url\":\"/all-0-56.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"短篇\",\"url\":\"/all-0-167.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/all-0-159.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"现实\",\"url\":\"/all-1-285.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"现代\",\"url\":\"/all-1-61.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"古代\",\"url\":\"/all-1-68.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"青春\",\"url\":\"/all-1-75.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/all-1-81.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑\",\"url\":\"/all-1-84.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"仙武\",\"url\":\"/all-1-90.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"短篇\",\"url\":\"/all-1-175.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/all-1-161.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "header": "",
+    "lastUpdateTime": 1641451321367,
+    "loginUrl": "",
+    "respondTime": 4096,
+    "ruleBookInfo": {
+        "author": "[name=\"author\"]@content",
+        "coverUrl": ".book-info-cover img@src",
+        "init": "",
+        "intro": ".info-describe p@html##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": ".tag@text##小说",
+        "lastChapter": "[name=\"last_chapter_name\"]@content##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": ".book-info-title@text",
+        "tocUrl": "<js>result = baseUrl.replace(\"bookinfo\",\"catalog\");</js>",
+        "wordCount": ".word-count@text"
+    },
+    "ruleContent": {
+        "content": ".reader-contents@html",
+        "nextContentUrl": "",
+        "sourceRegex": "",
+        "webJs": ""
+    },
+    "ruleExplore": {
+        "author": "span.0@text",
+        "bookList": ".book-a",
+        "bookUrl": "a.1@href",
+        "coverUrl": "img.0@src",
+        "intro": "p.0@text##\\s",
+        "kind": "span.1:2@text##小说",
+        "lastChapter": "",
+        "name": "a.1@text",
+        "wordCount": "p.1@text"
+    },
+    "ruleSearch": {
+        "author": "span.0@text",
+        "bookList": ".res-book-item",
+        "bookUrl": "a.0@href##reader/(\\d+)-(\\d+)##bookinfo/$1",
+        "coverUrl": "img.0@src",
+        "intro": "p.1@text##\\s",
+        "kind": "span.1:2@text##小说",
+        "lastChapter": "",
+        "name": "a.1@text",
+        "wordCount": "span.3@text"
+    },
+    "ruleToc": {
+        "chapterList": "#test a",
+        "chapterName": "title##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "chapterUrl": "href##$##,{'webView': true}",
+        "isVip": "",
+        "nextTocUrl": "",
+        "updateTime": ""
+    },
+    "searchUrl": "/booksearch/result-{{key}}-{{page}}.html",
+    "weight": 0
+}

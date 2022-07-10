@@ -1,0 +1,46 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "下载",
+    "bookSourceName": "Noveldl",
+    "bookSourceType": 3,
+    "bookSourceUrl": "http://downnovel.com",
+    "customOrder": 444,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1654350322567,
+    "loginUrl": "",
+    "respondTime": 91516,
+    "ruleBookInfo": {
+        "author": ".info@tag.p.0@text",
+        "coverUrl": ".novel-cover img@src",
+        "downloadUrls": "",
+        "init": "",
+        "intro": "#all@html||#shot@html##\\[.*\\]|简介：",
+        "kind": ".info@tag.p.1@text&&.info@tag.p.2@text##.*：",
+        "lastChapter": ".info@tag.p.3@text##.*：",
+        "name": "space@text"
+    },
+    "ruleContent": {
+        "content": "@js:\"请点击章节链接下载：\"+baseUrl",
+        "webJs": ""
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "textNodes##./.",
+        "bookList": ".search_result li",
+        "bookUrl": "a@href",
+        "kind": "i@text",
+        "lastChapter": "span@text",
+        "name": "a@text"
+    },
+    "ruleToc": {
+        "chapterList": ".btn_b",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/search.htm?keyword={{key}}",
+    "weight": 0
+}

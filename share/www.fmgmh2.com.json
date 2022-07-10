@@ -1,0 +1,55 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "正版",
+    "bookSourceName": "非麻瓜",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.fmgmh2.com",
+    "customOrder": 469,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"年度\",\"url\":\"/custom/hot\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"月榜\",\"url\":\"/custom/month\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"周榜\",\"url\":\"/custom/week\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"日榜\",\"url\":\"/custom/day\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"上升\",\"url\":\"/custom/ascension\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"评分\",\"url\":\"/custom/score\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"收藏\",\"url\":\"/custom/fav\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"打赏\",\"url\":\"/custom/reward\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"月票\",\"url\":\"/custom/ticket\",\"style\":{\"layout_flexBasisPercent\":0.21}},\n{\"title\":\"收费\",\"url\":\"/custom/pay\",\"style\":{\"layout_flexBasisPercent\":0.21}},\n{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"热血\",\"url\":\"/category/tags/6/page/\n{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"冒险\",\"url\":\"/category/tags/7/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/category/tags/8/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"霸总\",\"url\":\"/category/tags/9/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/category/tags/10/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"校园\",\"url\":\"/category/tags/11/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"搞笑\",\"url\":\"/category/tags/13/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"穿越\",\"url\":\"/category/tags/14/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"后宫\",\"url\":\"/category/tags/15/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"耽美\",\"url\":\"/category/tags/16/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"恋爱\",\"url\":\"/category/tags/17/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑\",\"url\":\"/category/tags/18/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"恐怖\",\"url\":\"/category/tags/19/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"战争\",\"url\":\"/category/tags/20/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"动作\",\"url\":\"/category/tags/21/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"同人\",\"url\":\"/category/tags/22/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"架空\",\"url\":\"/category/tags/25/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"灵异\",\"url\":\"/category/tags/26/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"古风\",\"url\":\"/category/tags/28/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"生活\",\"url\":\"/category/tags/29/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"真人\",\"url\":\"/category/tags/30/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/category/tags/31/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"总裁\",\"url\":\"/category/tags/48/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"影评\",\"url\":\"/category/tags/49/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"青春\",\"url\":\"/category/tags/50/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"未来\",\"url\":\"/category/tags/51/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"古代\",\"url\":\"/category/tags/52/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"武侠\",\"url\":\"/category/tags/53/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"仙侠\",\"url\":\"/category/tags/54/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"军事\",\"url\":\"/category/tags/55/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"网配\",\"url\":\"/category/tags/56/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"末世\",\"url\":\"/category/tags/57/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"甜饼\",\"url\":\"/category/tags/68/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"纯爱\",\"url\":\"/category/tags/69/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"幻想\",\"url\":\"/category/tags/70/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"短篇\",\"url\":\"/category/tags/71/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"虐恋\",\"url\":\"/category/tags/72/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"日漫\",\"url\":\"/category/tags/75/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"ＢＬ\",\"url\":\"/category/tags/78/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"ＳＭ\",\"url\":\"/category/tags/79/page/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}}]",
+    "header": "{\n  \"user-agent\": \"Mobile\",\n  \"referer\":\"https://www.fmgmh2.com/\"\n}",
+    "lastUpdateTime": 1638109681024,
+    "loginUrl": "https://www.fmgmh2.com/user/login",
+    "respondTime": 4276,
+    "ruleBookInfo": {
+        "author": ".comic-author a.1@text",
+        "coverUrl": ".de-info__cover img@src",
+        "intro": ".intro@html",
+        "kind": ".comic-status a@text&&.de-chapter__title span.0@text",
+        "lastChapter": ".update-time@text",
+        "name": ".de-info__box p.0@text"
+    },
+    "ruleContent": {
+        "content": ".lazy-read@data-original@js:\nlist=result.split(\"\\n\");\nheader={\"Referer\":baseUrl};\nheaders={\"headers\":JSON.stringify(header)}\nhtml='';\nfor(i in list){\nhtml+='<img src=\"'+list[i]+','+JSON.stringify(headers)+'\">\\n'\n}\nhtml",
+        "imageStyle": "FULL"
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "",
+        "lastChapter": "",
+        "name": ""
+    },
+    "ruleSearch": {
+        "author": ".comic-author a@text",
+        "bookList": ".common-comic-item||.top-list__box-item",
+        "bookUrl": "a.0@href",
+        "coverUrl": "img@data-original",
+        "intro": ".comic-feature@text",
+        "kind": ".comic-count@text",
+        "lastChapter": ".comic-update a@text",
+        "name": "a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".chapter__list-box li a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/index.php/search?key={{key}}",
+    "weight": 0
+}

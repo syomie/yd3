@@ -1,0 +1,49 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "玄幻阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xuankuge.com",
+    "bookUrlPattern": "",
+    "customOrder": 325,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/sort1/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠\",\"url\":\"/sort2/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/sort3/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"/sort4/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"言情\",\"url\":\"/sort5/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"穿越\",\"url\":\"/sort6/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/sort7/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"恐怖\",\"url\":\"/sort8/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"校园\",\"url\":\"/sort9/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"异界\",\"url\":\"/sort10/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"全本\",\"url\":\"/quanben/{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+    "lastUpdateTime": 1634040950918,
+    "loginUrl": "",
+    "respondTime": 11433,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "[property=\"og:description\"]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##正文卷\\s|正文\\s",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "tocUrl": ""
+    },
+    "ruleContent": {
+        "content": "#content@textNodes",
+        "imageStyle": "0",
+        "replaceRegex": "##随机推荐.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "span.1@text",
+        "bookList": "#sitebox dl",
+        "bookUrl": "a.1@href",
+        "coverUrl": "img@src",
+        "intro": "dd.3@text",
+        "kind": "span.2:0@text",
+        "lastChapter": "a.2@text##正文卷\\s|正文\\s",
+        "name": "a.1@text",
+        "wordCount": "span.3@text"
+    },
+    "ruleToc": {
+        "chapterList": "#readerlist li a",
+        "chapterName": "text##正文卷\\s|正文\\s",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php?s={{key}}&searchtype=articlename",
+    "weight": 0
+}

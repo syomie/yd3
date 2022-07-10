@@ -1,0 +1,58 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "出版",
+    "bookSourceName": "拉米阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://read.lmeee.com",
+    "bookUrlPattern": "",
+    "concurrentRate": "",
+    "customOrder": 587,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"图书\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"小说\",\"url\":\"/books/11-no-0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"文学\",\"url\":\"/books/12-no-0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"传记\",\"url\":\"books/14-no-0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"社科\",\"url\":\"/books/15-no-0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"少儿\",\"url\":\"/books/16-no-0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"生活\",\"url\":\"/books/17-no-0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"其他\",\"url\":\"/books/18-no-0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"美文\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"经典\",\"url\":\"/articles/61-no-0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"情感\",\"url\":\"/articles/62-no-0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"生活\",\"url\":\"/articles/63-no-0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"随笔\",\"url\":\"/articles/64-no-0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"哲理\",\"url\":\"/articles/65-no-0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"励志\",\"url\":\"/articles/66-no-0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"故事\",\"url\":\"/articles/67-no-0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"其他\",\"url\":\"/articles/68-no-0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"诗词\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"古诗\",\"url\":\"/poems/81-no-0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"律诗\",\"url\":\"/poems/82-no-0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"绝句\",\"url\":\"/poems/83-no-0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"宋词\",\"url\":\"/poems/84-no-0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"元曲\",\"url\":\"/poems/85-no-0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"诗歌\",\"url\":\"/poems/86-no-0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"现代\",\"url\":\"/poems/87-no-0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"其他\",\"url\":\"/poems/88-no-0/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+    "header": "",
+    "lastUpdateTime": 1639576318707,
+    "loginCheckJs": "",
+    "loginUi": "",
+    "loginUrl": "https://read.lmeee.com/",
+    "respondTime": 9930,
+    "ruleBookInfo": {
+        "author": ".book-info a.1@text",
+        "coverUrl": ".book-img img@src",
+        "intro": ".describe p@html",
+        "kind": ".book-info a.2@text",
+        "name": ".book-info a.0@text",
+        "tocUrl": ".l a.1@href",
+        "wordCount": ".book-info li.1@.num@text"
+    },
+    "ruleContent": {
+        "content": ".r-section@p@html||.ac-content@p@html||.lang-zh@html",
+        "replaceRegex": ""
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "intro": "",
+        "name": ""
+    },
+    "ruleSearch": {
+        "author": ".author a@text",
+        "bookList": ".book-w||.article||.poem",
+        "bookUrl": ".title a.0@href",
+        "checkKeyWord": "",
+        "coverUrl": "img@src",
+        "intro": ".intro@text||.poem-content-box@text##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": "",
+        "name": ".title a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "@css: ul>li>a||h1",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/search,{\n  'charset': 'utf-8',\n  'method': 'POST',\n  'body': 't=1&key={{key}}&p={{page}}'\n}",
+    "weight": 0
+}

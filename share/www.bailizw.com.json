@@ -1,0 +1,61 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "正版",
+    "bookSourceName": "百里中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.bailizw.com",
+    "bookUrlPattern": "",
+    "customOrder": 573,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"男频\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/bk-list/channel_Male/?topcateid=1&subcateid=0&wordsenum=0&freeenum=0&finishenum=0&updateenum=0&pageindex={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/bk-list/channel_Male/?topcateid=2&subcateid=0&wordsenum=0&freeenum=0&finishenum=0&updateenum=0&pageindex={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"仙侠\",\"url\":\"/bk-list/channel_Male/?topcateid=3&subcateid=0&wordsenum=0&freeenum=0&finishenum=0&updateenum=0&pageindex={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/bk-list/channel_Male/?topcateid=4&subcateid=0&wordsenum=0&freeenum=0&finishenum=0&updateenum=0&pageindex={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"奇幻\",\"url\":\"/bk-list/channel_Male/?topcateid=7&subcateid=0&wordsenum=0&freeenum=0&finishenum=0&updateenum=0&pageindex={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"竞技\",\"url\":\"/bk-list/channel_Male/?topcateid=8&subcateid=0&wordsenum=0&freeenum=0&finishenum=0&updateenum=0&pageindex={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女频\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"现代言情\",\"url\":\"/bk-list/channel_Female/?topcateid=11&subcateid=0&wordsenum=0&freeenum=0&finishenum=0&updateenum=0&pageindex={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"古代言情\",\"url\":\"/bk-list/channel_Female/?topcateid=12&subcateid=0&wordsenum=0&freeenum=0&finishenum=0&updateenum=0&pageindex={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻言情\",\"url\":\"/bk-list/channel_Female/?topcateid=15&subcateid=0&wordsenum=0&freeenum=0&finishenum=0&updateenum=0&pageindex={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1640697591947,
+    "loginUrl": "http://www.bailizw.com/account/login",
+    "respondTime": 17825,
+    "ruleBookInfo": {
+        "author": ".brief a.0@text",
+        "coverUrl": ".pic img@data-original",
+        "intro": "#intro@html##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": ".tags span@text&&.updatetime@text##.*时间\\s:\\s|\\s..:.*",
+        "lastChapter": ".chaptername a@textNodes##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": ".brief span.0@text",
+        "tocUrl": "text.目录@href",
+        "wordCount": ".hits span.0@text##字"
+    },
+    "ruleContent": {
+        "content": "#j_content@html",
+        "replaceRegex": "##百里中文网.*"
+    },
+    "ruleExplore": {
+        "author": "a.2@text",
+        "bookList": "#tuwen dl",
+        "bookUrl": "a.1@href",
+        "coverUrl": "img@data-original",
+        "intro": "p.1@text##\\s",
+        "kind": "a.3@text&&span.0:3@text##\\s.*",
+        "lastChapter": "a.4@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": "a.1@text",
+        "wordCount": "span.1@text##字"
+    },
+    "ruleSearch": {
+        "author": "a.2@text",
+        "bookList": ".secd-rank-list",
+        "bookUrl": "a.1@href",
+        "checkKeyWord": "",
+        "coverUrl": "img@data-original",
+        "intro": "p.1@text##\\s",
+        "kind": "a.3@text&&p.0@textNodes&&p.2@span@text##\\||\\s|..:.*",
+        "lastChapter": "a.4@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": "a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".cate-list a",
+        "chapterName": ".chapter_name@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "chapterUrl": "href",
+        "isVip": "em@html",
+        "updateTime": ".chapter_updatetime@text"
+    },
+    "searchUrl": "/search?kw={{key}}&pageindex=1",
+    "weight": 0
+}

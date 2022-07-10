@@ -1,0 +1,39 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "加窜小说②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.jiacuan.com",
+    "bookUrlPattern": "",
+    "customOrder": 375,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1602430854593,
+    "loginUrl": "",
+    "respondTime": 14716,
+    "ruleBookInfo": {
+        "coverUrl": "class.info_novel_img@img@src",
+        "intro": "class.info_intro@textNodes",
+        "lastChapter": "class.info_t6@a@text"
+    },
+    "ruleContent": {
+        "content": "id.nr1@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.a.1@text",
+        "bookList": "class.searchresult@p",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.a.0@href##/book/(\\d+)(\\d{3})/##http://www.jiacuan.com/files/article/image/$1/$1$2/$1$2s.jpg",
+        "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.info_newest@li@a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://m.jiacuan.com/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"search_key={{key}}\"\n}",
+    "weight": 0
+}

@@ -1,0 +1,41 @@
+{
+    "bookSourceComment": "细节优化",
+    "bookSourceGroup": "API",
+    "bookSourceName": "快读小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://kuaiapi.jiaston.com/",
+    "bookUrlPattern": ".+/book/\\d+/$",
+    "customOrder": 87,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "{\"User-Agent\": \"okhttp/3.5.0\"}",
+    "lastUpdateTime": 1646055221605,
+    "loginUrl": "",
+    "respondTime": 3156,
+    "ruleBookInfo": {},
+    "ruleContent": {
+        "content": "$.data.content@js:result.toUpperCase()",
+        "replaceRegex": "##^[^\\n]{0,19}[\\u4e00-\\u9fa5]\\n|^正在更新中，请稍等.+|^[^\\n]*求月票[^\\n]*\\n|<BR/>　　<BR/>　　|<BR/>　　<BR/>"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "Author",
+        "bookList": "$.data[:5]",
+        "bookUrl": "{{book.origin}}book/{{$.Id}}/",
+        "coverUrl": "Img",
+        "intro": "Desc\n<js>result.replace(/(.*)/,' ○○○STORY:\\n$1')</js>",
+        "kind": "CName",
+        "lastChapter": "LastChapter&&UpdateTime&&##\\n##·",
+        "name": "Name",
+        "wordCount": "UpdateTime##\\h[\\d:]{8}"
+    },
+    "ruleToc": {
+        "chapterList": ":(?i)\"id\":(\\d+),\"name\":\"([^\"]+?)(?:\\h(?:\\dK|\\d{4,5}|第\\w{1,2}更|[感谢]\\S+盟主|\\S*加更))?\",\"hasContent\":1",
+        "chapterName": "$2",
+        "chapterUrl": "$1.html"
+    },
+    "searchUrl": "https://sou.jiaston.com/search.aspx?key={{key}}&page=1&siteid=app2",
+    "weight": 0
+}

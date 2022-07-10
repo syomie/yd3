@@ -1,0 +1,44 @@
+{
+    "bookSourceComment": "搜索间隔30秒",
+    "bookSourceGroup": "女频",
+    "bookSourceName": "静芮小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.766665.com",
+    "customOrder": 518,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"都市小说\",\"url\":\"/dushi?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"/xuanhuan?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"修真穿越\",\"url\":\"/xiuzhen?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史古言\",\"url\":\"/lishi?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑灵异\",\"url\":\"/wangyou?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻小说\",\"url\":\"/kehuan?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"短篇女频\",\"url\":\"/nvpin?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+    "lastUpdateTime": 1643222118941,
+    "respondTime": 3064,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "[property=\"og:description\"]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##小说|\\s..:.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "tocUrl": "text.章节列表@href"
+    },
+    "ruleContent": {
+        "content": "#BookText@html",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "a.5@text",
+        "bookList": "#sitebox dl",
+        "bookUrl": "a.4@href",
+        "coverUrl": "img@src",
+        "intro": "dd.2@textNodes",
+        "kind": "a.6@text&&span.2:0@text##\\s.*",
+        "name": "a.4@text"
+    },
+    "ruleToc": {
+        "chapterList": ".chapterlist dd a",
+        "chapterName": "text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/search.html,{\n  'method': 'POST',\n  'body': 'q={{key}}'\n}",
+    "weight": 0
+}

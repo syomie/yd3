@@ -1,0 +1,47 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "亿软网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.yruan.com",
+    "bookUrlPattern": "http://www.yruan.com/article/\\d+.html",
+    "customOrder": 156,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1657373912160,
+    "respondTime": 6420,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text",
+        "coverUrl": "id.fmimg@img@src",
+        "init": "",
+        "intro": "id.intro@tag.p.0@text",
+        "kind": "id.info@tag.p.3@text&&\nid.info@tag.p.1@text##日 期：|类 别:",
+        "lastChapter": "id.info@tag.p.2@a@text##百度搜索.*",
+        "name": "id.info@tag.h1@text",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "id.content@html##<!--go--> |<!--over--> "
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "tag.td.2@text",
+        "bookList": "class.grid@tag.tr!0",
+        "bookUrl": "tag.td.0@tag.a@href",
+        "coverUrl": "tag.td.0@tag.a@href@js:\r\nvar id = result.match(/\\/(\\d+)\\.?/)[1];\r\n'/files/article/image/'+parseInt(id/1000)+'/'+id+'/'+id+'s.jpg';",
+        "kind": "tag.td.4@text&&\ntag.td.5@text",
+        "lastChapter": "tag.td.1@tag.a@text##百度搜索.*",
+        "name": "tag.td.0@tag.a@text",
+        "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.yruan.com/modules/article/search.php?searchkey={{key}}",
+    "weight": 0
+}

@@ -1,0 +1,44 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "西西文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.vv44.net",
+    "bookUrlPattern": "https://www.vv44.net/book/.*.html",
+    "customOrder": 67,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"玄幻魔法\",\"url\":\"/cat/xuanhuanmofa/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠修真\",\"url\":\"/cat/wuxiaxiuzhen/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市言情\",\"url\":\"/cat/dushiyanqing/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"/cat/lishijunshi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游动漫\",\"url\":\"/cat/wangyoudongman/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻小说\",\"url\":\"/cat/kehuanxiaoshuo/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"恐怖灵异\",\"url\":\"/cat/kongbulingyi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"其他类型\",\"url\":\"/cat/qita/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"这是空的\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+    "header": "",
+    "lastUpdateTime": 1635662427286,
+    "loginUrl": "",
+    "respondTime": 12018,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "class.intro@text##简介：\n<js>result.replace(/(.*)/,' ○○○STORY:\\n$1')</js>",
+        "kind": "[property=\"og:novel:category\"]@content",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property=\"og:novel:update_time\"]@content##\\n##·",
+        "name": "[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+        "content": "class.content@html",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.td.2@text",
+        "bookList": "tag.tbody@tr[0:3]",
+        "bookUrl": "tag.a@href",
+        "lastChapter": "tag.a.1@text&&tag.td.-1@text##\\n##·",
+        "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": ".booklist@class.list-group@li@a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.vv44.net/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"search={{key}}\"\n}",
+    "weight": 0
+}

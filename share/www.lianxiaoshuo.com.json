@@ -1,0 +1,46 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "TOP50",
+    "bookSourceName": "恋小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.lianxiaoshuo.com",
+    "customOrder": 1342,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "现代言情::/books/all?cate=1010&subcate=0&pub=0&status=0&words=0&vip=0&upday=0&order=0&channel=0&pages={{page}}&&古代言情::/books/all?cate=1009&subcate=0&pub=0&status=0&words=0&vip=0&upday=0&order=0&channel=0&pages={{page}}&&婚恋纯爱::/books/all?cate=1011&subcate=0&pub=0&status=0&words=0&vip=0&upday=0&order=0&channel=0&pages={{page}}&&游戏同人::/books/all?cate=1007&subcate=0&pub=0&status=0&words=0&vip=0&upday=0&order=0&channel=0&pages={{page}}&&悬疑灵异::/books/all?cate=1003&subcate=0&pub=0&status=0&words=0&vip=0&upday=0&order=0&channel=0&pages={{page}}&&玄幻仙侠::/books/all?cate=1006&subcate=0&pub=0&status=0&words=0&vip=0&upday=0&order=0&channel=0&pages={{page}}&&青春校园::/books/all?cate=1001&subcate=0&pub=0&status=0&words=0&vip=0&upday=0&order=0&channel=0&pages={{page}}&&",
+    "lastUpdateTime": 1624837677378,
+    "respondTime": 1034,
+    "ruleBookInfo": {
+        "coverUrl": "img[src$=jpg]@src##\\n.*",
+        "intro": ".note p@text",
+        "kind": "span[class=click]@text&&span[class=cate]@text&&span[class=time]@text",
+        "lastChapter": "h4 a@text",
+        "name": "h2@text",
+        "tocUrl": "<js>baseUrl.replace('books','books/catalog')</js>",
+        "wordCount": "span[class=words]@text##字"
+    },
+    "ruleContent": {
+        "content": ".page-content p@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "a[href~=bookself]@text||a.author@text",
+        "bookList": "li.clearfix||tr:has(td)",
+        "bookUrl": "a[href~=books/]@href",
+        "coverUrl": "img@src",
+        "intro": "p@text",
+        "kind": "span@text&&.times@textNodes||.time@text",
+        "lastChapter": "a[href~=chapter]@text",
+        "name": "a[href~=books/]@text",
+        "wordCount": "class.words.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "a[href~=chapter]",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "isVip": "##isvip##＄###"
+    },
+    "searchUrl": "http://www.lianxiaoshuo.com/?s=search&a=index&keyword={{key}}&page={{page}}",
+    "weight": 0
+}

@@ -1,0 +1,48 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "乐库小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.6lk.net",
+    "bookUrlPattern": "",
+    "customOrder": 781,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9; STF-AL10 Build/HUAWEISTF-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.106 Mobile Safari/537.36\"\n\"Referer\":\"http://m.6lk.net/\"\n}",
+    "lastUpdateTime": 1603122425018,
+    "loginUrl": "",
+    "respondTime": 8741,
+    "ruleBookInfo": {
+        "author": "meta[property=\"og:novel:author\"]@content",
+        "coverUrl": "meta[property=\"og:image\"]@content##http.*nocover.jpg",
+        "intro": "meta[property=\"og:description\"]@content##简介：?",
+        "kind": "meta[property=\"og:novel:category\"]@content&&meta[property=\"og:novel:status\"]@content",
+        "lastChapter": "meta[property=\"og:novel:lastest_chapter_name\"]@content",
+        "name": "meta[property=\"og:novel:book_name\"]@content",
+        "tocUrl": ""
+    },
+    "ruleContent": {
+        "content": "div[id=\"nr1\"]@textNodes<js>\nvar title=\"@get:{t}\";\nresult=result.replace(title,\"\");\n</js>##（本章未完，请点击下一页继续阅读）|\\(第\\d+/\\d+页\\)",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.p.3@text##作者：",
+        "bookList": "@css:div.block",
+        "bookUrl": "a@href",
+        "coverUrl": "tag.img@src",
+        "intro": "",
+        "kind": "tag.p.2@text##分类：",
+        "lastChapter": "tag.p.4@text##最新章节：",
+        "name": "h2@text"
+    },
+    "ruleToc": {
+        "chapterList": "tag.ul.1@a",
+        "chapterName": "text@put:{t:text}",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://m.6lk.net/s.php,{\n\"method\": \"POST\",\n\"body\": \"q={{key}}&submit=\"\n}",
+    "weight": 0
+}

@@ -1,0 +1,45 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "笔趣阁",
+    "bookSourceName": "笔趣阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.97hs.com",
+    "customOrder": 1095,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1635663988397,
+    "respondTime": 15204,
+    "ruleBookInfo": {
+        "coverUrl": "class.catalog1@img@src",
+        "intro": "class.jj@class.p2@html",
+        "lastChapter": "class.catalog1@class.p3@a@text",
+        "tocUrl": "text.章节目录@href"
+    },
+    "ruleContent": {
+        "content": "id.novelcontent@textNodes##$##❎",
+        "nextContentUrl": "text.下一页@href",
+        "replaceRegex": "##\\s*❎\\s*"
+    },
+    "ruleExplore": {
+        "bookUrl": "",
+        "coverUrl": "",
+        "intro": "",
+        "lastChapter": ""
+    },
+    "ruleSearch": {
+        "author": "tag.a.2@text",
+        "bookList": "class.search_list",
+        "bookUrl": "tag.a.0@href",
+        "kind": "tag.a.1@text",
+        "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.info_chapters@li@a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "select@option@value"
+    },
+    "searchUrl": "/s.php,{\n'charset': 'gbk',\n'method': 'POST',\n'body': 'type=articlename&s={{key}}'\n}",
+    "weight": 0
+}

@@ -1,0 +1,62 @@
+{
+    "bookSourceComment": "作者:希弥",
+    "bookSourceGroup": "",
+    "bookSourceName": "第九源言情",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.dijiuyuan.com",
+    "bookUrlPattern": "https://www.dijiuyuan.com/(info|all)/\\S+",
+    "customOrder": -88902336,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "古代言情::/class/1_{{page}}.html\n都市言情::/class/2_{{page}}.html\n穿越重生::/class/3_{{page}}.html\n豪门总裁::/class/4_{{page}}.html\n悬疑推理::/class/5_{{page}}.html\n仙侠奇缘::/class/6_{{page}}.html\n历史军事::/class/7_{{page}}.html\n游戏竞技::/class/8_{{page}}.html\n玄幻言情::/class/9_{{page}}.html\n浪漫青春::/class/10_{{page}}.html\n二次元::/class/11_{{page}}.html\n其他类型::/class/12_{{page}}.html",
+    "lastUpdateTime": 1646631313679,
+    "respondTime": 6721,
+    "ruleBookInfo": {
+        "author": "meta[property=og:novel:author]@content",
+        "coverUrl": "meta[property=og:image]@content",
+        "intro": "#bookintro@html",
+        "kind": "#count@tag.span!1@text",
+        "lastChapter": "meta[property=og:novel:lastest_chapter_name]@content",
+        "name": "meta[property=og:novel:book_name]@content",
+        "tocUrl": "text.查看目录@href",
+        "wordCount": "#count@tag.span.1@text"
+    },
+    "ruleContent": {
+        "content": "#TextContent>p@textNodes",
+        "imageStyle": "TEXT",
+        "nextContentUrl": "text.下一页@href",
+        "payAction": ""
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "#sitebox>dl",
+        "bookUrl": "h3>a@href",
+        "coverUrl": "img@data-original",
+        "intro": ".book_des@text",
+        "kind": "tag.span.0:1@text",
+        "lastChapter": "tag.a.-1@text",
+        "name": "h3>a@text",
+        "wordCount": "tag.span.-1@text"
+    },
+    "ruleSearch": {
+        "author": "tag.span.2@text",
+        "bookList": "#nr",
+        "bookUrl": "h3 a@href",
+        "checkKeyWord": "",
+        "coverUrl": "img@data-original",
+        "intro": ".book_des@text",
+        "kind": "tag.span.0:1@text",
+        "lastChapter": "tag.a.-1@text",
+        "name": "h3 a@text",
+        "wordCount": "tag.span.4@text"
+    },
+    "ruleToc": {
+        "chapterList": "#chapterList a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/search/,{\n\t\"method\":\"POST\",\n\t\"body\":\"searchkey={{key}}\"\n}",
+    "weight": 0
+}

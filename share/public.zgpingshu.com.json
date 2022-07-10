@@ -1,0 +1,50 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "有声",
+    "bookSourceName": "中国评书",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://public.zgpingshu.com",
+    "bookUrlPattern": "",
+    "customOrder": 721,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "lastUpdateTime": 1649147568970,
+    "loginUrl": "",
+    "respondTime": 12346,
+    "ruleBookInfo": {
+        "author": "class.pingshulisttag.a@text",
+        "coverUrl": "",
+        "init": "",
+        "intro": "",
+        "kind": "",
+        "lastChapter": "",
+        "name": "",
+        "tocUrl": "class.dl-btns@tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.jp_audio_0@src",
+        "nextContentUrl": ""
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "",
+        "bookList": "class.boxs",
+        "bookUrl": "tag.a@href",
+        "coverUrl": "tag.img@src",
+        "kind": "class.boxs_txt@text##长度：|比特率：|大小：|状态：",
+        "lastChapter": "",
+        "name": "class.title@tag.a@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.player@tag.a",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href@js:result+',{webView:“true”}'",
+        "nextTocUrl": ""
+    },
+    "searchUrl": "http://public.zgpingshu.com/search/index.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"keyboard={{key}}&orderby=3&show=title,newstext,writer,befrom\"\n}",
+    "weight": 0
+}

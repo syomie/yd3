@@ -1,0 +1,45 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "新浪小说网移动端",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://book.sina.cn",
+    "bookUrlPattern": "",
+    "customOrder": 227,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1618557346036,
+    "loginUrl": "",
+    "respondTime": 2759,
+    "ruleBookInfo": {
+        "author": ".s-listCon@h3@text##｜.*",
+        "name": ".s-listCon@h2@text",
+        "tocUrl": "http://book.sina.cn/dpool/newbook/bookv1/ajax/get_catalog.php?bid=@get:{bid}&page_size=50&page=1"
+    },
+    "ruleContent": {
+        "content": "data.page_content"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "author_name",
+        "bookList": "data.data",
+        "bookUrl": "book_url",
+        "coverUrl": "cover",
+        "intro": "intro",
+        "kind": "tags",
+        "name": "book_name@put:{bid:book_id}",
+        "wordCount": "word_count"
+    },
+    "ruleToc": {
+        "chapterList": "data.chapters@put:{total_page:data.total_page}",
+        "chapterName": "chapter_name",
+        "chapterUrl": "/dpool/newbook/bookv1/book/get_content.php?bid=@get:{bid}&cid={{$.chapter_id}}",
+        "isVip": "{{!('$.is_vip')}}",
+        "nextTocUrl": "@js:\nlist=[]\ntotal_page=String(java.get('total_page'))\nfor(var i = 2;i<=total_page;i++){\nlist.push('http://book.sina.cn/dpool/newbook/bookv1/ajax/get_catalog.php?bid=@get:{bid}&page_size=50&page='+i)\n}\nlist"
+    },
+    "searchUrl": "/dpool/newbook/bookv1/ajax/search.php?sk={{key}}&page={{page}}",
+    "weight": 0
+}

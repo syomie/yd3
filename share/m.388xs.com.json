@@ -1,0 +1,53 @@
+{
+    "bookSourceComment": "最好全名或半名搜索\n🍭",
+    "bookSourceGroup": "",
+    "bookSourceName": "388小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.388xs.com",
+    "bookUrlPattern": "",
+    "concurrentRate": "",
+    "customOrder": 313,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1640840928831,
+    "loginCheckJs": "",
+    "loginUi": "",
+    "loginUrl": "",
+    "respondTime": 36449,
+    "ruleBookInfo": {
+        "author": "[property=og:novel:author]@content",
+        "coverUrl": "[property=og:image]@content",
+        "intro": ".intro@html",
+        "kind": "[property=og:novel:category]@content&&[property=og:novel:status]@content",
+        "lastChapter": "[property=og:novel:latest_chapter_name]@content&&[property=og:novel:update_time]@content\n<js>result.replace(/第.*?章.*第(.*)章/,'第$1章').replace(/(.*)\\s/,'$1·')</js>",
+        "name": "[property=og:title]@content",
+        "tocUrl": "text.查看目录@href",
+        "wordCount": ".detail p.2 span.1@text"
+    },
+    "ruleContent": {
+        "content": ".content@p@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": ".author@textNodes",
+        "bookList": ".list li",
+        "bookUrl": "a.0@href",
+        "coverUrl": "img@src",
+        "intro": ".intro@text",
+        "kind": ".i_sort@text",
+        "lastChapter": "a.0@href\n<js>java.ajax(\"https://m.388xs.com\"+result)</js>[property=og:novel:latest_chapter_name]@content&&[property=og:novel:update_time]@content\n<js>result.replace(/第.*?章.*第(.*)章/,'第$1章').replace(/(.*)\\s/,'$1·')</js>",
+        "name": ".bookname@text",
+        "wordCount": "a.0@href\n<js>java.ajax(\"https://m.388xs.com\"+result)</js>.detail p.2 span.1@text"
+    },
+    "ruleToc": {
+        "chapterList": ".read li@a",
+        "chapterName": "text##第.*?章\\s*(.*)##$1",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/search.html,{\n'method': 'POST',\n'body': 'searchkey={{key}}'\n}",
+    "weight": 0
+}

@@ -1,0 +1,53 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "正版,女频",
+    "bookSourceName": "猫九小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.maojiuxs.com",
+    "customOrder": 520,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"推荐榜\",\"url\":\"/top/tuijian.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"点击榜\",\"url\":\"/top/dianji.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"收藏榜\",\"url\":\"/top/shoucang.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"好评榜\",\"url\":\"/top/pinglun.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"更新榜\",\"url\":\"/top/gengxin.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"新书榜\",\"url\":\"/top/xinshu.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完结\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"现代言情\",\"url\":\"/shuku/?offset={{page-1}}&category=1&over=2&section_id=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"古代言情\",\"url\":\"/shuku/?offset={{page-1}}&category=2&over=2&section_id=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"青春校园\",\"url\":\"/shuku/?offset={{page-1}}&category=3&over=2&section_id=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"/shuku/?offset={{page-1}}&category=4&over=2&section_id=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"灵异惊悚\",\"url\":\"/shuku/?offset={{page-1}}&category=5&over=2&section_id=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"同人小说\",\"url\":\"/shuku/?offset={{page-1}}&category=6&over=2&section_id=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"游戏竞技\",\"url\":\"/shuku/?offset={{page-1}}&category=7&over=2&section_id=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"无ＣＰ\",\"url\":\"/shuku/?offset={{page-1}}&category=135&over=2&section_id=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"纯爱百合\",\"url\":\"/shuku/?offset={{page-1}}&category=136&over=2&section_id=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"连载\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"现代言情\",\"url\":\"/shuku/?offset={{page-1}}&category=1&over=1&section_id=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"古代言情\",\"url\":\"/shuku/?offset={{page-1}}&category=2&over=1&section_id=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"青春校园\",\"url\":\"/shuku/?offset={{page-1}}&category=3&over=1&section_id=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"/shuku/?offset={{page-1}}&category=4&over=1&section_id=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"灵异惊悚\",\"url\":\"/shuku/?offset={{page-1}}&category=5&over=1&section_id=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"同人小说\",\"url\":\"/shuku/?offset={{page-1}}&category=6&over=1&section_id=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"游戏竞技\",\"url\":\"/shuku/?offset={{page-1}}&category=7&over=1&section_id=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"无ＣＰ\",\"url\":\"/shuku/?offset={{page-1}}&category=135&over=1&section_id=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"纯爱百合\",\"url\":\"/shuku/?offset={{page-1}}&category=136&over=1&section_id=1\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1643492540725,
+    "loginUrl": "http://www.maojiuxs.com/member/login.html",
+    "respondTime": 9910,
+    "ruleBookInfo": {
+        "author": ".introtwo span.0@text",
+        "coverUrl": ".imgbox img@src",
+        "intro": ".tabs_content p.0@html##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": ".cation span@text&&.update span.1@text##\\s.*",
+        "lastChapter": ".update span.0@text",
+        "name": ".intro div.0@text",
+        "tocUrl": ".tabs_header a.1@href",
+        "wordCount": ".intro_num div.0@text"
+    },
+    "ruleContent": {
+        "content": "#showReading@p@html"
+    },
+    "ruleExplore": {
+        "author": "",
+        "kind": "",
+        "name": ""
+    },
+    "ruleSearch": {
+        "author": ".author@text",
+        "bookList": ".recom_top li||.book_con li",
+        "bookUrl": "a@href",
+        "checkKeyWord": "",
+        "coverUrl": ".imgbox img@src",
+        "intro": ".instro@text",
+        "kind": ".cation@text&&.status@text&&.time@text##\\s.*",
+        "lastChapter": ".up@text",
+        "name": ".name@text",
+        "wordCount": ".statusbox span.2@text"
+    },
+    "ruleToc": {
+        "chapterList": ".recommendeddirectory a",
+        "chapterName": "text",
+        "chapterUrl": "href##$##,{'webView': true}",
+        "isVip": "img@src"
+    },
+    "searchUrl": "/book/all.html?s={{key}}",
+    "weight": 0
+}

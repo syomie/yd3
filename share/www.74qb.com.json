@@ -1,0 +1,54 @@
+{
+    "bookSourceComment": "作者:希弥\n偶尔抽风",
+    "bookSourceGroup": "希弥",
+    "bookSourceName": "骑士全本小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.74qb.com",
+    "bookUrlPattern": "http://www.74qb.com/book/\\S+",
+    "customOrder": -88902338,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/class/{{page}}.html\n都市::/class/2.html\n言情::/class/3.html\n穿越::/class/4.html\n青春::/class/5.html\n仙侠::/class/6.html\n灵异::/class/7.html\n悬疑::/class/8.html\n历史::/class/9.html\n军事::/class/10.html\n游戏::/class/11.html\n竞技::/class/12.html\n科幻::/class/13.html\n职场::/class/14.html\n官场::/class/15.html\n现言::/class/16.html\n耽美::/class/17.html\n其它::/class/18.html\n排行榜::/top/lastupdate.html\n言情小说::/class/3_{{page}}.html\n科幻小说::/class/13_{{page}}.html\n都市小说::/class/2_{{page}}.html\n玄幻小说::/class/{{page}}.html",
+    "lastUpdateTime": 1646631313673,
+    "respondTime": 39920,
+    "ruleBookInfo": {
+        "author": "meta[property=og:novel:author]@content",
+        "coverUrl": "meta[property=og:image]@content",
+        "intro": "meta[property=og:description]@content",
+        "kind": "meta[property=og:novel:category]@content&&meta[property=og:novel:status]@content",
+        "lastChapter": "meta[property=og:novel:lastest_chapter_name]@content||meta[property=og:novel:latest_chapter_name]@content",
+        "name": "meta[property=og:novel:book_name]@content",
+        "tocUrl": "",
+        "wordCount": "#count span:eq(4)@text##,|字"
+    },
+    "ruleContent": {
+        "content": "#content>p:not(:last-of-type)@textNodes||#content@textNodes##（）",
+        "imageStyle": "TEXT",
+        "nextContentUrl": "text.下一页@href",
+        "payAction": ""
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": ".authors>a@text||tag.a.2@text",
+        "bookList": "#navList>table.grid@tag.tr!0||#navList dl",
+        "bookUrl": ".title>a@href||tag.a.0@href",
+        "checkKeyWord": "",
+        "coverUrl": "",
+        "intro": "",
+        "kind": ".xscat>a@text||tag.td.4:5@text",
+        "lastChapter": ".state>a@text||tag.a.1@text",
+        "name": ".title>a@text||tag.a.0@text",
+        "wordCount": "tag.td.3@text##,"
+    },
+    "ruleToc": {
+        "chapterList": ".chapterNum h1:nth-of-type(2)~li a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/search?key={{key}}",
+    "weight": 0
+}

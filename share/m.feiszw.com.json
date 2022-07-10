@@ -1,0 +1,53 @@
+{
+    "bookSourceComment": "@希弥",
+    "bookSourceGroup": "希弥",
+    "bookSourceName": "飞速中文📱",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.feiszw.com",
+    "bookUrlPattern": "https://m.feiszw.com/book-\\d+",
+    "customOrder": -88902498,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "新书::/top-postdate-{{page}}/\n全本::/full-{{page}}/\n总点击榜::/top-allvisit-{{page}}/\n字数排行::/top-size-{{page}}/\n奇幻玄幻::/sort-1-{{page}}/\n武侠仙侠::/sort-2-{{page}}/\n都市小说::/sort-3-{{page}}/\n历史军事::/sort-4-{{page}}/\n游戏竞技::/sort-5-{{page}}/\n科幻灵异::/sort-6-{{page}}/\n同人小说::/sort-7-{{page}}/\n女频言情::/sort-8-{{page}}/\n其他小说::/sort-9-{{page}}/",
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Linux; Android 9; STF-AL10 Build/HUAWEISTF-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.106 Mobile Safari/537.36\"}",
+    "lastUpdateTime": 1647268383084,
+    "respondTime": 7343,
+    "ruleBookInfo": {
+        "author": "meta[property=\"og:novel:author\"]@content",
+        "coverUrl": "meta[property=\"og:image\"]@content",
+        "init": "",
+        "intro": "meta[property=\"og:description\"]@content",
+        "kind": "meta[property=\"og:novel:category\"]@content&&meta[property=\"og:novel:status\"]@content&&meta[property=\"og:novel:update_time\"]@content",
+        "lastChapter": "meta[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "meta[property=\"og:novel:book_name\"]@content||meta[property=\"og:novel:title\"]@content",
+        "tocUrl": ""
+    },
+    "ruleContent": {
+        "content": "#nr1>p@text",
+        "replaceRegex": "##请收藏本站阅读最新小说|(飞速中文唯一官网|备用域名)[:：]|(飞速中文|m.feiszw|feiszw|feixs).com",
+        "sourceRegex": "",
+        "webJs": ""
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": ".author@text",
+        "bookList": ".nlist",
+        "bookUrl": "h3 a@href",
+        "checkKeyWord": "",
+        "coverUrl": "img@src",
+        "intro": ".nintro@text",
+        "kind": ".ncate@text&&.nstate@text",
+        "name": "h3@text"
+    },
+    "ruleToc": {
+        "chapterList": ".chapter:nth-of-type(2) a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "@css:option:eq(0)~option@value"
+    },
+    "searchUrl": "/search.aspx?s={{key}}&submit,{'webView': true}",
+    "weight": 0
+}

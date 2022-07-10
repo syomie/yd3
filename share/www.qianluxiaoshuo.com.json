@@ -1,0 +1,56 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "正版,TOP50",
+    "bookSourceName": "前路小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.qianluxiaoshuo.com",
+    "bookUrlPattern": "",
+    "customOrder": 538,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"言情\",\"url\":\"/modules/article/articlefilter.php?isfull=5&order=lastupdate&sortid=1&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"耽美\",\"url\":\"/modules/article/articlefilter.php?isfull=5&order=lastupdate&sortid=2&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"同人\",\"url\":\"/modules/article/articlefilter.php?isfull=5&order=lastupdate&sortid=3&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"综合\",\"url\":\"/modules/article/articlefilter.php?isfull=5&order=lastupdate&sortid=5&page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1638111308687,
+    "loginUrl": "https://www.qianluxiaoshuo.com/",
+    "respondTime": 1404,
+    "ruleBookInfo": {
+        "coverUrl": ".divbox img@src",
+        "intro": "div@textNodes##\\┊|\\||>|.+欢迎举报.+|编辑推荐(.|\\n)*",
+        "lastChapter": ".tabcontent a.0@text",
+        "tocUrl": "class.btnlink b_pop@href"
+    },
+    "ruleContent": {
+        "content": "#ccontent@html",
+        "imageStyle": "0",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+        "author": "td.2@text",
+        "bookList": "#jieqi_page_contents tr",
+        "bookUrl": "a.0@href",
+        "coverUrl": "a.0@href##.+\\D((\\d+)\\d{3})\\D##https://www.qianluxiaoshuo.com/files/article/image/$2/$1/$1s.jpg###",
+        "kind": "td.0@ownText&&td.5:4@text##\\[|\\]",
+        "lastChapter": "td.1@text",
+        "name": "a.0@text",
+        "wordCount": "td.3@text"
+    },
+    "ruleSearch": {
+        "author": "a.3@text",
+        "bookList": ".c_row",
+        "bookUrl": "a.1@href",
+        "coverUrl": "img@src",
+        "intro": ".c_description@text",
+        "kind": "span.5:9:-1@text##.*：|小说",
+        "lastChapter": "a.-1@text",
+        "name": "a.1@text",
+        "wordCount": "span.7@text##.*："
+    },
+    "ruleToc": {
+        "chapterList": ".chapters li",
+        "chapterName": "a@text",
+        "chapterUrl": "a@href",
+        "isVip": "em@text"
+    },
+    "searchUrl": "/modules/article/search_fj.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=all&page={{page}}\"\n}",
+    "weight": 0
+}

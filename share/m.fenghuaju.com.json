@@ -1,0 +1,48 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "希弥",
+    "bookSourceName": "风华居",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.fenghuaju.com",
+    "bookUrlPattern": "",
+    "customOrder": -88902399,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "全部::/xclass/0/{{page}}.html\n玄幻小说::/xclass/1/{{page}}.html\n修真小说::/xclass/2/{{page}}.html\n都市小说::/xclass/3/{{page}}.html\n穿越小说::/xclass/4/{{page}}.html\n网游小说::/xclass/5/{{page}}.html\n科幻小说::/xclass/6/{{page}}.html\n其他小说::/xclass/7/{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1647890645973,
+    "loginUrl": "",
+    "respondTime": 5192,
+    "ruleBookInfo": {
+        "author": "class.author.0@text##作者：",
+        "coverUrl": "class.synopsisArea_detail@tag.img@src",
+        "init": "",
+        "intro": "class.review@html",
+        "name": ".title@text",
+        "tocUrl": "text.查看完整目录@href"
+    },
+    "ruleContent": {
+        "content": "id.chaptercontent@html##\\『加入书签.*\\』",
+        "nextContentUrl": "#pt_next@href"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "class.author.0@text##.*?作者：",
+        "bookList": "class.recommend@class.hot_sale",
+        "bookUrl": "tag.a@href",
+        "intro": ".review@text",
+        "kind": "class.author.0@text##作者.*|小说.*",
+        "lastChapter": "class.author.1@tag.a@text",
+        "name": "class.title@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.chapterlist@tag.p!0",
+        "chapterName": "a@text",
+        "chapterUrl": "a@href"
+    },
+    "searchUrl": "http://m.fenghuaju.com/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\",\n  \"headers\": {\n    \"Referer\": \"{{source.getKey()}}\"\n    }\n}",
+    "weight": 0
+}

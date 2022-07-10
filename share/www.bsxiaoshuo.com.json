@@ -1,0 +1,56 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "正版",
+    "bookSourceName": "笔尚小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.bsxiaoshuo.com",
+    "customOrder": 555,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"悬疑\",\"url\":\"/nangui_{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"/lishi_{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"/xuanhuan_{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/kehuan_{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游\",\"url\":\"/wangyou_{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"二次\",\"url\":\"/erciyuan_{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"现代\",\"url\":\"/xianyan_{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"古代\",\"url\":\"/guyan_{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"幻想\",\"url\":\"/huanyan_{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑\",\"url\":\"/lingyan_{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"都市\",\"url\":\"/doushi_{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+    "lastUpdateTime": 1634044904311,
+    "loginUrl": "https://www.bsxiaoshuo.com/user/",
+    "respondTime": 5893,
+    "ruleBookInfo": {
+        "author": ".name strong@text",
+        "coverUrl": ".pic img@src",
+        "intro": ".summary@ownText##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": ".cate@text&&h4 .time@text##\\s.*",
+        "lastChapter": "h4 a@text##>>",
+        "name": "h2@text",
+        "tocUrl": ".index@href",
+        "wordCount": ".words@text##字"
+    },
+    "ruleContent": {
+        "content": ".page-content@html"
+    },
+    "ruleExplore": {
+        "author": "a.2@text",
+        "bookList": "tbody tr",
+        "bookUrl": "a.0@href",
+        "coverUrl": "a.0@href##/(\\d+)##https://imgc.bsxiaoshuo.com/$1.jpg",
+        "kind": "td.4@text##\\s.*",
+        "lastChapter": "a.1@text",
+        "name": "a.0@text",
+        "wordCount": "td.3@text"
+    },
+    "ruleSearch": {
+        "author": "p.1@textNodes",
+        "bookList": "#j li",
+        "bookUrl": "a@href",
+        "coverUrl": "img@src",
+        "intro": "p.0@text",
+        "kind": "s@text",
+        "name": "b@text"
+    },
+    "ruleToc": {
+        "chapterList": ".float-list li",
+        "chapterName": "a@text",
+        "chapterUrl": "a@href",
+        "isVip": "##isvip##🔒###",
+        "updateTime": "span@text"
+    },
+    "searchUrl": "/s.php?sid=3&k={{key}}",
+    "weight": 0
+}

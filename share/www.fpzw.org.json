@@ -1,0 +1,53 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "2k小说网①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.fpzw.org/",
+    "bookUrlPattern": "https://www.fpzw.org/\\d+/",
+    "customOrder": 181,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1619116826456,
+    "respondTime": 14233,
+    "ruleBookInfo": {
+        "author": "id.title@h2@tag.a.1@text",
+        "coverUrl": "class.bortable wleft@img@src",
+        "init": "",
+        "intro": "class.Text@text",
+        "kind": "class.winfo@tag.li.3@span@text&&\nclass.winfo@tag.li.0@span@text",
+        "lastChapter": "class.readlast@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "id.title@h2@tag.a.0@text##笔趣阁|\\-",
+        "tocUrl": "text.开始阅读@href",
+        "wordCount": "class.abook@tag.dd.1@span@text"
+    },
+    "ruleContent": {
+        "content": "class.Text@textNodes##强烈推荐.*|2k小说阅读网",
+        "imageStyle": "full",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+        "name": ""
+    },
+    "ruleSearch": {
+        "author": "tag.td.2@text",
+        "bookList": "class.grid@tag.tr!0",
+        "bookUrl": "tag.td.0@tag.a@href",
+        "coverUrl": "tag.td.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.fpzw.org/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "intro": "",
+        "kind": "tag.td.4@text",
+        "lastChapter": "tag.td.1@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "tag.td.0@tag.a@text##笔趣阁|\\-",
+        "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.book@tag.dd!0:1:2:3",
+        "chapterName": "tag.a@text##\\_",
+        "chapterUrl": "tag.a@href",
+        "nextTocUrl": ""
+    },
+    "searchUrl": "https://www.fpzw.org/modules/article/so.php?searchtype=keywords&searchkey={{key}}&page={{page}},{\n\"charset\": \"gbk\"\n}",
+    "weight": 0
+}

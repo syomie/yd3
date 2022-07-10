@@ -1,0 +1,59 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "API",
+    "bookSourceName": "第九中文APP",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://app.yqzw5.net",
+    "bookUrlPattern": "",
+    "customOrder": -88902412,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "所有::/json/api_class_list.php?page={{page}}&per=30&sortid=0\n玄幻::/json/api_class_list.php?page={{page}}&per=30&sortid=1\n修真::/json/api_class_list.php?page={{page}}&per=30&sortid=2\n都市::/json/api_class_list.php?page={{page}}&per=30&sortid=3\n穿越::/json/api_class_list.php?page={{page}}&per=30&sortid=4\n网游::/json/api_class_list.php?page={{page}}&per=30&sortid=5\n科幻::/json/api_class_list.php?page={{page}}&per=30&sortid=6\n其他::/json/api_class_list.php?page={{page}}&per=30&sortid=7\n精选::/json/api_class_list.php?page={{page}}&per=30&sortid=8\n总点::/json/api_class_list.php?page={{page}}&per=30&order=allvisit\n月点::/json/api_class_list.php?page={{page}}&per=30&order=monthvisit\n周点::/json/api_class_list.php?page={{page}}&per=30&order=weekvisit\n总推::/json/api_class_list.php?page={{page}}&per=30&order=allvote\n月推::/json/api_class_list.php?page={{page}}&per=30&order=monthvote\n周推::/json/api_class_list.php?page={{page}}&per=30&order=weekvote\n收藏::/json/api_class_list.php?page={{page}}&per=30&order=goodnum\n新书::/json/api_class_list.php?page={{page}}&per=30&order=postdate\n完本::/json/api_class_list.php?page={{page}}&per=16&fullflag=1&order=allvisit\n推荐专区（每周更新）::/json/api_class_list.php?&per=30&order=weekvote",
+    "header": "",
+    "lastUpdateTime": 1646631313632,
+    "loginUrl": "",
+    "respondTime": 4214,
+    "ruleBookInfo": {
+        "author": "author",
+        "coverUrl": "img_url",
+        "intro": "intro_des",
+        "kind": "sortname&&sortname_2",
+        "lastChapter": "lastchapter&&lastupdate_fmt##\\s(\\d{4}-\\d{2}-\\d{2}).*##·$1",
+        "name": "articlename",
+        "tocUrl": "/json/api_indexlist.php?aid={{$.articleid}}"
+    },
+    "ruleContent": {
+        "content": "content##喜欢.*更新速度最快。"
+    },
+    "ruleExplore": {
+        "author": "author",
+        "bookList": "$",
+        "bookUrl": "/json/api_info.php?aid={{$.articleid}}",
+        "coverUrl": "img_url",
+        "intro": "intro_des",
+        "kind": "sortname&&sortname_2",
+        "lastChapter": "lastchapter",
+        "name": "articlename@put:{aid:articleid}",
+        "wordCount": "words"
+    },
+    "ruleSearch": {
+        "author": "author",
+        "bookList": "result_rows",
+        "bookUrl": "/json/api_info.php?aid={{$.articleid}}",
+        "coverUrl": "img_url",
+        "intro": "intro_p",
+        "kind": "sortname&&sortname_2",
+        "lastChapter": "lastchapter",
+        "name": "articlename@put:{aid:articleid}",
+        "wordCount": "words"
+    },
+    "ruleToc": {
+        "chapterList": "chapterrows",
+        "chapterName": "chaptername",
+        "chapterUrl": "/json/api_read.php?aid=@get:{aid}&cid={{$.chapterid}}",
+        "updateTime": "\n"
+    },
+    "searchUrl": "/json/api_search.php?searchkey={{key}}",
+    "weight": 0
+}

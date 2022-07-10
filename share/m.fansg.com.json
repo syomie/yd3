@@ -1,0 +1,56 @@
+{
+    "bookSourceComment": "搜索地址会频繁变动，弃之",
+    "bookSourceGroup": "",
+    "bookSourceName": "翻书阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.fansg.com",
+    "bookUrlPattern": "http://m.fansg.com/kanshu/book_\\d\\S+",
+    "customOrder": -88902380,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"总榜\",\"url\":\"/histp/rank/order/hits.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"月榜\",\"url\":\"/histp/rank/order/hits_month.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"周榜\",\"url\":\"/histp/rank/order/hits_week.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"日榜\",\"url\":\"/histp/rank/order/hits_day.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"新书\",\"url\":\"/histp/rank/newbook/1.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完结\",\"url\":\"/histp/rank/over/1.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"连载\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"/all/id/42/serialize/0.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠修真\",\"url\":\"/all/id/43/serialize/0.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市异能\",\"url\":\"/all/id/44/serialize/0.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/all/id/45/serialize/0.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游竞技\",\"url\":\"/all/id/46/serialize/0.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻灭世\",\"url\":\"/all/id/47/serialize/0.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"惊悚悬疑\",\"url\":\"/all/id/49/serialize/0.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"女生频道\",\"url\":\"/all/id/48/serialize/0.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"完结\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"/all/id/42/serialize/1.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠修真\",\"url\":\"/all/id/43/serialize/1.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市异能\",\"url\":\"/all/id/44/serialize/1.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/all/id/45/serialize/1.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网游竞技\",\"url\":\"/all/id/46/serialize/1.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻灭世\",\"url\":\"/all/id/47/serialize/1.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"惊悚悬疑\",\"url\":\"/all/id/49/serialize/1.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"女生频道\",\"url\":\"/all/id/48/serialize/1.html?page={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+    "lastUpdateTime": 1645531808930,
+    "respondTime": 13008,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": ".intro@html",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "wordCount": ".info@span.2@text##.*："
+    },
+    "ruleContent": {
+        "content": "section@p@textNodes",
+        "nextContentUrl": ".chapter-porn a.-1@href##^##http://m.fansg.com/kanshu/",
+        "replaceRegex": ""
+    },
+    "ruleExplore": {
+        "author": ".x-info_author>span:eq(1)@text",
+        "bookList": ".clearfix li||.x-book",
+        "bookUrl": "a:eq(0)@href",
+        "coverUrl": "img@src",
+        "intro": "p.x-info_intro@text",
+        "kind": ".type@text",
+        "lastChapter": "",
+        "name": ".tit@text||.x-info_name@text"
+    },
+    "ruleSearch": {
+        "author": "span.www-novel-normal-abstract-info.0@text",
+        "bookList": "#results > div.result",
+        "bookUrl": "tag.a.0@href##$##,{\"webView\": true}",
+        "coverUrl": "tag.img.0@src",
+        "intro": ".c-line-clamp2@html||.c-blocka@all",
+        "kind": "span.www-novel-normal-abstract-info.1@text",
+        "lastChapter": "span.c-text-line-text@text",
+        "name": "h3@text##(最新章节|全文阅读|\\().*"
+    },
+    "ruleToc": {
+        "chapterList": ".bookshelf-list li a",
+        "chapterName": "text",
+        "chapterUrl": "href##^##{{source.getKey()}}"
+    },
+    "searchUrl": "https://m.baidu.com/s?word={{key}}+site:m.fansg.com<,&pn={{page*10-10}}>,{'webView': true}",
+    "weight": 0
+}

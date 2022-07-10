@@ -1,0 +1,43 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "渠道",
+    "bookSourceName": "爱奇艺文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://wenxue.iqiyi.com",
+    "bookUrlPattern": "",
+    "customOrder": 799,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "现言::http://wenxue.iqiyi.com/book/lib-18l2g48o37_18l2g49hin_0-51-0-{{page}}.html\n古言::http://wenxue.iqiyi.com/book/lib-18l2g48o37_18l2g49i0j_0-51-0-{{page}}.html\n都市::http://wenxue.iqiyi.com/book/lib-18l2g48o37_18l2g49he3_0-51-0-{{page}}.html\n青春::http://wenxue.iqiyi.com/book/lib-18l2g48o37_18l2g49hmn_0-51-0-{{page}}.html\n幻想::http://wenxue.iqiyi.com/book/lib-18l2g48o37_18l2g49hsv_0-51-0-{{page}}.html\n悬疑::http://wenxue.iqiyi.com/book/lib-18l2g48o37_18l2g49i2j_0-51-0-{{page}}.html\n家庭::http://wenxue.iqiyi.com/book/lib-18l2g48o37_18l2g49hj7_0-51-0-{{page}}.html\n职场::http://wenxue.iqiyi.com/book/lib-18l2g48o37_18l2g49hwj_0-51-0-{{page}}.html\n历史::http://wenxue.iqiyi.com/book/lib-18l2g48o37_18l2g49hxz_0-51-0-{{page}}.html\n军事::http://wenxue.iqiyi.com/book/lib-18l2g48o37_18l2g49hnr_0-51-0-{{page}}.html\n惊悚::http://wenxue.iqiyi.com/book/lib-18l2g48o37_18l2g49htz_0-51-0-{{page}}.html\n儿童::http://wenxue.iqiyi.com/book/lib-18l2g48o37_18l2g49gwf_0-51-0-{{page}}.html\n经典::http://wenxue.iqiyi.com/book/lib-18l2g48o37_18l2g49gqf_0-51-0-{{page}}.html\nＳＦ::http://wenxue.iqiyi.com/book/lib-18l2g48o37_18l2g49ktn_0-51-0-{{page}}.html\n中短篇::http://wenxue.iqiyi.com/book/lib-18l2g48o37_18l2g49glv_0-51-0-{{page}}.html\n非虚构::http://wenxue.iqiyi.com/book/lib-18l2g48o37_18l2g49grv_0-51-0-{{page}}.html\n其他::http://wenxue.iqiyi.com/book/lib-18l2g48o37_18l2g48a4z_0-51-0-{{page}}.html",
+    "lastUpdateTime": 1604060429347,
+    "loginUrl": "http://wenxue.iqiyi.com/",
+    "respondTime": 2500,
+    "ruleBookInfo": {
+        "author": "class.book-details-wrapper pr@tag.p.0@text##字数.*",
+        "intro": "class.book-details-wrapper pr@tag.p.1@text",
+        "name": "class.book-details-wrapper pr@tag.span.0@tag.h1@text",
+        "tocUrl": "class.chapter-all@tag.a.0@href||class.a1@tag.a@href"
+    },
+    "ruleContent": {
+        "content": "class.reader-article@tag.p@text",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.stacksBook-info.0@tag.p.0@tag.em.0@text",
+        "bookList": "class.stacksBook",
+        "bookUrl": "class.stacksBook-info.0@tag.h3.0@tag.a.0@href",
+        "coverUrl": "class.stacksBookCover@tag.a.0@tag.img.0@src",
+        "kind": "class.stacksBook-info.0@tag.p.0@tag.a.0@text",
+        "lastChapter": "class.stacksBook-info.0@tag.p.2@tag.a.0@text##最新章节.",
+        "name": "class.stacksBook-info.0@tag.h3.0@tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.catalog-chapter",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://wenxue.iqiyi.com/book/search-{{key}}-{{page-1}}.html",
+    "weight": 0
+}

@@ -1,0 +1,46 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "笔趣阁",
+    "bookSourceName": "新笔趣阁xbiquge.la",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xbiquge.la",
+    "customOrder": 541,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::http://www.xbiquge.la/fenlei/1_{{page}}.html\n修真小说::http://www.xbiquge.la/fenlei/2_{{page}}.html\n都市小说::http://www.xbiquge.la/fenlei/3_{{page}}.html\n穿越小说::http://www.xbiquge.la/fenlei/4_{{page}}.html\n网游小说::http://www.xbiquge.la/fenlei/5_{{page}}.html\n科幻小说::http://www.xbiquge.la/fenlei/6_{{page}}.html",
+    "lastUpdateTime": 1657379265852,
+    "respondTime": 8464,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text##作    者：",
+        "coverUrl": "id.fmimg@tag.img.0@src",
+        "init": "",
+        "intro": "id.intro@tag.p.1@text",
+        "lastChapter": "id.info@tag.p.3@title",
+        "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes"
+    },
+    "ruleExplore": {
+        "author": "tag.span.2@text",
+        "bookList": "class.l@tag.ul@tag.li",
+        "bookUrl": "tag.span.0@tag.a@href",
+        "lastChapter": "tag.span.1@tag.a@text",
+        "name": "tag.span.0@tag.a@text"
+    },
+    "ruleSearch": {
+        "author": "class.even.1@text",
+        "bookList": "class.grid@tag.tbody@tag.tr!0",
+        "bookUrl": "class.even.0@tag.a@href",
+        "lastChapter": "class.odd.0@tag.a@text",
+        "name": "class.even.0@tag.a@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.xbiquge.la/modules/article/waps.php?searchkey={{key}}",
+    "weight": 0
+}

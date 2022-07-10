@@ -1,0 +1,56 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "新八一中文②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.x81zw.com/",
+    "bookUrlPattern": "https://www.x81zw.co/book/\\d+/\\d+/",
+    "customOrder": 1231,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "lastUpdateTime": 1619425018054,
+    "loginUrl": "",
+    "respondTime": 8304,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text##作者：",
+        "coverUrl": "id.fmimg@img@src",
+        "init": "",
+        "intro": "id.info@id.intro@tag.p.0@text",
+        "kind": "class.con_top@tag.a.1@text&&\nid.info@tag.p.3@text##最后更新：",
+        "lastChapter": "id.info@tag.p.2@text##免费章节 |正文卷 |正文 |VIP章节 |最新章节：",
+        "name": "id.info@h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes##ァ新ヤ~⑧~1~中文網ωωω.χ~⒏~1zщ.còм|<首发、域名、请记住 xīn 81zhōng wén xiǎo shuō wǎng|新81中文网.*x81zw.com/|新八一中文.*com|m.*com|新81中文.*com/",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "",
+        "lastChapter": "",
+        "name": ""
+    },
+    "ruleSearch": {
+        "author": "class.result-game-item-info-tag.0@tag.span.1@text",
+        "bookList": "class.result-list@class.result-item",
+        "bookUrl": "class.result-item-title@tag.a.0@href",
+        "coverUrl": "class.result-game-item-pic@tag.img@src",
+        "intro": "class.result-game-item-desc@text",
+        "kind": "class.result-game-item-info-tag.1@tag.span.1@text&&\nclass.result-game-item-info-tag.2@tag.span.1@text",
+        "lastChapter": "class.result-game-item-info-tag.3@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "class.result-game-item-detail@h3@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href##$##,{\"webView\":true}"
+    },
+    "searchUrl": "https://www.x81zw.co/search.php?keyword={{key}}&page={{page}}",
+    "weight": 0
+}

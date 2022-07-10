@@ -1,0 +1,49 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "API",
+    "bookSourceName": "ABC小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://api.abcxiaoshuoapp.com",
+    "bookUrlPattern": "",
+    "customOrder": 203,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1643139462310,
+    "loginUrl": "",
+    "respondTime": 7195,
+    "ruleBookInfo": {
+        "author": "author",
+        "coverUrl": "picture",
+        "init": "<js>java.getZipStringContent(baseUrl,'detail.json')</js>$.data",
+        "intro": "protagonist&&intro##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": "categoryName&&bookStatus&&chapterUpdateTime##T.*",
+        "lastChapter": "chapterName##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": "name",
+        "wordCount": "wordNum"
+    },
+    "ruleContent": {
+        "content": "all"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "author",
+        "bookList": "data.list",
+        "bookUrl": "@js:\nlet bid=parseInt(java.getString('$.bookId'))\nif(!bid)bid=parseInt(java.getString('$.id'))\nlet subPath=Math.ceil(bid/2000)\n\"http://statics.ywpxg.com/static/book/zip/\"+subPath+\"/\"+bid+\".zip\"\n",
+        "coverUrl": "picture",
+        "intro": "intro",
+        "kind": "categoryName&&bookStatus&&chapterUpdateTime##T.*",
+        "lastChapter": "chapterName##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": "name",
+        "wordCount": "wordNum"
+    },
+    "ruleToc": {
+        "chapterList": "<js>java.getZipStringContent(baseUrl,'chapter.json')</js>$.data",
+        "chapterName": "$.name##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "chapterUrl": "$.content_url"
+    },
+    "searchUrl": "/api/v1/novelsearch?content={{key}}&pageIndex={{page}}&pageSize=20&type=1",
+    "weight": 0
+}

@@ -1,0 +1,55 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "69中文②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.69zww.com/",
+    "bookUrlPattern": "https://www.69zww.com/book_\\d+/",
+    "customOrder": 196,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/fenlei/1_{{page}}/\n言情小说::/fenlei/2_{{page}}/\n仙侠修真::/fenlei/3_{{page}}/\n都市小说::/fenlei/4_{{page}}/\n历史小说::/fenlei/5_{{page}}/\n网游小说::/fenlei/6_{{page}}/\n竞技小说::/fenlei/7_{{page}}/\n科幻小说::/fenlei/8_{{page}}/\n完本小说::/quanben/{{page}}",
+    "lastUpdateTime": 1615969121227,
+    "respondTime": 10969,
+    "ruleBookInfo": {
+        "author": "id.info@tag.h1@tag.a.0@text",
+        "coverUrl": "class.img_in@tag.img@src",
+        "intro": "id.intro@text",
+        "kind": "class.update@text##.*（|\\）",
+        "lastChapter": "class.update@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "id.info@tag.h1@text##/.*",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "id.content@html##69中文网.*最新章节！",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {
+        "author": ".author@text",
+        "bookList": "class.titlelist@li",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##https://www.69zww.com/files/article/image/$2/$1/$1s.jpg###",
+        "intro": "id.intro@text",
+        "lastChapter": "class.zz@a@text",
+        "name": ".zp@a@text",
+        "wordCount": ".sj@text"
+    },
+    "ruleSearch": {
+        "author": "tag.td.2@text",
+        "bookList": "id.main@tag.tr",
+        "bookUrl": "tag.td.0@tag.a@href",
+        "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##https://www.69zww.com/files/article/image/$2/$1/$1s.jpg###",
+        "kind": "tag.td.4@text",
+        "lastChapter": "tag.td.1@tag.a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "tag.td.0@tag.a@text",
+        "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.zjlist@tag.dd@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.69zww.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

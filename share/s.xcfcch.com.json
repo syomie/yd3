@@ -1,0 +1,53 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "解密,API",
+    "bookSourceName": "值得阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://s.xcfcch.com",
+    "bookUrlPattern": "",
+    "concurrentRate": "",
+    "customOrder": -88962067,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"书库\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"玄幻\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":1}},\n{\"title\":\"小编力荐\",\"url\":\"https://book.xcfcch.com/classify/style/1/0/4.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.3}},\n{\"title\":\"本周强推\",\"url\":\"https://book.xcfcch.com/classify/style/1/0/3.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.3}},\n{\"title\":\"人气新书\",\"url\":\"https://book.xcfcch.com/classify/style/1/0/0.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.3}},\n{\"title\":\"精品连载\",\"url\":\"https://book.xcfcch.com/classify/style/1/0/1.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.3}},\n{\"title\":\"完本精选\",\"url\":\"https://book.xcfcch.com/classify/style/1/0/2.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.3}},\n{\"title\":\"热度畅销\",\"url\":\"https://book.xcfcch.com/classify/style/1/0/5.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.3}},\n{\"title\":\"玄幻全部\",\"url\":\"https://book.xcfcch.com/classify/all/1/0/-1/-1/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.3}},\n{\"title\":\"连载\",\"url\":\"https://book.xcfcch.com/classify/all/1/0/-1/2/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"完结\",\"url\":\"https://book.xcfcch.com/classify/all/1/0/-1/1/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"东方玄幻\",\"url\":\"https://book.xcfcch.com/classify/all/1/0/0/-1/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.3}},\n{\"title\":\"连载\",\"url\":\"https://book.xcfcch.com/classify/all/1/0/0/2/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"完结\",\"url\":\"https://book.xcfcch.com/classify/all/1/0/0/1/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"异世大陆\",\"url\":\"https://book.xcfcch.com/classify/all/1/0/1/-1/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.3}},\n{\"title\":\"连载\",\"url\":\"https://book.xcfcch.com/classify/all/1/0/1/2/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"完结\",\"url\":\"https://book.xcfcch.com/classify/all/1/0/1/1/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"王朝争霸\",\"url\":\"https://book.xcfcch.com/classify/all/1/0/2/-1/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.3}},\n{\"title\":\"连载\",\"url\":\"https://book.xcfcch.com/classify/all/1/0/2/2/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"完结\",\"url\":\"https://book.xcfcch.com/classify/all/1/0/2/1/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"高武世界\",\"url\":\"https://book.xcfcch.com/classify/all/1/0/3/-1/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.3}},\n{\"title\":\"连载\",\"url\":\"https://book.xcfcch.com/classify/all/1/0/3/2/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}},\n{\"title\":\"完结\",\"url\":\"https://book.xcfcch.com/classify/all/1/0/3/1/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.2}}\n]",
+    "header": "<js>\n(()=>{\n    var ua = \"Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D167 Safari/9537.53\";\n    var time=Math.round(new Date()/1000);\n    var sign=java.md5Encode(\"com.ruffianhankin.meritreader1\"+time+\"vhjJVz1St6tK7!8n#B0MqRIuE2Dh7!C#\");\n    var pt = \"1\";\n    var Content=\"text/html; charset=UTF-8\";\n    var Connection=\"close\";\n    var Accept=\"*/*\";\n    var Origin=\"*\";\n    var Headers=\"X-Requested-With\";\n    var Vary=\"Accept-Encoding\";\n    var package=\"com.ruffianhankin.meritreader\";\n    var version=\"3.8.2\";\n    var channel=\"baidu_tg104\";\n    var Cache=\"no-cache, no-store\";\n    var headers = {\"Content-Type\":Content,\"Connection\":Connection,\"Accept\":Accept,\"Access-Control-Allow-Origin\":Origin,\"Access-Control-Allow-Headers\":Headers,\"Vary\":Vary,\"User-Agent\":ua,\"package\":package,\"pt\":pt,\"version\":version,\"channel\":channel,\"time\":String(time),\"sign\":String(sign),\"Cache-Control\":Cache};\n    return JSON.stringify(headers);\n})()\n</js>",
+    "lastUpdateTime": 1650378786443,
+    "loginCheckJs": "",
+    "loginUi": "",
+    "loginUrl": "",
+    "respondTime": 17246,
+    "ruleBookInfo": {
+        "author": "$.data.author",
+        "init": "",
+        "kind": "{{$.data.ltype}},{{$.data.stype}},连载{{$.data.status}}完本##连载1|2完本",
+        "lastChapter": "$.data.last_chapter_name&&$.data.updated_at",
+        "name": "$.data.name",
+        "tocUrl": "@js:\nua = \"Mozilla/5.0 (iPhone CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D167 Safari/9537.53\"\n     time=Math.round(new Date()/1000)\n     sign=java.md5Encode(\"com.ruffianhankin.meritreader1\"+time+\"vhjJVz1St6tK7!8n#B0MqRIuE2Dh7!C#\")\n     pt = \"1\"\n     Content=\"text/html charset=UTF-8\"\n     Connection=\"close\"\n     Accept=\"*/*\"\n     Origin=\"*\"\n     Headers=\"X-Requested-With\"\n     vary=\"Accept-Encoding\"\n    package=\"com.ruffianhankin.meritreader\"\n     version=\"3.8.2\"\n     channel=\"baidu_tg104\"\n     Cache=\"no-cache, no-store\"\n     headers = {\"Content-Type\":Content,\"Connection\":Connection,\"Accept\":Accept,\"Access-Control-Allow-Origin\":Origin,\"Access-Control-Allow-Headers\":Headers,\"vary\":vary,\"User-Agent\":ua,\"package\":package,\"pt\":pt,\"version\":version,\"channel\":channel,\"time\":String(time),\"sign\":String(sign),\"Cache-Control\":Cache}\noption={\"headers\":headers}\npt=JSON.parse(java.ajax(\"https://book.xcfcch.com/source/\"+parseInt(java.getString('$.data.book_id')/1000)+\"/\"+java.getString('$.data.book_id')+\".html,\"+JSON.stringify(option))).data[0].site_path\n\"https://catalog.xcfcch.com/\"+pt",
+        "wordCount": "$.data.words_number"
+    },
+    "ruleContent": {
+        "content": "$..content@js:java.aesBase64DecodeToString(result,\"Pxga!h*e4@T8xfOm\",\"AES/CBC/PKCS5Padding\",\"E&z!EHGLd$fli*8R\")"
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": "$.author",
+        "bookList": "$.data[*]&&$..lists[*]",
+        "bookUrl": "https://book.xcfcch.com/details/{{parseInt(java.getString('$.book_id')/1000)}}/{{$.book_id}}.html",
+        "coverUrl": "https://c-res.xcfcch.com/{{$.image}}",
+        "intro": "$.remark",
+        "kind": "$.ltype&&$.stype",
+        "name": "$.name",
+        "wordCount": ""
+    },
+    "ruleToc": {
+        "chapterList": "$.data",
+        "chapterName": "$.name@js:java.aesBase64DecodeToString(result,\"Pxga!h*e4@T8xfOm\",\"AES/CBC/PKCS5Padding\",\"E&z!EHGLd$fli*8R\")",
+        "chapterUrl": "https://chapter.xcfcch.com/{{$.path}}",
+        "updateTime": "$.updated_at<js>java.timeFormat(result*1000)</js>"
+    },
+    "searchUrl": "/v1/lists.api?keyword={{key}}",
+    "weight": 0
+}

@@ -1,0 +1,41 @@
+{
+    "bookSourceComment": "\n限制频率",
+    "bookSourceGroup": "笔趣阁,💏",
+    "bookSourceName": "笔趣阁⑥⑧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.39txt.com",
+    "bookUrlPattern": "",
+    "concurrentRate": "1/5",
+    "customOrder": 1012,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3704.400 QQBrowser/10.4.3587.400\"\n}",
+    "lastUpdateTime": 1637993527220,
+    "loginUrl": "",
+    "respondTime": 7839,
+    "ruleBookInfo": {
+        "author": "class.info@tag.h3@tag.a@text",
+        "coverUrl": "class.img@tag.img@src",
+        "intro": "id.intro@html",
+        "name": "class.info@tag.h1@text"
+    },
+    "ruleContent": {
+        "content": "id.book_text@html##一秒记住.*|www.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.td.2@text",
+        "bookList": "class.grid@tag.tr!0",
+        "bookUrl": "tag.td.0@tag.a@href",
+        "lastChapter": "tag.td.1@text",
+        "name": "tag.td.0@tag.a@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.article_texttitleb@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.39txt.com/modules/article/search.php?q={{key}}&page={{page}}",
+    "weight": 0
+}

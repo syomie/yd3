@@ -1,0 +1,63 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "乐文小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.lwxs.com",
+    "bookUrlPattern": "https://m.lwxs.com/info-\\d\\S+",
+    "concurrentRate": "",
+    "customOrder": -88902394,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[\n{\"title\":\"玄幻魔法\",\"url\":\"/leibie1_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"武侠修真\",\"url\":\"/leibie2_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"/leibie3_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/leibie4_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"侦探推理\",\"url\":\"/leibie5_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"网游动漫\",\"url\":\"/leibie6_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"科幻小说\",\"url\":\"/leibie7_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"恐怖灵异\",\"url\":\"/leibie8_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"散文诗词\",\"url\":\"/leibie9_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}},\n{\"title\":\"其他类型\",\"url\":\"/leibie10_{{page}}.html\",\"style\":{\"layout_flexGrow\":1}}\n]",
+    "header": "",
+    "lastUpdateTime": 1646631313651,
+    "loginCheckJs": "",
+    "loginUi": "",
+    "loginUrl": "",
+    "respondTime": 3270,
+    "ruleBookInfo": {
+        "author": "@get:{a}",
+        "coverUrl": "@get:{c}",
+        "init": "@put:{\nn:\".name strong@text\",\na:\".author a@text\",\nk:\".detail p.2@a@text\",\nt:\"p.4@text\",\nw:\"meta[property~=word]@content\",\nl:\".new a@text\",\ni:\".box .intro.0@text\",\nc:\".detail img@src\",\nu:\".now a@href\",\nd:\"下载链接\"\n}",
+        "intro": "<br>@get:{i}##@get:{a}(.|\\n)*",
+        "kind": "@get:{k}##小说|中|已|...:.*|状态.|更新.",
+        "lastChapter": "@get:{l}·@get:{t}##免费章节 |正文卷 |正文 |VIP章节 |百度搜索.*|【.*票】|（[求加].*|（.*票）|...:.*|最后更新：\n@js:result.replace(/章([\\u4e00-\\u9fa5])|章\\?/,\"章 $1\")",
+        "name": "@get:{n}",
+        "tocUrl": "@get:{u}",
+        "wordCount": "@get:{w}## |字数."
+    },
+    "ruleContent": {
+        "content": ".content@tag.p!-1@html",
+        "nextContentUrl": "text.下一页@href",
+        "replaceRegex": "##([^。？！”])\\s\\s\\s##$1"
+    },
+    "ruleExplore": {
+        "author": ".data a.0@text",
+        "bookList": ".main .list li",
+        "bookUrl": "a.0@href",
+        "coverUrl": "img@src",
+        "intro": ".intro@text",
+        "kind": ".data span@text",
+        "lastChapter": ".data a.1@text",
+        "name": ".bookname@text"
+    },
+    "ruleSearch": {
+        "author": ".data a.0@text",
+        "bookList": ".list li",
+        "bookUrl": "a.0@href",
+        "coverUrl": "img@src",
+        "intro": ".intro@text",
+        "kind": ".data span@text##中|已",
+        "name": ".bookname@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节|小说|笔趣阁|免费.*"
+    },
+    "ruleToc": {
+        "chapterList": ".read li a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.lwxs.com/search.html ,{\n\"method\":\"POST\",\n\"charset\":\"\",\n\"body\":\"searchkey={{key}}\"\n}",
+    "weight": 0
+}

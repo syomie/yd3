@@ -1,0 +1,48 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "无错小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.wucuoxs.com",
+    "bookUrlPattern": "",
+    "concurrentRate": "",
+    "customOrder": 24,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1646055678320,
+    "loginCheckJs": "",
+    "loginUi": "",
+    "loginUrl": "",
+    "respondTime": 5242,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text##作.*者.",
+        "coverUrl": "id.fmimg@tag.img@src",
+        "intro": "id.intro@text",
+        "kind": "class.con_top@tag.a.1@text",
+        "lastChapter": "id.info@tag.a.-1@text&&id.info@tag.p.-2@text##最后更新.|..\\:.*",
+        "name": "id.info@tag.h1@text"
+    },
+    "ruleContent": {
+        "content": "id.content@html",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.s4@text",
+        "bookList": "class.novelslist2@tag.li!0",
+        "bookUrl": "tag.a.0@href",
+        "kind": "class.s1@text",
+        "lastChapter": "tag.a.-1@text&&class.s6.0@text",
+        "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "//div[@id=\"list\"]/dl/dt[2]/following-sibling::dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.wucuoxs.com/modules/article/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
+    "weight": 0
+}

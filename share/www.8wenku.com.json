@@ -1,0 +1,39 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "笔趣阁",
+    "bookSourceName": "笔趣阁⑥⑦",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.8wenku.com",
+    "bookUrlPattern": "",
+    "customOrder": 695,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "respondTime": 8090,
+    "ruleBookInfo": {
+        "author": "class.author@text",
+        "coverUrl": "tag.img.0@src",
+        "intro": "class.desc@text",
+        "name": "class.tit@text"
+    },
+    "ruleContent": {
+        "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.odd.1@text",
+        "bookList": "class.grid@tag.tr!0",
+        "bookUrl": "class.odd.0@tag.a.0@href",
+        "lastChapter": "class.even.0@tag.a.0@text",
+        "name": "class.odd.0@tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a.0@text",
+        "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "http://www.8wenku.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+}

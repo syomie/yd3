@@ -1,0 +1,57 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "嗒嗒中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.dadazw8.com",
+    "customOrder": 603,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/class/class_1_{{page}}.html&&武侠仙侠::/class/class_2_{{page}}.html&&都市爽文::/class/class_3_{{page}}.html&&历史军事::/class/class_4_{{page}}.html&&侦探推理::/class/class_5_{{page}}.html&&游戏竞技::/class/class_6_{{page}}.html&&科幻小说::/class/class_7_{{page}}.html&&恐怖灵异::/class/class_8_{{page}}.html&&经典著作::/class/class_9_{{page}}.html&&古代言情::/class/class_10_{{page}}.html&&现代言情::/class/class_11_{{page}}.html&&幻想言情::/class/class_12_{{page}}.html&&仙侠修真::/class/class_13_{{page}}.html&&青春校园::/class/class_14_{{page}}.html&&网游动漫::/class/class_15_{{page}}.html&&科幻小说::/class/class_16_{{page}}.html&&悬疑推理::/class/class_17_{{page}}.html&&霸道总裁::/class/class_18_{{page}}.html&&耽美小说::/class/class_19_{{page}}.html&&其他类型::/class/class_20_{{page}}.html&&完本小说::/full_{{page}}.html&&总排行榜::/top/allvisit_{{page}}.html&&总推荐榜::/top/allvote_{{page}}.html&&月排行榜::/top/monthvisit_{{page}}.html&&月推荐榜::/top/monthvote_{{page}}.html&&周排行榜::/top/weekvisit_{{page}}.html&&周推荐榜::/top/weekvote_{{page}}.html&&最新入库::/top/postdate_{{page}}.html&&最近更新::/top/lastupdate_{{page}}.html&&",
+    "header": "",
+    "lastUpdateTime": 1615963085043,
+    "respondTime": 32647,
+    "ruleBookInfo": {
+        "author": "class.booktag@a@text",
+        "coverUrl": "tag.img.0@src",
+        "intro": "class.bookintro@text",
+        "kind": "class.bookinfo@tag.span.1@text&&class.bookinfo@tag.span.2@text",
+        "lastChapter": "class.bookchapter@a@text",
+        "name": "class.bookinfo@h1@text",
+        "tocUrl": "",
+        "wordCount": "class.bookinfo@tag.span.0@text"
+    },
+    "ruleContent": {
+        "content": "class.contentread01 readcontent@html",
+        "nextContentUrl": "text.下一页@href||text.下一章@href",
+        "webJs": ""
+    },
+    "ruleExplore": {
+        "author": ".author@text||.book-author@text##作者[:：]*|字数.*|阅读.*",
+        "bookList": "@css:.bookbox||.book-box",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.a.0@href<js>result.replace(/.*info\\/(\\d+)\\/(\\d+)\\/.*/,'http://image.dadazw8.com/$1/$2/$2s.jpg')</js>",
+        "intro": ".update@textNodes||.book-desc@text",
+        "kind": "tag.em.0@text",
+        "lastChapter": ".cat@textNodes",
+        "name": "h4@text||.book-title@text",
+        "wordCount": "class.author@text||tag.em.1@text##.*字数[:：]*(\\d+).*##$1###"
+    },
+    "ruleSearch": {
+        "author": "",
+        "bookList": "tag.article",
+        "bookUrl": "tag.a.0@href\n<js>java.ajax(result)</js>\n##window.location.replace\\(\".*\\/(\\d+\\/\\d+)\\/.*?\"\\);##https://www.dadazw8.com/info/$1/index.shtml###",
+        "coverUrl": "tag.a.0@href\n<js>java.ajax(result)</js>\n##window.location.replace\\(\".*\\/(\\d+)\\/(\\d+)\\/.*?\"\\);##http://image.dadazw8.com/$1/$2/$2s.jpg###",
+        "intro": "",
+        "name": "h3@text<js>if(result.match(/嗒嗒中文网/)){result.replace(/最新章节.*/g,'')}else{null}</js>"
+    },
+    "ruleToc": {
+        "chapterList": "dd a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": ""
+    },
+    "searchUrl": "https://m.baidu.com/from=1022705b/s?pn={{page*10-10}}&word={{key}} inurl:info site:dadazw8.com",
+    "weight": 0
+}

@@ -1,0 +1,61 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "正版",
+    "bookSourceName": "纵横中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.zongheng.com",
+    "bookUrlPattern": "",
+    "customOrder": 545,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"榜单排行\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"月票\",\"url\":\"http://www.zongheng.com/rank/details.html?rt=1&d=1&i=2&p={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"畅销\",\"url\":\"http://www.zongheng.com/rank/details.html?rt=3&d=1&p={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"新书\",\"url\":\"http://www.zongheng.com/rank/details.html?rt=4&d=1&p={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"点击\",\"url\":\"http://www.zongheng.com/rank/details.html?rt=5&d=1&p={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"推荐\",\"url\":\"http://www.zongheng.com/rank/details.html?rt=6&d=1&p={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"捧场\",\"url\":\"http://www.zongheng.com/rank/details.html?rt=7&d=1&p={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"完结\",\"url\":\"http://www.zongheng.com/rank/details.html?rt=8&d=1&p={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"订阅\",\"url\":\"http://www.zongheng.com/rank/details.html?rt=9&d=1&p={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"更新\",\"url\":\"http://www.zongheng.com/rank/details.html?rt=10&d=1&p={{page}}\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"男生连载\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"奇幻玄幻\",\"url\":\"http://book.zongheng.com/store/c1/c0/b0/u0/p{{page}}/v9/s0/t0/u0/i1/ALL.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"http://book.zongheng.com/store/c3/c0/b0/u0/p{{page}}/v9/s0/t0/u0/i1/ALL.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"http://book.zongheng.com/store/c6/c0/b0/u0/p{{page}}/v9/s0/t0/u0/i1/ALL.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市娱乐\",\"url\":\"http://book.zongheng.com/store/c9/c0/b0/u0/p{{page}}/v9/s0/t0/u0/i1/ALL.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻游戏\",\"url\":\"http://book.zongheng.com/store/c15/c0/b0/u0/p{{page}}/v9/s0/t0/u0/i1/ALL.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑灵异\",\"url\":\"http://book.zongheng.com/store/c18/c0/b0/u0/p{{page}}/v9/s0/t0/u0/i1/ALL.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"竞技同人\",\"url\":\"http://book.zongheng.com/store/c21/c0/b0/u0/p{{page}}/v9/s0/t0/u0/i1/ALL.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"评论文集\",\"url\":\"http://book.zongheng.com/store/c24/c0/b0/u0/p{{page}}/v9/s0/t0/u0/i1/ALL.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"二次元\",\"url\":\"http://book.zongheng.com/store/c40/c0/b0/u0/p{{page}}/v9/s0/t0/u0/i1/ALL.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女生连载\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"http://book.zongheng.com/store/c31/c0/b1/u0/p{{page}}/v9/s0/t0/u0/i1/ALL.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"古代言情\",\"url\":\"http://book.zongheng.com/store/c32/c0/b1/u0/p{{page}}/v9/s0/t0/u0/i1/ALL.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"幻想时空\",\"url\":\"http://book.zongheng.com/store/c33/c0/b1/u0/p{{page}}/v9/s0/t0/u0/i1/ALL.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"短篇美文\",\"url\":\"http://book.zongheng.com/store/c35/c0/b1/u0/p{{page}}/v9/s0/t0/u0/i1/ALL.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"男生完结\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"奇幻玄幻\",\"url\":\"http://book.zongheng.com/store/c1/c0/b0/u0/p{{page}}/v9/s1/t0/u0/i1/ALL.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"http://book.zongheng.com/store/c3/c0/b0/u0/p{{page}}/v9/s1/t0/u0/i1/ALL.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"http://book.zongheng.com/store/c6/c0/b0/u0/p{{page}}/v9/s1/t0/u0/i1/ALL.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市娱乐\",\"url\":\"http://book.zongheng.com/store/c9/c0/b0/u0/p{{page}}/v9/s1/t0/u0/i1/ALL.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻游戏\",\"url\":\"http://book.zongheng.com/store/c15/c0/b0/u0/p{{page}}/v9/s1/t0/u0/i1/ALL.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑灵异\",\"url\":\"http://book.zongheng.com/store/c18/c0/b0/u0/p{{page}}/v9/s1/t0/u0/i1/ALL.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"竞技同人\",\"url\":\"http://book.zongheng.com/store/c21/c0/b0/u0/p{{page}}/v9/s1/t0/u0/i1/ALL.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"评论文集\",\"url\":\"http://book.zongheng.com/store/c24/c0/b0/u0/p{{page}}/v9/s1/t0/u0/i1/ALL.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"二次元\",\"url\":\"http://book.zongheng.com/store/c40/c0/b0/u0/p{{page}}/v9/s1/t0/u0/i1/ALL.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女生完结\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"http://book.zongheng.com/store/c31/c0/b1/u0/p{{page}}/v9/s1/t0/u0/i1/ALL.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"古代言情\",\"url\":\"http://book.zongheng.com/store/c32/c0/b1/u0/p{{page}}/v9/s1/t0/u0/i1/ALL.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"幻想时空\",\"url\":\"http://book.zongheng.com/store/c33/c0/b1/u0/p{{page}}/v9/s1/t0/u0/i1/ALL.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}},\n{\"title\":\"短篇美文\",\"url\":\"http://book.zongheng.com/store/c35/c0/b1/u0/p{{page}}/v9/s1/t0/u0/i1/ALL.html\",\"style\":{\"layout_flexBasisPercent\":0.4,\"layout_flexGrow\":1}}]",
+    "header": "",
+    "lastUpdateTime": 1633889401594,
+    "loginUrl": "https://passport.zongheng.com",
+    "respondTime": 2287,
+    "ruleBookInfo": {
+        "author": ".au-name a@text",
+        "coverUrl": ".book-img img@src",
+        "intro": ".book-dec@html",
+        "kind": ".book-label a@text",
+        "lastChapter": ".tit a@text",
+        "name": ".book-name@ownText",
+        "tocUrl": ".all-catalog@href",
+        "wordCount": ".nums I.0@text"
+    },
+    "ruleContent": {
+        "content": ".content@p@text",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {
+        "author": ".bookilnk a.0@text||.rank_d_b_cate a.0@text",
+        "bookList": ".bookbox||.rank_d_list",
+        "bookUrl": ".bookname a@href||.rank_d_b_name a@href",
+        "coverUrl": "img@src",
+        "intro": ".bookintro@textNodes||.rank_d_b_info@textNodes",
+        "kind": ".bookilnk a.1@text&&.bookilnk span.0@text&&.rank_d_b_cate a.1:2@text",
+        "lastChapter": ".bookupdate a@text||.rank_d_b_last a@text##.*\\：|最新章节.",
+        "name": ".bookname a@text||.rank_d_b_name a@text",
+        "wordCount": ".bookilnk span.1@text||.rank_d_b_time span@text##更新时间.|\\s..:.*"
+    },
+    "ruleSearch": {
+        "author": "a.2@text",
+        "bookList": ".search-result-list",
+        "bookUrl": "a.1@href",
+        "checkKeyWord": "",
+        "coverUrl": "img@src",
+        "intro": "p@text",
+        "kind": "a.3@text&&span.0@text",
+        "lastChapter": "",
+        "name": "a.1@text",
+        "wordCount": "span.1@text##字"
+    },
+    "ruleToc": {
+        "chapterList": ".chapter-list li",
+        "chapterName": "@js:result.className().includes('vip') ? '🔒'+result.text() : result.text()##(\\d.*更新)",
+        "chapterUrl": "a@href"
+    },
+    "searchUrl": "http://search.zongheng.com/s?keyword={{key}}&pageNo={{page}}&sort=&isFromHuayu=",
+    "weight": 0
+}

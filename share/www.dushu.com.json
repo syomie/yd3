@@ -1,0 +1,52 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "出版",
+    "bookSourceName": "读书网(学生党文化人)",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.dushu.com",
+    "customOrder": 215,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "文学艺术::/lianzai/1121_{{page}}.html\n社会科学::/lianzai/1122_{{page}}.html\n小说作品::/lianzai/1115_{{page}}.html\n计算机/网络::/lianzai/1124_{{page}}.html\n科学技术::/lianzai/1125_{{page}}.html\n史部::/guoxue/1001_{{page}}.html\n子部::/guoxue/1002_{{page}}.html\n集部::/guoxue/1003_{{page}}.html\n诗部::/guoxue/1004_{{page}}.html\n儒部::/guoxue/1005_{{page}}.html\n易部::/guoxue/1006_{{page}}.html\n艺部::/guoxue/1007_{{page}}.html\n医部::/guoxue/1008_{{page}}.html\n丛部::/guoxue/1009_{{page}}.html\n佛部::/guoxue/1010_{{page}}.html\n道部::/guoxue/1011_{{page}}.html",
+    "header": "{\n    \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\",\n    \"Accept-Language\":\"zh-CN,zh;q=0.9\"\n}",
+    "lastUpdateTime": 1648740964936,
+    "respondTime": 649,
+    "ruleBookInfo": {
+        "author": "class.book-details@tag.tr.0@tag.a@text",
+        "coverUrl": "class.book-pic@tag.img@src",
+        "init": "",
+        "intro": "class.textsummary.@text",
+        "kind": "class.crumbs@tag.a.3@text",
+        "name": "class.book-title@tag.h1@text",
+        "tocUrl": ""
+    },
+    "ruleContent": {
+        "content": "class.content_txt@html",
+        "imageStyle": ""
+    },
+    "ruleExplore": {
+        "author": "tag.p.0@text",
+        "bookList": "class.bookslist@tag.li",
+        "bookUrl": "tag.h3@tag.a@href",
+        "coverUrl": "class.img152@tag.a@data-original",
+        "intro": "tag.p.1@text",
+        "name": "tag.h3@tag.a@text"
+    },
+    "ruleSearch": {
+        "author": "tag.p.0@tag.em@text",
+        "bookList": "class.searchlist@tag.li",
+        "bookUrl": "tag.h3@tag.a@href",
+        "coverUrl": "class.img152@tag.img@data-original",
+        "intro": "tag.p.1@text",
+        "name": "tag.h3@tag.a@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.booklist-table@tag.td",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href",
+        "nextTocUrl": ""
+    },
+    "searchUrl": "https://www.dushu.com/search.aspx?wd={{key}}&f=0&r=3&t=0&p={{page}}",
+    "weight": 0
+}

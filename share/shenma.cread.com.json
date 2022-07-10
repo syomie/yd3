@@ -1,0 +1,60 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "正版,希弥",
+    "bookSourceName": "中文书城#1",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://shenma.cread.com",
+    "customOrder": -88962069,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "❀                       男 频 小 说                      ❀::\n东方玄幻::/bookstore/1/1100/0/{{page}}\n都市小说::/bookstore/1/1200/0/{{page}}\n西方奇幻::/bookstore/1/1300/0/{{page}}\n武侠仙侠::/bookstore/1/1400/0/{{page}}\n架空历史::/bookstore/1/1500/0/{{page}}\n科幻未来::/bookstore/1/1600/0/{{page}}\n网游竞技::/bookstore/1/1700/0/{{page}}\n悬疑惊悚::/bookstore/1/1800/0/{{page}}\n❀                       女 频 小 说                      ❀::\n古代言情::/bookstore/2/2100/0/{{page}}\n幻想言情::/bookstore/2/2200/0/{{page}}\n都市言情::/bookstore/2/2300/0/{{page}}\n总裁豪门::/bookstore/2/2400/0/{{page}}\n青春校园::/bookstore/2/2500/0/{{page}}\n唯美同人::/bookstore/2/2600/0/{{page}}\n❀                       出 版 读 物                      ❀::\n文学小说::/bookstore/3/3100/0/{{page}}\n经典名著::/bookstore/3/3200/0/{{page}}\n经管励志::/bookstore/3/3300/0/{{page}}\n生活休闲::/bookstore/3/3400/0/{{page}}\n婚姻家庭::/bookstore/3/3500/0/{{page}}\n科普教育::/bookstore/3/3600/0/{{page}}\n纪实传记::/bookstore/3/3700/0/{{page}}\n亲子育儿::/bookstore/3/3800/0/{{page}}\n工具百科::/bookstore/3/3900/0/{{page}}\n❀                       排 行 榜 单                      ❀::\n男追书榜::/topbook_bangdan.aspx?phid=13&page={{page}}/{{page}}\n女人气榜::/topbook_bangdan.aspx?phid=14&page={{page}}/{{page}}\n男完结榜::/topbook_bangdan.aspx?phid=15&page={{page}}/{{page}}\n女完结榜::/topbook_bangdan.aspx?phid=16&page={{page}}/{{page}}\n出版好评::/topbook_bangdan.aspx?phid=17&page={{page}}/{{page}}\n新书榜单::/topbook_bangdan.aspx?phid=10&page={{page}}/{{page}}\n热搜榜单::/topbook_bangdan.aspx?phid=11&page={{page}}/{{page}}\n畅销榜单::/topbook_bangdan.aspx?phid=12&page={{page}}/{{page}}\n❀                       其 他 类 型                      ❀::\n综合::/bookstore/0/0/0/{{page}}                                    \n热读::/bookstore/0/0/1/{{page}}\n更新::/bookstore/0/0/2/{{page}}\n点击::/bookstore/0/0/3/{{page}}\n订阅::/bookstore/0/0/4/{{page}}",
+    "header": "",
+    "lastUpdateTime": 1648718787708,
+    "loginUrl": "http://shenma.cread.com/user/login.aspx",
+    "respondTime": 23553,
+    "ruleBookInfo": {
+        "author": ".ui_bookinfo_detail@tag.p.0@text",
+        "coverUrl": "class.ui_bookinfo_cover@img@src",
+        "init": "",
+        "intro": "#uiMoreIntro@textNodes",
+        "kind": ".ui_bookinfo_tag li@text",
+        "lastChapter": ".ui_bookinfo_catalog zw_box@tag.a.1@span@text##最新：",
+        "name": ".ui_head_bookname@text##\\（.*|\\(.*|免费.*|全文.*阅读|小说|笔趣阁",
+        "tocUrl": "a:contains(目录)@href##$##,{\"webView\":true}",
+        "wordCount": ".ui_bookinfo_detail@tag.p.1@text##[^\\d万千k\\.]"
+    },
+    "ruleContent": {
+        "content": "#uiContent@html##PS：更多精彩剧情.*",
+        "imageStyle": ""
+    },
+    "ruleExplore": {
+        "author": ".ui_authorname@text##编者：",
+        "bookList": "#uiUL li",
+        "bookUrl": "a.0@href",
+        "coverUrl": "img@src",
+        "intro": ".intro@text",
+        "kind": "{{@@.lb_score@text}}分",
+        "name": ".bookname@text"
+    },
+    "ruleSearch": {
+        "author": "$.authorname",
+        "bookList": "$.bookcoll[*]",
+        "bookUrl": "/book/{{$.bookid}}.html",
+        "coverUrl": "$.bookcover",
+        "intro": "$.introduction",
+        "kind": "{{$.categoryname}},{{$..score}}分",
+        "lastChapter": "",
+        "name": "$.bookname##\\（.*|\\(.*|免费.*|全文.*阅读|小说|笔趣阁",
+        "wordCount": "$.words"
+    },
+    "ruleToc": {
+        "chapterList": ".ul_catalog li a",
+        "chapterName": ".title@text",
+        "chapterUrl": "href##$##,{\"webView\":true}",
+        "isVip": "",
+        "isVolume": ""
+    },
+    "searchUrl": "/json/searchbook_json.aspx?key={{key}}&page={{page}}",
+    "weight": 0
+}

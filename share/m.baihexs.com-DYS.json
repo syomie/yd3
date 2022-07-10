@@ -1,0 +1,41 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "百合小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.baihexs.com-DY S",
+    "customOrder": 839,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "respondTime": 3950,
+    "ruleBookInfo": {
+        "author": "class.block_txt2.0@tag.p.2@text",
+        "coverUrl": "class.block_img2.0@tag.img.0@src",
+        "intro": "class.intro_info.0@text",
+        "name": "class.block_txt2.0@tag.p.0@tag.a.0@text",
+        "tocUrl": "class.ablum_read.0@tag.span.1@tag.a.0@href"
+    },
+    "ruleContent": {
+        "content": "id.nr1@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.block_txt2.0@tag.p.2@text||tag.a.2@text||tag.p@text##.*/",
+        "bookList": "class.block_txt2.0||class.cover@tag.p",
+        "bookUrl": "class.block_txt2.0@tag.p.0@tag.a.0@href||tag.a.1@href",
+        "coverUrl": "class.block_img2.0@tag.img.0@src",
+        "kind": "class.block_txt2.0@tag.p.2@tag.a.0@text||tag.a.0@text",
+        "lastChapter": "class.block_txt2.0@tag.p.5@tag.a.0@text||class.even.0@tag.a.0@text",
+        "name": "class.block_txt2.0@tag.p.0@tag.a.0@tag.h2.0@text||tag.a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.chapter@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href",
+        "nextTocUrl": "class.page.0@text.下一页.0@href"
+    },
+    "searchUrl": "https://m.baihexs.com/modules/article/waps.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&page={{page}}\"\n}",
+    "weight": 0
+}

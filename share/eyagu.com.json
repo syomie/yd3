@@ -1,0 +1,50 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "雅谷中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://eyagu.com",
+    "bookUrlPattern": "",
+    "customOrder": 298,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/book/g/xuanhuan/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"奇幻\",\"url\":\"/book/g/qihuan/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"武侠\",\"url\":\"/book/g/wuxia/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"仙侠\",\"url\":\"/book/g/xianxia/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"/book/g/dushi/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"/book/g/lishi/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"军事\",\"url\":\"/book/g/junshi/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"/book/g/kehuan/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑\",\"url\":\"/book/g/xuanyi/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"游戏\",\"url\":\"/book/g/youxi/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"体育\",\"url\":\"/book/g/tiyu/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"次元\",\"url\":\"/book/g/ciyuan/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"言情\",\"url\":\"/book/g/yanqing/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.21}},\n{\"title\":\"名著\",\"url\":\"/book/g/mingzhu/{{page}}\",\"style\":{\"layout_flexBasisPercent\":0.21}}]",
+    "lastUpdateTime": 1637913892710,
+    "loginUrl": "",
+    "respondTime": 3926,
+    "ruleBookInfo": {
+        "coverUrl": "",
+        "intro": ".introduce@html##(^|[。！？]+[”」）】]?)##$1<br>",
+        "lastChapter": "class.clear.5@a.-1@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]"
+    },
+    "ruleContent": {
+        "content": "#c@html",
+        "imageStyle": "0"
+    },
+    "ruleExplore": {
+        "author": "",
+        "bookList": "",
+        "bookUrl": "",
+        "coverUrl": "",
+        "intro": "",
+        "kind": "",
+        "name": ""
+    },
+    "ruleSearch": {
+        "author": "a.2@text",
+        "bookList": ".book_item",
+        "bookUrl": "a.1@href",
+        "coverUrl": "img@src",
+        "intro": ".book_intro@text",
+        "kind": "i@text",
+        "name": "a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.clear.5@a",
+        "chapterName": "text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "chapterUrl": "href##$##,{\"webView\":true}"
+    },
+    "searchUrl": "/book/search?sn={{key}}",
+    "weight": 0
+}

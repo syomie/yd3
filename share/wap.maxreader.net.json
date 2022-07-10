@@ -1,0 +1,41 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "顶点小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://wap.maxreader.net",
+    "bookUrlPattern": "",
+    "customOrder": 840,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "respondTime": 2479,
+    "ruleBookInfo": {
+        "author": "//meta[@property=\"og:novel:author\"]/@content",
+        "coverUrl": "//meta[@property=\"og:image\"]/@content",
+        "intro": "//meta[@property=\"og:description\"]/@content",
+        "name": "//meta[@property=\"og:title\"]/@content",
+        "tocUrl": "class.loading@a@href"
+    },
+    "ruleContent": {
+        "content": "class.articlecon font-normal@tag.p!0@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "##作者:([^<]+)<##$1###",
+        "bookList": "id.ulist@li",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "img@data-original",
+        "kind": "class.status@text",
+        "name": "tag.p.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.cataloglist@li@a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "https://wap.maxreader.net/search/result.html?searchkey={{key}}",
+    "weight": 0
+}

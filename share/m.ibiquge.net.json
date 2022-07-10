@@ -1,0 +1,40 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "笔趣阁②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.ibiquge.net",
+    "bookUrlPattern": "",
+    "customOrder": 47,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1645142380102,
+    "loginUrl": "",
+    "respondTime": 13204,
+    "ruleBookInfo": {
+        "coverUrl": "id.fmimg@tag.img@src",
+        "intro": "id.intro@text",
+        "lastChapter": "id.info@tag.p.3@a@text"
+    },
+    "ruleContent": {
+        "content": "id.content@html##天才一秒记住.*\\s*[,，]*|章节错误.*?等待。"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "class.author.0@tag.a@text",
+        "bookList": "class.slide-item list1@children",
+        "bookUrl": "tag.a.0@href@js:\"https://www.ibiquge.net\"+result",
+        "coverUrl": "tag.a.0@href##/(\\d+)_(\\d+)/##https://www.ibiquge.net/files/article/image/$1/$2/$2s.jpg",
+        "kind": "class.author.1@text##\\|.*",
+        "lastChapter": "class.author.1@tag.a.0@text",
+        "name": "class.title@tag.p.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@dl@dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://m.ibiquge.net/SearchBook.php?keyword={{key}}",
+    "weight": 0
+}

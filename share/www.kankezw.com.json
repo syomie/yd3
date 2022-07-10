@@ -1,0 +1,54 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "奇书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.kankezw.com",
+    "customOrder": 318,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "[{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"热门\",\"url\":\"/s/hot/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"推荐\",\"url\":\"/s/good/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"最新\",\"url\":\"/s/new/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"/soft/sort01/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"/soft/sort02/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"女频言情\",\"url\":\"/soft/sort03/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"现代都市\",\"url\":\"/soft/sort04/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"历史军事\",\"url\":\"/soft/sort05/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"游戏竞技\",\"url\":\"/soft/sort06/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"科幻灵异\",\"url\":\"/soft/sort07/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"美文同人\",\"url\":\"/soft/sort08/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"剧本教程\",\"url\":\"/soft/sort09/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"名著杂志\",\"url\":\"/soft/sort010/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.29}},\n{\"title\":\"技术其它\",\"url\":\"/soft/sort011/<,index_{{page}}.html>\",\"style\":{\"layout_flexBasisPercent\":0.29}}]",
+    "lastUpdateTime": 1643139812686,
+    "respondTime": 5363,
+    "ruleBookInfo": {
+        "author": ".detail_right li.5@text##.*：",
+        "coverUrl": ".detail_pic img@src",
+        "intro": ".showInfo p@html##(^|[。！？]+[”」）】]?)##$1<br>",
+        "kind": ".detail_right li.4:3@text##.*：|\\s.*",
+        "lastChapter": ".detail_right a.0@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": ".detail_right h1@text##\\《|\\》.*",
+        "tocUrl": "text.在线阅读@href",
+        "wordCount": ".detail_right li.1@text##.*："
+    },
+    "ruleContent": {
+        "content": "#content1@textNodes"
+    },
+    "ruleExplore": {
+        "author": "##作者.([^<]+)<##$1###",
+        "bookList": ".listBox li",
+        "bookUrl": "a.0@href",
+        "coverUrl": "img@src",
+        "intro": ".u@text",
+        "kind": "##更新.([^<]+)<##$1###",
+        "lastChapter": "a.1@text##.*章节.|[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": "a.0@text##\\《|\\》.*",
+        "wordCount": "##大小.([^<]+)<##$1###"
+    },
+    "ruleSearch": {
+        "author": "td.2@text",
+        "bookList": "tbody tr!0",
+        "bookUrl": "a.0@href",
+        "coverUrl": "a.0@href<js>\nvar id = result.match(/(\\d+).html\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.kankezw.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "kind": "td.4@text",
+        "lastChapter": "a.1@text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "name": "a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": ".pc_list li a",
+        "chapterName": "text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/search.html?searchkey={{key}}",
+    "weight": 0
+}

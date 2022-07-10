@@ -1,0 +1,52 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "TOP50",
+    "bookSourceName": "顶点小说③",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.118book.com",
+    "bookUrlPattern": "https://www.118book.com/book/\\d+/",
+    "customOrder": 26,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/xuanhuanxiaoshuo/1_{{page}}.html\n修真小说::/xiuzhenxiaoshuo/2_{{page}}.html\n都市小说::/dushixiaoshuo/3_{{page}}.html\n穿越小说::/chuanyuexiaoshuo/4_{{page}}.html\n网游小说::/wangyouxiaoshuo/5_{{page}}.html\n科幻小说::/kehuanxiaoshuo/6_{{page}}.html",
+    "lastUpdateTime": 1657374293661,
+    "loginUrl": "",
+    "respondTime": 2273,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "init": "",
+        "intro": "[property=\"og:description\"]@content",
+        "kind": "id.info@tag.p.2@text##最后更新：",
+        "lastChapter": "id.info@tag.p.3@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "[property=\"og:title\"]@content"
+    },
+    "ruleContent": {
+        "content": "id.content@html##（本章未完，请翻页）|（本章完）"
+    },
+    "ruleExplore": {
+        "author": "class.s5@text",
+        "bookList": "class.l@ul@li",
+        "bookUrl": "class.s2@a@href",
+        "coverUrl": "class.s2@a@href##/book/(\\d+)(\\d{3})/##/files/article/image/$1/$1$2/$1$2s.jpg",
+        "lastChapter": "class.s3@text",
+        "name": "class.s2@a@text"
+    },
+    "ruleSearch": {
+        "author": "tag.td.2@text",
+        "bookList": "id.main@tr!0",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.a.0@href##/book/(\\d+)(\\d{3})/##/files/article/image/$1/$1$2/$1$2s.jpg",
+        "kind": "tag.td.5@text",
+        "lastChapter": "tag.td.1@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.box_con@li@a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.118book.com/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=articlename&page={{page}}\"\n}",
+    "weight": 0
+}

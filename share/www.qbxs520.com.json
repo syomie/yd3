@@ -1,0 +1,60 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "全本小说屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.qbxs520.com",
+    "bookUrlPattern": "",
+    "customOrder": 650,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/sort/xuanhuan_{{page}}.html\n都市娱乐::/sort/dushi_{{page}}.html\n仙侠武侠::/sort/xianxia_{{page}}.html\n历史军事::/sort/lishi_{{page}}.html\n女频言情::/sort/yanqing_{{page}}.html\n游戏竞技::/sort/youxi_{{page}}.html\n科幻灵异::/sort/kehuan_{{page}}.html\n综合其他::/sort/qita_{{page}}.html",
+    "lastUpdateTime": 1603007350327,
+    "loginUrl": "",
+    "respondTime": 5662,
+    "ruleBookInfo": {
+        "author": "[property=\"og:novel:author\"]@content",
+        "coverUrl": "[property=\"og:image\"]@content",
+        "intro": "[property=\"og:description\"]@content",
+        "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##小说",
+        "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+        "name": "[property=\"og:novel:book_name\"]@content",
+        "tocUrl": "",
+        "wordCount": "id.count@tag.span.4@text@js:result+'字'"
+    },
+    "ruleContent": {
+        "content": "id.booktext@html",
+        "imageStyle": "0",
+        "nextContentUrl": "id.linkNext@tag.a@href"
+    },
+    "ruleExplore": {
+        "author": "class.book_other.0@tag.a.0@text",
+        "bookList": "id.sitebox@tag.dl",
+        "bookUrl": "tag.a.0@href",
+        "coverUrl": "tag.img@src",
+        "intro": "class.book_des@text",
+        "kind": "class.uptime@tag.span.0@text",
+        "lastChapter": "class.book_other.1@tag.a.0@text",
+        "name": "h3@tag.a.0@text",
+        "wordCount": "class.book_other.0@tag.span.1@text"
+    },
+    "ruleSearch": {
+        "author": "class.s3@text",
+        "bookList": "class.searchcon@tag.ul!0",
+        "bookUrl": "class.s2@tag.a.0@href",
+        "coverUrl": "class.s2@tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##https://www.qbxs520.com/files/article/image/$2/$1/$1s.jpg###",
+        "kind": "class.s1@text&&class.s5@text&&class.s6@text##\\[|\\]",
+        "lastChapter": "class.s2@tag.a.1@text",
+        "name": "class.s2@tag.a.0@text",
+        "wordCount": "class.s4@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.newlist!0@tag.dd@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "class.next@tag.a@href"
+    },
+    "searchUrl": "https://www.qbxs520.com/modules/article/search.php?searchkey={{key}}&action=login&searchtype=all&submit=",
+    "weight": 0
+}

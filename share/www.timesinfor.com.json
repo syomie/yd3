@@ -1,0 +1,54 @@
+{
+    "bookSourceComment": "作者:希弥\n试读数据来自其他站点，可能有没碰到的站点",
+    "bookSourceGroup": "",
+    "bookSourceName": "时代阅读网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.timesinfor.com",
+    "bookUrlPattern": "https://www.timesinfor.com/ku/\\d+",
+    "customOrder": -88902334,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1647278244678,
+    "respondTime": 9282,
+    "ruleBookInfo": {
+        "author": "p.info@tag.span.1@text",
+        "coverUrl": ".book__infotext dt>img@src",
+        "init": "",
+        "intro": "p.intro@textNodes##小说简介：",
+        "kind": "p.info@tag.span.2:3@text##分类：|主角：",
+        "lastChapter": "",
+        "name": ".book__infotext@h1@text",
+        "tocUrl": "",
+        "wordCount": ""
+    },
+    "ruleContent": {
+        "content": "#j_content@html||.ywskythunderfont>p@textNodes||.chapterCon>p@textNodes",
+        "imageStyle": "TEXT",
+        "nextContentUrl": "text.下一页@href",
+        "payAction": ""
+    },
+    "ruleExplore": {
+        "bookList": ""
+    },
+    "ruleSearch": {
+        "author": ".info@tag.span.0@text",
+        "bookList": ".search-list ul.clearfix>li||.book__list\tul.clearfix li",
+        "bookUrl": "h5 a@href",
+        "checkKeyWord": "",
+        "coverUrl": "img@src",
+        "intro": "p.intro@html",
+        "kind": "p.info@tag.span.1@text##分类：",
+        "lastChapter": "",
+        "name": "h5@text"
+    },
+    "ruleToc": {
+        "chapterList": ".chapters ul.clearfix a",
+        "chapterName": "text",
+        "chapterUrl": "href<js>result.replace(/\\s/g,\"\")</js>##$##,{\"webView\": true}",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/search?search={{key}},{\n'headers': {\n    'Referer': '{{source.getKey()}}'\n    }\n}",
+    "weight": 0
+}

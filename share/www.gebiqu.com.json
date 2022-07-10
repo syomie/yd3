@@ -1,0 +1,52 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "阁笔趣",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.gebiqu.com",
+    "customOrder": 246,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/xuanhuanmofa/{{page}}.html\n修真小说::/xiuzhenxiaoshuo/{{page}}.html\n都市小说::/dushixiaoshuo/{{page}}.html\n历史军事::/lishijunshi/{{page}}.html\n游戏小说::/youxixiaoshuo/{{page}}.html\n科幻灵异::/kehuanlingyi/{{page}}.html\n同人小说::/tongrenxiaoshuo/{{page}}.html\n女生言情::/nvshengyanqing/{{page}}.html\n综合小说::/zonghexiaoshuo/{{page}}.html\n全本小说::/quanben/{{page}}.html",
+    "lastUpdateTime": 1627138720553,
+    "respondTime": 4798,
+    "ruleBookInfo": {
+        "author": "#info@tag.p.0@text##作者：",
+        "intro": "id.intro@text",
+        "kind": ".con_top@tag.a.-1@text",
+        "lastChapter": "#list@tag.dd.0@a@text",
+        "name": "h1@text",
+        "tocUrl": ""
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes##|优质免费.*』|.*免费小说.*|.*全文免费阅读.*|.*精彩小说无弹窗.*|www\\.gebiqu\\.com|.*手机用户请.*|天才壹秒記住.*"
+    },
+    "ruleExplore": {
+        "author": ".s5@text",
+        "bookList": "class.l@li",
+        "bookUrl": "tag.a@href",
+        "coverUrl": "tag.a.0@href##.*_(\\d+)(\\d{3})/##http://image.gebiqu.com/$1/$1$2/$1$2s.jpg",
+        "intro": "",
+        "lastChapter": ".s3@a@text",
+        "name": ".s2@a@text",
+        "wordCount": ".s3@textNodes"
+    },
+    "ruleSearch": {
+        "author": "class.odd.1@text",
+        "bookList": "id.nr",
+        "bookUrl": "tag.a.1@href##\\d+.html",
+        "coverUrl": "tag.a.0@href##.*/(\\d+)(\\d{3}).html##http://image.gebiqu.com/$1/$1$2/$1$2s.jpg",
+        "kind": "",
+        "lastChapter": "class.even.0@text##最新章节：",
+        "name": "tag.a.0@text",
+        "wordCount": "class.even.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "#list dd a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.gebiqu.com/modules/article/search.php?searchkey={{key}}",
+    "weight": 0
+}

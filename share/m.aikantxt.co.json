@@ -1,0 +1,43 @@
+{
+    "bookSourceComment": "\n天域战歌\n正文加载速度较慢",
+    "bookSourceGroup": "希弥",
+    "bookSourceName": "️爱看小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.aikantxt.co",
+    "bookUrlPattern": "",
+    "customOrder": 338,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "最新入库::https://m.aikantxt.co/top-postdate-{{page}}/\n最近更新::https://m.aikantxt.co/top-lastupdate-{{page}}/\n总点击榜::https://m.aikantxt.co/top-allvisit-{{page}}/\n总收藏榜::https://m.aikantxt.co/top-goodnum-{{page}}/\n总推荐榜::https://m.aikantxt.co/top-allvote-{{page}}/\n总字数榜::https://m.aikantxt.co/top-size-{{page}}/\n玄幻小说::https://m.aikantxt.co/sort-1-{{page}}/\n仙侠小说::https://m.aikantxt.co/sort-2-{{page}}/\n都市小说::https://m.aikantxt.co/sort-3-{{page}}/\n历史小说::https://m.aikantxt.co/sort-4-{{page}}/\n游戏小说::https://m.aikantxt.co/sort-5-{{page}}/\n科幻小说::https://m.aikantxt.co/sort-6-{{page}}/",
+    "lastUpdateTime": 1646638137686,
+    "loginUrl": "",
+    "respondTime": 28839,
+    "ruleBookInfo": {
+        "coverUrl": "class.block_img2@img@src",
+        "intro": "class.intro_info@text##.*全文简介：",
+        "lastChapter": "class.block_txt2@tag.p.6@a@text",
+        "tocUrl": "text.查看目录@href"
+    },
+    "ruleContent": {
+        "content": "id.nr1@textNodes",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "author": "tag.a.2@text",
+        "bookList": "class.cover@p",
+        "bookUrl": "tag.a.1@href",
+        "coverUrl": "tag.a.1@href##.*/(\\d+)(\\d{3}).*##https://www.aikantxt.co/files/article/image/$1/$1$2/$1$2s.jpg",
+        "kind": "tag.a.0@text##\\[|]",
+        "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.chapter@li@a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.aikantxt.co/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}&submit=\"\n}",
+    "weight": 0
+}

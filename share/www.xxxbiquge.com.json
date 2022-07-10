@@ -1,0 +1,52 @@
+{
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "笔趣阁⑬",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xxxbiquge.com/",
+    "bookUrlPattern": "https://www.xxxbiquge.com/\\d+/\\d+/",
+    "customOrder": -88902450,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/xuanhuan_{{page}}.html\n仙侠小说::/xianxia_{{page}}.html\n都市小说::/dushi_{{page}}.html\n历史小说::/lishi_{{page}}.html\n网游小说::/wangyou_{{page}}.html\n科幻小说::/kehuan_{{page}}.html\n灵异小说::/lingyi_{{page}}.html\n其它小说::/qita_{{page}}.html",
+    "lastUpdateTime": 1646631313704,
+    "loginUrl": "",
+    "respondTime": 13858,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@a@text",
+        "coverUrl": "id.fmimg@img@src",
+        "intro": "id.intro@text",
+        "kind": "id.info@tag.p.2@text##最后更新：",
+        "lastChapter": "id.info@tag.p.3@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "id.bookdetail@id.info@h1@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes"
+    },
+    "ruleExplore": {
+        "author": "class.s4@a@text",
+        "bookList": "class.l@li",
+        "bookUrl": "class.s2@tag.a@href",
+        "coverUrl": "class.s2@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.xxxbiquge.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "kind": "class.s5@text",
+        "lastChapter": "class.s3@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "class.s2@a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节"
+    },
+    "ruleSearch": {
+        "author": "class.s4@a@text",
+        "bookList": ".novelslist2>ul>li:not(:nth-of-type(1))",
+        "bookUrl": "class.s2@a@href",
+        "coverUrl": "class.s2@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.xxxbiquge.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+        "kind": "class.s6@text",
+        "lastChapter": "class.s3@a@text##免费章节 |正文卷 |正文 |VIP章节 ",
+        "name": "class.s2@a@text##\\（.*|\\(.*|免费阅读|全文.*阅读|最新章节"
+    },
+    "ruleToc": {
+        "chapterList": "#list>dl>dt:nth-of-type(2)~dd a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "searchUrl": "/index.php?s=/web/index/search,{\n  \"method\": \"POST\",\n  \"body\": \"name={{key}}\"\n}",
+    "weight": 0
+}
