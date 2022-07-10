@@ -17,8 +17,8 @@ jobs:
           echo "这是关于PR $NUMBER 的交流"
           cd $GITHUB_WORKSPACE
           # 导入通用方法
-          source ./act_init.sh
-          debug "$body"
+          source $GITHUB_WORKSPACE/bot/act_init.sh
+          # debug "$body"
           # @TODO 后续分析
 
   issue_commented:
@@ -35,6 +35,6 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE
           # 导入通用方法
-          source ./act_init.sh
+          source $GITHUB_WORKSPACE/bot/act_init.sh
           # @TODO 后续分析
 

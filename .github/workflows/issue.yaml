@@ -20,12 +20,5 @@ jobs:
         shell: bash
         run: |
           # 导入通用方法
-          source $GITHUB_WORKSPACE/act_init.sh
+          source $GITHUB_WORKSPACE/bot/act_init.sh
           auto_labels
-          # git_set_bot
-          # git add README.md
-          # git commit -m "添加站点"
-          # git push
-          # issue_comment $issue_num "已自动生成该站点源"
-
-
