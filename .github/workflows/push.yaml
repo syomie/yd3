@@ -1,0 +1,50 @@
+name: 书源变动
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'bot/README~md'
+      - 'not_recommend/*.json'
+      - 'share/*.json'
+
+jobs:
+  push:
+    name: 书源变更
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: 重新生成书源集合并更新README文件
+        id: make_bs_rules
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          cd $GITHUB_WORKSPACE/
+          # 导入通用方法
+          source bot/act_init.sh
+          update_book_source
+          update_readme
+          git_set_bot
+          git add -f -A && git commit -m "更新书源" && git push -v && set_output upload_ftp true
+
+      - name: 上传
+        id: upload_ftp
+        if: steps.make_bs_rules.outputs.upload_ftp == 'true' && github.repository_owner == 'syomie'
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        shell: bash
+        run: |
+          cd $GITHUB_WORKSPACE/
+          ftp -p -n<<!
+          open $FTP_HOST
+          user $FTP_USER $FTP_PASSWORD
+          binary
+          cd WEB/yd3
+          put bookSource.json
+          put not_recommend.json
+          close
+          bye
+          !
+
