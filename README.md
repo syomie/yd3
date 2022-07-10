@@ -2,7 +2,7 @@
 本仓库是**阅读3**的规则仓库。
 - ![书源总数:596](https://img.shields.io/badge/书源总数-596---?style=social&logo=appveyor)
 - 书源总数: 596
-- 更新时间: 2022-07-10 09:32:10
+- 更新时间: 2022-07-10 10:17:46
 
 ## 导入
 1. [一键导入💝优先💝](http://www.syomie.fun/yd3/bks.php?u=https://www.syomie.fun/yd3/bookSource.json)
